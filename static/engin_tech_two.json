@@ -1,0 +1,2442 @@
+[
+    {
+        "classCode": "C",
+        "parentCode": "",
+        "children": [
+            {
+                "classCode": "C028",
+                "parentCode": "C",
+                "children": [
+                    {
+                        "classCode": "C028_1",
+                        "parentCode": "C028",
+                        "children": [
+                            {
+                                "classCode": "C028_11",
+                                "parentCode": "C028_1",
+                                "title": "工程基础科学概论"
+                            },
+                            {
+                                "classCode": "C028_12",
+                                "parentCode": "C028_1",
+                                "title": "工程数学"
+                            },
+                            {
+                                "classCode": "C028_13",
+                                "parentCode": "C028_1",
+                                "title": "工程力学"
+                            },
+                            {
+                                "classCode": "C028_14",
+                                "parentCode": "C028_1",
+                                "title": "工程化学"
+                            },
+                            {
+                                "classCode": "C028_15",
+                                "parentCode": "C028_1",
+                                "title": "工程地质学"
+                            },
+                            {
+                                "classCode": "C028_16",
+                                "parentCode": "C028_1",
+                                "title": "工程天文学、工程仿生学、人体工程学"
+                            },
+                            {
+                                "classCode": "C028_17",
+                                "parentCode": "C028_1",
+                                "title": "工程物理学"
+                            }
+                        ],
+                        "title": "工程基础科学"
+                    },
+                    {
+                        "classCode": "C028_2",
+                        "parentCode": "C028",
+                        "children": [
+                            {
+                                "classCode": "C028_21",
+                                "parentCode": "C028_2",
+                                "title": "工程设计"
+                            },
+                            {
+                                "classCode": "C028_22",
+                                "parentCode": "C028_2",
+                                "title": "工程测量、制图、模拟"
+                            }
+                        ],
+                        "title": "工程设计与测绘"
+                    },
+                    {
+                        "classCode": "C028_3",
+                        "parentCode": "C028",
+                        "children": [
+                            {
+                                "classCode": "C028_31",
+                                "parentCode": "C028_3",
+                                "title": "爆破技术"
+                            },
+                            {
+                                "classCode": "C028_32",
+                                "parentCode": "C028_3",
+                                "title": "薄膜技术"
+                            },
+                            {
+                                "classCode": "C028_33",
+                                "parentCode": "C028_3",
+                                "title": "粉末技术"
+                            },
+                            {
+                                "classCode": "C028_34",
+                                "parentCode": "C028_3",
+                                "title": "工业设计"
+                            },
+                            {
+                                "classCode": "C028_35",
+                                "parentCode": "C028_3",
+                                "title": "干燥技术"
+                            },
+                            {
+                                "classCode": "C028_36",
+                                "parentCode": "C028_3",
+                                "title": "遥感技术"
+                            },
+                            {
+                                "classCode": "C028_37",
+                                "parentCode": "C028_3",
+                                "title": "液压传动"
+                            },
+                            {
+                                "classCode": "C028_38",
+                                "parentCode": "C028_3",
+                                "title": "包装工程"
+                            },
+                            {
+                                "classCode": "C028_39",
+                                "parentCode": "C028_3",
+                                "title": "防伪技术"
+                            },
+                            {
+                                "classCode": "C028_3A",
+                                "parentCode": "C028_3",
+                                "title": "密封技术"
+                            },
+                            {
+                                "classCode": "C028_3B",
+                                "parentCode": "C028_3",
+                                "title": "工厂、车间"
+                            },
+                            {
+                                "classCode": "C028_3C",
+                                "parentCode": "C028_3",
+                                "title": "清洗技术"
+                            }
+                        ],
+                        "title": "工业通用技术与设备"
+                    },
+                    {
+                        "classCode": "C028_4",
+                        "parentCode": "C028",
+                        "children": [
+                            {
+                                "classCode": "C028_41",
+                                "parentCode": "C028_4",
+                                "title": "总论、声学仪器及声学测量"
+                            },
+                            {
+                                "classCode": "C028_42",
+                                "parentCode": "C028_4",
+                                "title": "振动、噪声及其控制"
+                            },
+                            {
+                                "classCode": "C028_43",
+                                "parentCode": "C028_4",
+                                "title": "电声、光声、水声、超声工程"
+                            }
+                        ],
+                        "title": "声学工程"
+                    },
+                    {
+                        "classCode": "C028_5",
+                        "parentCode": "C028",
+                        "children": [
+                            {
+                                "classCode": "C028_51",
+                                "parentCode": "C028_5",
+                                "title": "制冷理论"
+                            },
+                            {
+                                "classCode": "C028_52",
+                                "parentCode": "C028_5",
+                                "title": "制冷材料、制冷机械和设备及应用"
+                            }
+                        ],
+                        "title": "制冷工程"
+                    },
+                    {
+                        "classCode": "C028_6",
+                        "parentCode": "C028",
+                        "title": "真空技术"
+                    },
+                    {
+                        "classCode": "C028_7",
+                        "parentCode": "C028",
+                        "children": [
+                            {
+                                "classCode": "C028_72",
+                                "parentCode": "C028_7",
+                                "title": "设备、辅料"
+                            },
+                            {
+                                "classCode": "C028_73",
+                                "parentCode": "C028_7",
+                                "title": "光学镜头与滤光器"
+                            }
+                        ],
+                        "title": "摄影技术"
+                    },
+                    {
+                        "classCode": "C028_8",
+                        "parentCode": "C028",
+                        "title": "计量学"
+                    },
+                    {
+                        "classCode": "C028_9",
+                        "parentCode": "C028",
+                        "title": "工业技术概论"
+                    }
+                ],
+                "title": "工业通用技术及设备"
+            },
+            {
+                "classCode": "C029",
+                "parentCode": "C",
+                "children": [
+                    {
+                        "classCode": "C029_1",
+                        "parentCode": "C029",
+                        "title": "机械工业总论"
+                    },
+                    {
+                        "classCode": "C029_2",
+                        "parentCode": "C029",
+                        "title": "机械工业经济"
+                    },
+                    {
+                        "classCode": "C029_3",
+                        "parentCode": "C029",
+                        "children": [
+                            {
+                                "classCode": "C029_31",
+                                "parentCode": "C029_3",
+                                "title": "机械原理"
+                            },
+                            {
+                                "classCode": "C029_32",
+                                "parentCode": "C029_3",
+                                "title": "机构学"
+                            },
+                            {
+                                "classCode": "C029_33",
+                                "parentCode": "C029_3",
+                                "title": "机械动力学"
+                            },
+                            {
+                                "classCode": "C029_34",
+                                "parentCode": "C029_3",
+                                "title": "机械强度"
+                            },
+                            {
+                                "classCode": "C029_35",
+                                "parentCode": "C029_3",
+                                "title": "机械精确度"
+                            },
+                            {
+                                "classCode": "C029_36",
+                                "parentCode": "C029_3",
+                                "title": "机械摩擦、磨损与润滑"
+                            }
+                        ],
+                        "title": "机械学"
+                    },
+                    {
+                        "classCode": "C029_4",
+                        "parentCode": "C029",
+                        "children": [
+                            {
+                                "classCode": "C029_41",
+                                "parentCode": "C029_4",
+                                "title": "机械设计概论"
+                            },
+                            {
+                                "classCode": "C029_42",
+                                "parentCode": "C029_4",
+                                "title": "标准、规格"
+                            },
+                            {
+                                "classCode": "C029_43",
+                                "parentCode": "C029_4",
+                                "title": "机械设计"
+                            },
+                            {
+                                "classCode": "C029_44",
+                                "parentCode": "C029_4",
+                                "title": "机械计算"
+                            },
+                            {
+                                "classCode": "C029_45",
+                                "parentCode": "C029_4",
+                                "title": "机械制图"
+                            },
+                            {
+                                "classCode": "C029_46",
+                                "parentCode": "C029_4",
+                                "title": "机械模型"
+                            }
+                        ],
+                        "title": "机械设计、计算与制图"
+                    },
+                    {
+                        "classCode": "C029_5",
+                        "parentCode": "C029",
+                        "children": [
+                            {
+                                "classCode": "C029_51",
+                                "parentCode": "C029_5",
+                                "title": "联接及联接零件"
+                            },
+                            {
+                                "classCode": "C029_52",
+                                "parentCode": "C029_5",
+                                "title": "机械传动机构"
+                            },
+                            {
+                                "classCode": "C029_53",
+                                "parentCode": "C029_5",
+                                "title": "转动机件"
+                            },
+                            {
+                                "classCode": "C029_54",
+                                "parentCode": "C029_5",
+                                "title": "控制机件"
+                            },
+                            {
+                                "classCode": "C029_55",
+                                "parentCode": "C029_5",
+                                "title": "弹簧"
+                            },
+                            {
+                                "classCode": "C029_56",
+                                "parentCode": "C029_5",
+                                "title": "其他机械元件"
+                            },
+                            {
+                                "classCode": "C029_58",
+                                "parentCode": "C029_5",
+                                "title": "气压传动"
+                            },
+                            {
+                                "classCode": "C029_59",
+                                "parentCode": "C029_5",
+                                "title": "其他传动"
+                            }
+                        ],
+                        "title": "机械零件及传动装置"
+                    },
+                    {
+                        "classCode": "C029_6",
+                        "parentCode": "C029",
+                        "children": [
+                            {
+                                "classCode": "C029_61",
+                                "parentCode": "C029_6",
+                                "title": "一般性问题"
+                            },
+                            {
+                                "classCode": "C029_62",
+                                "parentCode": "C029_6",
+                                "title": "金属材料"
+                            },
+                            {
+                                "classCode": "C029_63",
+                                "parentCode": "C029_6",
+                                "title": "非金属材料"
+                            }
+                        ],
+                        "title": "机械制造用材料"
+                    },
+                    {
+                        "classCode": "C029_7",
+                        "parentCode": "C029",
+                        "children": [
+                            {
+                                "classCode": "C029_71",
+                                "parentCode": "C029_7",
+                                "title": "机械制造工艺概论"
+                            },
+                            {
+                                "classCode": "C029_72",
+                                "parentCode": "C029_7",
+                                "title": "机械加工精度理论"
+                            },
+                            {
+                                "classCode": "C029_73",
+                                "parentCode": "C029_7",
+                                "title": "工艺设计"
+                            },
+                            {
+                                "classCode": "C029_74",
+                                "parentCode": "C029_7",
+                                "title": "成组工艺"
+                            },
+                            {
+                                "classCode": "C029_75",
+                                "parentCode": "C029_7",
+                                "title": "计算机辅助机械制造"
+                            },
+                            {
+                                "classCode": "C029_76",
+                                "parentCode": "C029_7",
+                                "title": "柔性制造系统及柔性制造单元"
+                            },
+                            {
+                                "classCode": "C029_77",
+                                "parentCode": "C029_7",
+                                "title": "计算机集成制造"
+                            }
+                        ],
+                        "title": "机械制造工艺"
+                    },
+                    {
+                        "classCode": "C029_8",
+                        "parentCode": "C029",
+                        "title": "机械运行与维修"
+                    },
+                    {
+                        "classCode": "C029_9",
+                        "parentCode": "C029",
+                        "title": "机械工厂(车间)"
+                    },
+                    {
+                        "classCode": "C029_A",
+                        "parentCode": "C029",
+                        "children": [
+                            {
+                                "classCode": "C029_A1",
+                                "parentCode": "C029_A",
+                                "title": "起重机械"
+                            },
+                            {
+                                "classCode": "C029_A2",
+                                "parentCode": "C029_A",
+                                "title": "运输机械"
+                            },
+                            {
+                                "classCode": "C029_A3",
+                                "parentCode": "C029_A",
+                                "title": "装卸机械"
+                            }
+                        ],
+                        "title": "起重机械与运输机械"
+                    },
+                    {
+                        "classCode": "C029_B",
+                        "parentCode": "C029",
+                        "title": "泵"
+                    },
+                    {
+                        "classCode": "C029_C",
+                        "parentCode": "C029",
+                        "children": [
+                            {
+                                "classCode": "C029_C1",
+                                "parentCode": "C029_C",
+                                "title": "压缩空气工程"
+                            },
+                            {
+                                "classCode": "C029_C2",
+                                "parentCode": "C029_C",
+                                "title": "通风机"
+                            },
+                            {
+                                "classCode": "C029_C3",
+                                "parentCode": "C029_C",
+                                "title": "鼓风机"
+                            },
+                            {
+                                "classCode": "C029_C4",
+                                "parentCode": "C029_C",
+                                "title": "压缩机、压气机"
+                            },
+                            {
+                                "classCode": "C029_C5",
+                                "parentCode": "C029_C",
+                                "title": "其他气动工具"
+                            },
+                            {
+                                "classCode": "C029_C6",
+                                "parentCode": "C029_C",
+                                "title": "各种用途气体压缩输送机械"
+                            },
+                            {
+                                "classCode": "C029_C7",
+                                "parentCode": "C029_C",
+                                "title": "压力容器"
+                            }
+                        ],
+                        "title": "气体压缩与输送机械"
+                    },
+                    {
+                        "classCode": "C029_D",
+                        "parentCode": "C029",
+                        "title": "专用机械与设备"
+                    }
+                ],
+                "title": "机械工业"
+            },
+            {
+                "classCode": "C030",
+                "parentCode": "C",
+                "children": [
+                    {
+                        "classCode": "C030_1",
+                        "parentCode": "C030",
+                        "title": "仪器、仪表概论"
+                    },
+                    {
+                        "classCode": "C030_3",
+                        "parentCode": "C030",
+                        "title": "计量仪器"
+                    },
+                    {
+                        "classCode": "C030_4",
+                        "parentCode": "C030",
+                        "title": "坐标器、计算机具、计数器"
+                    },
+                    {
+                        "classCode": "C030_5",
+                        "parentCode": "C030",
+                        "title": "物理学与力学一般仪器"
+                    },
+                    {
+                        "classCode": "C030_6",
+                        "parentCode": "C030",
+                        "title": "光学仪器"
+                    },
+                    {
+                        "classCode": "C030_7",
+                        "parentCode": "C030",
+                        "title": "天文仪器"
+                    },
+                    {
+                        "classCode": "C030_8",
+                        "parentCode": "C030",
+                        "title": "地球科学仪器"
+                    },
+                    {
+                        "classCode": "C030_9",
+                        "parentCode": "C030",
+                        "title": "医药卫生器械"
+                    },
+                    {
+                        "classCode": "C030_A",
+                        "parentCode": "C030",
+                        "title": "生物科学与农林科学仪器"
+                    },
+                    {
+                        "classCode": "C030_B",
+                        "parentCode": "C030",
+                        "title": "热工量的测量仪表"
+                    },
+                    {
+                        "classCode": "C030_C",
+                        "parentCode": "C030",
+                        "title": "力学量测量仪表"
+                    },
+                    {
+                        "classCode": "C030_D",
+                        "parentCode": "C030",
+                        "title": "成分分析仪器"
+                    },
+                    {
+                        "classCode": "C030_E",
+                        "parentCode": "C030",
+                        "title": "质谱仪"
+                    },
+                    {
+                        "classCode": "C030_F",
+                        "parentCode": "C030",
+                        "title": "显示仪表"
+                    },
+                    {
+                        "classCode": "C030_G",
+                        "parentCode": "C030",
+                        "title": "工业自动化仪表"
+                    },
+                    {
+                        "classCode": "C030_H",
+                        "parentCode": "C030",
+                        "title": "材料试验机与试验仪器"
+                    },
+                    {
+                        "classCode": "C030_I",
+                        "parentCode": "C030",
+                        "title": "其他仪器仪表"
+                    }
+                ],
+                "title": "仪器仪表工业"
+            },
+            {
+                "classCode": "C031",
+                "parentCode": "C",
+                "children": [
+                    {
+                        "classCode": "C031_1",
+                        "parentCode": "C031",
+                        "children": [
+                            {
+                                "classCode": "C031_11",
+                                "parentCode": "C031_1",
+                                "title": "总论"
+                            },
+                            {
+                                "classCode": "C031_12",
+                                "parentCode": "C031_1",
+                                "title": "航空、航天的发展与空间探索"
+                            },
+                            {
+                                "classCode": "C031_13",
+                                "parentCode": "C031_1",
+                                "title": "航空、航天的应用"
+                            }
+                        ],
+                        "title": "航空、航天技术的研究与探索"
+                    },
+                    {
+                        "classCode": "C031_2",
+                        "parentCode": "C031",
+                        "children": [
+                            {
+                                "classCode": "C031_21",
+                                "parentCode": "C031_2",
+                                "title": "航空运输经济"
+                            },
+                            {
+                                "classCode": "C031_22",
+                                "parentCode": "C031_2",
+                                "children": [
+                                    {
+                                        "classCode": "C031_221",
+                                        "parentCode": "C031_22",
+                                        "title": "空气动力学"
+                                    },
+                                    {
+                                        "classCode": "C031_222",
+                                        "parentCode": "C031_22",
+                                        "title": "流体力学"
+                                    },
+                                    {
+                                        "classCode": "C031_223",
+                                        "parentCode": "C031_22",
+                                        "title": "飞行力学"
+                                    },
+                                    {
+                                        "classCode": "C031_224",
+                                        "parentCode": "C031_22",
+                                        "title": "结构力学"
+                                    },
+                                    {
+                                        "classCode": "C031_225",
+                                        "parentCode": "C031_22",
+                                        "title": "航空器结构力学"
+                                    },
+                                    {
+                                        "classCode": "C031_226",
+                                        "parentCode": "C031_22",
+                                        "title": "航空器试验"
+                                    },
+                                    {
+                                        "classCode": "C031_227",
+                                        "parentCode": "C031_22",
+                                        "title": "航空器隐身技术"
+                                    },
+                                    {
+                                        "classCode": "C031_228",
+                                        "parentCode": "C031_22",
+                                        "title": "相关学科的应用"
+                                    }
+                                ],
+                                "title": "基础理论及试验"
+                            },
+                            {
+                                "classCode": "C031_23",
+                                "parentCode": "C031_2",
+                                "title": "飞机构造与设计"
+                            },
+                            {
+                                "classCode": "C031_24",
+                                "parentCode": "C031_2",
+                                "children": [
+                                    {
+                                        "classCode": "C031_241",
+                                        "parentCode": "C031_24",
+                                        "title": "热力工程理论"
+                                    },
+                                    {
+                                        "classCode": "C031_242",
+                                        "parentCode": "C031_24",
+                                        "title": "航空发动机(推进系统)"
+                                    },
+                                    {
+                                        "classCode": "C031_243",
+                                        "parentCode": "C031_24",
+                                        "title": "燃烧"
+                                    }
+                                ],
+                                "title": "航空发动机"
+                            },
+                            {
+                                "classCode": "C031_25",
+                                "parentCode": "C031_2",
+                                "children": [
+                                    {
+                                        "classCode": "C031_251",
+                                        "parentCode": "C031_25",
+                                        "title": "航空仪表、设备"
+                                    },
+                                    {
+                                        "classCode": "C031_252",
+                                        "parentCode": "C031_25",
+                                        "title": "飞行控制系统与导航"
+                                    }
+                                ],
+                                "title": "航空仪表、设备、控制与导航"
+                            },
+                            {
+                                "classCode": "C031_26",
+                                "parentCode": "C031_2",
+                                "children": [
+                                    {
+                                        "classCode": "C031_261",
+                                        "parentCode": "C031_26",
+                                        "title": "航空(天)用材料"
+                                    },
+                                    {
+                                        "classCode": "C031_262",
+                                        "parentCode": "C031_26",
+                                        "title": "航空制造工艺"
+                                    },
+                                    {
+                                        "classCode": "C031_263",
+                                        "parentCode": "C031_26",
+                                        "title": "各类型航空器"
+                                    },
+                                    {
+                                        "classCode": "C031_264",
+                                        "parentCode": "C031_26",
+                                        "title": "航空用燃料及润滑剂"
+                                    }
+                                ],
+                                "title": "航空(天)用材料、制品及各类航空器、航空用燃料及润滑剂"
+                            },
+                            {
+                                "classCode": "C031_27",
+                                "parentCode": "C031_2",
+                                "children": [
+                                    {
+                                        "classCode": "C031_271",
+                                        "parentCode": "C031_27",
+                                        "title": "航空飞行术"
+                                    },
+                                    {
+                                        "classCode": "C031_272",
+                                        "parentCode": "C031_27",
+                                        "title": "航空港(站)、机场及技术管理"
+                                    },
+                                    {
+                                        "classCode": "C031_273",
+                                        "parentCode": "C031_27",
+                                        "title": "航空系统工程"
+                                    }
+                                ],
+                                "title": "航空飞行术、航空港(站)、机场及技术管理及航空系统工程"
+                            }
+                        ],
+                        "title": "航空"
+                    },
+                    {
+                        "classCode": "C031_3",
+                        "parentCode": "C031",
+                        "children": [
+                            {
+                                "classCode": "C031_32",
+                                "parentCode": "C031_3",
+                                "title": "火箭、航天器构造"
+                            },
+                            {
+                                "classCode": "C031_33",
+                                "parentCode": "C031_3",
+                                "title": "航天推进系统"
+                            },
+                            {
+                                "classCode": "C031_34",
+                                "parentCode": "C031_3",
+                                "title": "航天仪表、设备、制导与控制"
+                            },
+                            {
+                                "classCode": "C031_35",
+                                "parentCode": "C031_3",
+                                "title": "航天制造工艺"
+                            },
+                            {
+                                "classCode": "C031_36",
+                                "parentCode": "C031_3",
+                                "title": "航天器及其运载工具"
+                            },
+                            {
+                                "classCode": "C031_37",
+                                "parentCode": "C031_3",
+                                "title": "航天用燃料(推进剂)及润滑剂"
+                            },
+                            {
+                                "classCode": "C031_38",
+                                "parentCode": "C031_3",
+                                "title": "航天术"
+                            },
+                            {
+                                "classCode": "C031_39",
+                                "parentCode": "C031_3",
+                                "title": "地面设备、试验场、发射场、航天基地"
+                            },
+                            {
+                                "classCode": "C031_3A",
+                                "parentCode": "C031_3",
+                                "title": "航天系统工程"
+                            }
+                        ],
+                        "title": "航天"
+                    },
+                    {
+                        "classCode": "C031_4",
+                        "parentCode": "C031",
+                        "title": "航空、航天医学"
+                    }
+                ],
+                "title": "航空航天科学与工程"
+            },
+            {
+                "classCode": "C032",
+                "parentCode": "C",
+                "children": [
+                    {
+                        "classCode": "C032_1",
+                        "parentCode": "C032",
+                        "title": "基础科学"
+                    },
+                    {
+                        "classCode": "C032_2",
+                        "parentCode": "C032",
+                        "children": [
+                            {
+                                "classCode": "C032_21",
+                                "parentCode": "C032_2",
+                                "title": "总论武器军用器材"
+                            },
+                            {
+                                "classCode": "C032_22",
+                                "parentCode": "C032_2",
+                                "title": "枪、炮"
+                            },
+                            {
+                                "classCode": "C032_23",
+                                "parentCode": "C032_2",
+                                "title": "弹药、引信、火工品"
+                            },
+                            {
+                                "classCode": "C032_24",
+                                "parentCode": "C032_2",
+                                "title": "爆破器材、烟火器材、火炸药"
+                            },
+                            {
+                                "classCode": "C032_25",
+                                "parentCode": "C032_2",
+                                "title": "水中兵器"
+                            },
+                            {
+                                "classCode": "C032_26",
+                                "parentCode": "C032_2",
+                                "title": "火箭、导弹"
+                            },
+                            {
+                                "classCode": "C032_27",
+                                "parentCode": "C032_2",
+                                "title": "军用飞机与航天器"
+                            },
+                            {
+                                "classCode": "C032_28",
+                                "parentCode": "C032_2",
+                                "title": "军舰"
+                            },
+                            {
+                                "classCode": "C032_29",
+                                "parentCode": "C032_2",
+                                "title": "战车"
+                            },
+                            {
+                                "classCode": "C032_2A",
+                                "parentCode": "C032_2",
+                                "title": "特种武器及其他军用器材"
+                            }
+                        ],
+                        "title": "武器军用器材"
+                    },
+                    {
+                        "classCode": "C032_3",
+                        "parentCode": "C032",
+                        "title": "军事通讯"
+                    },
+                    {
+                        "classCode": "C032_4",
+                        "parentCode": "C032",
+                        "title": "军事工程"
+                    },
+                    {
+                        "classCode": "C032_5",
+                        "parentCode": "C032",
+                        "title": "军事地形学、军事地理学"
+                    }
+                ],
+                "title": "武器工业与军事技术"
+            },
+            {
+                "classCode": "C033",
+                "parentCode": "C",
+                "children": [
+                    {
+                        "classCode": "C033_1",
+                        "parentCode": "C033",
+                        "title": "铁路运输经济"
+                    },
+                    {
+                        "classCode": "C033_2",
+                        "parentCode": "C033",
+                        "title": "铁路线路工程"
+                    },
+                    {
+                        "classCode": "C033_3",
+                        "parentCode": "C033",
+                        "title": "电气化铁路"
+                    },
+                    {
+                        "classCode": "C033_4",
+                        "parentCode": "C033",
+                        "title": "特种铁路"
+                    },
+                    {
+                        "classCode": "C033_5",
+                        "parentCode": "C033",
+                        "title": "机车工程"
+                    },
+                    {
+                        "classCode": "C033_6",
+                        "parentCode": "C033",
+                        "title": "车辆工程"
+                    },
+                    {
+                        "classCode": "C033_7",
+                        "parentCode": "C033",
+                        "title": "铁路通信、信号"
+                    },
+                    {
+                        "classCode": "C033_8",
+                        "parentCode": "C033",
+                        "title": "铁路运输管理工程"
+                    }
+                ],
+                "title": "铁路运输"
+            },
+            {
+                "classCode": "C034",
+                "parentCode": "C",
+                "children": [
+                    {
+                        "classCode": "C034_1",
+                        "parentCode": "C034",
+                        "children": [
+                            {
+                                "classCode": "C034_11",
+                                "parentCode": "C034_1",
+                                "title": "综合运输体制与结构"
+                            },
+                            {
+                                "classCode": "C034_12",
+                                "parentCode": "C034_1",
+                                "title": "城乡交通运输"
+                            },
+                            {
+                                "classCode": "C034_13",
+                                "parentCode": "C034_1",
+                                "title": "工商业运输"
+                            },
+                            {
+                                "classCode": "C034_14",
+                                "parentCode": "C034_1",
+                                "title": "管道运输、索道运输"
+                            }
+                        ],
+                        "title": "综合运输"
+                    },
+                    {
+                        "classCode": "C034_2",
+                        "parentCode": "C034",
+                        "children": [
+                            {
+                                "classCode": "C034_21",
+                                "parentCode": "C034_2",
+                                "title": "公路运输经济"
+                            },
+                            {
+                                "classCode": "C034_22",
+                                "parentCode": "C034_2",
+                                "title": "道路工程"
+                            },
+                            {
+                                "classCode": "C034_23",
+                                "parentCode": "C034_2",
+                                "title": "桥涵工程"
+                            },
+                            {
+                                "classCode": "C034_24",
+                                "parentCode": "C034_2",
+                                "title": "隧道工程"
+                            },
+                            {
+                                "classCode": "C034_25",
+                                "parentCode": "C034_2",
+                                "title": "交通工程与公路运输技术管理"
+                            }
+                        ],
+                        "title": "公路运输"
+                    },
+                    {
+                        "classCode": "C034_3",
+                        "parentCode": "C034",
+                        "children": [
+                            {
+                                "classCode": "C034_31",
+                                "parentCode": "C034_3",
+                                "title": "水路运输经济"
+                            },
+                            {
+                                "classCode": "C034_32",
+                                "parentCode": "C034_3",
+                                "title": "航道工程"
+                            },
+                            {
+                                "classCode": "C034_33",
+                                "parentCode": "C034_3",
+                                "title": "通航建筑物与助航设备"
+                            },
+                            {
+                                "classCode": "C034_34",
+                                "parentCode": "C034_3",
+                                "title": "港口工程"
+                            },
+                            {
+                                "classCode": "C034_35",
+                                "parentCode": "C034_3",
+                                "title": "水路运输技术管理"
+                            }
+                        ],
+                        "title": "水路运输"
+                    }
+                ],
+                "title": "公路与水路运输"
+            },
+            {
+                "classCode": "C035",
+                "parentCode": "C",
+                "children": [
+                    {
+                        "classCode": "C035_1",
+                        "parentCode": "C035",
+                        "title": "汽车工业经济"
+                    },
+                    {
+                        "classCode": "C035_2",
+                        "parentCode": "C035",
+                        "title": "汽车理论"
+                    },
+                    {
+                        "classCode": "C035_3",
+                        "parentCode": "C035",
+                        "title": "整车设计与计算"
+                    },
+                    {
+                        "classCode": "C035_4",
+                        "parentCode": "C035",
+                        "children": [
+                            {
+                                "classCode": "C035_41",
+                                "parentCode": "C035_4",
+                                "title": "汽车底盘"
+                            },
+                            {
+                                "classCode": "C035_42",
+                                "parentCode": "C035_4",
+                                "title": "传动系统"
+                            },
+                            {
+                                "classCode": "C035_43",
+                                "parentCode": "C035_4",
+                                "title": "行走系统"
+                            },
+                            {
+                                "classCode": "C035_44",
+                                "parentCode": "C035_4",
+                                "title": "转向系统"
+                            },
+                            {
+                                "classCode": "C035_45",
+                                "parentCode": "C035_4",
+                                "title": "制动系统"
+                            },
+                            {
+                                "classCode": "C035_46",
+                                "parentCode": "C035_4",
+                                "title": "电气设备及附件"
+                            },
+                            {
+                                "classCode": "C035_47",
+                                "parentCode": "C035_4",
+                                "title": "仪表"
+                            },
+                            {
+                                "classCode": "C035_48",
+                                "parentCode": "C035_4",
+                                "title": "驾驶室及车身"
+                            },
+                            {
+                                "classCode": "C035_49",
+                                "parentCode": "C035_4",
+                                "title": "汽车附属装置"
+                            }
+                        ],
+                        "title": "汽车结构部件"
+                    },
+                    {
+                        "classCode": "C035_5",
+                        "parentCode": "C035",
+                        "title": "汽车发动机"
+                    },
+                    {
+                        "classCode": "C035_6",
+                        "parentCode": "C035",
+                        "title": "汽车材料"
+                    },
+                    {
+                        "classCode": "C035_7",
+                        "parentCode": "C035",
+                        "title": "汽车制造工艺"
+                    },
+                    {
+                        "classCode": "C035_8",
+                        "parentCode": "C035",
+                        "title": "汽车试验"
+                    },
+                    {
+                        "classCode": "C035_9",
+                        "parentCode": "C035",
+                        "title": "汽车制造厂"
+                    },
+                    {
+                        "classCode": "C035_A",
+                        "parentCode": "C035",
+                        "title": "各种汽车"
+                    },
+                    {
+                        "classCode": "C035_B",
+                        "parentCode": "C035",
+                        "title": "汽车驾驶与使用"
+                    },
+                    {
+                        "classCode": "C035_C",
+                        "parentCode": "C035",
+                        "title": "汽车保养与修理"
+                    },
+                    {
+                        "classCode": "C035_D",
+                        "parentCode": "C035",
+                        "title": "汽车用燃料、润滑料"
+                    },
+                    {
+                        "classCode": "C035_E",
+                        "parentCode": "C035",
+                        "title": "其它道路运输工具"
+                    }
+                ],
+                "title": "汽车工业"
+            },
+            {
+                "classCode": "C036",
+                "parentCode": "C",
+                "children": [
+                    {
+                        "classCode": "C036_1",
+                        "parentCode": "C036",
+                        "title": "船舶工业经济"
+                    },
+                    {
+                        "classCode": "C036_2",
+                        "parentCode": "C036",
+                        "title": "船舶原理"
+                    },
+                    {
+                        "classCode": "C036_3",
+                        "parentCode": "C036",
+                        "title": "船舶设计"
+                    },
+                    {
+                        "classCode": "C036_4",
+                        "parentCode": "C036",
+                        "title": "船舶结构"
+                    },
+                    {
+                        "classCode": "C036_5",
+                        "parentCode": "C036",
+                        "children": [
+                            {
+                                "classCode": "C036_51",
+                                "parentCode": "C036_5",
+                                "title": "船舶动力装置"
+                            },
+                            {
+                                "classCode": "C036_52",
+                                "parentCode": "C036_5",
+                                "title": "船舶轴系、传动装置、并车装置"
+                            },
+                            {
+                                "classCode": "C036_53",
+                                "parentCode": "C036_5",
+                                "title": "船舶推进装置"
+                            },
+                            {
+                                "classCode": "C036_54",
+                                "parentCode": "C036_5",
+                                "title": "甲板机械"
+                            },
+                            {
+                                "classCode": "C036_55",
+                                "parentCode": "C036_5",
+                                "title": "船舶辅机及设备"
+                            },
+                            {
+                                "classCode": "C036_56",
+                                "parentCode": "C036_5",
+                                "title": "其他特种机械"
+                            },
+                            {
+                                "classCode": "C036_57",
+                                "parentCode": "C036_5",
+                                "title": "船舶防摇装置"
+                            },
+                            {
+                                "classCode": "C036_58",
+                                "parentCode": "C036_5",
+                                "title": "船舶系统"
+                            },
+                            {
+                                "classCode": "C036_59",
+                                "parentCode": "C036_5",
+                                "title": "船舶防污设备"
+                            }
+                        ],
+                        "title": "船舶机械"
+                    },
+                    {
+                        "classCode": "C036_6",
+                        "parentCode": "C036",
+                        "title": "船舶电气设备、观通设备"
+                    },
+                    {
+                        "classCode": "C036_7",
+                        "parentCode": "C036",
+                        "title": "导航设备、水声设备"
+                    },
+                    {
+                        "classCode": "C036_8",
+                        "parentCode": "C036",
+                        "title": "船舶舾装设备"
+                    },
+                    {
+                        "classCode": "C036_9",
+                        "parentCode": "C036",
+                        "title": "造船材料"
+                    },
+                    {
+                        "classCode": "C036_A",
+                        "parentCode": "C036",
+                        "title": "船舶建造工艺"
+                    },
+                    {
+                        "classCode": "C036_B",
+                        "parentCode": "C036",
+                        "title": "船舶保养、修理和拆船工艺"
+                    },
+                    {
+                        "classCode": "C036_C",
+                        "parentCode": "C036",
+                        "title": "造船厂、修船厂"
+                    },
+                    {
+                        "classCode": "C036_D",
+                        "parentCode": "C036",
+                        "title": "各种船舶"
+                    },
+                    {
+                        "classCode": "C036_E",
+                        "parentCode": "C036",
+                        "title": "船舶驾驶、航海学"
+                    },
+                    {
+                        "classCode": "C036_F",
+                        "parentCode": "C036",
+                        "title": "航海技术管理与救助打捞"
+                    },
+                    {
+                        "classCode": "C036_G",
+                        "parentCode": "C036",
+                        "title": "船舶用燃料及润滑剂"
+                    }
+                ],
+                "title": "船舶工业"
+            },
+            {
+                "classCode": "C037",
+                "parentCode": "C",
+                "children": [
+                    {
+                        "classCode": "C037_1",
+                        "parentCode": "C037",
+                        "title": "水利经济"
+                    },
+                    {
+                        "classCode": "C037_2",
+                        "parentCode": "C037",
+                        "children": [
+                            {
+                                "classCode": "C037_21",
+                                "parentCode": "C037_2",
+                                "title": "工程水文学"
+                            },
+                            {
+                                "classCode": "C037_22",
+                                "parentCode": "C037_2",
+                                "title": "水力学"
+                            },
+                            {
+                                "classCode": "C037_23",
+                                "parentCode": "C037_2",
+                                "title": "泥沙动力学、河流动力学"
+                            },
+                            {
+                                "classCode": "C037_24",
+                                "parentCode": "C037_2",
+                                "title": "土力学"
+                            }
+                        ],
+                        "title": "水利工程基础学"
+                    },
+                    {
+                        "classCode": "C037_3",
+                        "parentCode": "C037",
+                        "children": [
+                            {
+                                "classCode": "C037_31",
+                                "parentCode": "C037_3",
+                                "title": "水资源调查与水利规划"
+                            },
+                            {
+                                "classCode": "C037_32",
+                                "parentCode": "C037_3",
+                                "title": "水工勘测、水工设计"
+                            }
+                        ],
+                        "title": "水资源调查与水利规划、水工勘测设计"
+                    },
+                    {
+                        "classCode": "C037_4",
+                        "parentCode": "C037",
+                        "children": [
+                            {
+                                "classCode": "C037_41",
+                                "parentCode": "C037_4",
+                                "title": "结构理论和计算"
+                            }
+                        ],
+                        "title": "水工结构"
+                    },
+                    {
+                        "classCode": "C037_5",
+                        "parentCode": "C037",
+                        "title": "水工材料"
+                    },
+                    {
+                        "classCode": "C037_6",
+                        "parentCode": "C037",
+                        "title": "水利工程施工"
+                    },
+                    {
+                        "classCode": "C037_7",
+                        "parentCode": "C037",
+                        "children": [
+                            {
+                                "classCode": "C037_71",
+                                "parentCode": "C037_7",
+                                "title": "水利枢纽工程、水库工程"
+                            },
+                            {
+                                "classCode": "C037_72",
+                                "parentCode": "C037_7",
+                                "title": "挡水坝"
+                            },
+                            {
+                                "classCode": "C037_73",
+                                "parentCode": "C037_7",
+                                "title": "泄水建筑物、水闸"
+                            },
+                            {
+                                "classCode": "C037_74",
+                                "parentCode": "C037_7",
+                                "title": "取水、引水、调水工程"
+                            }
+                        ],
+                        "title": "水利枢纽、水工建筑物"
+                    },
+                    {
+                        "classCode": "C037_8",
+                        "parentCode": "C037",
+                        "children": [
+                            {
+                                "classCode": "C037_81",
+                                "parentCode": "C037_8",
+                                "title": "水能勘测与设计"
+                            },
+                            {
+                                "classCode": "C037_82",
+                                "parentCode": "C037_8",
+                                "title": "水电站建筑与设备"
+                            },
+                            {
+                                "classCode": "C037_83",
+                                "parentCode": "C037_8",
+                                "title": "各种水电站"
+                            },
+                            {
+                                "classCode": "C037_84",
+                                "parentCode": "C037_8",
+                                "title": "世界各国水力发电工程及中小河道水能利用"
+                            }
+                        ],
+                        "title": "水能利用、水电站工程"
+                    },
+                    {
+                        "classCode": "C037_9",
+                        "parentCode": "C037",
+                        "title": "治河工程与防洪工程"
+                    },
+                    {
+                        "classCode": "C037_A",
+                        "parentCode": "C037",
+                        "title": "运渠(运河、渠道)工程、港湾工程、农田水利工程"
+                    }
+                ],
+                "title": "水利水电工程"
+            },
+            {
+                "classCode": "C038",
+                "parentCode": "C",
+                "children": [
+                    {
+                        "classCode": "C038_1",
+                        "parentCode": "C038",
+                        "children": [
+                            {
+                                "classCode": "C038_11",
+                                "parentCode": "C038_1",
+                                "title": "建筑一般理论"
+                            },
+                            {
+                                "classCode": "C038_12",
+                                "parentCode": "C038_1",
+                                "title": "建筑经济学"
+                            },
+                            {
+                                "classCode": "C038_13",
+                                "parentCode": "C038_1",
+                                "title": "建筑艺术学"
+                            },
+                            {
+                                "classCode": "C038_14",
+                                "parentCode": "C038_1",
+                                "title": "建筑物理学"
+                            },
+                            {
+                                "classCode": "C038_15",
+                                "parentCode": "C038_1",
+                                "title": "建筑数学"
+                            },
+                            {
+                                "classCode": "C038_16",
+                                "parentCode": "C038_1",
+                                "title": "其他科学技术在建筑中的应用"
+                            },
+                            {
+                                "classCode": "C038_17",
+                                "parentCode": "C038_1",
+                                "title": "建筑史"
+                            }
+                        ],
+                        "title": "建筑基础科学"
+                    },
+                    {
+                        "classCode": "C038_2",
+                        "parentCode": "C038",
+                        "children": [
+                            {
+                                "classCode": "C038_21",
+                                "parentCode": "C038_2",
+                                "title": "建筑勘测工程"
+                            },
+                            {
+                                "classCode": "C038_22",
+                                "parentCode": "C038_2",
+                                "children": [
+                                    {
+                                        "classCode": "C038_220",
+                                        "parentCode": "C038_22",
+                                        "title": "建筑设计一般性问题"
+                                    },
+                                    {
+                                        "classCode": "C038_221",
+                                        "parentCode": "C038_22",
+                                        "title": "房屋细部构造设计"
+                                    },
+                                    {
+                                        "classCode": "C038_222",
+                                        "parentCode": "C038_22",
+                                        "title": "民用建筑"
+                                    },
+                                    {
+                                        "classCode": "C038_223",
+                                        "parentCode": "C038_22",
+                                        "title": "农业建筑"
+                                    },
+                                    {
+                                        "classCode": "C038_224",
+                                        "parentCode": "C038_22",
+                                        "title": "工业建筑"
+                                    },
+                                    {
+                                        "classCode": "C038_225",
+                                        "parentCode": "C038_22",
+                                        "title": "地下建筑"
+                                    },
+                                    {
+                                        "classCode": "C038_226",
+                                        "parentCode": "C038_22",
+                                        "title": "水下建筑"
+                                    },
+                                    {
+                                        "classCode": "C038_227",
+                                        "parentCode": "C038_22",
+                                        "title": "高层建筑"
+                                    },
+                                    {
+                                        "classCode": "C038_228",
+                                        "parentCode": "C038_22",
+                                        "title": "其他建筑"
+                                    }
+                                ],
+                                "title": "建筑设计"
+                            },
+                            {
+                                "classCode": "C038_23",
+                                "parentCode": "C038_2",
+                                "children": [
+                                    {
+                                        "classCode": "C038_231",
+                                        "parentCode": "C038_23",
+                                        "title": "结构理论、计算"
+                                    },
+                                    {
+                                        "classCode": "C038_232",
+                                        "parentCode": "C038_23",
+                                        "title": "杆件系统结构"
+                                    },
+                                    {
+                                        "classCode": "C038_233",
+                                        "parentCode": "C038_23",
+                                        "title": "薄壳结构"
+                                    },
+                                    {
+                                        "classCode": "C038_234",
+                                        "parentCode": "C038_23",
+                                        "title": "实体结构"
+                                    },
+                                    {
+                                        "classCode": "C038_235",
+                                        "parentCode": "C038_23",
+                                        "title": "特殊形式结构"
+                                    },
+                                    {
+                                        "classCode": "C038_236",
+                                        "parentCode": "C038_23",
+                                        "title": "土、砖、石、竹、木结构"
+                                    },
+                                    {
+                                        "classCode": "C038_237",
+                                        "parentCode": "C038_23",
+                                        "title": "混凝土结构、钢筋混凝土结构"
+                                    },
+                                    {
+                                        "classCode": "C038_238",
+                                        "parentCode": "C038_23",
+                                        "title": "非金属结构"
+                                    },
+                                    {
+                                        "classCode": "C038_239",
+                                        "parentCode": "C038_23",
+                                        "title": "金属结构"
+                                    }
+                                ],
+                                "title": "建筑结构"
+                            },
+                            {
+                                "classCode": "C038_24",
+                                "parentCode": "C038_2",
+                                "children": [
+                                    {
+                                        "classCode": "C038_240",
+                                        "parentCode": "C038_24",
+                                        "title": "建筑材料一般性问题"
+                                    },
+                                    {
+                                        "classCode": "C038_243",
+                                        "parentCode": "C038_24",
+                                        "title": "有机材料、建筑化工材料"
+                                    },
+                                    {
+                                        "classCode": "C038_244",
+                                        "parentCode": "C038_24",
+                                        "title": "耐高温材料(耐火材料)、防火材料"
+                                    },
+                                    {
+                                        "classCode": "C038_245",
+                                        "parentCode": "C038_24",
+                                        "title": "隔热、隔(吸)声材料"
+                                    },
+                                    {
+                                        "classCode": "C038_246",
+                                        "parentCode": "C038_24",
+                                        "title": "建筑涂料、装饰材料"
+                                    },
+                                    {
+                                        "classCode": "C038_247",
+                                        "parentCode": "C038_24",
+                                        "title": "防水、防潮材料，嵌缝、密封材料"
+                                    },
+                                    {
+                                        "classCode": "C038_248",
+                                        "parentCode": "C038_24",
+                                        "title": "粘结料"
+                                    },
+                                    {
+                                        "classCode": "C038_249",
+                                        "parentCode": "C038_24",
+                                        "title": "其他特种材料"
+                                    }
+                                ],
+                                "title": "建筑材料"
+                            },
+                            {
+                                "classCode": "C038_25",
+                                "parentCode": "C038_2",
+                                "children": [
+                                    {
+                                        "classCode": "C038_250",
+                                        "parentCode": "C038_25",
+                                        "title": "房屋建筑设备一般性问题"
+                                    },
+                                    {
+                                        "classCode": "C038_251",
+                                        "parentCode": "C038_25",
+                                        "title": "管道设备"
+                                    },
+                                    {
+                                        "classCode": "C038_252",
+                                        "parentCode": "C038_25",
+                                        "title": "房屋卫生技术设备"
+                                    },
+                                    {
+                                        "classCode": "C038_253",
+                                        "parentCode": "C038_25",
+                                        "title": "空气调节、采暖、通风及其设备"
+                                    },
+                                    {
+                                        "classCode": "C038_255",
+                                        "parentCode": "C038_25",
+                                        "title": "机电设备"
+                                    },
+                                    {
+                                        "classCode": "C038_256",
+                                        "parentCode": "C038_25",
+                                        "title": "降温与保温(隔热)设备"
+                                    },
+                                    {
+                                        "classCode": "C038_257",
+                                        "parentCode": "C038_25",
+                                        "title": "消声、隔声设备"
+                                    },
+                                    {
+                                        "classCode": "C038_259",
+                                        "parentCode": "C038_25",
+                                        "title": "安全设备"
+                                    },
+                                    {
+                                        "classCode": "C038_25A",
+                                        "parentCode": "C038_25",
+                                        "title": "地下建筑设备"
+                                    },
+                                    {
+                                        "classCode": "C038_25B",
+                                        "parentCode": "C038_25",
+                                        "title": "高层建筑设备"
+                                    },
+                                    {
+                                        "classCode": "C038_25C",
+                                        "parentCode": "C038_25",
+                                        "title": "控照器材、人工光源"
+                                    }
+                                ],
+                                "title": "房屋建筑设备"
+                            },
+                            {
+                                "classCode": "C038_26",
+                                "parentCode": "C038_2",
+                                "title": "建筑施工"
+                            },
+                            {
+                                "classCode": "C038_27",
+                                "parentCode": "C038_2",
+                                "title": "建筑施工机械和设备"
+                            },
+                            {
+                                "classCode": "C038_28",
+                                "parentCode": "C038_2",
+                                "children": [
+                                    {
+                                        "classCode": "C038_282",
+                                        "parentCode": "C038_28",
+                                        "title": "管线工程"
+                                    },
+                                    {
+                                        "classCode": "C038_283",
+                                        "parentCode": "C038_28",
+                                        "title": "给水工程(上水道工程)"
+                                    },
+                                    {
+                                        "classCode": "C038_284",
+                                        "parentCode": "C038_28",
+                                        "title": "排水工程(沟渠工程、下水道工程)"
+                                    },
+                                    {
+                                        "classCode": "C038_285",
+                                        "parentCode": "C038_28",
+                                        "title": "公共卫生工程"
+                                    },
+                                    {
+                                        "classCode": "C038_286",
+                                        "parentCode": "C038_28",
+                                        "title": "城市供电和通信"
+                                    },
+                                    {
+                                        "classCode": "C038_287",
+                                        "parentCode": "C038_28",
+                                        "title": "城市集中供热"
+                                    },
+                                    {
+                                        "classCode": "C038_288",
+                                        "parentCode": "C038_28",
+                                        "title": "城市燃气供应"
+                                    },
+                                    {
+                                        "classCode": "C038_289",
+                                        "parentCode": "C038_28",
+                                        "title": "其他市政工程及公用设备"
+                                    }
+                                ],
+                                "title": "市政工程"
+                            },
+                            {
+                                "classCode": "C038_29",
+                                "parentCode": "C038_2",
+                                "title": "土力学、地基基础工程"
+                            }
+                        ],
+                        "title": "建筑工程"
+                    },
+                    {
+                        "classCode": "C038_3",
+                        "parentCode": "C038",
+                        "title": "区域规划、城乡规划"
+                    }
+                ],
+                "title": "建筑科学与工程"
+            },
+            {
+                "classCode": "C039",
+                "parentCode": "C",
+                "children": [
+                    {
+                        "classCode": "C039_1",
+                        "parentCode": "C039",
+                        "title": "动力工业经济"
+                    },
+                    {
+                        "classCode": "C039_3",
+                        "parentCode": "C039",
+                        "children": [
+                            {
+                                "classCode": "C039_31",
+                                "parentCode": "C039_3",
+                                "title": "热能"
+                            },
+                            {
+                                "classCode": "C039_33",
+                                "parentCode": "C039_3",
+                                "title": "气体透平(涡轮机)"
+                            },
+                            {
+                                "classCode": "C039_34",
+                                "parentCode": "C039_3",
+                                "title": "燃料与燃烧"
+                            },
+                            {
+                                "classCode": "C039_35",
+                                "parentCode": "C039_3",
+                                "title": "工业用热工设备"
+                            }
+                        ],
+                        "title": "热力工程、热机"
+                    },
+                    {
+                        "classCode": "C039_4",
+                        "parentCode": "C039",
+                        "children": [
+                            {
+                                "classCode": "C039_41",
+                                "parentCode": "C039_4",
+                                "title": "蒸汽理论"
+                            },
+                            {
+                                "classCode": "C039_42",
+                                "parentCode": "C039_4",
+                                "children": [
+                                    {
+                                        "classCode": "C039_421",
+                                        "parentCode": "C039_42",
+                                        "title": "理论"
+                                    },
+                                    {
+                                        "classCode": "C039_422",
+                                        "parentCode": "C039_42",
+                                        "title": "设计、计算"
+                                    },
+                                    {
+                                        "classCode": "C039_423",
+                                        "parentCode": "C039_42",
+                                        "title": "锅炉构造"
+                                    },
+                                    {
+                                        "classCode": "C039_424",
+                                        "parentCode": "C039_42",
+                                        "title": "炉内过程与锅内过程"
+                                    },
+                                    {
+                                        "classCode": "C039_425",
+                                        "parentCode": "C039_42",
+                                        "title": "材料及元件强度"
+                                    },
+                                    {
+                                        "classCode": "C039_426",
+                                        "parentCode": "C039_42",
+                                        "title": "制造工艺、安装"
+                                    },
+                                    {
+                                        "classCode": "C039_427",
+                                        "parentCode": "C039_42",
+                                        "title": "运行"
+                                    },
+                                    {
+                                        "classCode": "C039_428",
+                                        "parentCode": "C039_42",
+                                        "title": "检修、维护"
+                                    },
+                                    {
+                                        "classCode": "C039_429",
+                                        "parentCode": "C039_42",
+                                        "title": "各种类型锅炉"
+                                    }
+                                ],
+                                "title": "蒸汽锅炉"
+                            },
+                            {
+                                "classCode": "C039_43",
+                                "parentCode": "C039_4",
+                                "title": "蒸汽机"
+                            },
+                            {
+                                "classCode": "C039_44",
+                                "parentCode": "C039_4",
+                                "title": "蒸汽轮机(蒸汽透平、汽轮机)"
+                            },
+                            {
+                                "classCode": "C039_45",
+                                "parentCode": "C039_4",
+                                "title": "蒸汽动力工厂(车间)"
+                            }
+                        ],
+                        "title": "蒸汽动力工程"
+                    },
+                    {
+                        "classCode": "C039_5",
+                        "parentCode": "C039",
+                        "children": [
+                            {
+                                "classCode": "C039_51",
+                                "parentCode": "C039_5",
+                                "title": "量测技术及仪表"
+                            },
+                            {
+                                "classCode": "C039_52",
+                                "parentCode": "C039_5",
+                                "title": "热工自动控制、检修维护及应用"
+                            }
+                        ],
+                        "title": "热工量测和热工自动控制"
+                    },
+                    {
+                        "classCode": "C039_6",
+                        "parentCode": "C039",
+                        "children": [
+                            {
+                                "classCode": "C039_62",
+                                "parentCode": "C039_6",
+                                "title": "汽油机"
+                            },
+                            {
+                                "classCode": "C039_63",
+                                "parentCode": "C039_6",
+                                "title": "柴油机"
+                            },
+                            {
+                                "classCode": "C039_64",
+                                "parentCode": "C039_6",
+                                "title": "其他燃料的内燃机"
+                            },
+                            {
+                                "classCode": "C039_65",
+                                "parentCode": "C039_6",
+                                "title": "复合式发动机"
+                            },
+                            {
+                                "classCode": "C039_66",
+                                "parentCode": "C039_6",
+                                "title": "燃气轮机"
+                            },
+                            {
+                                "classCode": "C039_67",
+                                "parentCode": "C039_6",
+                                "title": "喷气推进器、火箭发动机"
+                            }
+                        ],
+                        "title": "内燃机"
+                    },
+                    {
+                        "classCode": "C039_7",
+                        "parentCode": "C039",
+                        "title": "水能、水力机械"
+                    }
+                ],
+                "title": "动力工程"
+            },
+            {
+                "classCode": "C040",
+                "parentCode": "C",
+                "children": [
+                    {
+                        "classCode": "C040_1",
+                        "parentCode": "C040",
+                        "title": "原子能技术经济"
+                    },
+                    {
+                        "classCode": "C040_2",
+                        "parentCode": "C040",
+                        "title": "原子能技术及基础理论"
+                    },
+                    {
+                        "classCode": "C040_3",
+                        "parentCode": "C040",
+                        "title": "核燃料及其生产"
+                    },
+                    {
+                        "classCode": "C040_4",
+                        "parentCode": "C040",
+                        "title": "核反应堆工程、核电厂"
+                    },
+                    {
+                        "classCode": "C040_5",
+                        "parentCode": "C040",
+                        "title": "加速器"
+                    },
+                    {
+                        "classCode": "C040_6",
+                        "parentCode": "C040",
+                        "title": "核爆炸、放射性物质"
+                    },
+                    {
+                        "classCode": "C040_7",
+                        "parentCode": "C040",
+                        "title": "受控热核反应"
+                    },
+                    {
+                        "classCode": "C040_8",
+                        "parentCode": "C040",
+                        "title": "辐射防护"
+                    },
+                    {
+                        "classCode": "C040_9",
+                        "parentCode": "C040",
+                        "title": "粒子探测技术、辐射探测技术与核仪器仪表"
+                    }
+                ],
+                "title": "核科学技术"
+            },
+            {
+                "classCode": "C041",
+                "parentCode": "C",
+                "children": [
+                    {
+                        "classCode": "C041_1",
+                        "parentCode": "C041",
+                        "title": "太阳能"
+                    },
+                    {
+                        "classCode": "C041_2",
+                        "parentCode": "C041",
+                        "title": "风能"
+                    },
+                    {
+                        "classCode": "C041_3",
+                        "parentCode": "C041",
+                        "title": "生物质能"
+                    },
+                    {
+                        "classCode": "C041_4",
+                        "parentCode": "C041",
+                        "title": "地热能"
+                    },
+                    {
+                        "classCode": "C041_5",
+                        "parentCode": "C041",
+                        "title": "海洋能"
+                    },
+                    {
+                        "classCode": "C041_6",
+                        "parentCode": "C041",
+                        "title": "化学能"
+                    },
+                    {
+                        "classCode": "C041_7",
+                        "parentCode": "C041",
+                        "title": "天然气水合物"
+                    },
+                    {
+                        "classCode": "C041_8",
+                        "parentCode": "C041",
+                        "title": "原子能"
+                    }
+                ],
+                "title": "新能源"
+            },
+            {
+                "classCode": "C042",
+                "parentCode": "C",
+                "children": [
+                    {
+                        "classCode": "C042_1",
+                        "parentCode": "C042",
+                        "children": [
+                            {
+                                "classCode": "C042_11",
+                                "parentCode": "C042_1",
+                                "title": "概况"
+                            },
+                            {
+                                "classCode": "C042_12",
+                                "parentCode": "C042_1",
+                                "title": "电工技术经济"
+                            }
+                        ],
+                        "title": "电力工业概况"
+                    },
+                    {
+                        "classCode": "C042_3",
+                        "parentCode": "C042",
+                        "children": [
+                            {
+                                "classCode": "C042_31",
+                                "parentCode": "C042_3",
+                                "title": "电工单位、电工计算"
+                            },
+                            {
+                                "classCode": "C042_32",
+                                "parentCode": "C042_3",
+                                "title": "电学、磁学"
+                            },
+                            {
+                                "classCode": "C042_33",
+                                "parentCode": "C042_3",
+                                "title": "电路理论"
+                            },
+                            {
+                                "classCode": "C042_34",
+                                "parentCode": "C042_3",
+                                "title": "磁路"
+                            },
+                            {
+                                "classCode": "C042_35",
+                                "parentCode": "C042_3",
+                                "title": "电磁场理论的应用"
+                            }
+                        ],
+                        "title": "电工基础理论"
+                    },
+                    {
+                        "classCode": "C042_4",
+                        "parentCode": "C042",
+                        "children": [
+                            {
+                                "classCode": "C042_42",
+                                "parentCode": "C042_4",
+                                "title": "绝缘材料 、电介质及其制品"
+                            },
+                            {
+                                "classCode": "C042_43",
+                                "parentCode": "C042_4",
+                                "title": "强电介质和压电介质"
+                            },
+                            {
+                                "classCode": "C042_44",
+                                "parentCode": "C042_4",
+                                "title": "导电材料及其制品"
+                            },
+                            {
+                                "classCode": "C042_45",
+                                "parentCode": "C042_4",
+                                "title": "微波吸收材料"
+                            },
+                            {
+                                "classCode": "C042_46",
+                                "parentCode": "C042_4",
+                                "title": "超导体、超导材料"
+                            },
+                            {
+                                "classCode": "C042_47",
+                                "parentCode": "C042_4",
+                                "title": "磁性材料、铁氧体"
+                            },
+                            {
+                                "classCode": "C042_48",
+                                "parentCode": "C042_4",
+                                "title": "电工陶瓷材料"
+                            }
+                        ],
+                        "title": "电工材料"
+                    },
+                    {
+                        "classCode": "C042_5",
+                        "parentCode": "C042",
+                        "children": [
+                            {
+                                "classCode": "C042_52",
+                                "parentCode": "C042_5",
+                                "title": "发电机 、大型发电机组(总论)"
+                            },
+                            {
+                                "classCode": "C042_53",
+                                "parentCode": "C042_5",
+                                "title": "电动机(总论)"
+                            },
+                            {
+                                "classCode": "C042_54",
+                                "parentCode": "C042_5",
+                                "title": "各种电机"
+                            }
+                        ],
+                        "title": "电机"
+                    },
+                    {
+                        "classCode": "C042_6",
+                        "parentCode": "C042",
+                        "title": "变压器、变流器及其它电力变换器"
+                    },
+                    {
+                        "classCode": "C042_7",
+                        "parentCode": "C042",
+                        "title": "电器"
+                    },
+                    {
+                        "classCode": "C042_8",
+                        "parentCode": "C042",
+                        "children": [
+                            {
+                                "classCode": "C042_82",
+                                "parentCode": "C042_8",
+                                "title": "电能学、发电"
+                            },
+                            {
+                                "classCode": "C042_83",
+                                "parentCode": "C042_8",
+                                "children": [
+                                    {
+                                        "classCode": "C042_830",
+                                        "parentCode": "C042_83",
+                                        "title": "移动式发电站"
+                                    },
+                                    {
+                                        "classCode": "C042_831",
+                                        "parentCode": "C042_83",
+                                        "title": "火力发电厂、热电站"
+                                    },
+                                    {
+                                        "classCode": "C042_832",
+                                        "parentCode": "C042_83",
+                                        "title": "发电厂建筑"
+                                    },
+                                    {
+                                        "classCode": "C042_833",
+                                        "parentCode": "C042_83",
+                                        "title": "水力发电厂、水电站"
+                                    },
+                                    {
+                                        "classCode": "C042_834",
+                                        "parentCode": "C042_83",
+                                        "title": "核电厂"
+                                    },
+                                    {
+                                        "classCode": "C042_835",
+                                        "parentCode": "C042_83",
+                                        "title": "动力工业废物处理与综合利用"
+                                    }
+                                ],
+                                "title": "发电厂"
+                            },
+                            {
+                                "classCode": "C042_84",
+                                "parentCode": "C042_8",
+                                "title": "变电所"
+                            },
+                            {
+                                "classCode": "C042_85",
+                                "parentCode": "C042_8",
+                                "title": "配电设备和电气接线"
+                            }
+                        ],
+                        "title": "发电、发电厂"
+                    },
+                    {
+                        "classCode": "C042_9",
+                        "parentCode": "C042",
+                        "children": [
+                            {
+                                "classCode": "C042_91",
+                                "parentCode": "C042_9",
+                                "title": "电力系统概况"
+                            },
+                            {
+                                "classCode": "C042_92",
+                                "parentCode": "C042_9",
+                                "title": "理论与分析"
+                            },
+                            {
+                                "classCode": "C042_93",
+                                "parentCode": "C042_9",
+                                "title": "输配电技术"
+                            },
+                            {
+                                "classCode": "C042_94",
+                                "parentCode": "C042_9",
+                                "title": "电力系统的调度、管理、通信"
+                            },
+                            {
+                                "classCode": "C042_95",
+                                "parentCode": "C042_9",
+                                "title": "电力系统的模拟与计算"
+                            },
+                            {
+                                "classCode": "C042_96",
+                                "parentCode": "C042_9",
+                                "title": "线路及杆塔"
+                            },
+                            {
+                                "classCode": "C042_97",
+                                "parentCode": "C042_9",
+                                "title": "电力系统的自动化"
+                            },
+                            {
+                                "classCode": "C042_98",
+                                "parentCode": "C042_9",
+                                "title": "电力系统的继电保护"
+                            }
+                        ],
+                        "title": "输配电工程、电力网及电力系统"
+                    },
+                    {
+                        "classCode": "C042_A",
+                        "parentCode": "C042",
+                        "title": "高电压技术"
+                    },
+                    {
+                        "classCode": "C042_B",
+                        "parentCode": "C042",
+                        "children": [
+                            {
+                                "classCode": "C042_B1",
+                                "parentCode": "C042_B",
+                                "title": "独立电源技术(直接发电)"
+                            },
+                            {
+                                "classCode": "C042_B2",
+                                "parentCode": "C042_B",
+                                "title": "非独立电源技术"
+                            }
+                        ],
+                        "title": "电源技术"
+                    },
+                    {
+                        "classCode": "C042_C",
+                        "parentCode": "C042",
+                        "children": [
+                            {
+                                "classCode": "C042_C2",
+                                "parentCode": "C042_C",
+                                "title": "电力拖动(电力传动)"
+                            },
+                            {
+                                "classCode": "C042_C3",
+                                "parentCode": "C042_C",
+                                "title": "电力牵引"
+                            },
+                            {
+                                "classCode": "C042_C4",
+                                "parentCode": "C042_C",
+                                "title": "电气照明"
+                            },
+                            {
+                                "classCode": "C042_C5",
+                                "parentCode": "C042_C",
+                                "title": "电热"
+                            },
+                            {
+                                "classCode": "C042_C6",
+                                "parentCode": "C042_C",
+                                "title": "家用电器及其他电器设备"
+                            },
+                            {
+                                "classCode": "C042_C7",
+                                "parentCode": "C042_C",
+                                "title": "电化学工业"
+                            },
+                            {
+                                "classCode": "C042_C8",
+                                "parentCode": "C042_C",
+                                "title": "电焊"
+                            }
+                        ],
+                        "title": "电气化 、电能应用"
+                    },
+                    {
+                        "classCode": "C042_D",
+                        "parentCode": "C042",
+                        "children": [
+                            {
+                                "classCode": "C042_D2",
+                                "parentCode": "C042_D",
+                                "title": "电数量的测量及仪表"
+                            },
+                            {
+                                "classCode": "C042_D3",
+                                "parentCode": "C042_D",
+                                "title": "集中参数、分布参数的测量及仪表"
+                            },
+                            {
+                                "classCode": "C042_D4",
+                                "parentCode": "C042_D",
+                                "title": "频率、波形参数的测量及仪表"
+                            },
+                            {
+                                "classCode": "C042_D5",
+                                "parentCode": "C042_D",
+                                "title": "磁数量测量及仪器"
+                            },
+                            {
+                                "classCode": "C042_D6",
+                                "parentCode": "C042_D",
+                                "title": "电磁场强度(信号强度)测量及仪表"
+                            },
+                            {
+                                "classCode": "C042_D7",
+                                "parentCode": "C042_D",
+                                "title": "复用、较量、记录和模拟测试装置"
+                            },
+                            {
+                                "classCode": "C042_D8",
+                                "parentCode": "C042_D",
+                                "title": "微波测量及仪表"
+                            }
+                        ],
+                        "title": "电气测量技术及仪器"
+                    }
+                ],
+                "title": "电力工业"
+            }
+        ],
+        "title": "工程科技Ⅱ辑"
+    },
+    {
+        "classCode": "C039_21",
+        "parentCode": "C039_2",
+        "title": "能源"
+    },
+    {
+        "classCode": "C039_22",
+        "parentCode": "C039_2",
+        "title": "动力工业三废处理与综合利用"
+    },
+    {
+        "classCode": "C039_23",
+        "parentCode": "C039_2",
+        "title": "蓄能技术"
+    },
+    {
+        "classCode": "C039_24",
+        "parentCode": "C039_2",
+        "title": "动力机械"
+    },
+    {
+        "classCode": "C039_25",
+        "parentCode": "C039_2",
+        "title": "动力厂"
+    }
+]

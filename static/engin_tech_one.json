@@ -1,0 +1,2754 @@
+[
+  {
+    "classCode": "B",
+    "parentCode": "",
+    "children": [
+      {
+        "classCode": "B014",
+        "parentCode": "B",
+        "children": [
+          {
+            "classCode": "B014_1",
+            "parentCode": "B014",
+            "children": [
+              {
+                "classCode": "B014_11",
+                "parentCode": "B014_1",
+                "title": "一般性问题"
+              },
+              {
+                "classCode": "B014_12",
+                "parentCode": "B014_1",
+                "title": "化学原理和方法"
+              },
+              {
+                "classCode": "B014_13",
+                "parentCode": "B014_1",
+                "title": "化学现状"
+              },
+              {
+                "classCode": "B014_14",
+                "parentCode": "B014_1",
+                "title": "化学实验(实验化学)"
+              }
+            ],
+            "title": "总论"
+          },
+          {
+            "classCode": "B014_2",
+            "parentCode": "B014",
+            "children": [
+              {
+                "classCode": "B014_22",
+                "parentCode": "B014_2",
+                "title": "化学元素与无机化合物"
+              },
+              {
+                "classCode": "B014_23",
+                "parentCode": "B014_2",
+                "title": "周期系统各族元素"
+              },
+              {
+                "classCode": "B014_24",
+                "parentCode": "B014_2",
+                "title": "非金属元素及其化合物"
+              },
+              {
+                "classCode": "B014_25",
+                "parentCode": "B014_2",
+                "title": "金属元素及其化合物"
+              },
+              {
+                "classCode": "B014_26",
+                "parentCode": "B014_2",
+                "title": "放射性元素、放射化学"
+              },
+              {
+                "classCode": "B014_27",
+                "parentCode": "B014_2",
+                "title": "稀有元素与分散元素"
+              }
+            ],
+            "title": "无机化学"
+          },
+          {
+            "classCode": "B014_3",
+            "parentCode": "B014",
+            "children": [
+              {
+                "classCode": "B014_32",
+                "parentCode": "B014_3",
+                "title": "有机化学一般性问题"
+              },
+              {
+                "classCode": "B014_33",
+                "parentCode": "B014_3",
+                "title": "各类有机化合物"
+              },
+              {
+                "classCode": "B014_34",
+                "parentCode": "B014_3",
+                "title": "脂肪族化合物(无环化合物)"
+              },
+              {
+                "classCode": "B014_35",
+                "parentCode": "B014_3",
+                "title": "碳环化合物、脂环族化合物"
+              },
+              {
+                "classCode": "B014_36",
+                "parentCode": "B014_3",
+                "title": "芳香族化合物"
+              },
+              {
+                "classCode": "B014_37",
+                "parentCode": "B014_3",
+                "title": "杂环化合物"
+              },
+              {
+                "classCode": "B014_38",
+                "parentCode": "B014_3",
+                "title": "元素有机化合物"
+              },
+              {
+                "classCode": "B014_39",
+                "parentCode": "B014_3",
+                "title": "含同位素化合物"
+              },
+              {
+                "classCode": "B014_3A",
+                "parentCode": "B014_3",
+                "title": "天然化合物"
+              }
+            ],
+            "title": "有机化学"
+          },
+          {
+            "classCode": "B014_4",
+            "parentCode": "B014",
+            "children": [
+              {
+                "classCode": "B014_42",
+                "parentCode": "B014_4",
+                "title": "高分子物理和高分子物理化学"
+              },
+              {
+                "classCode": "B014_43",
+                "parentCode": "B014_4",
+                "title": "碳链聚合物"
+              },
+              {
+                "classCode": "B014_44",
+                "parentCode": "B014_4",
+                "title": "杂链聚合物"
+              },
+              {
+                "classCode": "B014_45",
+                "parentCode": "B014_4",
+                "title": "元素有机聚合物"
+              },
+              {
+                "classCode": "B014_46",
+                "parentCode": "B014_4",
+                "title": "无机高分子化合物(高聚物)"
+              },
+              {
+                "classCode": "B014_47",
+                "parentCode": "B014_4",
+                "title": "天然高分子化合物(高聚物)"
+              }
+            ],
+            "title": "高分子化学(高聚物)"
+          },
+          {
+            "classCode": "B014_5",
+            "parentCode": "B014",
+            "children": [
+              {
+                "classCode": "B014_52",
+                "parentCode": "B014_5",
+                "title": "结构化学"
+              },
+              {
+                "classCode": "B014_53",
+                "parentCode": "B014_5",
+                "title": "化学热力学、热化学、热力学平衡"
+              },
+              {
+                "classCode": "B014_54",
+                "parentCode": "B014_5",
+                "title": "化学动力学、催化作用"
+              },
+              {
+                "classCode": "B014_55",
+                "parentCode": "B014_5",
+                "title": "光化学、辐射化学、超声波作用的化学过程"
+              },
+              {
+                "classCode": "B014_56",
+                "parentCode": "B014_5",
+                "title": "溶液"
+              },
+              {
+                "classCode": "B014_57",
+                "parentCode": "B014_5",
+                "title": "电化学、电解、磁化学"
+              },
+              {
+                "classCode": "B014_58",
+                "parentCode": "B014_5",
+                "title": "表面现象的物理化学"
+              },
+              {
+                "classCode": "B014_59",
+                "parentCode": "B014_5",
+                "title": "胶体化学(分散体系的物理化学)"
+              },
+              {
+                "classCode": "B014_5A",
+                "parentCode": "B014_5",
+                "title": "半导体化学"
+              }
+            ],
+            "title": "物理化学(理论化学)、化学物理学"
+          },
+          {
+            "classCode": "B014_6",
+            "parentCode": "B014",
+            "children": [
+              {
+                "classCode": "B014_61",
+                "parentCode": "B014_6",
+                "title": "分析化学基础理论"
+              },
+              {
+                "classCode": "B014_62",
+                "parentCode": "B014_6",
+                "title": "分析作业方法与技术"
+              },
+              {
+                "classCode": "B014_63",
+                "parentCode": "B014_6",
+                "title": "无机分析"
+              },
+              {
+                "classCode": "B014_64",
+                "parentCode": "B014_6",
+                "title": "有机分析"
+              },
+              {
+                "classCode": "B014_65",
+                "parentCode": "B014_6",
+                "title": "仪器分析法总论及电化学仪器分析法"
+              },
+              {
+                "classCode": "B014_66",
+                "parentCode": "B014_6",
+                "title": "磁化学分析法"
+              },
+              {
+                "classCode": "B014_67",
+                "parentCode": "B014_6",
+                "title": "光化学分析法(光谱分析法)"
+              },
+              {
+                "classCode": "B014_68",
+                "parentCode": "B014_6",
+                "title": "放射化学分析法、活化分析"
+              },
+              {
+                "classCode": "B014_69",
+                "parentCode": "B014_6",
+                "title": "超声波分析法"
+              },
+              {
+                "classCode": "B014_6A",
+                "parentCode": "B014_6",
+                "title": "质谱分析"
+              },
+              {
+                "classCode": "B014_6B",
+                "parentCode": "B014_6",
+                "title": "色谱分析"
+              },
+              {
+                "classCode": "B014_6C",
+                "parentCode": "B014_6",
+                "title": "其他物理及物理化学分析法"
+              },
+              {
+                "classCode": "B014_6D",
+                "parentCode": "B014_6",
+                "title": "元素及化合物的分离方法"
+              },
+              {
+                "classCode": "B014_6E",
+                "parentCode": "B014_6",
+                "title": "气体分析、液体分析、水分析"
+              }
+            ],
+            "title": "分析化学"
+          },
+          {
+            "classCode": "B014_7",
+            "parentCode": "B014",
+            "title": "应用化学"
+          },
+          {
+            "classCode": "B014_8",
+            "parentCode": "B014",
+            "children": [
+              {
+                "classCode": "B014_82",
+                "parentCode": "B014_8",
+                "title": "几何晶体学"
+              },
+              {
+                "classCode": "B014_83",
+                "parentCode": "B014_8",
+                "title": "X射线晶体学"
+              },
+              {
+                "classCode": "B014_84",
+                "parentCode": "B014_8",
+                "title": "晶体物理"
+              },
+              {
+                "classCode": "B014_85",
+                "parentCode": "B014_8",
+                "title": "非晶态和类晶态"
+              },
+              {
+                "classCode": "B014_86",
+                "parentCode": "B014_8",
+                "title": "晶体化学"
+              },
+              {
+                "classCode": "B014_87",
+                "parentCode": "B014_8",
+                "title": "晶体结构"
+              },
+              {
+                "classCode": "B014_88",
+                "parentCode": "B014_8",
+                "title": "晶体缺陷"
+              },
+              {
+                "classCode": "B014_89",
+                "parentCode": "B014_8",
+                "title": "晶体生长"
+              },
+              {
+                "classCode": "B014_8A",
+                "parentCode": "B014_8",
+                "title": "晶体物理化学过程"
+              },
+              {
+                "classCode": "B014_8B",
+                "parentCode": "B014_8",
+                "title": "应用晶体学"
+              }
+            ],
+            "title": "晶体学"
+          }
+        ],
+        "title": "化学"
+      },
+      {
+        "classCode": "B015",
+        "parentCode": "B",
+        "children": [
+          {
+            "classCode": "B015_2",
+            "parentCode": "B015",
+            "children": [
+              {
+                "classCode": "B015_21",
+                "parentCode": "B015_2",
+                "title": "基础理论"
+              },
+              {
+                "classCode": "B015_22",
+                "parentCode": "B015_2",
+                "title": "化工过程 (物理过程及物理化学过程)"
+              },
+              {
+                "classCode": "B015_23",
+                "parentCode": "B015_2",
+                "title": "化学反应过程"
+              },
+              {
+                "classCode": "B015_24",
+                "parentCode": "B015_2",
+                "title": "化工原料、辅助物料"
+              },
+              {
+                "classCode": "B015_25",
+                "parentCode": "B015_2",
+                "title": "化工机械与仪器、设备"
+              },
+              {
+                "classCode": "B015_26",
+                "parentCode": "B015_2",
+                "title": "化工生产过程、化工产品与副产品"
+              },
+              {
+                "classCode": "B015_27",
+                "parentCode": "B015_2",
+                "title": "化工厂"
+              },
+              {
+                "classCode": "B015_28",
+                "parentCode": "B015_2",
+                "title": "无机化学工业废物处理与综合利用"
+              },
+              {
+                "classCode": "B015_29",
+                "parentCode": "B015_2",
+                "title": "化学工业经济"
+              }
+            ],
+            "title": "化学工业一般性问题"
+          },
+          {
+            "classCode": "B015_3",
+            "parentCode": "B015",
+            "title": "基本无机化学工业"
+          },
+          {
+            "classCode": "B015_4",
+            "parentCode": "B015",
+            "title": "非金属元素及其无机化合物化学工业"
+          },
+          {
+            "classCode": "B015_5",
+            "parentCode": "B015",
+            "title": "金属元素的无机化合物化学工业"
+          },
+          {
+            "classCode": "B015_6",
+            "parentCode": "B015",
+            "title": "电化学工业"
+          },
+          {
+            "classCode": "B015_7",
+            "parentCode": "B015",
+            "title": "电热工业、高温制品工业"
+          },
+          {
+            "classCode": "B015_8",
+            "parentCode": "B015",
+            "children": [
+              {
+                "classCode": "B015_82",
+                "parentCode": "B015_8",
+                "title": "玻璃工业"
+              },
+              {
+                "classCode": "B015_83",
+                "parentCode": "B015_8",
+                "title": "水泥工业"
+              },
+              {
+                "classCode": "B015_84",
+                "parentCode": "B015_8",
+                "title": "搪瓷、石棉工业"
+              },
+              {
+                "classCode": "B015_85",
+                "parentCode": "B015_8",
+                "title": "陶瓷工业"
+              },
+              {
+                "classCode": "B015_86",
+                "parentCode": "B015_8",
+                "title": "耐火材料工业"
+              },
+              {
+                "classCode": "B015_87",
+                "parentCode": "B015_8",
+                "title": "人造石及其他胶凝材料"
+              }
+            ],
+            "title": "硅酸盐工业"
+          }
+        ],
+        "title": "无机化工"
+      },
+      {
+        "classCode": "B016",
+        "parentCode": "B",
+        "children": [
+          {
+            "classCode": "B016_1",
+            "parentCode": "B016",
+            "title": "有机化学、高分子化学"
+          },
+          {
+            "classCode": "B016_3",
+            "parentCode": "B016",
+            "children": [
+              {
+                "classCode": "B016_32",
+                "parentCode": "B016_3",
+                "title": "脂肪族化合物(无环化合物)的生产"
+              },
+              {
+                "classCode": "B016_33",
+                "parentCode": "B016_3",
+                "title": "碳环化合物、脂环族化合物的生产"
+              },
+              {
+                "classCode": "B016_34",
+                "parentCode": "B016_3",
+                "title": "芳香族化合物的生产"
+              },
+              {
+                "classCode": "B016_35",
+                "parentCode": "B016_3",
+                "title": "杂环化合物的生产"
+              },
+              {
+                "classCode": "B016_36",
+                "parentCode": "B016_3",
+                "title": "其它有机化合物的生产"
+              }
+            ],
+            "title": "基本有机化学工业"
+          },
+          {
+            "classCode": "B016_4",
+            "parentCode": "B016",
+            "children": [
+              {
+                "classCode": "B016_41",
+                "parentCode": "B016_4",
+                "children": [
+                  {
+                    "classCode": "B016_411",
+                    "parentCode": "B016_41",
+                    "title": "原料与辅助物料"
+                  },
+                  {
+                    "classCode": "B016_412",
+                    "parentCode": "B016_41",
+                    "title": "机械与设备"
+                  },
+                  {
+                    "classCode": "B016_413",
+                    "parentCode": "B016_41",
+                    "title": "生产过程"
+                  },
+                  {
+                    "classCode": "B016_414",
+                    "parentCode": "B016_41",
+                    "title": "高分子化合物产品"
+                  },
+                  {
+                    "classCode": "B016_415",
+                    "parentCode": "B016_41",
+                    "title": "高分子化合物工厂"
+                  }
+                ],
+                "title": "总述"
+              },
+              {
+                "classCode": "B016_42",
+                "parentCode": "B016_4",
+                "children": [
+                  {
+                    "classCode": "B016_421",
+                    "parentCode": "B016_42",
+                    "title": "一般问题"
+                  },
+                  {
+                    "classCode": "B016_422",
+                    "parentCode": "B016_42",
+                    "title": "天然高分子树脂与塑料"
+                  },
+                  {
+                    "classCode": "B016_423",
+                    "parentCode": "B016_42",
+                    "title": "合成树脂及塑料"
+                  },
+                  {
+                    "classCode": "B016_424",
+                    "parentCode": "B016_42",
+                    "title": "缩聚类树脂及塑料"
+                  },
+                  {
+                    "classCode": "B016_425",
+                    "parentCode": "B016_42",
+                    "title": "特种塑料"
+                  },
+                  {
+                    "classCode": "B016_426",
+                    "parentCode": "B016_42",
+                    "title": "聚合类树脂与塑料"
+                  },
+                  {
+                    "classCode": "B016_427",
+                    "parentCode": "B016_42",
+                    "title": "增强塑料、填充塑料"
+                  },
+                  {
+                    "classCode": "B016_428",
+                    "parentCode": "B016_42",
+                    "title": "泡沫塑料"
+                  }
+                ],
+                "title": "合成树脂与塑料工业"
+              },
+              {
+                "classCode": "B016_43",
+                "parentCode": "B016_4",
+                "children": [
+                  {
+                    "classCode": "B016_432",
+                    "parentCode": "B016_43",
+                    "title": "胶乳"
+                  },
+                  {
+                    "classCode": "B016_433",
+                    "parentCode": "B016_43",
+                    "title": "天然橡胶"
+                  },
+                  {
+                    "classCode": "B016_434",
+                    "parentCode": "B016_43",
+                    "title": "合成橡胶"
+                  },
+                  {
+                    "classCode": "B016_435",
+                    "parentCode": "B016_43",
+                    "title": "热塑弹性体"
+                  },
+                  {
+                    "classCode": "B016_436",
+                    "parentCode": "B016_43",
+                    "title": "再生橡胶"
+                  },
+                  {
+                    "classCode": "B016_437",
+                    "parentCode": "B016_43",
+                    "title": "橡胶制品"
+                  },
+                  {
+                    "classCode": "B016_438",
+                    "parentCode": "B016_43",
+                    "title": "胶乳制品及其他制品"
+                  }
+                ],
+                "title": "橡胶工业"
+              },
+              {
+                "classCode": "B016_44",
+                "parentCode": "B016_4",
+                "children": [
+                  {
+                    "classCode": "B016_442",
+                    "parentCode": "B016_44",
+                    "title": "再生纤维"
+                  },
+                  {
+                    "classCode": "B016_443",
+                    "parentCode": "B016_44",
+                    "title": "合成纤维"
+                  },
+                  {
+                    "classCode": "B016_444",
+                    "parentCode": "B016_44",
+                    "title": "无机纤维"
+                  }
+                ],
+                "title": "化学纤维工业"
+              },
+              {
+                "classCode": "B016_45",
+                "parentCode": "B016_4",
+                "children": [
+                  {
+                    "classCode": "B016_451",
+                    "parentCode": "B016_45",
+                    "title": "木材化学加工工业"
+                  },
+                  {
+                    "classCode": "B016_452",
+                    "parentCode": "B016_45",
+                    "title": "纤维素化学加工工业"
+                  },
+                  {
+                    "classCode": "B016_453",
+                    "parentCode": "B016_45",
+                    "title": "植物纤维水解工业"
+                  },
+                  {
+                    "classCode": "B016_454",
+                    "parentCode": "B016_45",
+                    "title": "造纸工业"
+                  }
+                ],
+                "title": "纤维素质的化学加工工业"
+              }
+            ],
+            "title": "高分子化合物工业(高聚物工业)"
+          },
+          {
+            "classCode": "B016_5",
+            "parentCode": "B016",
+            "children": [
+              {
+                "classCode": "B016_51",
+                "parentCode": "B016_5",
+                "title": "溶剂与增塑剂的生产"
+              },
+              {
+                "classCode": "B016_52",
+                "parentCode": "B016_5",
+                "children": [
+                  {
+                    "classCode": "B016_521",
+                    "parentCode": "B016_52",
+                    "title": "一般性问题与试剂及光化学物质"
+                  },
+                  {
+                    "classCode": "B016_522",
+                    "parentCode": "B016_52",
+                    "title": "表面活性剂"
+                  },
+                  {
+                    "classCode": "B016_523",
+                    "parentCode": "B016_52",
+                    "title": "吸附剂"
+                  },
+                  {
+                    "classCode": "B016_524",
+                    "parentCode": "B016_52",
+                    "title": "离子交换剂"
+                  },
+                  {
+                    "classCode": "B016_525",
+                    "parentCode": "B016_52",
+                    "title": "催化剂(触媒)"
+                  },
+                  {
+                    "classCode": "B016_526",
+                    "parentCode": "B016_52",
+                    "title": "胶体与半胶体物质"
+                  }
+                ],
+                "title": "试剂与纯化学品的生产"
+              }
+            ],
+            "title": "溶剂、增塑剂、试剂与纯化学品的生产"
+          },
+          {
+            "classCode": "B016_6",
+            "parentCode": "B016",
+            "title": "胶粘剂工业"
+          },
+          {
+            "classCode": "B016_7",
+            "parentCode": "B016",
+            "children": [
+              {
+                "classCode": "B016_71",
+                "parentCode": "B016_7",
+                "title": "化学肥料工业"
+              },
+              {
+                "classCode": "B016_72",
+                "parentCode": "B016_7",
+                "title": "农药工业"
+              }
+            ],
+            "title": "化学肥料工业、农药工业"
+          },
+          {
+            "classCode": "B016_8",
+            "parentCode": "B016",
+            "children": [
+              {
+                "classCode": "B016_82",
+                "parentCode": "B016_8",
+                "title": "中草药制剂的生产"
+              },
+              {
+                "classCode": "B016_83",
+                "parentCode": "B016_8",
+                "title": "无机化合物药物及生物制品药物的生产"
+              }
+            ],
+            "title": "制药化学工业"
+          }
+        ],
+        "title": "有机化工"
+      },
+      {
+        "classCode": "B017",
+        "parentCode": "B",
+        "children": [
+          {
+            "classCode": "B017_1",
+            "parentCode": "B017",
+            "title": "燃料化学工业"
+          },
+          {
+            "classCode": "B017_2",
+            "parentCode": "B017",
+            "title": "炼焦化学工业"
+          },
+          {
+            "classCode": "B017_3",
+            "parentCode": "B017",
+            "children": [
+              {
+                "classCode": "B017_31",
+                "parentCode": "B017_3",
+                "title": "煤化学基础理论"
+              },
+              {
+                "classCode": "B017_32",
+                "parentCode": "B017_3",
+                "title": "煤的性质与测定"
+              },
+              {
+                "classCode": "B017_33",
+                "parentCode": "B017_3",
+                "title": "煤的燃烧"
+              },
+              {
+                "classCode": "B017_34",
+                "parentCode": "B017_3",
+                "title": "煤的加工利用"
+              }
+            ],
+            "title": "煤化学及煤的加工利用"
+          },
+          {
+            "classCode": "B017_4",
+            "parentCode": "B017",
+            "title": "煤炭气化工业"
+          },
+          {
+            "classCode": "B017_5",
+            "parentCode": "B017",
+            "title": "燃料照明工业"
+          },
+          {
+            "classCode": "B017_6",
+            "parentCode": "B017",
+            "children": [
+              {
+                "classCode": "B017_61",
+                "parentCode": "B017_6",
+                "title": "爆炸物工业"
+              },
+              {
+                "classCode": "B017_62",
+                "parentCode": "B017_6",
+                "title": "航天用燃料"
+              }
+            ],
+            "title": "爆炸物工业、火柴工业"
+          },
+          {
+            "classCode": "B017_7",
+            "parentCode": "B017",
+            "children": [
+              {
+                "classCode": "B017_71",
+                "parentCode": "B017_7",
+                "children": [
+                  {
+                    "classCode": "B017_712",
+                    "parentCode": "B017_71",
+                    "title": "石油的组成、性质与分析"
+                  },
+                  {
+                    "classCode": "B017_713",
+                    "parentCode": "B017_71",
+                    "title": "炼油工艺过程"
+                  },
+                  {
+                    "classCode": "B017_714",
+                    "parentCode": "B017_71",
+                    "title": "石油产品"
+                  }
+                ],
+                "title": "石油炼制"
+              },
+              {
+                "classCode": "B017_72",
+                "parentCode": "B017_7",
+                "title": "天然气加工"
+              },
+              {
+                "classCode": "B017_73",
+                "parentCode": "B017_7",
+                "title": "石油化学工业"
+              },
+              {
+                "classCode": "B017_74",
+                "parentCode": "B017_7",
+                "title": "人造石油"
+              }
+            ],
+            "title": "石油、天然气化学工业"
+          }
+        ],
+        "title": "燃料化工"
+      },
+      {
+        "classCode": "B018",
+        "parentCode": "B",
+        "children": [
+          {
+            "classCode": "B018_1",
+            "parentCode": "B018",
+            "children": [
+              {
+                "classCode": "B018_11",
+                "parentCode": "B018_1",
+                "title": "染料及中间体工业"
+              },
+              {
+                "classCode": "B018_12",
+                "parentCode": "B018_1",
+                "title": "颜料工业"
+              }
+            ],
+            "title": "染料及颜料工业"
+          },
+          {
+            "classCode": "B018_2",
+            "parentCode": "B018",
+            "children": [
+              {
+                "classCode": "B018_22",
+                "parentCode": "B018_2",
+                "title": "各种涂料"
+              },
+              {
+                "classCode": "B018_23",
+                "parentCode": "B018_2",
+                "title": "涂料的施工"
+              }
+            ],
+            "title": "涂料工业"
+          },
+          {
+            "classCode": "B018_3",
+            "parentCode": "B018",
+            "children": [
+              {
+                "classCode": "B018_31",
+                "parentCode": "B018_3",
+                "title": "油脂和蜡工业"
+              },
+              {
+                "classCode": "B018_32",
+                "parentCode": "B018_3",
+                "title": "肥皂工业"
+              },
+              {
+                "classCode": "B018_33",
+                "parentCode": "B018_3",
+                "title": "合成洗涤剂工业"
+              },
+              {
+                "classCode": "B018_34",
+                "parentCode": "B018_3",
+                "title": "食用油脂加工工业"
+              }
+            ],
+            "title": "油脂和蜡的化学加工工业、肥皂工业"
+          },
+          {
+            "classCode": "B018_4",
+            "parentCode": "B018",
+            "title": "香料及化妆品工业"
+          },
+          {
+            "classCode": "B018_5",
+            "parentCode": "B018",
+            "children": [
+              {
+                "classCode": "B018_51",
+                "parentCode": "B018_5",
+                "title": "感光理论"
+              },
+              {
+                "classCode": "B018_52",
+                "parentCode": "B018_5",
+                "title": "原料及辅助物料、机械与设备"
+              },
+              {
+                "classCode": "B018_53",
+                "parentCode": "B018_5",
+                "title": "生产工艺"
+              },
+              {
+                "classCode": "B018_54",
+                "parentCode": "B018_5",
+                "title": "感光材料"
+              }
+            ],
+            "title": "感光材料工业"
+          },
+          {
+            "classCode": "B018_6",
+            "parentCode": "B018",
+            "title": "磁性记录材料工业"
+          },
+          {
+            "classCode": "B018_7",
+            "parentCode": "B018",
+            "children": [
+              {
+                "classCode": "B018_71",
+                "parentCode": "B018_7",
+                "title": "农产物化学加工工业"
+              },
+              {
+                "classCode": "B018_72",
+                "parentCode": "B018_7",
+                "title": "发酵工业"
+              },
+              {
+                "classCode": "B018_73",
+                "parentCode": "B018_7",
+                "title": "蛋白质(朊)化学加工业"
+              },
+              {
+                "classCode": "B018_74",
+                "parentCode": "B018_7",
+                "title": "鞣料工业"
+              },
+              {
+                "classCode": "B018_75",
+                "parentCode": "B018_7",
+                "title": "海洋化学工业"
+              }
+            ],
+            "title": "农产物化学加工、发酵工业 、蛋白质(朊)化学加工业 、鞣料工业"
+          }
+        ],
+        "title": "一般化学工业"
+      },
+      {
+        "classCode": "B019",
+        "parentCode": "B",
+        "children": [
+          {
+            "classCode": "B019_2",
+            "parentCode": "B019",
+            "children": [
+              {
+                "classCode": "B019_21",
+                "parentCode": "B019_2",
+                "title": "油气勘探"
+              },
+              {
+                "classCode": "B019_22",
+                "parentCode": "B019_2",
+                "title": "油气钻井工程"
+              },
+              {
+                "classCode": "B019_23",
+                "parentCode": "B019_2",
+                "title": "油气开采工程"
+              },
+              {
+                "classCode": "B019_24",
+                "parentCode": "B019_2",
+                "title": "油页岩、地下煤气开采工程"
+              },
+              {
+                "classCode": "B019_25",
+                "parentCode": "B019_2",
+                "title": "油气勘探开采机械、仪器与设备"
+              }
+            ],
+            "title": "石油勘探与开采工程"
+          },
+          {
+            "classCode": "B019_3",
+            "parentCode": "B019",
+            "children": [
+              {
+                "classCode": "B019_36",
+                "parentCode": "B019_3",
+                "title": "油气加工厂"
+              },
+              {
+                "classCode": "B019_37",
+                "parentCode": "B019_3",
+                "title": "油气加工厂机械设备"
+              }
+            ],
+            "title": "油气加工工程"
+          },
+          {
+            "classCode": "B019_4",
+            "parentCode": "B019",
+            "children": [
+              {
+                "classCode": "B019_41",
+                "parentCode": "B019_4",
+                "title": "矿场油气集输与处理"
+              },
+              {
+                "classCode": "B019_42",
+                "parentCode": "B019_4",
+                "title": "油气输送与运输"
+              },
+              {
+                "classCode": "B019_43",
+                "parentCode": "B019_4",
+                "title": "油气储存工程"
+              },
+              {
+                "classCode": "B019_44",
+                "parentCode": "B019_4",
+                "title": "油气储运安全技术"
+              },
+              {
+                "classCode": "B019_45",
+                "parentCode": "B019_4",
+                "title": "油气储运机械设备制造及应用"
+              }
+            ],
+            "title": "油气储运工程"
+          },
+          {
+            "classCode": "B019_5",
+            "parentCode": "B019",
+            "title": "油气工程环境保护与综合利用"
+          },
+          {
+            "classCode": "B019_6",
+            "parentCode": "B019",
+            "title": "油气机械设备的腐蚀与防护"
+          }
+        ],
+        "title": "石油天然气工业"
+      },
+      {
+        "classCode": "B020",
+        "parentCode": "B",
+        "children": [
+          {
+            "classCode": "B020_1",
+            "parentCode": "B020",
+            "children": [
+              {
+                "classCode": "B020_11",
+                "parentCode": "B020_1",
+                "title": "材料一般性问题"
+              },
+              {
+                "classCode": "B020_12",
+                "parentCode": "B020_1",
+                "title": "材料力学"
+              },
+              {
+                "classCode": "B020_13",
+                "parentCode": "B020_1",
+                "title": "材料试验"
+              }
+            ],
+            "title": "材料科学基础"
+          },
+          {
+            "classCode": "B020_2",
+            "parentCode": "B020",
+            "title": "金属材料"
+          },
+          {
+            "classCode": "B020_3",
+            "parentCode": "B020",
+            "children": [
+              {
+                "classCode": "B020_31",
+                "parentCode": "B020_3",
+                "title": "无机非金属材料"
+              },
+              {
+                "classCode": "B020_32",
+                "parentCode": "B020_3",
+                "title": "有机非金属材料"
+              },
+              {
+                "classCode": "B020_33",
+                "parentCode": "B020_3",
+                "title": "高分子材料"
+              }
+            ],
+            "title": "非金属材料"
+          },
+          {
+            "classCode": "B020_4",
+            "parentCode": "B020",
+            "title": "复合材料"
+          },
+          {
+            "classCode": "B020_5",
+            "parentCode": "B020",
+            "title": "功能材料"
+          },
+          {
+            "classCode": "B020_6",
+            "parentCode": "B020",
+            "title": "耐高温材料、耐低温材料"
+          },
+          {
+            "classCode": "B020_7",
+            "parentCode": "B020",
+            "title": "耐腐蚀材料"
+          },
+          {
+            "classCode": "B020_8",
+            "parentCode": "B020",
+            "title": "智能材料"
+          },
+          {
+            "classCode": "B020_9",
+            "parentCode": "B020",
+            "children": [
+              {
+                "classCode": "B020_91",
+                "parentCode": "B020_9",
+                "title": "纳米材料"
+              },
+              {
+                "classCode": "B020_92",
+                "parentCode": "B020_9",
+                "title": "薄膜材料"
+              },
+              {
+                "classCode": "B020_93",
+                "parentCode": "B020_9",
+                "title": "粉体材料"
+              },
+              {
+                "classCode": "B020_94",
+                "parentCode": "B020_9",
+                "title": "其他特种结构材料"
+              }
+            ],
+            "title": "特种结构材料"
+          },
+          {
+            "classCode": "B020_A",
+            "parentCode": "B020",
+            "title": "仿生材料"
+          },
+          {
+            "classCode": "B020_B",
+            "parentCode": "B020",
+            "title": "超导材料"
+          },
+          {
+            "classCode": "B020_C",
+            "parentCode": "B020",
+            "title": "其他材料"
+          }
+        ],
+        "title": "材料科学"
+      },
+      {
+        "classCode": "B021",
+        "parentCode": "B",
+        "children": [
+          {
+            "classCode": "B021_2",
+            "parentCode": "B021",
+            "children": [
+              {
+                "classCode": "B021_21",
+                "parentCode": "B021_2",
+                "title": "勘探技术方法"
+              },
+              {
+                "classCode": "B021_22",
+                "parentCode": "B021_2",
+                "title": "勘探工程学"
+              },
+              {
+                "classCode": "B021_23",
+                "parentCode": "B021_2",
+                "title": "矿山测量与制图"
+              },
+              {
+                "classCode": "B021_24",
+                "parentCode": "B021_2",
+                "title": "矿山测量勘探设备与仪器"
+              }
+            ],
+            "title": "矿山测量与勘测工程学"
+          },
+          {
+            "classCode": "B021_3",
+            "parentCode": "B021",
+            "children": [
+              {
+                "classCode": "B021_32",
+                "parentCode": "B021_3",
+                "title": "矿山设计与地面建设"
+              },
+              {
+                "classCode": "B021_33",
+                "parentCode": "B021_3",
+                "title": "凿岩爆破工程"
+              },
+              {
+                "classCode": "B021_34",
+                "parentCode": "B021_3",
+                "title": "井巷工程"
+              },
+              {
+                "classCode": "B021_35",
+                "parentCode": "B021_3",
+                "title": "支护工程与设备"
+              },
+              {
+                "classCode": "B021_36",
+                "parentCode": "B021_3",
+                "children": [
+                  {
+                    "classCode": "B021_362",
+                    "parentCode": "B021_36",
+                    "title": "煤矿及油页岩开采"
+                  },
+                  {
+                    "classCode": "B021_363",
+                    "parentCode": "B021_36",
+                    "title": "煤及油页岩地下气化"
+                  },
+                  {
+                    "classCode": "B021_364",
+                    "parentCode": "B021_36",
+                    "title": "金属矿产开采"
+                  },
+                  {
+                    "classCode": "B021_365",
+                    "parentCode": "B021_36",
+                    "title": "非金属矿产开采"
+                  }
+                ],
+                "title": "各类矿产开采工程学"
+              },
+              {
+                "classCode": "B021_37",
+                "parentCode": "B021_3",
+                "title": "采掘机械"
+              }
+            ],
+            "title": "矿山开采工程学"
+          },
+          {
+            "classCode": "B021_4",
+            "parentCode": "B021",
+            "title": "矿山运输与设备"
+          },
+          {
+            "classCode": "B021_5",
+            "parentCode": "B021",
+            "children": [
+              {
+                "classCode": "B021_51",
+                "parentCode": "B021_5",
+                "title": "矿山安全与卫生保护"
+              },
+              {
+                "classCode": "B021_52",
+                "parentCode": "B021_5",
+                "title": "通风工程"
+              },
+              {
+                "classCode": "B021_53",
+                "parentCode": "B021_5",
+                "title": "矿井大气"
+              },
+              {
+                "classCode": "B021_54",
+                "parentCode": "B021_5",
+                "title": "防火、排水工程"
+              }
+            ],
+            "title": "矿山安全与劳动保护"
+          },
+          {
+            "classCode": "B021_6",
+            "parentCode": "B021",
+            "children": [
+              {
+                "classCode": "B021_62",
+                "parentCode": "B021_6",
+                "title": "矿山供电及自动化工程"
+              },
+              {
+                "classCode": "B021_63",
+                "parentCode": "B021_6",
+                "title": "矿山通讯及照明工程"
+              }
+            ],
+            "title": "矿山电工"
+          },
+          {
+            "classCode": "B021_7",
+            "parentCode": "B021",
+            "children": [
+              {
+                "classCode": "B021_71",
+                "parentCode": "B021_7",
+                "title": "选矿理论"
+              },
+              {
+                "classCode": "B021_72",
+                "parentCode": "B021_7",
+                "title": "选矿流程及方法"
+              },
+              {
+                "classCode": "B021_73",
+                "parentCode": "B021_7",
+                "children": [
+                  {
+                    "classCode": "B021_731",
+                    "parentCode": "B021_73",
+                    "title": "选煤"
+                  },
+                  {
+                    "classCode": "B021_732",
+                    "parentCode": "B021_73",
+                    "title": "金属矿选矿"
+                  },
+                  {
+                    "classCode": "B021_733",
+                    "parentCode": "B021_73",
+                    "title": "非金属矿选矿"
+                  }
+                ],
+                "title": "各类矿产选矿工艺学"
+              },
+              {
+                "classCode": "B021_74",
+                "parentCode": "B021_7",
+                "title": "选矿厂"
+              },
+              {
+                "classCode": "B021_75",
+                "parentCode": "B021_7",
+                "title": "选矿机械设备及器材"
+              }
+            ],
+            "title": "选矿"
+          },
+          {
+            "classCode": "B021_8",
+            "parentCode": "B021",
+            "children": [
+              {
+                "classCode": "B021_81",
+                "parentCode": "B021_8",
+                "title": "矿产资源综合利用"
+              },
+              {
+                "classCode": "B021_82",
+                "parentCode": "B021_8",
+                "title": "矿业工程三废处理"
+              }
+            ],
+            "title": "矿业工程三废处理及矿产综合利用"
+          }
+        ],
+        "title": "矿业工程"
+      },
+      {
+        "classCode": "B022",
+        "parentCode": "B",
+        "children": [
+          {
+            "classCode": "B022_1",
+            "parentCode": "B022",
+            "children": [
+              {
+                "classCode": "B022_10",
+                "parentCode": "B022_1",
+                "title": "金属学（物理冶金）一般问题"
+              },
+              {
+                "classCode": "B022_11",
+                "parentCode": "B022_1",
+                "title": "金属物理学"
+              },
+              {
+                "classCode": "B022_12",
+                "parentCode": "B022_1",
+                "title": "金属的组织与性能"
+              },
+              {
+                "classCode": "B022_13",
+                "parentCode": "B022_1",
+                "title": "金属的分析试验"
+              }
+            ],
+            "title": "金属学总论"
+          },
+          {
+            "classCode": "B022_2",
+            "parentCode": "B022",
+            "title": "合金学与各种性质合金"
+          },
+          {
+            "classCode": "B022_4",
+            "parentCode": "B022",
+            "title": "热处理"
+          },
+          {
+            "classCode": "B022_5",
+            "parentCode": "B022",
+            "title": "金属腐蚀与保护、金属表面处理"
+          },
+          {
+            "classCode": "B022_6",
+            "parentCode": "B022",
+            "children": [
+              {
+                "classCode": "B022_61",
+                "parentCode": "B022_6",
+                "title": "铸造理论"
+              },
+              {
+                "classCode": "B022_62",
+                "parentCode": "B022_6",
+                "title": "铸造原材料及配制"
+              },
+              {
+                "classCode": "B022_63",
+                "parentCode": "B022_6",
+                "title": "铸造机械设备"
+              },
+              {
+                "classCode": "B022_64",
+                "parentCode": "B022_6",
+                "title": "铸造工艺"
+              },
+              {
+                "classCode": "B022_65",
+                "parentCode": "B022_6",
+                "title": "特种铸造"
+              },
+              {
+                "classCode": "B022_66",
+                "parentCode": "B022_6",
+                "title": "铸铁件铸造"
+              },
+              {
+                "classCode": "B022_67",
+                "parentCode": "B022_6",
+                "title": "钢件铸造"
+              },
+              {
+                "classCode": "B022_68",
+                "parentCode": "B022_6",
+                "title": "合金铸造"
+              },
+              {
+                "classCode": "B022_69",
+                "parentCode": "B022_6",
+                "title": "铸造车间(厂)"
+              },
+              {
+                "classCode": "B022_6A",
+                "parentCode": "B022_6",
+                "title": "有色金属铸造"
+              }
+            ],
+            "title": "铸造"
+          },
+          {
+            "classCode": "B022_7",
+            "parentCode": "B022",
+            "children": [
+              {
+                "classCode": "B022_72",
+                "parentCode": "B022_7",
+                "title": "锻造、锻压与锻工"
+              },
+              {
+                "classCode": "B022_73",
+                "parentCode": "B022_7",
+                "title": "轧制"
+              },
+              {
+                "classCode": "B022_74",
+                "parentCode": "B022_7",
+                "title": "拉制、拉拔"
+              },
+              {
+                "classCode": "B022_75",
+                "parentCode": "B022_7",
+                "title": "挤压"
+              },
+              {
+                "classCode": "B022_76",
+                "parentCode": "B022_7",
+                "title": "冷冲床(钣金加工)"
+              },
+              {
+                "classCode": "B022_77",
+                "parentCode": "B022_7",
+                "title": "高能成型"
+              }
+            ],
+            "title": "金属压力加工"
+          },
+          {
+            "classCode": "B022_8",
+            "parentCode": "B022",
+            "children": [
+              {
+                "classCode": "B022_81",
+                "parentCode": "B022_8",
+                "title": "焊接一般性问题"
+              },
+              {
+                "classCode": "B022_82",
+                "parentCode": "B022_8",
+                "title": "焊接材料"
+              },
+              {
+                "classCode": "B022_83",
+                "parentCode": "B022_8",
+                "title": "焊接设备"
+              },
+              {
+                "classCode": "B022_84",
+                "parentCode": "B022_8",
+                "title": "焊接工艺"
+              },
+              {
+                "classCode": "B022_85",
+                "parentCode": "B022_8",
+                "title": "焊接的应用"
+              },
+              {
+                "classCode": "B022_86",
+                "parentCode": "B022_8",
+                "title": "金属切割及设备"
+              },
+              {
+                "classCode": "B022_87",
+                "parentCode": "B022_8",
+                "title": "粘接、胶接"
+              }
+            ],
+            "title": "焊接、金属切割及金属粘接"
+          },
+          {
+            "classCode": "B022_9",
+            "parentCode": "B022",
+            "children": [
+              {
+                "classCode": "B022_92",
+                "parentCode": "B022_9",
+                "title": "车削加工及车床(旋床)"
+              },
+              {
+                "classCode": "B022_93",
+                "parentCode": "B022_9",
+                "title": "钻削加工及钻床"
+              },
+              {
+                "classCode": "B022_94",
+                "parentCode": "B022_9",
+                "title": "镗削加工及镗床"
+              },
+              {
+                "classCode": "B022_95",
+                "parentCode": "B022_9",
+                "title": "铣削加工及铣床"
+              },
+              {
+                "classCode": "B022_96",
+                "parentCode": "B022_9",
+                "title": "刨削加工、刨床与插床(立刨)"
+              },
+              {
+                "classCode": "B022_97",
+                "parentCode": "B022_9",
+                "title": "锯削加工与锯床、锉床"
+              },
+              {
+                "classCode": "B022_98",
+                "parentCode": "B022_9",
+                "title": "拉削加工与拉床"
+              },
+              {
+                "classCode": "B022_99",
+                "parentCode": "B022_9",
+                "title": "磨削加工与磨床"
+              },
+              {
+                "classCode": "B022_9A",
+                "parentCode": "B022_9",
+                "title": "齿轮加工及齿轮机床"
+              },
+              {
+                "classCode": "B022_9B",
+                "parentCode": "B022_9",
+                "title": "螺纹加工及螺纹加工机床"
+              },
+              {
+                "classCode": "B022_9C",
+                "parentCode": "B022_9",
+                "title": "刻线加工及刻线机"
+              },
+              {
+                "classCode": "B022_9D",
+                "parentCode": "B022_9",
+                "title": "仪表加工及仪表机床"
+              },
+              {
+                "classCode": "B022_9E",
+                "parentCode": "B022_9",
+                "title": "组合机床及其加工"
+              },
+              {
+                "classCode": "B022_9F",
+                "parentCode": "B022_9",
+                "title": "程序控制机床、数控机床及其加工"
+              },
+              {
+                "classCode": "B022_9G",
+                "parentCode": "B022_9",
+                "title": "特种加工机床及其加工"
+              },
+              {
+                "classCode": "B022_9H",
+                "parentCode": "B022_9",
+                "title": "机床加工生产自动化"
+              }
+            ],
+            "title": "金属切削加工及机床"
+          },
+          {
+            "classCode": "B022_A",
+            "parentCode": "B022",
+            "children": [
+              {
+                "classCode": "B022_A2",
+                "parentCode": "B022_A",
+                "title": "刀具"
+              },
+              {
+                "classCode": "B022_A3",
+                "parentCode": "B022_A",
+                "title": "磨料"
+              },
+              {
+                "classCode": "B022_A4",
+                "parentCode": "B022_A",
+                "title": "磨具、研具"
+              },
+              {
+                "classCode": "B022_A5",
+                "parentCode": "B022_A",
+                "title": "夹具"
+              },
+              {
+                "classCode": "B022_A6",
+                "parentCode": "B022_A",
+                "title": "模具"
+              },
+              {
+                "classCode": "B022_A7",
+                "parentCode": "B022_A",
+                "title": "手工具"
+              }
+            ],
+            "title": "刀具、磨料、磨具、夹具、模具、手工具"
+          },
+          {
+            "classCode": "B022_B",
+            "parentCode": "B022",
+            "children": [
+              {
+                "classCode": "B022_B2",
+                "parentCode": "B022_B",
+                "title": "长度测量及其量仪"
+              },
+              {
+                "classCode": "B022_B3",
+                "parentCode": "B022_B",
+                "title": "角度测量及其量仪"
+              },
+              {
+                "classCode": "B022_B4",
+                "parentCode": "B022_B",
+                "title": "形位偏差测量及其量仪"
+              },
+              {
+                "classCode": "B022_B5",
+                "parentCode": "B022_B",
+                "title": "表面光洁度(表面粗糙度)的测量及其量仪"
+              },
+              {
+                "classCode": "B022_B6",
+                "parentCode": "B022_B",
+                "title": "螺纹测量与其量仪"
+              },
+              {
+                "classCode": "B022_B7",
+                "parentCode": "B022_B",
+                "title": "齿轮测量及其量仪"
+              },
+              {
+                "classCode": "B022_B8",
+                "parentCode": "B022_B",
+                "title": "自动量仪"
+              }
+            ],
+            "title": "公差与技术测量及机械量仪"
+          },
+          {
+            "classCode": "B022_C",
+            "parentCode": "B022",
+            "title": "钳工工艺与装配工艺"
+          }
+        ],
+        "title": "金属学及金属工艺"
+      },
+      {
+        "classCode": "B023",
+        "parentCode": "B",
+        "children": [
+          {
+            "classCode": "B023_1",
+            "parentCode": "B023",
+            "title": "冶金工艺总论"
+          },
+          {
+            "classCode": "B023_2",
+            "parentCode": "B023",
+            "title": "冶金工业经济"
+          },
+          {
+            "classCode": "B023_3",
+            "parentCode": "B023",
+            "children": [
+              {
+                "classCode": "B023_31",
+                "parentCode": "B023_3",
+                "title": "冶金原理"
+              },
+              {
+                "classCode": "B023_32",
+                "parentCode": "B023_3",
+                "title": "冶炼计算"
+              },
+              {
+                "classCode": "B023_33",
+                "parentCode": "B023_3",
+                "title": "冶炼试验与分析"
+              },
+              {
+                "classCode": "B023_34",
+                "parentCode": "B023_3",
+                "title": "冶炼原料及矿石预处理"
+              },
+              {
+                "classCode": "B023_35",
+                "parentCode": "B023_3",
+                "title": "冶金燃料与燃烧"
+              },
+              {
+                "classCode": "B023_36",
+                "parentCode": "B023_3",
+                "title": "冶金炉"
+              },
+              {
+                "classCode": "B023_37",
+                "parentCode": "B023_3",
+                "title": "冶金工厂"
+              },
+              {
+                "classCode": "B023_38",
+                "parentCode": "B023_3",
+                "title": "冶金工业废物处理与综合利用"
+              }
+            ],
+            "title": "冶金一般性问题"
+          },
+          {
+            "classCode": "B023_4",
+            "parentCode": "B023",
+            "children": [
+              {
+                "classCode": "B023_41",
+                "parentCode": "B023_4",
+                "title": "提炼冶金"
+              },
+              {
+                "classCode": "B023_42",
+                "parentCode": "B023_4",
+                "title": "粉末冶金"
+              },
+              {
+                "classCode": "B023_43",
+                "parentCode": "B023_4",
+                "title": "真空冶金"
+              },
+              {
+                "classCode": "B023_44",
+                "parentCode": "B023_4",
+                "title": "电渣重熔"
+              },
+              {
+                "classCode": "B023_45",
+                "parentCode": "B023_4",
+                "title": "原子能冶金"
+              },
+              {
+                "classCode": "B023_46",
+                "parentCode": "B023_4",
+                "title": "纤维冶金"
+              },
+              {
+                "classCode": "B023_47",
+                "parentCode": "B023_4",
+                "title": "卤素冶金"
+              },
+              {
+                "classCode": "B023_48",
+                "parentCode": "B023_4",
+                "title": "微生物冶金"
+              },
+              {
+                "classCode": "B023_49",
+                "parentCode": "B023_4",
+                "title": "其他冶金技术"
+              }
+            ],
+            "title": "冶金技术"
+          },
+          {
+            "classCode": "B023_5",
+            "parentCode": "B023",
+            "children": [
+              {
+                "classCode": "B023_52",
+                "parentCode": "B023_5",
+                "title": "钢铁冶炼机械与生产自动化"
+              },
+              {
+                "classCode": "B023_53",
+                "parentCode": "B023_5",
+                "title": "炼铁机械与生产自动化"
+              },
+              {
+                "classCode": "B023_54",
+                "parentCode": "B023_5",
+                "title": "铁合金冶炼机械与自动化"
+              },
+              {
+                "classCode": "B023_55",
+                "parentCode": "B023_5",
+                "title": "炼钢机械与生产自动化"
+              },
+              {
+                "classCode": "B023_56",
+                "parentCode": "B023_5",
+                "title": "有色冶金机械与生产自动化"
+              },
+              {
+                "classCode": "B023_57",
+                "parentCode": "B023_5",
+                "title": "粉末冶金机械与生产自动化"
+              }
+            ],
+            "title": "冶金机械、冶金生产自动化"
+          },
+          {
+            "classCode": "B023_6",
+            "parentCode": "B023",
+            "title": "钢铁冶炼(黑色金属冶炼)(总论)"
+          },
+          {
+            "classCode": "B023_7",
+            "parentCode": "B023",
+            "children": [
+              {
+                "classCode": "B023_71",
+                "parentCode": "B023_7",
+                "title": "理论与计算"
+              },
+              {
+                "classCode": "B023_72",
+                "parentCode": "B023_7",
+                "title": "原材料"
+              },
+              {
+                "classCode": "B023_73",
+                "parentCode": "B023_7",
+                "title": "高炉熔冶过程"
+              },
+              {
+                "classCode": "B023_74",
+                "parentCode": "B023_7",
+                "title": "高炉操作"
+              },
+              {
+                "classCode": "B023_75",
+                "parentCode": "B023_7",
+                "title": "铁矿石直接还原"
+              },
+              {
+                "classCode": "B023_76",
+                "parentCode": "B023_7",
+                "title": "其他炼铁法"
+              },
+              {
+                "classCode": "B023_77",
+                "parentCode": "B023_7",
+                "title": "炼铁炉(高炉)"
+              },
+              {
+                "classCode": "B023_78",
+                "parentCode": "B023_7",
+                "title": "炼铁厂"
+              },
+              {
+                "classCode": "B023_79",
+                "parentCode": "B023_7",
+                "title": "炼铁产品"
+              }
+            ],
+            "title": "炼铁"
+          },
+          {
+            "classCode": "B023_8",
+            "parentCode": "B023",
+            "title": "铁合金冶炼"
+          },
+          {
+            "classCode": "B023_9",
+            "parentCode": "B023",
+            "children": [
+              {
+                "classCode": "B023_92",
+                "parentCode": "B023_9",
+                "title": "转炉炼钢"
+              },
+              {
+                "classCode": "B023_93",
+                "parentCode": "B023_9",
+                "title": "氧气转炉炼钢"
+              },
+              {
+                "classCode": "B023_94",
+                "parentCode": "B023_9",
+                "title": "平炉炼钢"
+              },
+              {
+                "classCode": "B023_95",
+                "parentCode": "B023_9",
+                "title": "电炉炼钢"
+              },
+              {
+                "classCode": "B023_96",
+                "parentCode": "B023_9",
+                "title": "混合炼钢"
+              },
+              {
+                "classCode": "B023_97",
+                "parentCode": "B023_9",
+                "title": "其他炼钢法"
+              },
+              {
+                "classCode": "B023_98",
+                "parentCode": "B023_9",
+                "title": "早期炼钢法"
+              },
+              {
+                "classCode": "B023_99",
+                "parentCode": "B023_9",
+                "title": "炼钢炉"
+              },
+              {
+                "classCode": "B023_9A",
+                "parentCode": "B023_9",
+                "title": "炼钢厂"
+              },
+              {
+                "classCode": "B023_9B",
+                "parentCode": "B023_9",
+                "title": "各种钢的冶炼"
+              },
+              {
+                "classCode": "B023_9C",
+                "parentCode": "B023_9",
+                "title": "钢液二次精炼和炉外处理"
+              },
+              {
+                "classCode": "B023_9D",
+                "parentCode": "B023_9",
+                "title": "铸锭"
+              }
+            ],
+            "title": "炼钢"
+          },
+          {
+            "classCode": "B023_A",
+            "parentCode": "B023",
+            "title": "其他黑色金属冶炼"
+          },
+          {
+            "classCode": "B023_B",
+            "parentCode": "B023",
+            "children": [
+              {
+                "classCode": "B023_B2",
+                "parentCode": "B023_B",
+                "title": "重金属冶炼"
+              },
+              {
+                "classCode": "B023_B3",
+                "parentCode": "B023_B",
+                "title": "轻金属冶炼"
+              },
+              {
+                "classCode": "B023_B4",
+                "parentCode": "B023_B",
+                "title": "贵金属及铂族金属冶炼"
+              },
+              {
+                "classCode": "B023_B5",
+                "parentCode": "B023_B",
+                "title": "稀有金属冶炼"
+              }
+            ],
+            "title": "有色金属冶炼"
+          }
+        ],
+        "title": "冶金工业"
+      },
+      {
+        "classCode": "B024",
+        "parentCode": "B",
+        "children": [
+          {
+            "classCode": "B024_1",
+            "parentCode": "B024",
+            "title": "概述"
+          },
+          {
+            "classCode": "B024_2",
+            "parentCode": "B024",
+            "children": [
+              {
+                "classCode": "B024_23",
+                "parentCode": "B024_2",
+                "title": "棉纺织"
+              },
+              {
+                "classCode": "B024_24",
+                "parentCode": "B024_2",
+                "title": "麻纺织"
+              },
+              {
+                "classCode": "B024_25",
+                "parentCode": "B024_2",
+                "title": "毛纺织"
+              },
+              {
+                "classCode": "B024_26",
+                "parentCode": "B024_2",
+                "title": "丝纺织"
+              },
+              {
+                "classCode": "B024_27",
+                "parentCode": "B024_2",
+                "title": "化学纤维纺织"
+              },
+              {
+                "classCode": "B024_28",
+                "parentCode": "B024_2",
+                "title": "非织造布"
+              },
+              {
+                "classCode": "B024_29",
+                "parentCode": "B024_2",
+                "title": "针织"
+              },
+              {
+                "classCode": "B024_2A",
+                "parentCode": "B024_2",
+                "title": "染整工业"
+              }
+            ],
+            "title": "纺织工业、染整工业"
+          },
+          {
+            "classCode": "B024_3",
+            "parentCode": "B024",
+            "children": [
+              {
+                "classCode": "B024_32",
+                "parentCode": "B024_3",
+                "title": "粮食加工工业"
+              },
+              {
+                "classCode": "B024_34",
+                "parentCode": "B024_3",
+                "title": "淀粉工业"
+              },
+              {
+                "classCode": "B024_35",
+                "parentCode": "B024_3",
+                "title": "制糖工业"
+              },
+              {
+                "classCode": "B024_36",
+                "parentCode": "B024_3",
+                "title": "屠宰及肉类加工工业"
+              },
+              {
+                "classCode": "B024_37",
+                "parentCode": "B024_3",
+                "title": "乳品加工工业"
+              },
+              {
+                "classCode": "B024_38",
+                "parentCode": "B024_3",
+                "title": "蛋品加工工业"
+              },
+              {
+                "classCode": "B024_39",
+                "parentCode": "B024_3",
+                "title": "水产加工工业"
+              },
+              {
+                "classCode": "B024_3A",
+                "parentCode": "B024_3",
+                "title": "水果、蔬菜、坚果加工工业"
+              },
+              {
+                "classCode": "B024_3B",
+                "parentCode": "B024_3",
+                "title": "酿造工业"
+              },
+              {
+                "classCode": "B024_3C",
+                "parentCode": "B024_3",
+                "title": "饮料冷食制造工业"
+              },
+              {
+                "classCode": "B024_3D",
+                "parentCode": "B024_3",
+                "title": "罐头工业"
+              },
+              {
+                "classCode": "B024_3E",
+                "parentCode": "B024_3",
+                "title": "保健食品"
+              }
+            ],
+            "title": "食品工业"
+          },
+          {
+            "classCode": "B024_4",
+            "parentCode": "B024",
+            "title": "制盐工业"
+          },
+          {
+            "classCode": "B024_5",
+            "parentCode": "B024",
+            "title": "烟草工业"
+          },
+          {
+            "classCode": "B024_6",
+            "parentCode": "B024",
+            "title": "皮革工业"
+          },
+          {
+            "classCode": "B024_7",
+            "parentCode": "B024",
+            "title": "木材加工工业、家具制造工业"
+          },
+          {
+            "classCode": "B024_9",
+            "parentCode": "B024",
+            "title": "印刷工业"
+          },
+          {
+            "classCode": "B024_A",
+            "parentCode": "B024",
+            "title": "五金制品工业"
+          },
+          {
+            "classCode": "B024_B",
+            "parentCode": "B024",
+            "title": "工艺美术制品工业"
+          },
+          {
+            "classCode": "B024_C",
+            "parentCode": "B024",
+            "title": "服装工业、制鞋工业"
+          },
+          {
+            "classCode": "B024_D",
+            "parentCode": "B024",
+            "title": "其他轻工业、手工业"
+          },
+          {
+            "classCode": "B024_E",
+            "parentCode": "B024",
+            "title": "轻工业废物处理与综合利用"
+          }
+        ],
+        "title": "轻工业手工业"
+      },
+      {
+        "classCode": "B025",
+        "parentCode": "B",
+        "children": [
+          {
+            "classCode": "B025_1",
+            "parentCode": "B025",
+            "title": "美食学"
+          },
+          {
+            "classCode": "B025_2",
+            "parentCode": "B025",
+            "title": "烹饪法、食谱、菜谱"
+          },
+          {
+            "classCode": "B025_3",
+            "parentCode": "B025",
+            "title": "饮食设备及管理"
+          },
+          {
+            "classCode": "B025_4",
+            "parentCode": "B025",
+            "title": "洗染、缝补"
+          },
+          {
+            "classCode": "B025_5",
+            "parentCode": "B025",
+            "title": "美容、沐浴、清洁"
+          },
+          {
+            "classCode": "B025_6",
+            "parentCode": "B025",
+            "title": "居住管理"
+          },
+          {
+            "classCode": "B025_7",
+            "parentCode": "B025",
+            "title": "家庭管理、家庭生活、家庭服务"
+          }
+        ],
+        "title": "一般服务业"
+      },
+      {
+        "classCode": "B026",
+        "parentCode": "B",
+        "children": [
+          {
+            "classCode": "B026_2",
+            "parentCode": "B026",
+            "title": "劳动保护基础理论"
+          },
+          {
+            "classCode": "B026_3",
+            "parentCode": "B026",
+            "title": "劳动保护管理"
+          },
+          {
+            "classCode": "B026_4",
+            "parentCode": "B026",
+            "children": [
+              {
+                "classCode": "B026_41",
+                "parentCode": "B026_4",
+                "title": "总论工业安全"
+              },
+              {
+                "classCode": "B026_42",
+                "parentCode": "B026_4",
+                "title": "爆炸安全与防火防爆"
+              },
+              {
+                "classCode": "B026_43",
+                "parentCode": "B026_4",
+                "title": "锅炉、压力容器安全"
+              },
+              {
+                "classCode": "B026_44",
+                "parentCode": "B026_4",
+                "title": "电气安全"
+              },
+              {
+                "classCode": "B026_45",
+                "parentCode": "B026_4",
+                "title": "地质勘探安全"
+              },
+              {
+                "classCode": "B026_46",
+                "parentCode": "B026_4",
+                "title": "矿山安全"
+              },
+              {
+                "classCode": "B026_47",
+                "parentCode": "B026_4",
+                "title": "石油、化学工业安全"
+              },
+              {
+                "classCode": "B026_48",
+                "parentCode": "B026_4",
+                "title": "冶金工业安全"
+              },
+              {
+                "classCode": "B026_49",
+                "parentCode": "B026_4",
+                "title": "机械、金属工艺安全"
+              },
+              {
+                "classCode": "B026_4A",
+                "parentCode": "B026_4",
+                "title": "焊接工艺安全"
+              },
+              {
+                "classCode": "B026_4B",
+                "parentCode": "B026_4",
+                "title": "起重及搬运安全"
+              },
+              {
+                "classCode": "B026_4C",
+                "parentCode": "B026_4",
+                "title": "武器工业安全"
+              },
+              {
+                "classCode": "B026_4D",
+                "parentCode": "B026_4",
+                "title": "动力工业安全"
+              },
+              {
+                "classCode": "B026_4E",
+                "parentCode": "B026_4",
+                "title": "核工业安全"
+              },
+              {
+                "classCode": "B026_4F",
+                "parentCode": "B026_4",
+                "title": "建筑施工安全"
+              },
+              {
+                "classCode": "B026_4G",
+                "parentCode": "B026_4",
+                "title": "轻工业、手工业安全"
+              },
+              {
+                "classCode": "B026_4H",
+                "parentCode": "B026_4",
+                "title": "航空、航天安全"
+              },
+              {
+                "classCode": "B026_4I",
+                "parentCode": "B026_4",
+                "title": "交通运输安全"
+              },
+              {
+                "classCode": "B026_4J",
+                "parentCode": "B026_4",
+                "title": "农、林、渔业安全"
+              },
+              {
+                "classCode": "B026_4K",
+                "parentCode": "B026_4",
+                "title": "生活安全及其它"
+              }
+            ],
+            "title": "安全工程"
+          },
+          {
+            "classCode": "B026_5",
+            "parentCode": "B026",
+            "children": [
+              {
+                "classCode": "B026_51",
+                "parentCode": "B026_5",
+                "title": "作业环境卫生"
+              },
+              {
+                "classCode": "B026_52",
+                "parentCode": "B026_5",
+                "title": "工业通风"
+              },
+              {
+                "classCode": "B026_53",
+                "parentCode": "B026_5",
+                "title": "工业照明"
+              },
+              {
+                "classCode": "B026_54",
+                "parentCode": "B026_5",
+                "title": "工业防尘"
+              },
+              {
+                "classCode": "B026_55",
+                "parentCode": "B026_5",
+                "title": "工业防毒"
+              },
+              {
+                "classCode": "B026_56",
+                "parentCode": "B026_5",
+                "title": "噪声与振动控制"
+              },
+              {
+                "classCode": "B026_57",
+                "parentCode": "B026_5",
+                "title": "异常气压防护"
+              },
+              {
+                "classCode": "B026_58",
+                "parentCode": "B026_5",
+                "title": "高低温防护"
+              }
+            ],
+            "title": "劳动卫生工程"
+          },
+          {
+            "classCode": "B026_6",
+            "parentCode": "B026",
+            "children": [
+              {
+                "classCode": "B026_62",
+                "parentCode": "B026_6",
+                "title": "自然灾害及其防治"
+              },
+              {
+                "classCode": "B026_63",
+                "parentCode": "B026_6",
+                "title": "人为灾害及其防治"
+              }
+            ],
+            "title": "灾害及其防治"
+          }
+        ],
+        "title": "安全科学与灾害防治"
+      },
+      {
+        "classCode": "B027",
+        "parentCode": "B",
+        "children": [
+          {
+            "classCode": "B027_1",
+            "parentCode": "B027",
+            "children": [
+              {
+                "classCode": "B027_11",
+                "parentCode": "B027_1",
+                "title": "环境保护政策法令、标准、教育"
+              },
+              {
+                "classCode": "B027_12",
+                "parentCode": "B027_1",
+                "title": "环境数学"
+              },
+              {
+                "classCode": "B027_13",
+                "parentCode": "B027_1",
+                "title": "环境物理学"
+              },
+              {
+                "classCode": "B027_14",
+                "parentCode": "B027_1",
+                "title": "环境化学"
+              },
+              {
+                "classCode": "B027_15",
+                "parentCode": "B027_1",
+                "title": "环境地学"
+              },
+              {
+                "classCode": "B027_16",
+                "parentCode": "B027_1",
+                "title": "环境气象学、环境空气动力学"
+              },
+              {
+                "classCode": "B027_17",
+                "parentCode": "B027_1",
+                "title": "环境生物学"
+              },
+              {
+                "classCode": "B027_18",
+                "parentCode": "B027_1",
+                "title": "环境医学、环境心理学、环境系统学、环境经济学"
+              }
+            ],
+            "title": "环境科学"
+          },
+          {
+            "classCode": "B027_2",
+            "parentCode": "B027",
+            "children": [
+              {
+                "classCode": "B027_21",
+                "parentCode": "B027_2",
+                "title": "环境与环境系统"
+              },
+              {
+                "classCode": "B027_22",
+                "parentCode": "B027_2",
+                "title": "人类、资源、能源与环境的关系"
+              },
+              {
+                "classCode": "B027_23",
+                "parentCode": "B027_2",
+                "title": "环境容量与环境自净"
+              },
+              {
+                "classCode": "B027_24",
+                "parentCode": "B027_2",
+                "title": "环境与发展"
+              }
+            ],
+            "title": "社会与环境"
+          },
+          {
+            "classCode": "B027_3",
+            "parentCode": "B027",
+            "children": [
+              {
+                "classCode": "B027_32",
+                "parentCode": "B027_3",
+                "title": "环境规划与环境管理"
+              },
+              {
+                "classCode": "B027_33",
+                "parentCode": "B027_3",
+                "title": "环境卫生与卫生工程"
+              },
+              {
+                "classCode": "B027_34",
+                "parentCode": "B027_3",
+                "title": "放射卫生与辐射防护"
+              },
+              {
+                "classCode": "B027_37",
+                "parentCode": "B027_3",
+                "title": "环境与清洁生产"
+              }
+            ],
+            "title": "环境保护管理"
+          },
+          {
+            "classCode": "B027_4",
+            "parentCode": "B027",
+            "children": [
+              {
+                "classCode": "B027_43",
+                "parentCode": "B027_4",
+                "title": "大气污染及其防治"
+              },
+              {
+                "classCode": "B027_44",
+                "parentCode": "B027_4",
+                "title": "水体污染及其防治"
+              },
+              {
+                "classCode": "B027_45",
+                "parentCode": "B027_4",
+                "title": "土壤污染及其防治"
+              },
+              {
+                "classCode": "B027_46",
+                "parentCode": "B027_4",
+                "title": "其他环境污染及其防治"
+              }
+            ],
+            "title": "环境污染及其防治"
+          },
+          {
+            "classCode": "B027_5",
+            "parentCode": "B027",
+            "title": "废物处理与综合利用"
+          },
+          {
+            "classCode": "B027_6",
+            "parentCode": "B027",
+            "children": [
+              {
+                "classCode": "B027_62",
+                "parentCode": "B027_6",
+                "title": "环境质量分析与评价"
+              },
+              {
+                "classCode": "B027_63",
+                "parentCode": "B027_6",
+                "title": "环境监测"
+              },
+              {
+                "classCode": "B027_64",
+                "parentCode": "B027_6",
+                "title": "环境监测网、站，监测系统，监测仪器设备及环境遥感"
+              }
+            ],
+            "title": "环境质量评价与环境监测"
+          }
+        ],
+        "title": "环境科学与资源利用"
+      }
+    ],
+    "title": "工程科技Ⅰ辑"
+  },
+  {
+    "classCode": "B016_22",
+    "parentCode": "B016_2",
+    "title": "化工过程(物理过程及物理化学过程)"
+  },
+  {
+    "classCode": "B016_24",
+    "parentCode": "B016_2",
+    "title": "化工原料辅助物料"
+  },
+  {
+    "classCode": "B016_28",
+    "parentCode": "B016_2",
+    "title": "有机化学工业废物的处理与综合利用"
+  },
+  {
+    "classCode": "B019_11",
+    "parentCode": "B019_1",
+    "title": "石油、天然气工业经济"
+  },
+  {
+    "classCode": "B019_12",
+    "parentCode": "B019_1",
+    "title": "石油、天然气地质"
+  },
+  {
+    "classCode": "B019_13",
+    "parentCode": "B019_1",
+    "title": "石油、天然气能源与节能"
+  },
+  {
+    "classCode": "B021_11",
+    "parentCode": "B021_1",
+    "title": "一般情况"
+  },
+  {
+    "classCode": "B021_12",
+    "parentCode": "B021_1",
+    "title": "矿山经济"
+  },
+  {
+    "classCode": "B021_13",
+    "parentCode": "B021_1",
+    "title": "矿床地质学"
+  }
+]

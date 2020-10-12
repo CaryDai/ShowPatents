@@ -1,0 +1,541 @@
+[
+  {
+    "classCode": "A",
+    "parentCode": "",
+    "children": [
+      {
+        "classCode": "A01",
+        "parentCode": "A",
+        "children": [
+          {
+            "classCode": "A01B",
+            "parentCode": "A01",
+            "title": "农业或林业的整地；一般农业机械或农具的部件、零件或附件"
+          },
+          {
+            "classCode": "A01C",
+            "parentCode": "A01",
+            "title": "种植；播种；施肥"
+          },
+          {
+            "classCode": "A01D",
+            "parentCode": "A01",
+            "title": "收获；割草"
+          },
+          {
+            "classCode": "A01F",
+            "parentCode": "A01",
+            "title": "脱粒；禾秆、干草或类似物的打捆；将禾秆或干草形成捆或打捆的固定装置或手动工具；干草、禾秆或类似物的切碎；农业或园艺产品的储藏"
+          },
+          {
+            "classCode": "A01G",
+            "parentCode": "A01",
+            "title": "园艺；蔬菜、花卉、稻、果树、葡萄、啤酒花或海菜的栽培；林业；浇水"
+          },
+          {
+            "classCode": "A01H",
+            "parentCode": "A01",
+            "title": "新植物或获得新植物的方法；通过组织培养技术的植物再生"
+          },
+          {
+            "classCode": "A01J",
+            "parentCode": "A01",
+            "title": "乳制品的加工"
+          },
+          {
+            "classCode": "A01K",
+            "parentCode": "A01",
+            "title": "畜牧业；禽类、鱼类、昆虫的管理；捕鱼；饲养或养殖其它类不包括的动物；动物的新品种"
+          },
+          {
+            "classCode": "A01L",
+            "parentCode": "A01",
+            "title": "动物钉蹄铁"
+          },
+          {
+            "classCode": "A01M",
+            "parentCode": "A01",
+            "title": "动物的捕捉、诱捕或惊吓；消灭有害动物或有害植物用的设备"
+          },
+          {
+            "classCode": "A01N",
+            "parentCode": "A01",
+            "title": "人体，动植物体或其局部的保存；杀生剂，例如作为消毒剂，作为农药，作为除莠剂；害虫驱避剂或引诱剂；植物生长调节剂"
+          },
+          {
+            "classCode": "A01P",
+            "parentCode": "A01",
+            "title": "化学化合物或制剂的杀生、害虫驱避、害虫引诱或植物生长调节活性"
+          }
+        ],
+        "title": "农业；林业；畜牧业；狩猎；诱捕；捕鱼"
+      },
+      {
+        "classCode": "A21",
+        "parentCode": "A",
+        "children": [
+          {
+            "classCode": "A21B",
+            "parentCode": "A21",
+            "title": "食品烤炉；焙烤用机械或设备"
+          },
+          {
+            "classCode": "A21C",
+            "parentCode": "A21",
+            "title": "制作或加工面团的机械或设备；处理由面团制作的焙烤食品"
+          },
+          {
+            "classCode": "A21D",
+            "parentCode": "A21",
+            "title": "焙烤用面粉或面团的处理（如保存），例如通过添加材料；焙烤；焙烤产品；及其保存"
+          }
+        ],
+        "title": "焙烤；制作或处理面团的设备；焙烤用面团"
+      },
+      {
+        "classCode": "A22",
+        "parentCode": "A",
+        "children": [
+          {
+            "classCode": "A22B",
+            "parentCode": "A22",
+            "title": "屠宰"
+          },
+          {
+            "classCode": "A22C",
+            "parentCode": "A22",
+            "title": "肉类、家禽或鱼的加工"
+          }
+        ],
+        "title": "屠宰； 肉品处理； 家禽或鱼的加工"
+      },
+      {
+        "classCode": "A23",
+        "parentCode": "A",
+        "children": [
+          {
+            "classCode": "A23B",
+            "parentCode": "A23",
+            "title": "保存，如用罐头贮存肉，鱼，蛋，水果，蔬菜，食用种籽；水果或蔬菜的化学催熟；保存，催熟或罐制的产品"
+          },
+          {
+            "classCode": "A23C",
+            "parentCode": "A23",
+            "title": "乳制品，如牛奶、黄油、干酪；牛奶或干酪的代用品；其制备"
+          },
+          {
+            "classCode": "A23D",
+            "parentCode": "A23",
+            "title": "食用油或脂肪，例如人造奶油、松酥油脂、烹饪用油"
+          },
+          {
+            "classCode": "A23F",
+            "parentCode": "A23",
+            "title": "咖啡；茶；其代用品；它们的制造、配制或泡制"
+          },
+          {
+            "classCode": "A23G",
+            "parentCode": "A23",
+            "title": "可可；可可制品，如巧克力；可可或可可制品的代用品；糖食；口香糖；冰淇淋；其制备"
+          },
+          {
+            "classCode": "A23J",
+            "parentCode": "A23",
+            "title": "食用蛋白质组合物；食用蛋白质的加工；食用磷脂组合物"
+          },
+          {
+            "classCode": "A23K",
+            "parentCode": "A23",
+            "title": "饲料"
+          },
+          {
+            "classCode": "A23L",
+            "parentCode": "A23",
+            "title": "没有包括在A23B到A23J小类之中的食品，食料或非酒精饮料；它们的制备或处理，如烹调，营养品质的改进，物理处理；食品或食料的一般保存"
+          },
+          {
+            "classCode": "A23N",
+            "parentCode": "A23",
+            "title": "其它类不包括的处理大量收获的水果，蔬菜或花球茎的机械或装置；大量蔬菜或水果的去皮；制备牲畜饲料装置"
+          },
+          {
+            "classCode": "A23P",
+            "parentCode": "A23",
+            "title": "未为其它单一小类所完全包括的食料成形或加工"
+          }
+        ],
+        "title": "其他类不包含的食品或食料；及其处理"
+      },
+      {
+        "classCode": "A24",
+        "parentCode": "A",
+        "children": [
+          {
+            "classCode": "A24B",
+            "parentCode": "A24",
+            "title": "吸烟或嚼烟的制造或制备；烟草；鼻烟"
+          },
+          {
+            "classCode": "A24C",
+            "parentCode": "A24",
+            "title": "制造雪茄烟或纸烟的机械"
+          },
+          {
+            "classCode": "A24D",
+            "parentCode": "A24",
+            "title": "雪茄烟；纸烟；烟油滤芯；雪茄烟或纸烟的烟嘴；烟油滤芯或烟嘴的制造"
+          },
+          {
+            "classCode": "A24F",
+            "parentCode": "A24",
+            "title": "吸烟者用品；火柴盒"
+          }
+        ],
+        "title": "烟草；雪茄烟；纸烟；吸烟者用品"
+      },
+      {
+        "classCode": "A41",
+        "parentCode": "A",
+        "children": [
+          {
+            "classCode": "A41B",
+            "parentCode": "A41",
+            "title": "衬衣；内衣；婴儿内衣；手帕"
+          },
+          {
+            "classCode": "A41C",
+            "parentCode": "A41",
+            "title": "妇女紧身衣；乳罩"
+          },
+          {
+            "classCode": "A41D",
+            "parentCode": "A41",
+            "title": "外衣；防护服；衣饰配件"
+          },
+          {
+            "classCode": "A41F",
+            "parentCode": "A41",
+            "title": "衣服扣件；吊带"
+          },
+          {
+            "classCode": "A41G",
+            "parentCode": "A41",
+            "title": "人造花；假发；面具；羽饰"
+          },
+          {
+            "classCode": "A41H",
+            "parentCode": "A41",
+            "title": "缝制衣服的工具或方法，例如其他类目不包含的制作女服用的、裁制用的"
+          }
+        ],
+        "title": "服装"
+      },
+      {
+        "classCode": "A42",
+        "parentCode": "A",
+        "children": [
+          {
+            "classCode": "A42B",
+            "parentCode": "A42",
+            "title": "帽子；头部覆盖物"
+          },
+          {
+            "classCode": "A42C",
+            "parentCode": "A42",
+            "title": "制造或装饰帽子或其他头部覆盖物"
+          }
+        ],
+        "title": "帽类制品"
+      },
+      {
+        "classCode": "A43",
+        "parentCode": "A",
+        "children": [
+          {
+            "classCode": "A43B",
+            "parentCode": "A43",
+            "title": "鞋类的特征；鞋类的部件"
+          },
+          {
+            "classCode": "A43C",
+            "parentCode": "A43",
+            "title": "鞋类的紧固物或附件；一般的鞋带"
+          },
+          {
+            "classCode": "A43D",
+            "parentCode": "A43",
+            "title": "制鞋或修鞋的机械、工具、设备或方法"
+          }
+        ],
+        "title": "鞋类"
+      },
+      {
+        "classCode": "A44",
+        "parentCode": "A",
+        "children": [
+          {
+            "classCode": "A44B",
+            "parentCode": "A44",
+            "title": "纽扣，别针，带扣，拉链或类似物"
+          },
+          {
+            "classCode": "A44C",
+            "parentCode": "A44",
+            "title": "珠宝；手镯；其他人身装饰品；硬币"
+          }
+        ],
+        "title": "服饰缝纫用品；珠宝"
+      },
+      {
+        "classCode": "A45",
+        "parentCode": "A",
+        "children": [
+          {
+            "classCode": "A45B",
+            "parentCode": "A45",
+            "title": "手杖；伞；女用扇或类似物"
+          },
+          {
+            "classCode": "A45C",
+            "parentCode": "A45",
+            "title": "小包；行李箱；手提袋"
+          },
+          {
+            "classCode": "A45D",
+            "parentCode": "A45",
+            "title": "理发或修面设备；修指甲或其他化妆处理"
+          },
+          {
+            "classCode": "A45F",
+            "parentCode": "A45",
+            "title": "旅行或野营装备；随身携带的袋或包"
+          }
+        ],
+        "title": "手携物品或旅行品"
+      },
+      {
+        "classCode": "A46",
+        "parentCode": "A",
+        "children": [
+          {
+            "classCode": "A46B",
+            "parentCode": "A46",
+            "title": "刷类"
+          },
+          {
+            "classCode": "A46D",
+            "parentCode": "A46",
+            "title": "各种刷子的制造"
+          }
+        ],
+        "title": "刷类制品"
+      },
+      {
+        "classCode": "A47",
+        "parentCode": "A",
+        "children": [
+          {
+            "classCode": "A47B",
+            "parentCode": "A47",
+            "title": "桌子；写字台；办公家具；柜橱；抽屉；家具的一般零件"
+          },
+          {
+            "classCode": "A47C",
+            "parentCode": "A47",
+            "title": "椅子；沙发；床"
+          },
+          {
+            "classCode": "A47D",
+            "parentCode": "A47",
+            "title": "儿童专用的家具"
+          },
+          {
+            "classCode": "A47F",
+            "parentCode": "A47",
+            "title": "商店、仓库、酒店、饭店等场所用的特种家具、配件或附件；付款柜台"
+          },
+          {
+            "classCode": "A47G",
+            "parentCode": "A47",
+            "title": "家庭用具或餐桌用具"
+          },
+          {
+            "classCode": "A47H",
+            "parentCode": "A47",
+            "title": "门和窗的装饰品"
+          },
+          {
+            "classCode": "A47J",
+            "parentCode": "A47",
+            "title": "厨房用具；咖啡磨；香料磨；饮料制备装置"
+          },
+          {
+            "classCode": "A47K",
+            "parentCode": "A47",
+            "title": "未列入其他类目的卫生设备(如盥洗室的器具，便器；便器附属件等)"
+          },
+          {
+            "classCode": "A47L",
+            "parentCode": "A47",
+            "title": "家庭的洗涤或清扫；一般吸尘器"
+          }
+        ],
+        "title": "家具"
+      },
+      {
+        "classCode": "A61",
+        "parentCode": "A",
+        "children": [
+          {
+            "classCode": "A61B",
+            "parentCode": "A61",
+            "title": "诊断；外科；鉴定(本小类包含诊断、外科和人体鉴别用的仪器、器械和方法，包括产科、切割鸡眼器械、接种疫苗器械、手指压纹、心理-身体参数测试。)"
+          },
+          {
+            "classCode": "A61C",
+            "parentCode": "A61",
+            "title": "牙科；口腔或牙齿卫生"
+          },
+          {
+            "classCode": "A61D",
+            "parentCode": "A61",
+            "title": "兽医用仪器、器械、工具或方法"
+          },
+          {
+            "classCode": "A61F",
+            "parentCode": "A61",
+            "title": "可植入血管内的滤器；假体；为人体管状结构提供开口、或防止其塌陷的装置，如支架（stents）；整形外科、护理或避孕装置；热敷；眼或耳的治疗或保护；绷带、敷料或吸收垫；急救箱"
+          },
+          {
+            "classCode": "A61G",
+            "parentCode": "A61",
+            "title": "专门适用于病人或残疾人的运输工具、专用运输工具或起居设施； 手术台或手术椅子;牙科椅子；丧葬用具"
+          },
+          {
+            "classCode": "A61H",
+            "parentCode": "A61",
+            "title": "理疗装置，例如用于寻找或刺激体内反射点的装置；人工呼吸；按摩；用于特殊治疗或保健目的或人体特殊部位的洗浴装置"
+          },
+          {
+            "classCode": "A61J",
+            "parentCode": "A61",
+            "title": "专用于医学或医药目的的容器；专用于把药品制成特殊的物理或服用形式的装置或方法；喂饲食物或口服药物的器具；婴儿橡皮奶头；收集唾液的器具"
+          },
+          {
+            "classCode": "A61K",
+            "parentCode": "A61",
+            "title": "医用、牙科用或梳妆用的配制品"
+          },
+          {
+            "classCode": "A61L",
+            "parentCode": "A61",
+            "title": "材料或物体消毒的一般方法或装置；空气的灭菌、消毒或除臭；绷带、敷料、吸收垫或外科用品的化学方面；绷带、敷料、吸收垫或外科用品的材料"
+          },
+          {
+            "classCode": "A61M",
+            "parentCode": "A61",
+            "title": "将介质输入人体内或输到人体上的器械；为转移人体介质或为从人体内取出介质的器械；用于产生或结束睡眠或昏迷的器械"
+          },
+          {
+            "classCode": "A61N",
+            "parentCode": "A61",
+            "title": "电疗；磁疗；放射疗；超声波疗"
+          },
+          {
+            "classCode": "A61P",
+            "parentCode": "A61",
+            "title": "化合物或药物制剂的治疗活性"
+          },
+          {
+            "classCode": "A61Q",
+            "parentCode": "A61",
+            "title": "化妆品或类似梳妆用配制品的使用"
+          }
+        ],
+        "title": "医学或兽医学；卫生学"
+      },
+      {
+        "classCode": "A62",
+        "parentCode": "A",
+        "children": [
+          {
+            "classCode": "A62B",
+            "parentCode": "A62",
+            "title": "救生设备、救生装置或救生方法"
+          },
+          {
+            "classCode": "A62C",
+            "parentCode": "A62",
+            "title": "消防"
+          },
+          {
+            "classCode": "A62D",
+            "parentCode": "A62",
+            "title": "灭火用化学装置；通过产生化学变化使有害的化学物质无害或减少害处的方法；用于防护有害化学试剂的覆盖物或衣罩的材料组合物；用于防毒面具、呼吸器、呼吸袋或头盔的透明部件的材料组合物；用于呼吸装置中的化学材料"
+          }
+        ],
+        "title": "救生；消防"
+      },
+      {
+        "classCode": "A63",
+        "parentCode": "A",
+        "children": [
+          {
+            "classCode": "A63B",
+            "parentCode": "A63",
+            "title": "体育锻炼、体操、游泳、爬山或击剑用的器械；球类；训练器械"
+          },
+          {
+            "classCode": "A63C",
+            "parentCode": "A63",
+            "title": "冰鞋；滑橇；滚轮溜冰鞋；球场、冰场或类似场地的设计或布局"
+          },
+          {
+            "classCode": "A63D",
+            "parentCode": "A63",
+            "title": "保龄球场地；滚木球游戏；意大利滚木球游戏；保龄球；弹子游戏；台球"
+          },
+          {
+            "classCode": "A63F",
+            "parentCode": "A63",
+            "title": "纸牌、棋盘或轮盘赌游戏；利用小型运动物体的室内游戏；其他类目不包含的游戏"
+          },
+          {
+            "classCode": "A63G",
+            "parentCode": "A63",
+            "title": "旋转木马；秋千；摇木马；滑运道；娱乐用之字形小铁路；供公共娱乐用的类似装置"
+          },
+          {
+            "classCode": "A63H",
+            "parentCode": "A63",
+            "title": "玩具，如陀螺、玩偶、滚铁环、积木"
+          },
+          {
+            "classCode": "A63J",
+            "parentCode": "A63",
+            "title": "供戏院、马戏场等使用的装置；变戏法用具或类似用具"
+          },
+          {
+            "classCode": "A63K",
+            "parentCode": "A63",
+            "title": "赛马；骑马运动；所用的设备或附件"
+          }
+        ],
+        "title": "运动；游戏；娱乐活动"
+      },
+      {
+        "classCode": "A99",
+        "parentCode": "A",
+        "children": [
+          {
+            "classCode": "A99Z",
+            "parentCode": "A99",
+            "title": "本部其他类目中不包括的技术主题"
+          }
+        ],
+        "title": "本部其他类目中不包括的技术主题"
+      }
+    ],
+    "title": "人类生活必需"
+  }
+]

@@ -1,0 +1,2245 @@
+[
+  {
+    "classCode": "A",
+    "parentCode": "",
+    "children": [
+      {
+        "classCode": "A001",
+        "parentCode": "A",
+        "children": [
+          {
+            "classCode": "A001_1",
+            "parentCode": "A001",
+            "title": "自然科学研究的方针政策"
+          },
+          {
+            "classCode": "A001_2",
+            "parentCode": "A001",
+            "children": [
+              {
+                "classCode": "A001_21",
+                "parentCode": "A001_2",
+                "title": "科学的哲学原理"
+              },
+              {
+                "classCode": "A001_22",
+                "parentCode": "A001_2",
+                "title": "科学的方法论"
+              }
+            ],
+            "title": "自然科学理论与方法论"
+          },
+          {
+            "classCode": "A001_3",
+            "parentCode": "A001",
+            "title": "自然科学现状及发展"
+          },
+          {
+            "classCode": "A001_4",
+            "parentCode": "A001",
+            "title": "自然科学研究及自然科学史"
+          }
+        ],
+        "title": "自然科学理论与方法"
+      },
+      {
+        "classCode": "A002",
+        "parentCode": "A",
+        "children": [
+          {
+            "classCode": "A002_1",
+            "parentCode": "A002",
+            "children": [
+              {
+                "classCode": "A002_11",
+                "parentCode": "A002_1",
+                "title": "数学范畴"
+              },
+              {
+                "classCode": "A002_12",
+                "parentCode": "A002_1",
+                "title": "数学理论"
+              },
+              {
+                "classCode": "A002_13",
+                "parentCode": "A002_1",
+                "title": "计算工具"
+              }
+            ],
+            "title": "数学概论"
+          },
+          {
+            "classCode": "A002_2",
+            "parentCode": "A002",
+            "children": [
+              {
+                "classCode": "A002_21",
+                "parentCode": "A002_2",
+                "title": "古典数学总述"
+              },
+              {
+                "classCode": "A002_22",
+                "parentCode": "A002_2",
+                "title": "中国古典数学"
+              },
+              {
+                "classCode": "A002_23",
+                "parentCode": "A002_2",
+                "title": "各国古典数学"
+              }
+            ],
+            "title": "古典数学"
+          },
+          {
+            "classCode": "A002_3",
+            "parentCode": "A002",
+            "children": [
+              {
+                "classCode": "A002_31",
+                "parentCode": "A002_3",
+                "title": "高等数学"
+              },
+              {
+                "classCode": "A002_32",
+                "parentCode": "A002_3",
+                "children": [
+                  {
+                    "classCode": "A002_321",
+                    "parentCode": "A002_32",
+                    "title": "算术"
+                  },
+                  {
+                    "classCode": "A002_322",
+                    "parentCode": "A002_32",
+                    "title": "初等代数"
+                  },
+                  {
+                    "classCode": "A002_323",
+                    "parentCode": "A002_32",
+                    "title": "初等几何"
+                  },
+                  {
+                    "classCode": "A002_324",
+                    "parentCode": "A002_32",
+                    "title": "三角"
+                  }
+                ],
+                "title": "初等数学"
+              }
+            ],
+            "title": "初、高等数学"
+          },
+          {
+            "classCode": "A002_4",
+            "parentCode": "A002",
+            "children": [
+              {
+                "classCode": "A002_42",
+                "parentCode": "A002_4",
+                "title": "数理逻辑(符号逻辑)"
+              },
+              {
+                "classCode": "A002_43",
+                "parentCode": "A002_4",
+                "title": "应用数理逻辑"
+              },
+              {
+                "classCode": "A002_44",
+                "parentCode": "A002_4",
+                "title": "数学基础"
+              },
+              {
+                "classCode": "A002_45",
+                "parentCode": "A002_4",
+                "title": "集合论"
+              }
+            ],
+            "title": "数理逻辑、数学基础"
+          },
+          {
+            "classCode": "A002_5",
+            "parentCode": "A002",
+            "children": [
+              {
+                "classCode": "A002_52",
+                "parentCode": "A002_5",
+                "title": "代数方程论、线性代数"
+              },
+              {
+                "classCode": "A002_53",
+                "parentCode": "A002_5",
+                "title": "群论"
+              },
+              {
+                "classCode": "A002_54",
+                "parentCode": "A002_5",
+                "title": "抽象代数(近世代数)"
+              },
+              {
+                "classCode": "A002_55",
+                "parentCode": "A002_5",
+                "title": "范畴论、同调代数"
+              },
+              {
+                "classCode": "A002_56",
+                "parentCode": "A002_5",
+                "title": "微分代数、差分代数"
+              },
+              {
+                "classCode": "A002_57",
+                "parentCode": "A002_5",
+                "title": "数论"
+              },
+              {
+                "classCode": "A002_58",
+                "parentCode": "A002_5",
+                "title": "组合数学"
+              },
+              {
+                "classCode": "A002_59",
+                "parentCode": "A002_5",
+                "title": "离散数学"
+              },
+              {
+                "classCode": "A002_5A",
+                "parentCode": "A002_5",
+                "title": "模糊数学"
+              }
+            ],
+            "title": "代数、数论、组合理论"
+          },
+          {
+            "classCode": "A002_6",
+            "parentCode": "A002",
+            "children": [
+              {
+                "classCode": "A002_61",
+                "parentCode": "A002_6",
+                "title": "数学分析与应用"
+              },
+              {
+                "classCode": "A002_62",
+                "parentCode": "A002_6",
+                "title": "分析基础"
+              },
+              {
+                "classCode": "A002_63",
+                "parentCode": "A002_6",
+                "title": "微积分"
+              },
+              {
+                "classCode": "A002_64",
+                "parentCode": "A002_6",
+                "title": "无穷级数论(级数论)"
+              },
+              {
+                "classCode": "A002_65",
+                "parentCode": "A002_6",
+                "title": "函数论"
+              },
+              {
+                "classCode": "A002_66",
+                "parentCode": "A002_6",
+                "title": "微分方程、积分方程"
+              },
+              {
+                "classCode": "A002_67",
+                "parentCode": "A002_6",
+                "title": "变分法"
+              },
+              {
+                "classCode": "A002_68",
+                "parentCode": "A002_6",
+                "title": "泛函分析"
+              },
+              {
+                "classCode": "A002_69",
+                "parentCode": "A002_6",
+                "title": "不等式及其他"
+              }
+            ],
+            "title": "数学分析"
+          },
+          {
+            "classCode": "A002_7",
+            "parentCode": "A002",
+            "children": [
+              {
+                "classCode": "A002_72",
+                "parentCode": "A002_7",
+                "title": "几何基础(几何学原理)"
+              },
+              {
+                "classCode": "A002_73",
+                "parentCode": "A002_7",
+                "title": "解析几何"
+              },
+              {
+                "classCode": "A002_74",
+                "parentCode": "A002_7",
+                "title": "向量(矢量)和张量分析"
+              },
+              {
+                "classCode": "A002_75",
+                "parentCode": "A002_7",
+                "title": "非欧几何、多维空间几何"
+              },
+              {
+                "classCode": "A002_76",
+                "parentCode": "A002_7",
+                "title": "射影(投影)几何、画法几何"
+              },
+              {
+                "classCode": "A002_77",
+                "parentCode": "A002_7",
+                "title": "微分几何、积分几何"
+              },
+              {
+                "classCode": "A002_78",
+                "parentCode": "A002_7",
+                "title": "代数几何"
+              },
+              {
+                "classCode": "A002_79",
+                "parentCode": "A002_7",
+                "title": "拓扑(形势几何学)"
+              }
+            ],
+            "title": "几何、拓扑"
+          },
+          {
+            "classCode": "A002_8",
+            "parentCode": "A002",
+            "title": "动力系统理论"
+          },
+          {
+            "classCode": "A002_9",
+            "parentCode": "A002",
+            "title": "概率论 、数理统计"
+          },
+          {
+            "classCode": "A002_A",
+            "parentCode": "A002",
+            "children": [
+              {
+                "classCode": "A002_A1",
+                "parentCode": "A002_A",
+                "title": "运筹学与应用"
+              },
+              {
+                "classCode": "A002_A2",
+                "parentCode": "A002_A",
+                "title": "规划论"
+              },
+              {
+                "classCode": "A002_A3",
+                "parentCode": "A002_A",
+                "title": "统筹方法"
+              },
+              {
+                "classCode": "A002_A4",
+                "parentCode": "A002_A",
+                "title": "最优化的数学理论"
+              },
+              {
+                "classCode": "A002_A5",
+                "parentCode": "A002_A",
+                "title": "对策论(博弈论)"
+              },
+              {
+                "classCode": "A002_A6",
+                "parentCode": "A002_A",
+                "title": "排队论(随机服务系统)"
+              },
+              {
+                "classCode": "A002_A7",
+                "parentCode": "A002_A",
+                "title": "库存论"
+              },
+              {
+                "classCode": "A002_A8",
+                "parentCode": "A002_A",
+                "title": "更新理论"
+              },
+              {
+                "classCode": "A002_A9",
+                "parentCode": "A002_A",
+                "title": "搜索理论"
+              }
+            ],
+            "title": "运筹学"
+          },
+          {
+            "classCode": "A002_B",
+            "parentCode": "A002",
+            "children": [
+              {
+                "classCode": "A002_B1",
+                "parentCode": "A002_B",
+                "title": "控制论、信息论及其应用"
+              },
+              {
+                "classCode": "A002_B2",
+                "parentCode": "A002_B",
+                "title": "控制论"
+              },
+              {
+                "classCode": "A002_B3",
+                "parentCode": "A002_B",
+                "title": "最优控制"
+              },
+              {
+                "classCode": "A002_B4",
+                "parentCode": "A002_B",
+                "title": "逻辑网络理论"
+              },
+              {
+                "classCode": "A002_B5",
+                "parentCode": "A002_B",
+                "title": "学习机理论"
+              },
+              {
+                "classCode": "A002_B6",
+                "parentCode": "A002_B",
+                "title": "模式识别理论"
+              },
+              {
+                "classCode": "A002_B7",
+                "parentCode": "A002_B",
+                "title": "信息论 (数学理论)"
+              }
+            ],
+            "title": "控制论、信息论(数学理论)"
+          },
+          {
+            "classCode": "A002_C",
+            "parentCode": "A002",
+            "children": [
+              {
+                "classCode": "A002_C1",
+                "parentCode": "A002_C",
+                "title": "计算数学概述"
+              },
+              {
+                "classCode": "A002_C2",
+                "parentCode": "A002_C",
+                "title": "数值计算的理论与方法"
+              },
+              {
+                "classCode": "A002_C3",
+                "parentCode": "A002_C",
+                "title": "数学模拟、近似计算"
+              },
+              {
+                "classCode": "A002_C4",
+                "parentCode": "A002_C",
+                "title": "图解数学 、图算数学"
+              },
+              {
+                "classCode": "A002_C5",
+                "parentCode": "A002_C",
+                "title": "数值软件"
+              }
+            ],
+            "title": "计算数学"
+          },
+          {
+            "classCode": "A002_D",
+            "parentCode": "A002",
+            "children": [
+              {
+                "classCode": "A002_D2",
+                "parentCode": "A002_D",
+                "title": "工程数学"
+              },
+              {
+                "classCode": "A002_D3",
+                "parentCode": "A002_D",
+                "title": "统计学"
+              },
+              {
+                "classCode": "A002_D4",
+                "parentCode": "A002_D",
+                "title": "经济数学方法"
+              }
+            ],
+            "title": "应用数学"
+          }
+        ],
+        "title": "数学"
+      },
+      {
+        "classCode": "A003",
+        "parentCode": "A",
+        "children": [
+          {
+            "classCode": "A003_1",
+            "parentCode": "A003",
+            "title": "非线性科学"
+          },
+          {
+            "classCode": "A003_2",
+            "parentCode": "A003",
+            "children": [
+              {
+                "classCode": "A003_22",
+                "parentCode": "A003_2",
+                "title": "系统哲学"
+              },
+              {
+                "classCode": "A003_23",
+                "parentCode": "A003_2",
+                "title": "系统学、现代系统理论"
+              },
+              {
+                "classCode": "A003_24",
+                "parentCode": "A003_2",
+                "title": "系统工程"
+              },
+              {
+                "classCode": "A003_25",
+                "parentCode": "A003_2",
+                "title": "系统科学在各方面的应用"
+              }
+            ],
+            "title": "系统科学"
+          }
+        ],
+        "title": "非线性科学与系统科学"
+      },
+      {
+        "classCode": "A004",
+        "parentCode": "A",
+        "children": [
+          {
+            "classCode": "A004_1",
+            "parentCode": "A004",
+            "children": [
+              {
+                "classCode": "A004_12",
+                "parentCode": "A004_1",
+                "title": "牛顿定律、达朗伯原理"
+              },
+              {
+                "classCode": "A004_13",
+                "parentCode": "A004_1",
+                "title": "力学中的数学方法"
+              },
+              {
+                "classCode": "A004_14",
+                "parentCode": "A004_1",
+                "title": "量纲分析与相似理论"
+              }
+            ],
+            "title": "力学概论"
+          },
+          {
+            "classCode": "A004_2",
+            "parentCode": "A004",
+            "children": [
+              {
+                "classCode": "A004_22",
+                "parentCode": "A004_2",
+                "title": "运动学"
+              },
+              {
+                "classCode": "A004_23",
+                "parentCode": "A004_2",
+                "title": "静力学"
+              },
+              {
+                "classCode": "A004_24",
+                "parentCode": "A004_2",
+                "title": "动力学"
+              },
+              {
+                "classCode": "A004_25",
+                "parentCode": "A004_2",
+                "title": "引力理论"
+              },
+              {
+                "classCode": "A004_26",
+                "parentCode": "A004_2",
+                "title": "弹道学"
+              },
+              {
+                "classCode": "A004_27",
+                "parentCode": "A004_2",
+                "title": "分析力学(解析力学)"
+              },
+              {
+                "classCode": "A004_28",
+                "parentCode": "A004_2",
+                "title": "稳定性理论"
+              },
+              {
+                "classCode": "A004_29",
+                "parentCode": "A004_2",
+                "title": "陀螺力学(回转仪理论)"
+              }
+            ],
+            "title": "理论力学(一般力学)"
+          },
+          {
+            "classCode": "A004_3",
+            "parentCode": "A004",
+            "title": "振动理论"
+          },
+          {
+            "classCode": "A004_4",
+            "parentCode": "A004",
+            "title": "连续介质力学(变形体力学)"
+          },
+          {
+            "classCode": "A004_5",
+            "parentCode": "A004",
+            "children": [
+              {
+                "classCode": "A004_52",
+                "parentCode": "A004_5",
+                "title": "材料力学"
+              },
+              {
+                "classCode": "A004_53",
+                "parentCode": "A004_5",
+                "title": "结构力学"
+              },
+              {
+                "classCode": "A004_54",
+                "parentCode": "A004_5",
+                "title": "弹性力学"
+              },
+              {
+                "classCode": "A004_55",
+                "parentCode": "A004_5",
+                "title": "塑性力学"
+              },
+              {
+                "classCode": "A004_56",
+                "parentCode": "A004_5",
+                "title": "粘弹塑性介质力学"
+              },
+              {
+                "classCode": "A004_57",
+                "parentCode": "A004_5",
+                "title": "强度理论"
+              },
+              {
+                "classCode": "A004_58",
+                "parentCode": "A004_5",
+                "title": "变形固体动力学"
+              },
+              {
+                "classCode": "A004_59",
+                "parentCode": "A004_5",
+                "title": "实验应力分析"
+              }
+            ],
+            "title": "固体力学"
+          },
+          {
+            "classCode": "A004_6",
+            "parentCode": "A004",
+            "children": [
+              {
+                "classCode": "A004_62",
+                "parentCode": "A004_6",
+                "title": "普通流体力学"
+              },
+              {
+                "classCode": "A004_63",
+                "parentCode": "A004_6",
+                "title": "水动力学"
+              },
+              {
+                "classCode": "A004_64",
+                "parentCode": "A004_6",
+                "title": "流体振动与波浪"
+              },
+              {
+                "classCode": "A004_65",
+                "parentCode": "A004_6",
+                "title": "气体动力学"
+              },
+              {
+                "classCode": "A004_66",
+                "parentCode": "A004_6",
+                "title": "空气动力学"
+              },
+              {
+                "classCode": "A004_67",
+                "parentCode": "A004_6",
+                "title": "粘性流体力学"
+              },
+              {
+                "classCode": "A004_68",
+                "parentCode": "A004_6",
+                "title": "射流"
+              },
+              {
+                "classCode": "A004_69",
+                "parentCode": "A004_6",
+                "title": "多相流"
+              },
+              {
+                "classCode": "A004_6A",
+                "parentCode": "A004_6",
+                "title": "电磁流体力学"
+              },
+              {
+                "classCode": "A004_6B",
+                "parentCode": "A004_6",
+                "title": "化学、物理-化学流体力学"
+              },
+              {
+                "classCode": "A004_6C",
+                "parentCode": "A004_6",
+                "title": "应用流体力学"
+              },
+              {
+                "classCode": "A004_6D",
+                "parentCode": "A004_6",
+                "title": "物理力学"
+              }
+            ],
+            "title": "流体力学"
+          },
+          {
+            "classCode": "A004_7",
+            "parentCode": "A004",
+            "title": "流变学"
+          },
+          {
+            "classCode": "A004_8",
+            "parentCode": "A004",
+            "children": [
+              {
+                "classCode": "A004_82",
+                "parentCode": "A004_8",
+                "title": "爆震理论"
+              },
+              {
+                "classCode": "A004_83",
+                "parentCode": "A004_8",
+                "title": "爆震波的传播"
+              },
+              {
+                "classCode": "A004_84",
+                "parentCode": "A004_8",
+                "title": "爆炸波与物体的相互作用"
+              },
+              {
+                "classCode": "A004_85",
+                "parentCode": "A004_8",
+                "title": "爆炸波的观测技术"
+              },
+              {
+                "classCode": "A004_86",
+                "parentCode": "A004_8",
+                "title": "穿甲理论"
+              },
+              {
+                "classCode": "A004_87",
+                "parentCode": "A004_8",
+                "title": "应用爆炸力学"
+              }
+            ],
+            "title": "爆炸力学"
+          },
+          {
+            "classCode": "A004_9",
+            "parentCode": "A004",
+            "title": "应用力学"
+          }
+        ],
+        "title": "力学"
+      },
+      {
+        "classCode": "A005",
+        "parentCode": "A",
+        "children": [
+          {
+            "classCode": "A005_1",
+            "parentCode": "A005",
+            "title": "物理学总论"
+          },
+          {
+            "classCode": "A005_2",
+            "parentCode": "A005",
+            "title": "物理学现状、概况"
+          },
+          {
+            "classCode": "A005_3",
+            "parentCode": "A005",
+            "title": "物理学实验方法与设备"
+          },
+          {
+            "classCode": "A005_4",
+            "parentCode": "A005",
+            "title": "物理测量"
+          },
+          {
+            "classCode": "A005_5",
+            "parentCode": "A005",
+            "children": [
+              {
+                "classCode": "A005_50",
+                "parentCode": "A005_5",
+                "title": "一般性问题"
+              },
+              {
+                "classCode": "A005_51",
+                "parentCode": "A005_5",
+                "title": "物理学的数学方法"
+              },
+              {
+                "classCode": "A005_52",
+                "parentCode": "A005_5",
+                "title": "相对论、场论"
+              },
+              {
+                "classCode": "A005_53",
+                "parentCode": "A005_5",
+                "title": "量子论"
+              },
+              {
+                "classCode": "A005_54",
+                "parentCode": "A005_5",
+                "title": "热力学与统计物理学"
+              },
+              {
+                "classCode": "A005_55",
+                "parentCode": "A005_5",
+                "title": "非线性物理学"
+              }
+            ],
+            "title": "理论物理学"
+          },
+          {
+            "classCode": "A005_6",
+            "parentCode": "A005",
+            "title": "声学"
+          },
+          {
+            "classCode": "A005_7",
+            "parentCode": "A005",
+            "children": [
+              {
+                "classCode": "A005_71",
+                "parentCode": "A005_7",
+                "title": "光本性理论"
+              },
+              {
+                "classCode": "A005_72",
+                "parentCode": "A005_7",
+                "title": "光辐射、光度学、色度学"
+              },
+              {
+                "classCode": "A005_73",
+                "parentCode": "A005_7",
+                "title": "光谱学"
+              },
+              {
+                "classCode": "A005_74",
+                "parentCode": "A005_7",
+                "title": "X射线、紫外线、红外线"
+              },
+              {
+                "classCode": "A005_75",
+                "parentCode": "A005_7",
+                "title": "几何光学"
+              },
+              {
+                "classCode": "A005_76",
+                "parentCode": "A005_7",
+                "title": "物理光学"
+              },
+              {
+                "classCode": "A005_77",
+                "parentCode": "A005_7",
+                "title": "波导光学及集成光学"
+              },
+              {
+                "classCode": "A005_78",
+                "parentCode": "A005_7",
+                "title": "非线性光学(强光与物质的作用)"
+              },
+              {
+                "classCode": "A005_79",
+                "parentCode": "A005_7",
+                "title": "信息光学"
+              },
+              {
+                "classCode": "A005_7A",
+                "parentCode": "A005_7",
+                "title": "应用光学"
+              },
+              {
+                "classCode": "A005_7B",
+                "parentCode": "A005_7",
+                "title": "激光原理及激光器研究"
+              },
+              {
+                "classCode": "A005_7C",
+                "parentCode": "A005_7",
+                "title": "量子光学"
+              }
+            ],
+            "title": "光学"
+          },
+          {
+            "classCode": "A005_8",
+            "parentCode": "A005",
+            "children": [
+              {
+                "classCode": "A005_81",
+                "parentCode": "A005_8",
+                "title": "电磁学"
+              },
+              {
+                "classCode": "A005_82",
+                "parentCode": "A005_8",
+                "title": "电动力学"
+              }
+            ],
+            "title": "电磁学、电动力学"
+          },
+          {
+            "classCode": "A005_9",
+            "parentCode": "A005",
+            "title": "无线电物理学"
+          },
+          {
+            "classCode": "A005_A",
+            "parentCode": "A005",
+            "children": [
+              {
+                "classCode": "A005_A1",
+                "parentCode": "A005_A",
+                "title": "气体放电(气体导电)"
+              },
+              {
+                "classCode": "A005_A2",
+                "parentCode": "A005_A",
+                "title": "阴极电子学"
+              },
+              {
+                "classCode": "A005_A3",
+                "parentCode": "A005_A",
+                "title": "带电粒子光学"
+              }
+            ],
+            "title": "真空电子学(电子物理学)"
+          },
+          {
+            "classCode": "A005_B",
+            "parentCode": "A005",
+            "children": [
+              {
+                "classCode": "A005_B1",
+                "parentCode": "A005_B",
+                "title": "半导体理论"
+              },
+              {
+                "classCode": "A005_B2",
+                "parentCode": "A005_B",
+                "title": "半导体性质"
+              },
+              {
+                "classCode": "A005_B3",
+                "parentCode": "A005_B",
+                "title": "非平衡载流子"
+              },
+              {
+                "classCode": "A005_B4",
+                "parentCode": "A005_B",
+                "title": "杂质和缺陷"
+              },
+              {
+                "classCode": "A005_B5",
+                "parentCode": "A005_B",
+                "title": "P-N结"
+              }
+            ],
+            "title": "半导体物理学"
+          },
+          {
+            "classCode": "A005_C",
+            "parentCode": "A005",
+            "children": [
+              {
+                "classCode": "A005_C1",
+                "parentCode": "A005_C",
+                "title": "固体理论"
+              },
+              {
+                "classCode": "A005_C2",
+                "parentCode": "A005_C",
+                "title": "固体性质"
+              },
+              {
+                "classCode": "A005_C3",
+                "parentCode": "A005_C",
+                "title": "固体缺陷"
+              },
+              {
+                "classCode": "A005_C4",
+                "parentCode": "A005_C",
+                "title": "薄膜物理学"
+              },
+              {
+                "classCode": "A005_C5",
+                "parentCode": "A005_C",
+                "title": "晶体学"
+              }
+            ],
+            "title": "固体物理学"
+          },
+          {
+            "classCode": "A005_D",
+            "parentCode": "A005",
+            "children": [
+              {
+                "classCode": "A005_D1",
+                "parentCode": "A005_D",
+                "title": "超导电性"
+              },
+              {
+                "classCode": "A005_D2",
+                "parentCode": "A005_D",
+                "title": "超流性、低温物性"
+              },
+              {
+                "classCode": "A005_D3",
+                "parentCode": "A005_D",
+                "title": "低温物理实验技术"
+              },
+              {
+                "classCode": "A005_D4",
+                "parentCode": "A005_D",
+                "title": "超低温(小于1K)的获得"
+              }
+            ],
+            "title": "低温物理学"
+          },
+          {
+            "classCode": "A005_E",
+            "parentCode": "A005",
+            "title": "高压与高温物理学"
+          },
+          {
+            "classCode": "A005_F",
+            "parentCode": "A005",
+            "children": [
+              {
+                "classCode": "A005_F2",
+                "parentCode": "A005_F",
+                "title": "约束与加热"
+              },
+              {
+                "classCode": "A005_F3",
+                "parentCode": "A005_F",
+                "title": "湍流"
+              },
+              {
+                "classCode": "A005_F4",
+                "parentCode": "A005_F",
+                "title": "波与不稳定性"
+              },
+              {
+                "classCode": "A005_F5",
+                "parentCode": "A005_F",
+                "title": "激震波(骇波)"
+              },
+              {
+                "classCode": "A005_F6",
+                "parentCode": "A005_F",
+                "title": "辐射与测量(诊断技术)"
+              },
+              {
+                "classCode": "A005_F7",
+                "parentCode": "A005_F",
+                "title": "等离子体物理的应用"
+              }
+            ],
+            "title": "等离子体物理学"
+          },
+          {
+            "classCode": "A005_G",
+            "parentCode": "A005",
+            "children": [
+              {
+                "classCode": "A005_G1",
+                "parentCode": "A005_G",
+                "title": "热学"
+              },
+              {
+                "classCode": "A005_G2",
+                "parentCode": "A005_G",
+                "title": "物质分子运动论"
+              }
+            ],
+            "title": "热学与物质分子运动论"
+          },
+          {
+            "classCode": "A005_H",
+            "parentCode": "A005",
+            "children": [
+              {
+                "classCode": "A005_H1",
+                "parentCode": "A005_H",
+                "title": "分子物理学"
+              },
+              {
+                "classCode": "A005_H2",
+                "parentCode": "A005_H",
+                "title": "原子物理学"
+              },
+              {
+                "classCode": "A005_H3",
+                "parentCode": "A005_H",
+                "title": "介分子与μ分子"
+              },
+              {
+                "classCode": "A005_H4",
+                "parentCode": "A005_H",
+                "title": "介原子与μ原子"
+              },
+              {
+                "classCode": "A005_H5",
+                "parentCode": "A005_H",
+                "title": "电子偶素与μ子素"
+              }
+            ],
+            "title": "分子物理学、原子物理学"
+          },
+          {
+            "classCode": "A005_I",
+            "parentCode": "A005",
+            "children": [
+              {
+                "classCode": "A005_I1",
+                "parentCode": "A005_I",
+                "title": "原子核物理学"
+              },
+              {
+                "classCode": "A005_I2",
+                "parentCode": "A005_I",
+                "title": "高能物理学"
+              },
+              {
+                "classCode": "A005_I3",
+                "parentCode": "A005_I",
+                "title": "波谱学、能谱学"
+              }
+            ],
+            "title": "原子核物理学、高能物理学"
+          },
+          {
+            "classCode": "A005_J",
+            "parentCode": "A005",
+            "title": "应用物理学"
+          }
+        ],
+        "title": "物理学"
+      },
+      {
+        "classCode": "A006",
+        "parentCode": "A",
+        "children": [
+          {
+            "classCode": "A006_1",
+            "parentCode": "A006",
+            "title": "生物科学总论"
+          },
+          {
+            "classCode": "A006_2",
+            "parentCode": "A006",
+            "title": "普通生物学"
+          },
+          {
+            "classCode": "A006_3",
+            "parentCode": "A006",
+            "title": "细胞学"
+          },
+          {
+            "classCode": "A006_4",
+            "parentCode": "A006",
+            "title": "遗传学"
+          },
+          {
+            "classCode": "A006_5",
+            "parentCode": "A006",
+            "children": [
+              {
+                "classCode": "A006_51",
+                "parentCode": "A006_5",
+                "title": "普通生理学"
+              },
+              {
+                "classCode": "A006_52",
+                "parentCode": "A006_5",
+                "title": "人体生理学"
+              },
+              {
+                "classCode": "A006_53",
+                "parentCode": "A006_5",
+                "title": "家畜生理学"
+              }
+            ],
+            "title": "生理学"
+          },
+          {
+            "classCode": "A006_6",
+            "parentCode": "A006",
+            "children": [
+              {
+                "classCode": "A006_62",
+                "parentCode": "A006_6",
+                "title": "蛋白质、核酸"
+              },
+              {
+                "classCode": "A006_63",
+                "parentCode": "A006_6",
+                "title": "酶"
+              },
+              {
+                "classCode": "A006_64",
+                "parentCode": "A006_6",
+                "title": "糖、脂类"
+              },
+              {
+                "classCode": "A006_65",
+                "parentCode": "A006_6",
+                "title": "维生素、激素、生物体其他化学成份"
+              },
+              {
+                "classCode": "A006_66",
+                "parentCode": "A006_6",
+                "title": "物质代谢和能量代谢"
+              },
+              {
+                "classCode": "A006_67",
+                "parentCode": "A006_6",
+                "title": "其他生物化学"
+              }
+            ],
+            "title": "生物化学"
+          },
+          {
+            "classCode": "A006_7",
+            "parentCode": "A006",
+            "title": "生物物理学"
+          },
+          {
+            "classCode": "A006_8",
+            "parentCode": "A006",
+            "title": "分子生物学及遗传工程"
+          },
+          {
+            "classCode": "A006_9",
+            "parentCode": "A006",
+            "children": [
+              {
+                "classCode": "A006_91",
+                "parentCode": "A006_9",
+                "title": "仿生学"
+              },
+              {
+                "classCode": "A006_92",
+                "parentCode": "A006_9",
+                "title": "生物医学工程"
+              },
+              {
+                "classCode": "A006_93",
+                "parentCode": "A006_9",
+                "title": "生物工程学其它方面的研究与应用"
+              }
+            ],
+            "title": "生物工程学"
+          },
+          {
+            "classCode": "A006_A",
+            "parentCode": "A006",
+            "title": "环境生物学"
+          },
+          {
+            "classCode": "A006_B",
+            "parentCode": "A006",
+            "title": "古生物学"
+          },
+          {
+            "classCode": "A006_C",
+            "parentCode": "A006",
+            "children": [
+              {
+                "classCode": "A006_C1",
+                "parentCode": "A006_C",
+                "title": "普通微生物学"
+              },
+              {
+                "classCode": "A006_C2",
+                "parentCode": "A006_C",
+                "title": "病毒学"
+              },
+              {
+                "classCode": "A006_C3",
+                "parentCode": "A006_C",
+                "children": [
+                  {
+                    "classCode": "A006_C31",
+                    "parentCode": "A006_C3",
+                    "title": "医学免疫学"
+                  },
+                  {
+                    "classCode": "A006_C32",
+                    "parentCode": "A006_C3",
+                    "title": "家畜免疫学"
+                  }
+                ],
+                "title": "免疫学"
+              },
+              {
+                "classCode": "A006_C4",
+                "parentCode": "A006_C",
+                "title": "医学微生物学"
+              },
+              {
+                "classCode": "A006_C5",
+                "parentCode": "A006_C",
+                "title": "家畜微生物学"
+              },
+              {
+                "classCode": "A006_C6",
+                "parentCode": "A006_C",
+                "title": "农业、土壤微生物学、工业微生物学、腐蚀微生物学及其它应用微生物学"
+              }
+            ],
+            "title": "微生物学理论及其应用"
+          },
+          {
+            "classCode": "A006_D",
+            "parentCode": "A006",
+            "children": [
+              {
+                "classCode": "A006_D1",
+                "parentCode": "A006_D",
+                "title": "植物学研究、实验与植物演化、发展"
+              },
+              {
+                "classCode": "A006_D2",
+                "parentCode": "A006_D",
+                "title": "植物细胞学与植物遗传学、植物形态学"
+              },
+              {
+                "classCode": "A006_D3",
+                "parentCode": "A006_D",
+                "title": "植物生理学"
+              },
+              {
+                "classCode": "A006_D4",
+                "parentCode": "A006_D",
+                "title": "植物生物化学、植物生物物理学"
+              },
+              {
+                "classCode": "A006_D5",
+                "parentCode": "A006_D",
+                "title": "植物生态学和植物地理学"
+              },
+              {
+                "classCode": "A006_D6",
+                "parentCode": "A006_D",
+                "title": "植物分类学"
+              },
+              {
+                "classCode": "A006_D7",
+                "parentCode": "A006_D",
+                "title": "应用植物学"
+              }
+            ],
+            "title": "植物学"
+          },
+          {
+            "classCode": "A006_E",
+            "parentCode": "A006",
+            "children": [
+              {
+                "classCode": "A006_E1",
+                "parentCode": "A006_E",
+                "title": "动物学的研究与实验、动物演化与发展"
+              },
+              {
+                "classCode": "A006_E2",
+                "parentCode": "A006_E",
+                "title": "动物细胞学、遗传学及形态学"
+              },
+              {
+                "classCode": "A006_E3",
+                "parentCode": "A006_E",
+                "title": "动物生态学和动物地理学"
+              },
+              {
+                "classCode": "A006_E4",
+                "parentCode": "A006_E",
+                "title": "动物分类学"
+              },
+              {
+                "classCode": "A006_E5",
+                "parentCode": "A006_E",
+                "title": "应用动物学"
+              }
+            ],
+            "title": "动物学"
+          },
+          {
+            "classCode": "A006_F",
+            "parentCode": "A006",
+            "children": [
+              {
+                "classCode": "A006_F1",
+                "parentCode": "A006_F",
+                "title": "昆虫生物学"
+              },
+              {
+                "classCode": "A006_F2",
+                "parentCode": "A006_F",
+                "title": "昆虫分类学"
+              },
+              {
+                "classCode": "A006_F3",
+                "parentCode": "A006_F",
+                "title": "应用昆虫学"
+              }
+            ],
+            "title": "昆虫学"
+          },
+          {
+            "classCode": "A006_G",
+            "parentCode": "A006",
+            "children": [
+              {
+                "classCode": "A006_G1",
+                "parentCode": "A006_G",
+                "title": "古人类学"
+              },
+              {
+                "classCode": "A006_G2",
+                "parentCode": "A006_G",
+                "title": "分子人类学及人类遗传学"
+              },
+              {
+                "classCode": "A006_G3",
+                "parentCode": "A006_G",
+                "title": "体质人类学与人体测量学"
+              },
+              {
+                "classCode": "A006_G4",
+                "parentCode": "A006_G",
+                "title": "人体形态学"
+              },
+              {
+                "classCode": "A006_G5",
+                "parentCode": "A006_G",
+                "title": "社会人类学、环境优生学和人类生态学"
+              }
+            ],
+            "title": "人类学"
+          }
+        ],
+        "title": "生物学"
+      },
+      {
+        "classCode": "A007",
+        "parentCode": "A",
+        "children": [
+          {
+            "classCode": "A007_2",
+            "parentCode": "A007",
+            "title": "天文观测设备与观测资料"
+          },
+          {
+            "classCode": "A007_3",
+            "parentCode": "A007",
+            "title": "天体测量学"
+          },
+          {
+            "classCode": "A007_4",
+            "parentCode": "A007",
+            "title": "天体力学(理论天文学)"
+          },
+          {
+            "classCode": "A007_5",
+            "parentCode": "A007",
+            "title": "天体物理学"
+          },
+          {
+            "classCode": "A007_6",
+            "parentCode": "A007",
+            "title": "恒星天文学、星系天文学、宇宙学"
+          },
+          {
+            "classCode": "A007_7",
+            "parentCode": "A007",
+            "title": "射电天文学(无线电天文学)"
+          },
+          {
+            "classCode": "A007_8",
+            "parentCode": "A007",
+            "title": "空间天文学"
+          },
+          {
+            "classCode": "A007_9",
+            "parentCode": "A007",
+            "title": "太阳系"
+          },
+          {
+            "classCode": "A007_A",
+            "parentCode": "A007",
+            "title": "时间、历法"
+          }
+        ],
+        "title": "天文学"
+      },
+      {
+        "classCode": "A008",
+        "parentCode": "A",
+        "children": [
+          {
+            "classCode": "A008_1",
+            "parentCode": "A008",
+            "children": [
+              {
+                "classCode": "A008_11",
+                "parentCode": "A008_1",
+                "title": "一般理论与方法"
+              },
+              {
+                "classCode": "A008_12",
+                "parentCode": "A008_1",
+                "title": "地貌学"
+              },
+              {
+                "classCode": "A008_13",
+                "parentCode": "A008_1",
+                "title": "区域自然地理学"
+              },
+              {
+                "classCode": "A008_14",
+                "parentCode": "A008_1",
+                "children": [
+                  {
+                    "classCode": "A008_141",
+                    "parentCode": "A008_14",
+                    "title": "生物地理学"
+                  },
+                  {
+                    "classCode": "A008_142",
+                    "parentCode": "A008_14",
+                    "title": "环境地理学"
+                  },
+                  {
+                    "classCode": "A008_143",
+                    "parentCode": "A008_14",
+                    "title": "其他应用地理学"
+                  }
+                ],
+                "title": "应用及分类地理学"
+              },
+              {
+                "classCode": "A008_15",
+                "parentCode": "A008_1",
+                "title": "土壤学"
+              }
+            ],
+            "title": "自然地理学"
+          },
+          {
+            "classCode": "A008_2",
+            "parentCode": "A008",
+            "children": [
+              {
+                "classCode": "A008_22",
+                "parentCode": "A008_2",
+                "title": "普通测量学、地形测量学"
+              },
+              {
+                "classCode": "A008_23",
+                "parentCode": "A008_2",
+                "title": "大地测量学"
+              },
+              {
+                "classCode": "A008_24",
+                "parentCode": "A008_2",
+                "title": "摄影测量学与测绘遥感"
+              },
+              {
+                "classCode": "A008_25",
+                "parentCode": "A008_2",
+                "title": "地籍学"
+              },
+              {
+                "classCode": "A008_26",
+                "parentCode": "A008_2",
+                "title": "地图学及制图学"
+              },
+              {
+                "classCode": "A008_27",
+                "parentCode": "A008_2",
+                "title": "测绘仪器及使用"
+              },
+              {
+                "classCode": "A008_28",
+                "parentCode": "A008_2",
+                "title": "工程测量学、专业测绘"
+              }
+            ],
+            "title": "测绘学"
+          }
+        ],
+        "title": "自然地理学和测绘学"
+      },
+      {
+        "classCode": "A009",
+        "parentCode": "A",
+        "children": [
+          {
+            "classCode": "A009_1",
+            "parentCode": "A009",
+            "title": "气象工作及气象经济"
+          },
+          {
+            "classCode": "A009_2",
+            "parentCode": "A009",
+            "title": "气象基础科学"
+          },
+          {
+            "classCode": "A009_3",
+            "parentCode": "A009",
+            "title": "大气探测(气象观测)"
+          },
+          {
+            "classCode": "A009_4",
+            "parentCode": "A009",
+            "title": "气象要素及大气现象"
+          },
+          {
+            "classCode": "A009_5",
+            "parentCode": "A009",
+            "title": "动力气象学"
+          },
+          {
+            "classCode": "A009_6",
+            "parentCode": "A009",
+            "title": "天气学"
+          },
+          {
+            "classCode": "A009_7",
+            "parentCode": "A009",
+            "title": "天气预报"
+          },
+          {
+            "classCode": "A009_8",
+            "parentCode": "A009",
+            "title": "气候学"
+          },
+          {
+            "classCode": "A009_9",
+            "parentCode": "A009",
+            "title": "气象灾害学"
+          },
+          {
+            "classCode": "A009_A",
+            "parentCode": "A009",
+            "title": "应用气象学"
+          },
+          {
+            "classCode": "A009_B",
+            "parentCode": "A009",
+            "title": "气象设备仪器制造、使用"
+          },
+          {
+            "classCode": "A009_C",
+            "parentCode": "A009",
+            "title": "人工影响天气"
+          }
+        ],
+        "title": "气象学"
+      },
+      {
+        "classCode": "A010",
+        "parentCode": "A",
+        "children": [
+          {
+            "classCode": "A010_2",
+            "parentCode": "A010",
+            "title": "海洋调查技术方法与设备"
+          },
+          {
+            "classCode": "A010_3",
+            "parentCode": "A010",
+            "title": "区域海洋学"
+          },
+          {
+            "classCode": "A010_4",
+            "parentCode": "A010",
+            "title": "海洋气象学"
+          },
+          {
+            "classCode": "A010_5",
+            "parentCode": "A010",
+            "title": "海洋水文学"
+          },
+          {
+            "classCode": "A010_6",
+            "parentCode": "A010",
+            "title": "海洋物理学"
+          },
+          {
+            "classCode": "A010_7",
+            "parentCode": "A010",
+            "title": "海洋化学"
+          },
+          {
+            "classCode": "A010_8",
+            "parentCode": "A010",
+            "title": "海洋生物学"
+          },
+          {
+            "classCode": "A010_9",
+            "parentCode": "A010",
+            "title": "海洋地球物理学"
+          },
+          {
+            "classCode": "A010_A",
+            "parentCode": "A010",
+            "title": "海洋地质学、海洋地貌学"
+          },
+          {
+            "classCode": "A010_B",
+            "parentCode": "A010",
+            "title": "海洋资源与开发"
+          },
+          {
+            "classCode": "A010_C",
+            "parentCode": "A010",
+            "title": "海洋工程"
+          },
+          {
+            "classCode": "A010_D",
+            "parentCode": "A010",
+            "title": "海洋环境及海洋保护学"
+          },
+          {
+            "classCode": "A010_E",
+            "parentCode": "A010",
+            "title": "海洋灾害"
+          }
+        ],
+        "title": "海洋学"
+      },
+      {
+        "classCode": "A011",
+        "parentCode": "A",
+        "children": [
+          {
+            "classCode": "A011_1",
+            "parentCode": "A011",
+            "children": [
+              {
+                "classCode": "A011_11",
+                "parentCode": "A011_1",
+                "title": "总论及地质管理学"
+              },
+              {
+                "classCode": "A011_12",
+                "parentCode": "A011_1",
+                "title": "地质经济学"
+              }
+            ],
+            "title": "地质工作及地质经济"
+          },
+          {
+            "classCode": "A011_2",
+            "parentCode": "A011",
+            "children": [
+              {
+                "classCode": "A011_21",
+                "parentCode": "A011_2",
+                "title": "岩溶地质学"
+              },
+              {
+                "classCode": "A011_22",
+                "parentCode": "A011_2",
+                "title": "地震灾害及地震地质学"
+              },
+              {
+                "classCode": "A011_23",
+                "parentCode": "A011_2",
+                "title": "动力地质灾害及灾害地质学"
+              },
+              {
+                "classCode": "A011_24",
+                "parentCode": "A011_2",
+                "title": "火山学"
+              },
+              {
+                "classCode": "A011_25",
+                "parentCode": "A011_2",
+                "title": "冻土学"
+              },
+              {
+                "classCode": "A011_26",
+                "parentCode": "A011_2",
+                "title": "海洋地质灾害"
+              }
+            ],
+            "title": "地质灾害及灾害地质学"
+          },
+          {
+            "classCode": "A011_3",
+            "parentCode": "A011",
+            "children": [
+              {
+                "classCode": "A011_32",
+                "parentCode": "A011_3",
+                "title": "矿物分类"
+              },
+              {
+                "classCode": "A011_33",
+                "parentCode": "A011_3",
+                "title": "宝石学"
+              }
+            ],
+            "title": "矿物学"
+          },
+          {
+            "classCode": "A011_4",
+            "parentCode": "A011",
+            "children": [
+              {
+                "classCode": "A011_42",
+                "parentCode": "A011_4",
+                "title": "岩浆岩(火成岩)"
+              },
+              {
+                "classCode": "A011_43",
+                "parentCode": "A011_4",
+                "title": "沉积岩"
+              },
+              {
+                "classCode": "A011_44",
+                "parentCode": "A011_4",
+                "title": "变质岩"
+              }
+            ],
+            "title": "岩石学"
+          },
+          {
+            "classCode": "A011_6",
+            "parentCode": "A011",
+            "children": [
+              {
+                "classCode": "A011_62",
+                "parentCode": "A011_6",
+                "title": "古地理学及古气候学"
+              },
+              {
+                "classCode": "A011_63",
+                "parentCode": "A011_6",
+                "title": "各时代地史及地层学"
+              }
+            ],
+            "title": "历史地质学、地层学"
+          },
+          {
+            "classCode": "A011_7",
+            "parentCode": "A011",
+            "title": "动力地质学"
+          },
+          {
+            "classCode": "A011_8",
+            "parentCode": "A011",
+            "title": "构造地质学"
+          },
+          {
+            "classCode": "A011_9",
+            "parentCode": "A011",
+            "title": "地质力学"
+          },
+          {
+            "classCode": "A011_A",
+            "parentCode": "A011",
+            "title": "区域地质学"
+          },
+          {
+            "classCode": "A011_B",
+            "parentCode": "A011",
+            "children": [
+              {
+                "classCode": "A011_B2",
+                "parentCode": "A011_B",
+                "title": "金属矿床"
+              },
+              {
+                "classCode": "A011_B3",
+                "parentCode": "A011_B",
+                "title": "非金属矿床"
+              },
+              {
+                "classCode": "A011_B4",
+                "parentCode": "A011_B",
+                "title": "煤田地质学"
+              },
+              {
+                "classCode": "A011_B5",
+                "parentCode": "A011_B",
+                "title": "油气地质学"
+              }
+            ],
+            "title": "矿床学"
+          },
+          {
+            "classCode": "A011_C",
+            "parentCode": "A011",
+            "title": "地球化学"
+          },
+          {
+            "classCode": "A011_D",
+            "parentCode": "A011",
+            "children": [
+              {
+                "classCode": "A011_D1",
+                "parentCode": "A011_D",
+                "title": "遥感勘探"
+              },
+              {
+                "classCode": "A011_D2",
+                "parentCode": "A011_D",
+                "title": "地质普查与地质测量"
+              },
+              {
+                "classCode": "A011_D3",
+                "parentCode": "A011_D",
+                "title": "地球物理勘探"
+              },
+              {
+                "classCode": "A011_D4",
+                "parentCode": "A011_D",
+                "title": "地球化学勘探"
+              },
+              {
+                "classCode": "A011_D5",
+                "parentCode": "A011_D",
+                "title": "地质勘探"
+              },
+              {
+                "classCode": "A011_D6",
+                "parentCode": "A011_D",
+                "title": "数学勘探"
+              },
+              {
+                "classCode": "A011_D7",
+                "parentCode": "A011_D",
+                "title": "同位素勘探"
+              }
+            ],
+            "title": "普查勘探地质学"
+          },
+          {
+            "classCode": "A011_E",
+            "parentCode": "A011",
+            "children": [
+              {
+                "classCode": "A011_E1",
+                "parentCode": "A011_E",
+                "title": "坑探工程(山地工作)"
+              },
+              {
+                "classCode": "A011_E2",
+                "parentCode": "A011_E",
+                "title": "钻探工程"
+              }
+            ],
+            "title": "勘探工程学"
+          },
+          {
+            "classCode": "A011_F",
+            "parentCode": "A011",
+            "title": "宇宙地质学"
+          },
+          {
+            "classCode": "A011_G",
+            "parentCode": "A011",
+            "title": "海洋地质学"
+          },
+          {
+            "classCode": "A011_H",
+            "parentCode": "A011",
+            "children": [
+              {
+                "classCode": "A011_H1",
+                "parentCode": "A011_H",
+                "title": "水文地质学(地下水水文学)"
+              },
+              {
+                "classCode": "A011_H2",
+                "parentCode": "A011_H",
+                "title": "工程地质学"
+              }
+            ],
+            "title": "水文地质学与工程地质学"
+          },
+          {
+            "classCode": "A011_I",
+            "parentCode": "A011",
+            "title": "环境地质学"
+          },
+          {
+            "classCode": "A011_K",
+            "parentCode": "A011",
+            "children": [
+              {
+                "classCode": "A011_K1",
+                "parentCode": "A011_K",
+                "title": "地质勘探仪器"
+              },
+              {
+                "classCode": "A011_K2",
+                "parentCode": "A011_K",
+                "title": "钻探设备"
+              }
+            ],
+            "title": "地质勘查仪器及设备"
+          }
+        ],
+        "title": "地质学"
+      },
+      {
+        "classCode": "A012",
+        "parentCode": "A",
+        "children": [
+          {
+            "classCode": "A012_1",
+            "parentCode": "A012",
+            "title": "一般理论"
+          },
+          {
+            "classCode": "A012_2",
+            "parentCode": "A012",
+            "title": "地球起源及演化"
+          },
+          {
+            "classCode": "A012_3",
+            "parentCode": "A012",
+            "title": "地球形状学及地球结构"
+          },
+          {
+            "classCode": "A012_4",
+            "parentCode": "A012",
+            "title": "地球重力学"
+          },
+          {
+            "classCode": "A012_5",
+            "parentCode": "A012",
+            "title": "大地构造物理学、岩组学(构造岩石学)"
+          },
+          {
+            "classCode": "A012_6",
+            "parentCode": "A012",
+            "title": "地热学、火山学"
+          },
+          {
+            "classCode": "A012_7",
+            "parentCode": "A012",
+            "title": "地磁学"
+          },
+          {
+            "classCode": "A012_8",
+            "parentCode": "A012",
+            "title": "地电学"
+          },
+          {
+            "classCode": "A012_9",
+            "parentCode": "A012",
+            "children": [
+              {
+                "classCode": "A012_92",
+                "parentCode": "A012_9",
+                "title": "水文调查、观测、实验分析"
+              },
+              {
+                "classCode": "A012_93",
+                "parentCode": "A012_9",
+                "title": "水文物理与化学"
+              },
+              {
+                "classCode": "A012_94",
+                "parentCode": "A012_9",
+                "title": "水文预报"
+              },
+              {
+                "classCode": "A012_95",
+                "parentCode": "A012_9",
+                "title": "陆地水文学、水文地理学"
+              },
+              {
+                "classCode": "A012_96",
+                "parentCode": "A012_9",
+                "title": "冰雪水文学"
+              },
+              {
+                "classCode": "A012_97",
+                "parentCode": "A012_9",
+                "title": "河流水文学及湖泊学"
+              },
+              {
+                "classCode": "A012_98",
+                "parentCode": "A012_9",
+                "title": "水力学及河流动力学"
+              },
+              {
+                "classCode": "A012_99",
+                "parentCode": "A012_9",
+                "title": "应用水文学"
+              },
+              {
+                "classCode": "A012_9A",
+                "parentCode": "A012_9",
+                "title": "水文观测仪器设备"
+              }
+            ],
+            "title": "水文学"
+          },
+          {
+            "classCode": "A012_A",
+            "parentCode": "A012",
+            "title": "空间物理"
+          },
+          {
+            "classCode": "A012_B",
+            "parentCode": "A012",
+            "title": "地震地球物理学"
+          },
+          {
+            "classCode": "A012_C",
+            "parentCode": "A012",
+            "title": "勘查地球物理学"
+          },
+          {
+            "classCode": "A012_E",
+            "parentCode": "A012",
+            "title": "工程及水文地球物理勘探"
+          },
+          {
+            "classCode": "A012_F",
+            "parentCode": "A012",
+            "title": "地球物理勘测仪器"
+          }
+        ],
+        "title": "地球物理学"
+      },
+      {
+        "classCode": "A013",
+        "parentCode": "A",
+        "children": [
+          {
+            "classCode": "A013_1",
+            "parentCode": "A013",
+            "children": [
+              {
+                "classCode": "A013_11",
+                "parentCode": "A013_1",
+                "title": "资源经济学"
+              },
+              {
+                "classCode": "A013_12",
+                "parentCode": "A013_1",
+                "title": "资源地理学"
+              },
+              {
+                "classCode": "A013_13",
+                "parentCode": "A013_1",
+                "title": "资源法"
+              },
+              {
+                "classCode": "A013_14",
+                "parentCode": "A013_1",
+                "title": "资源合理利用、管理与保护技术"
+              }
+            ],
+            "title": "资源管理与利用"
+          },
+          {
+            "classCode": "A013_2",
+            "parentCode": "A013",
+            "children": [
+              {
+                "classCode": "A013_21",
+                "parentCode": "A013_2",
+                "title": "土地资源"
+              },
+              {
+                "classCode": "A013_22",
+                "parentCode": "A013_2",
+                "title": "水资源"
+              },
+              {
+                "classCode": "A013_23",
+                "parentCode": "A013_2",
+                "title": "农业资源"
+              },
+              {
+                "classCode": "A013_24",
+                "parentCode": "A013_2",
+                "title": "生物资源"
+              },
+              {
+                "classCode": "A013_25",
+                "parentCode": "A013_2",
+                "title": "矿产资源"
+              },
+              {
+                "classCode": "A013_26",
+                "parentCode": "A013_2",
+                "title": "能源资源"
+              },
+              {
+                "classCode": "A013_27",
+                "parentCode": "A013_2",
+                "title": "海洋资源"
+              },
+              {
+                "classCode": "A013_28",
+                "parentCode": "A013_2",
+                "title": "旅游资源"
+              },
+              {
+                "classCode": "A013_29",
+                "parentCode": "A013_2",
+                "title": "森林资源"
+              }
+            ],
+            "title": "各种资源的开发与利用"
+          }
+        ],
+        "title": "资源科学"
+      }
+    ],
+    "title": "基础科学"
+  },
+  {
+    "classCode": "A011_52",
+    "parentCode": "A011_5",
+    "title": "古动物学"
+  },
+  {
+    "classCode": "A011_53",
+    "parentCode": "A011_5",
+    "title": "古植物学"
+  },
+  {
+    "classCode": "A011_54",
+    "parentCode": "A011_5",
+    "title": "微体古生物学"
+  }
+]
