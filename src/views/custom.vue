@@ -1,45 +1,75 @@
 <!-- 专题库构建 -->
 <template>
 	<div style="max-height: 100vh;">
-		<Row>
-			<Col span="8">
-			<Tabs type="card">
-				<TabPane label="知网学科分类">
-					<Scroll height="600">
-						<Refcnki />
-					</Scroll>
-				</TabPane>
-				<TabPane label="专利IPC分类">
-					<Scroll height="600">
-						<Refipc />
-					</Scroll>
-				</TabPane>
-				<TabPane label="通学的专题">通学的专题</TabPane>
-				<TabPane label="李畅的专题">李畅的专题</TabPane>
-				<TabPane label="海江的专题">海江的专题</TabPane>
-			</Tabs>
+		<Row v-if="currentStep == 0">
+			<Col span="7">
+				<Tabs type="card">
+					<TabPane label="知网学科分类">
+						<Scroll height="590">
+							<Refcnki @selectedClass="selectedClass" />
+						</Scroll>
+					</TabPane>
+					<TabPane label="专利IPC分类">
+						<Scroll height="590">
+							<Refipc />
+						</Scroll>
+					</TabPane>
+					<TabPane label="通学的专题">通学的专题</TabPane>
+					<TabPane label="李畅的专题">李畅的专题</TabPane>
+					<TabPane label="海江的专题">海江的专题</TabPane>
+				</Tabs>
 			</Col>
-			<Divider type="vertical" size="small" />
-			<Col span="16">
+			<Col span="1">
+				<Divider type="vertical" size="small" />
+			</Col>
+			<Col span="16" class="editPage">
+				<h2>构建你的专题库</h2>
+				<EditClass :selectedNodes="selectedNodes" />
+				<Step class="step" :currentStep="currentStep" />
 			</Col>
 		</Row>
+		<Row v-else-if="currentStep == 1">
+			<Col span="24" class="editPage">
+				<h1>构建你的专题库</h1>
+				<EditClass :selectedNodes="selectedNodes" />
+				<Step class="step" :currentStep="currentStep" />
+			</Col>
+		</Row>
+		<!-- <Row v-else-if="currentStep == 2">
+			<Col span="24" class="editPage">
+				<h1>构建你的专题库</h1>
+
+			</Col>
+		</Row> -->
 	</div>
 </template>
 
 <script>
 	import Refipc from '../decorations/refipc.vue'
 	import Refcnki from '../decorations/refcnki.vue'
+	import Step from '../decorations/step.vue'
+	import EditClass from '../decorations/editClass.vue'
 
 	export default {
 		data() {
 			return {
-
+				selectedNodes: [],
+				currentStep: 0
 			}
 		},
 		components: {
 			Refipc,
-			Refcnki
-		}
+			Refcnki,
+			Step,
+			EditClass
+		},
+		methods: {
+			selectedClass(obj) {
+				this.selectedNodes.push(obj);
+				console.log(this.selectedNodes);
+				this.currentStep = 1;
+			}
+		},
 	}
 </script>
 
@@ -53,5 +83,14 @@
 		vertical-align: middle;
 		position: relative;
 		top: -.06em;
+	}
+
+	.editPage {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		align-items: center;
+		height: 100vh;
+		/*需要设置height，不然justify-content不起作用*/
 	}
 </style>

@@ -1,11 +1,11 @@
 <template>
     <div>
-        <Tree :data="basic_science" show-checkbox ref="TreeOne" @on-check-change="getPatents"></Tree>
-        <Tree :data="engin_tech_one" show-checkbox></Tree>
-        <Tree :data="engin_tech_two" show-checkbox></Tree>
-        <Tree :data="information_tech" show-checkbox></Tree>
-        <Tree :data="agriculture_tech" show-checkbox></Tree>
-        <Tree :data="medicine_health" show-checkbox></Tree>
+        <Tree :data="basic_science" show-checkbox check-directly ref="TreeOne" @on-check-change="getPatents"></Tree>
+        <Tree :data="engin_tech_one" show-checkbox check-directly ref="TreeTwo" @on-check-change="getPatents"></Tree>
+        <Tree :data="engin_tech_two" show-checkbox check-directly ref="TreeThree" @on-check-change="getPatents"></Tree>
+        <Tree :data="information_tech" show-checkbox check-directly ref="TreeFour" @on-check-change="getPatents"></Tree>
+        <Tree :data="agriculture_tech" show-checkbox check-directly ref="TreeFive" @on-check-change="getPatents"></Tree>
+        <Tree :data="medicine_health" show-checkbox check-directly ref="TreeSix" @on-check-change="getPatents"></Tree>
     </div>
 </template>
 
@@ -18,7 +18,8 @@
                 engin_tech_two: [],
                 information_tech: [],
                 agriculture_tech: [],
-                medicine_health: []
+                medicine_health: [],
+                selected: false
             }
         },
         created() {
@@ -42,25 +43,46 @@
             })
         },
         methods: {
-            getPatents() {
-                let choiceAll = this.$refs.TreeOne.getCheckedNodes()[0];
-                console.log(choiceAll);
-                let classCode = choiceAll.classCode
-                if (choiceAll.children) {
+            getPatents(arr, obj) {
+                // arr.forEach(item => {
+                //     item.checked = false;
+                // });
+                // obj.checked = true;
 
+                console.log(obj);
+                let choiceAll = obj;
+                let classCode = obj.classCode;
+                // 将选中的节点传给父组件
+                this.$emit('getCheckedNode', choiceAll);
+                if (choiceAll.children) {
+                    // 请求不同的接口
+                    this.axios.get('http://localhost:8081/classcodes/getPatentsByClassIdPrefix', {
+                        params: {
+                            classId: classCode,
+                            pageNo: 1
+                        }
+                    })
+                    .then((response) => {
+                        // console.log(response.data);
+                        this.$emit('showPatents', response.data);
+                    })
+                    .catch((error) => {
+                        console.log(error);
+                    })
                 } else {
                     // 当前层就是最下层节点，直接取专利数据
                     this.axios.get('http://localhost:8081/classcodes/getPatentsByClassId', {
                         params: {
-                            classId: classCode
+                            classId: classCode,
+                            pageNo: 1
                         }
                     })
-                        .then((response) => {
-                            console.log(response.data)
-                        })
-                        .catch((error) => {
-                            console.log(error)
-                        })
+                    .then((response) => {
+                        console.log(response.data)
+                    })
+                    .catch((error) => {
+                        console.log(error)
+                    })
                 }
             }
         }

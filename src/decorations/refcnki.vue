@@ -1,7 +1,7 @@
 <!-- 供参考的知网学科分类 -->
 <template>
     <div>
-        <Tree :data="basic_science"></Tree>
+        <Tree :data="basic_science" @on-select-change="selectClass"></Tree>
         <Tree :data="engin_tech_one"></Tree>
         <Tree :data="engin_tech_two"></Tree>
         <Tree :data="information_tech"></Tree>
@@ -41,6 +41,12 @@
             this.axios.get('static/medicine_health.json').then(res => {
                 this.medicine_health.push(res.data[0])
             })
-        }
+        },
+        methods: {
+            selectClass(arr, obj) {
+                // console.log(obj);
+                this.$emit('selectedClass', obj);
+            }
+        },
     }
 </script>
