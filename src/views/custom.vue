@@ -6,7 +6,7 @@
 				<Tabs type="card">
 					<TabPane label="知网学科分类">
 						<Scroll height="590">
-							<Refcnki @selectedClass="selectedClass" />
+							<Refcnki />
 						</Scroll>
 					</TabPane>
 					<TabPane label="专利IPC分类">
@@ -23,7 +23,7 @@
 				<Divider type="vertical" size="small" />
 			</Col>
 			<Col span="16" class="editPage">
-				<h2>构建你的专题库</h2>
+				<h1>构建你的专题库</h1>
 				<EditClass :selectedNodes="selectedNodes" />
 				<Step class="step" :currentStep="currentStep" />
 			</Col>
@@ -31,16 +31,17 @@
 		<Row v-else-if="currentStep == 1">
 			<Col span="24" class="editPage">
 				<h1>构建你的专题库</h1>
-				<EditClass :selectedNodes="selectedNodes" />
+				<EditClass />
 				<Step class="step" :currentStep="currentStep" />
 			</Col>
 		</Row>
-		<!-- <Row v-else-if="currentStep == 2">
+		<Row v-else-if="currentStep == 2">
 			<Col span="24" class="editPage">
 				<h1>构建你的专题库</h1>
-
+				<EditPatent />
+				<Step class="step" :currentStep="currentStep" />
 			</Col>
-		</Row> -->
+		</Row>
 	</div>
 </template>
 
@@ -49,26 +50,34 @@
 	import Refcnki from '../decorations/refcnki.vue'
 	import Step from '../decorations/step.vue'
 	import EditClass from '../decorations/editClass.vue'
+	import EditPatent from '../decorations/editPatent.vue'
 
 	export default {
 		data() {
 			return {
-				selectedNodes: [],
-				currentStep: 0
+				selectedNodes: this.$store.state.selectedNodes,
+				editNodes: this.$store.state.editNodes
+			}
+		},
+		computed: {
+			// 将currentStep写在计算属性中，当store.state.currentStep发生变化时，这个getter函数才会重新求值
+			currentStep: function() {
+				return this.$store.state.currentStep;
 			}
 		},
 		components: {
 			Refipc,
 			Refcnki,
 			Step,
-			EditClass
+			EditClass,
+			EditPatent
 		},
 		methods: {
-			selectedClass(obj) {
-				this.selectedNodes.push(obj);
-				console.log(this.selectedNodes);
-				this.currentStep = 1;
-			}
+			// selectedClass(obj) {
+			// 	this.selectedNodes.push(obj);
+			// 	console.log(this.selectedNodes);
+			// 	this.currentStep = 1;
+			// }
 		},
 	}
 </script>

@@ -22,7 +22,7 @@ const routers = [
                 component: (resolve) => require(['./views/mysubject.vue'], resolve)
             }
         ],
-        component: (resolve) => require(['./views/index2.vue'], resolve)
+        component: (resolve) => require(['./views/index.vue'], resolve)
     }
 ];
 export default routers;

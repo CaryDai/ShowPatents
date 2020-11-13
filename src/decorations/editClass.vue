@@ -1,97 +1,22 @@
-<!-- 编辑自己的分类 -->
+<!-- 第2步，编辑自己的分类 -->
 <template>
     <div style="position: relative;">
-        <Tree :data="selectedNodes" :render="renderContent" class="demo-tree-render"></Tree>
-        <Button v-if="selectedNodes.length > 0" type="primary" class="button" @click="submitCustomClass">
+        <Tree :data="editNodes" :render="renderContent" class="demo-tree-render"></Tree>
+        <Button v-if="editNodes.length > 0" type="primary" class="button" @click="submitCustomClass">
             编辑完成
         </Button>
     </div>
 </template>
 <script>
     export default {
-        props: {
-            selectedNodes: {
-                type: Array
-            }
-        },
+        // props: {
+        //     selectedNodes: {
+        //         type: Array
+        //     }
+        // },
         data () {
             return {
-                data5: [
-                    {
-                        title: 'parent 1',
-                        expand: true,
-                        render: (h, { root, node, data }) => {
-                            return h('span', {
-                                style: {
-                                    display: 'inline-block',
-                                    width: '100%'
-                                }
-                            }, [
-                                h('span', [
-                                    h('Icon', {
-                                        props: {
-                                            type: 'ios-folder-outline'
-                                        },
-                                        style: {
-                                            marginRight: '8px'
-                                        }
-                                    }),
-                                    h('span', data.title)
-                                ]),
-                                h('span', {
-                                    style: {
-                                        display: 'inline-block',
-                                        float: 'right',
-                                        marginRight: '32px'
-                                    }
-                                }, [
-                                    h('Button', {
-                                        props: Object.assign({}, this.buttonProps, {
-                                            icon: 'ios-add',
-                                            type: 'primary'
-                                        }),
-                                        style: {
-                                            width: '56px'
-                                        },
-                                        on: {
-                                            click: () => { this.append(data) }
-                                        }
-                                    })
-                                ])
-                            ]);
-                        },
-                        children: [
-                            {
-                                title: 'child 1-1',
-                                expand: true,
-                                children: [
-                                    {
-                                        title: 'leaf 1-1-1',
-                                        expand: true
-                                    },
-                                    {
-                                        title: 'leaf 1-1-2',
-                                        expand: true
-                                    }
-                                ]
-                            },
-                            {
-                                title: 'child 1-2',
-                                expand: true,
-                                children: [
-                                    {
-                                        title: 'leaf 1-2-1',
-                                        expand: true
-                                    },
-                                    {
-                                        title: 'leaf 1-2-1',
-                                        expand: true
-                                    }
-                                ]
-                            }
-                        ]
-                    }
-                ],
+                editNodes: this.$store.state.editNodes,
                 buttonProps: {
                     type: 'default',
                     size: 'small',
@@ -130,7 +55,7 @@
                                     // console.log(event.target.value)
                                     data.title = event.target.value
                                     console.log(data.title)
-                                    console.log(this.selectedNodes)
+                                    console.log(this.editNodes)
                                 }
                             }
                         })
@@ -187,7 +112,7 @@
                 parent.children.splice(index, 1);
             },
             submitCustomClass () {
-                this.$emit('')
+                this.$store.commit('submitCustomClass', this.editNodes);
             }
         }
     }

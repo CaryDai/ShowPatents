@@ -1,4 +1,5 @@
 <!-- 供参考的知网学科分类 -->
+<!-- 第1步，选择自己感兴趣的分类 -->
 <template>
     <div>
         <Tree :data="basic_science" @on-select-change="selectClass"></Tree>
@@ -45,7 +46,9 @@
         methods: {
             selectClass(arr, obj) {
                 // console.log(obj);
-                this.$emit('selectedClass', obj);
+                // this.$emit('selectedClass', obj);
+                // 调用store中的selectClass方法
+                this.$store.commit('selectClass', obj);
             }
         },
     }
