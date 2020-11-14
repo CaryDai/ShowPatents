@@ -48,13 +48,13 @@ const store = new Vuex.Store({
         // 本方法在用户点击要选择的分类时被触发
         selectClass(state, obj) {
             state.selectedNodes.push(obj);
-            console.log(state.selectedNodes);
             state.editNodes = state.selectedNodes;
             state.currentStep = 1;
         },
         // 本方法在用户点击编辑完成按钮时被触发
         submitCustomClass(state, nodes) {
             state.editNodes = nodes;
+            console.log(state.editNodes);
             state.currentStep = 2;
         }
     }

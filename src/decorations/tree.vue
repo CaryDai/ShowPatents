@@ -59,7 +59,8 @@
                     this.axios.get('http://localhost:8081/classcodes/getPatentsByClassIdPrefix', {
                         params: {
                             classId: classCode,
-                            pageNo: 1
+                            pageNo: 1,
+                            queryNum: 10
                         }
                     })
                     .then((response) => {
@@ -74,7 +75,8 @@
                     this.axios.get('http://localhost:8081/classcodes/getPatentsByClassId', {
                         params: {
                             classId: classCode,
-                            pageNo: 1
+                            pageNo: 1,
+                            queryNum: 10
                         }
                     })
                     .then((response) => {

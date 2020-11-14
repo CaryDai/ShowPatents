@@ -51,7 +51,8 @@
                     this.axios.get('http://localhost:8081/classcodes/getPatentsByClassIdPrefix', {
                         params: {
                             classId: classCode,
-                            pageNo: data
+                            pageNo: data,
+                            queryNum: 10
                         }
                     })
                     .then((response) => {
@@ -66,7 +67,8 @@
                     this.axios.get('http://localhost:8081/classcodes/getPatentsByClassId', {
                         params: {
                             classId: classCode,
-                            pageNo: data
+                            pageNo: data,
+                            queryNum: 10
                         }
                     })
                     .then((response) => {
@@ -82,7 +84,7 @@
     }
 </script>
 
-<style scoped>
+<style>
     .page {
         position: absolute;
         left: 50%;

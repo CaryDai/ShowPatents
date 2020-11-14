@@ -1,6 +1,6 @@
 <!-- 专题库构建 -->
 <template>
-	<div style="max-height: 100vh;">
+	<div>
 		<Row v-if="currentStep == 0">
 			<Col span="7">
 				<Tabs type="card">
@@ -24,22 +24,22 @@
 			</Col>
 			<Col span="16" class="editPage">
 				<h1>构建你的专题库</h1>
-				<EditClass :selectedNodes="selectedNodes" />
-				<Step class="step" :currentStep="currentStep" />
+				<p style="color: #2d8cf0; font-size: large;">您可以从左侧分类中选择感兴趣的分类进行编辑</p>
+				<Step :currentStep="currentStep" />
 			</Col>
 		</Row>
 		<Row v-else-if="currentStep == 1">
 			<Col span="24" class="editPage">
 				<h1>构建你的专题库</h1>
 				<EditClass />
-				<Step class="step" :currentStep="currentStep" />
+				<Step :currentStep="currentStep" />
 			</Col>
 		</Row>
 		<Row v-else-if="currentStep == 2">
-			<Col span="24" class="editPage">
-				<h1>构建你的专题库</h1>
+			<Col span="24">
+				<h1 style="text-align: center;">构建你的专题库</h1>
 				<EditPatent />
-				<Step class="step" :currentStep="currentStep" />
+				<Step :currentStep="currentStep" />
 			</Col>
 		</Row>
 	</div>

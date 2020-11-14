@@ -11,9 +11,23 @@
                 <Select />
             </Col> -->
             <Col span="24">
-                <div id="myChart" :style="{height: '100vh', margin: '0 auto'}"></div>
+                <!-- 阻止鼠标右击事件 -->
+                <div id="myChart" :style="{height: '100vh', margin: '0 auto'}" @contextmenu.prevent></div>
             </Col>
         </Row>
+        <Modal
+            v-model="showModal"
+            title="该分类下专利信息"
+            @on-ok="ok"
+            @on-cancel="cancel">
+            <p v-if="patentArray.length == 0">暂无专利数据</p>
+            <div v-for="(patent, index) in patentArray">
+                <p>{{index+1}}. {{patent.name}}</p>
+            </div>
+            <!-- <p v-if="patentArray.length >= 1">1.{{ patentArray[0].name }}</p>
+            <p v-if="patentArray.length >= 2">2.{{ patentArray[1].name }}</p>
+            <p v-if="patentArray.length >= 3">3.{{ patentArray[2].name }}</p> -->
+        </Modal>
     </div>
 </template>
 
@@ -47,7 +61,11 @@
                 // 存储所有节点
                 allNodes: [],
                 // 存储所有边
-                allLinks: []
+                allLinks: [],
+                // 右击事件后得到的专利数组
+                patentArray: [],
+                // 是否显示对话框
+                showModal: false
             }
         },
         mounted() {
@@ -110,11 +128,15 @@
             },
             draw() {
                 let myChart = this.myChart;
+                let that = this;
                 // 指定图表的配置项和数据。（option中存储各个组件）
                 let option = {
                     // 提示框组件
                     tooltip: {
-                        show: false
+                        show: true,
+                        // formatter: function(data) {
+                        //     // console.log(data)
+                        // }
                     },
                     // 系列（series）是指：一组数值以及他们映射成的图。
                     // echarts 里系列类型（series.type）就是图表类型。系列类型（series.type）至少有：line（折线图）、bar（柱状图）、pie（饼图）、scatter（散点图）、graph（关系图）、tree（树图）
@@ -132,7 +154,7 @@
                         },
                         "lineStyle": {
                             "normal": {
-                                "color": "rgba(182,0,255,0.5)",
+                                "color": "rgba(128,128,128,0.5)",
                                 "width": "2",
                                 "opacity": 1
                             }
@@ -152,16 +174,6 @@
                         },
                         // 节点间的关系数据
                         "links": this.allLinks,
-                        // "links": [
-                        //     {
-                        //         "source": "基础科学",
-                        //         "target": "自然科学理论与方法"
-                        //     },
-                        //     {
-                        //         "source": "自然科学理论与方法",
-                        //         "target": "自然科学研究的方针政策"
-                        //     }
-                        // ],
                         "categories": this.categories,
                         "name": "知识地图",
                         "type": "graph",
@@ -212,79 +224,106 @@
                 };
                 // 使用指定的配置项和数据显示图表。
                 myChart.setOption(option, true);
-                bindChartClickEvent(myChart);
+                this.bindChartClickEvent(myChart);
+            },
+            /**
+             * 绑定图表的点击事件
+             */
+            bindChartClickEvent(chart) {
+                let that = this;
+                // 鼠标点击事件
+                chart.on('click', function (params) {
+                    var category = params.data.category,
+                        nodeType = params.data.nodeType;
+                    if (category === 0 || nodeType === 1) {
+                        that.toggleShowNodes(chart, params);
+                    }
+                });
 
-                /**
-                 * 绑定图表的点击事件
-                 * @param chart
-                 */
-                function bindChartClickEvent(chart) {
-                    chart.on('click', function (params) {
-                        var category = params.data.category,
-                            nodeType = params.data.nodeType;
-                        if (category === 0 || nodeType === 1) {
-                            toggleShowNodes(chart, params);
+                // 鼠标右击事件，显示专利信息
+                chart.on('contextmenu', function (params) {
+                    console.log(params);
+                    that.showModal = true;
+                    let classCode = params.data.classCode;
+                    that.axios.get('http://localhost:8081/classcodes/getPatentsByClassIdPrefix', {
+                        params: {
+                            classId: classCode,
+                            pageNo: 1,
+                            queryNum: 6
                         }
-                    });
-                }
-
-                // 展开或关闭节点
-                function toggleShowNodes(chart, params) {
-                    var open = !!params.data.open,
-                        options = chart.getOption(),
-                        seriesIndex = params.seriesIndex,
-                        srcLinkName = params.name,
-                        serieLinks = options.series[seriesIndex].links,
-                        serieData = options.series[seriesIndex].data,
-                        serieDataMap = new Map(),
-                        serieLinkArr = [];
-                    // 当前根节点是展开的，那么就需要关闭所有的根节点  
-                    if (open) {
-                        // 递归找到所有的link节点的target的值  
-                        findLinks(serieLinkArr, srcLinkName, serieLinks, true);
-                        if (serieLinkArr.length) {
-                            serieData.forEach(sd => serieDataMap.set(sd.name, sd));
-                            for (var i = 0; i < serieLinkArr.length; i++) {
-                                if (serieDataMap.has(serieLinkArr[i])) {
-                                    var currentData = serieDataMap.get(serieLinkArr[i]);
-                                    currentData.category = -Math.abs(currentData.category);
-                                    if (currentData.nodeType === 1) {
-                                        currentData.open = false;
-                                    }
+                    })
+                    .then((response) => {
+                        that.patentArray = response.data
+                        console.log(that.patentArray);
+                    })
+                    .catch((error) => {
+                        console.log(error)
+                    })
+                });
+            },
+            /**
+             * 展开或关闭节点
+             */
+            toggleShowNodes(chart, params) {
+                var open = !!params.data.open,
+                    options = chart.getOption(),
+                    seriesIndex = params.seriesIndex,
+                    srcLinkName = params.name,
+                    serieLinks = options.series[seriesIndex].links,
+                    serieData = options.series[seriesIndex].data,
+                    serieDataMap = new Map(),
+                    serieLinkArr = [];
+                // 当前根节点是展开的，那么就需要关闭所有的根节点  
+                if (open) {
+                    // 递归找到所有的link节点的target的值  
+                    this.findLinks(serieLinkArr, srcLinkName, serieLinks, true);
+                    if (serieLinkArr.length) {
+                        serieData.forEach(sd => serieDataMap.set(sd.name, sd));
+                        for (var i = 0; i < serieLinkArr.length; i++) {
+                            if (serieDataMap.has(serieLinkArr[i])) {
+                                var currentData = serieDataMap.get(serieLinkArr[i]);
+                                currentData.category = -Math.abs(currentData.category);
+                                if (currentData.nodeType === 1) {
+                                    currentData.open = false;
                                 }
                             }
-                            serieDataMap.get(srcLinkName).open = false;
-                            chart.setOption(options);
                         }
-                    } else {
-                        // 当前根节点是关闭的，那么就需要展开第一层根节点
-                        findLinks(serieLinkArr, srcLinkName, serieLinks, false);
-                        if (serieLinkArr.length) {
-                            serieData.forEach(sd => serieDataMap.set(sd.name, sd));
-                            for (var j = 0; j < serieLinkArr.length; j++) {
-                                if (serieDataMap.has(serieLinkArr[j])) {
-                                    var currentData = serieDataMap.get(serieLinkArr[j]);
-                                    currentData.category = Math.abs(currentData.category);
-                                }
+                        serieDataMap.get(srcLinkName).open = false;
+                        chart.setOption(options);
+                    }
+                } else {
+                    // 当前根节点是关闭的，那么就需要展开第一层根节点
+                    this.findLinks(serieLinkArr, srcLinkName, serieLinks, false);
+                    if (serieLinkArr.length) {
+                        serieData.forEach(sd => serieDataMap.set(sd.name, sd));
+                        for (var j = 0; j < serieLinkArr.length; j++) {
+                            if (serieDataMap.has(serieLinkArr[j])) {
+                                var currentData = serieDataMap.get(serieLinkArr[j]);
+                                currentData.category = Math.abs(currentData.category);
                             }
-                            serieDataMap.get(srcLinkName).open = true;
-                            chart.setOption(options);
                         }
+                        serieDataMap.get(srcLinkName).open = true;
+                        chart.setOption(options);
                     }
                 }
-
-                function findLinks(links, srcLinkName, serieLinks, deep) {
-                    var targetLinks = [];
-                    serieLinks.filter(link => link.source === srcLinkName).forEach(link => {
-                        targetLinks.push(link.target);
-                        links.push(link.target)
-                    });
-                    if (deep) {
-                        for (var i = 0; i < targetLinks.length; i++) {
-                            findLinks(links, targetLinks[i], serieLinks, deep);
-                        }
+            },
+            findLinks(links, srcLinkName, serieLinks, deep) {
+                var targetLinks = [];
+                serieLinks.filter(link => link.source === srcLinkName).forEach(link => {
+                    targetLinks.push(link.target);
+                    links.push(link.target)
+                });
+                if (deep) {
+                    for (var i = 0; i < targetLinks.length; i++) {
+                        this.findLinks(links, targetLinks[i], serieLinks, deep);
                     }
                 }
+            },
+            ok () {
+                this.$Message.info('Clicked ok');
+            },
+            cancel () {
+                this.$Message.info('Clicked cancel');
             }
         }
     }
