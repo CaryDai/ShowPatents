@@ -1,18 +1,42 @@
 <template>
     <div class="card">
-        <h3 style="color: #3b87d2f7;">{{patent.name}}</h3>
-        <p>
-            <b>发明人</b>：{{patent.inventors}}
-        </p>
-        <p v-if="patent.applicant != null">
-            <b>申请人</b>：{{patent.applicant}}
-        </p>
-        <p v-if="patent.patentAbstract.length > 105">
-            <b>摘要</b>：{{patent.patentAbstract.substring(0, 105) + '...'}}
-        </p>
-        <p v-else class="line-limit-length">
-            <b>摘要</b>：{{patent.patentAbstract}}
-        </p>
+        <div v-if="!deleted" class="titleAndBtn">
+            <h3 style="color: #3b87d2f7;">{{patent.name}}</h3>
+            <Button type="error" shape="circle" @click="deleteNotInterestPatent">我不感兴趣</Button>
+        </div>
+        <div v-else class="titleAndBtn">
+            <h3 style="color:darkgray;">{{patent.name}}</h3>
+            <Button type="error" shape="circle" ghost @click="recover" style="padding-left: 36px;
+            padding-right: 36px;">撤销</Button>
+        </div>
+        <div v-if="!deleted">
+            <p>
+                <b>发明人</b>：{{patent.inventors}}
+            </p>
+            <p v-if="patent.applicant != null">
+                <b>申请人</b>：{{patent.applicant}}
+            </p>
+            <p v-if="patent.patentAbstract.length > 105">
+                <b>摘要</b>：{{patent.patentAbstract.substring(0, 105) + '...'}}
+            </p>
+            <p v-else class="line-limit-length">
+                <b>摘要</b>：{{patent.patentAbstract}}
+            </p>
+        </div>
+        <div v-else style="color: darkgray;">
+            <p>
+                <b>发明人</b>：{{patent.inventors}}
+            </p>
+            <p v-if="patent.applicant != null">
+                <b>申请人</b>：{{patent.applicant}}
+            </p>
+            <p v-if="patent.patentAbstract.length > 105">
+                <b>摘要</b>：{{patent.patentAbstract.substring(0, 105) + '...'}}
+            </p>
+            <p v-else class="line-limit-length">
+                <b>摘要</b>：{{patent.patentAbstract}}
+            </p>
+        </div>
     </div>
 </template>
 
@@ -22,14 +46,31 @@
             patent: {
                 type: Object
             }
-        }
+        },
+        data() {
+            return {
+                deleted: false
+            }
+        },
+        methods: {
+            /**
+             * 删除不感兴趣的专利
+             */ 
+            deleteNotInterestPatent() {
+                console.log(this.patent);
+                this.deleted = true;
+            },
+            recover() {
+                this.deleted = false;
+            }
+        },
     }
 </script>
 
 <style scoped>
     .card {
         height: 120px;
-        padding-top: 10px;
+        margin-top: 5px;
         border-bottom: 1px solid #eee;
     }
 
@@ -37,5 +78,11 @@
         overflow: hidden;
         text-overflow: ellipsis;
         white-space: nowrap;
+    }
+
+    .titleAndBtn {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
     }
 </style>

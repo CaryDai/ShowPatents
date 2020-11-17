@@ -6,7 +6,7 @@
                 <Tree :data="editNodes" @on-select-change="searchPatents" />
             </Col>
             <Col span="18">
-                <Input search enter-button placeholder="搜索文献手动添加" v-model="value" @on-search="searchByKeyWords" style="width: 300px;" />
+                <Input search enter-button placeholder="手动搜索文献进行添加" v-model="value" @on-search="searchByKeyWords" style="width: 300px;" />
                 <div v-if="patentArray.length > 0">
                     <div v-for="(patent, index) in patentArray">
                         <DeletePatentCard :patent="patent" />

@@ -9,16 +9,17 @@ import App from './app.vue';
 import 'view-design/dist/styles/iview.css';
 import echarts from 'echarts';
 import axios from 'axios'
+import qs from 'qs'
 import VueAxios from 'vue-axios'
 import Vuex from 'vuex'
-// import VueResource from 'vue-resource'
 
 Vue.prototype.$echarts = echarts
 Vue.use(VueRouter);
 Vue.use(ViewUI);
 Vue.use(VueAxios, axios);
 Vue.use(Vuex);
-// Vue.use(VueResource);
+Vue.prototype.$qs = qs;
+
 
 // 路由配置
 const RouterConfig = {

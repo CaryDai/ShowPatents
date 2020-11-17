@@ -111,12 +111,12 @@
                 <Header class="layout-header-bar">
                     <div class="layout-title">知识导航平台</div>
                     <div style="float: right;">
-                        <Dropdown>
+                        <Dropdown @on-click="routerToMySubject">
                             <a href="javascript:void(0)">
                                 <Icon type="ios-arrow-down"></Icon>
                             </a>
                             <DropdownMenu slot="list">
-                                <DropdownItem>我的专题库</DropdownItem>
+                                <DropdownItem name="mysubject">我的专题库</DropdownItem>
                                 <DropdownItem>退出</DropdownItem>
                             </DropdownMenu>
                         </Dropdown>
@@ -161,6 +161,10 @@
         methods: {
             collapsedSider () {
                 this.$refs.side1.toggleCollapse();
+            },
+            routerToMySubject(itemName) {
+                console.log(itemName);
+                this.$router.push('/mysubject');
             }
         }
     }
