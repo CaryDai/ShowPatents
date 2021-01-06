@@ -1,0 +1,276 @@
+[
+    {
+        "classCode": "ene",
+        "parentCode": "",
+        "children": [
+            {
+                "classCode": "ene0",
+                "parentCode": "ene",
+                "children": [
+                    {
+                        "classCode": "ene0_0",
+                        "parentCode": "ene0",
+                        "title": "综合能源"
+                    },
+                    {
+                        "classCode": "ene0_1",
+                        "parentCode": "ene0",
+                        "title": "煤炭"
+                    },
+                    {
+                        "classCode": "ene0_2",
+                        "parentCode": "ene0",
+                        "title": "石油"
+                    },
+                    {
+                        "classCode": "ene0_3",
+                        "parentCode": "ene0",
+                        "title": "天然气"
+                    },
+                    {
+                        "classCode": "ene0_4",
+                        "parentCode": "ene0",
+                        "title": "水能"
+                    },
+                    {
+                        "classCode": "ene0_5",
+                        "parentCode": "ene0",
+                        "title": "风能"
+                    },
+                    {
+                        "classCode": "ene0_6",
+                        "parentCode": "ene0",
+                        "title": "太阳能"
+                    },
+                    {
+                        "classCode": "ene0_7",
+                        "parentCode": "ene0",
+                        "title": "地热能"
+                    },
+                    {
+                        "classCode": "ene0_8",
+                        "parentCode": "ene0",
+                        "title": "海洋能"
+                    },
+                    {
+                        "classCode": "ene0_9",
+                        "parentCode": "ene0",
+                        "title": "生物质能"
+                    },
+                    {
+                        "classCode": "ene0_10",
+                        "parentCode": "ene0",
+                        "title": "核能"
+                    }
+                ],
+                "title": "一次能源"
+            },
+            {
+                "classCode": "ene1",
+                "parentCode": "ene",
+                "children": [
+                    {
+                        "classCode": "ene1_0",
+                        "parentCode": "ene1",
+                        "title": "固体燃料"
+                    },
+                    {
+                        "classCode": "ene1_1",
+                        "parentCode": "ene1",
+                        "title": "液体燃料"
+                    },
+                    {
+                        "classCode": "ene1_2",
+                        "parentCode": "ene1",
+                        "title": "气体燃料"
+                    },
+                    {
+                        "classCode": "ene1_3",
+                        "parentCode": "ene1",
+                        "title": "电能热能"
+                    },
+                    {
+                        "classCode": "ene1_4",
+                        "parentCode": "ene1",
+                        "title": "化工产品"
+                    },
+                    {
+                        "classCode": "ene1_5",
+                        "parentCode": "ene1",
+                        "title": "冶金产品"
+                    },
+                    {
+                        "classCode": "ene1_6",
+                        "parentCode": "ene1",
+                        "title": "建筑材料"
+                    },
+                    {
+                        "classCode": "ene1_7",
+                        "parentCode": "ene1",
+                        "title": "能源材料"
+                    }
+                ],
+                "title": "二次能源"
+            },
+            {
+                "classCode": "ene2",
+                "parentCode": "ene",
+                "children": [
+                    {
+                        "classCode": "ene2_0",
+                        "parentCode": "ene2",
+                        "title": "资源矿藏"
+                    },
+                    {
+                        "classCode": "ene2_1",
+                        "parentCode": "ene2",
+                        "title": "资源开采"
+                    },
+                    {
+                        "classCode": "ene2_2",
+                        "parentCode": "ene2",
+                        "title": "能源加工"
+                    },
+                    {
+                        "classCode": "ene2_3",
+                        "parentCode": "ene2",
+                        "title": "能源转化"
+                    },
+                    {
+                        "classCode": "ene2_4",
+                        "parentCode": "ene2",
+                        "title": "能源消费"
+                    },
+                    {
+                        "classCode": "ene2_5",
+                        "parentCode": "ene2",
+                        "title": "能源输配"
+                    },
+                    {
+                        "classCode": "ene2_6",
+                        "parentCode": "ene2",
+                        "title": "能源存储"
+                    },
+                    {
+                        "classCode": "ene2_7",
+                        "parentCode": "ene2",
+                        "title": "循环利用"
+                    }
+                ],
+                "title": "能源产业"
+            },
+            {
+                "classCode": "ene3",
+                "parentCode": "ene",
+                "children": [
+                    {
+                        "classCode": "ene3_0",
+                        "parentCode": "ene3",
+                        "title": "工艺技术"
+                    },
+                    {
+                        "classCode": "ene3_1",
+                        "parentCode": "ene3",
+                        "title": "项目状态"
+                    },
+                    {
+                        "classCode": "ene3_2",
+                        "parentCode": "ene3",
+                        "title": "技术经济"
+                    },
+                    {
+                        "classCode": "ene3_3",
+                        "parentCode": "ene3",
+                        "title": "工程装备"
+                    },
+                    {
+                        "classCode": "ene3_4",
+                        "parentCode": "ene3",
+                        "title": "安全风险"
+                    }
+                ],
+                "title": "能源项目"
+            },
+            {
+                "classCode": "ene4",
+                "parentCode": "ene",
+                "children": [
+                    {
+                        "classCode": "ene4_0",
+                        "parentCode": "ene4",
+                        "title": "产运耗存"
+                    },
+                    {
+                        "classCode": "ene4_1",
+                        "parentCode": "ene4",
+                        "title": "对外贸易"
+                    },
+                    {
+                        "classCode": "ene4_2",
+                        "parentCode": "ene4",
+                        "title": "交易价格"
+                    },
+                    {
+                        "classCode": "ene4_3",
+                        "parentCode": "ene4",
+                        "title": "财务金融"
+                    }
+                ],
+                "title": "能源交易"
+            },
+            {
+                "classCode": "ene5",
+                "parentCode": "ene",
+                "children": [
+                    {
+                        "classCode": "ene5_0",
+                        "parentCode": "ene5",
+                        "title": "经济影响"
+                    },
+                    {
+                        "classCode": "ene5_1",
+                        "parentCode": "ene5",
+                        "title": "民生影响"
+                    },
+                    {
+                        "classCode": "ene5_2",
+                        "parentCode": "ene5",
+                        "title": "生态影响"
+                    },
+                    {
+                        "classCode": "ene5_3",
+                        "parentCode": "ene5",
+                        "title": "环境影响"
+                    },
+                    {
+                        "classCode": "ene5_4",
+                        "parentCode": "ene5",
+                        "title": "气候影响"
+                    },
+                    {
+                        "classCode": "ene5_5",
+                        "parentCode": "ene5",
+                        "title": "能源安全"
+                    },
+                    {
+                        "classCode": "ene5_6",
+                        "parentCode": "ene5",
+                        "title": "国际政治"
+                    },
+                    {
+                        "classCode": "ene5_7",
+                        "parentCode": "ene5",
+                        "title": "能源政策"
+                    },
+                    {
+                        "classCode": "ene5_8",
+                        "parentCode": "ene5",
+                        "title": "科技交流"
+                    }
+                ],
+                "title": "能源影响"
+            }
+        ],
+        "title": "能源"
+    }
+]

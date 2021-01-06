@@ -20,8 +20,12 @@ const routers = [
                 component: (resolve) => require(['./views/knowledgebase.vue'], resolve)
             },
             {
-                path: '/mysubject',
-                component: (resolve) => require(['./views/mysubject.vue'], resolve)
+                path: '/mysubjects',
+                component: (resolve) => require(['./views/mysubjects.vue'], resolve)
+            },
+            {
+                path: '/patentDetail',
+                component: (resolve) => require(['./decorations/patentDetail.vue'], resolve)
             }
         ],
         component: (resolve) => require(['./views/index.vue'], resolve)

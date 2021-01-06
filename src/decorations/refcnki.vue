@@ -3,11 +3,11 @@
 <template>
     <div>
         <Tree :data="basic_science" @on-select-change="selectClass"></Tree>
-        <Tree :data="engin_tech_one"></Tree>
-        <Tree :data="engin_tech_two"></Tree>
-        <Tree :data="information_tech"></Tree>
-        <Tree :data="agriculture_tech"></Tree>
-        <Tree :data="medicine_health"></Tree>
+        <Tree :data="engin_tech_one" @on-select-change="selectClass"></Tree>
+        <Tree :data="engin_tech_two" @on-select-change="selectClass"></Tree>
+        <Tree :data="information_tech" @on-select-change="selectClass"></Tree>
+        <Tree :data="agriculture_tech" @on-select-change="selectClass"></Tree>
+        <Tree :data="medicine_health" @on-select-change="selectClass"></Tree>
     </div>
 </template>
 

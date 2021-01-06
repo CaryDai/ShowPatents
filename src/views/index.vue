@@ -97,7 +97,7 @@
                         <Icon type="ios-analytics"></Icon>
                         <span v-if="!isCollapsed">专题库构建</span>
                     </MenuItem>
-                    <MenuItem router-link to="/mysubject" name="1-4">
+                    <MenuItem router-link to="/mysubjects" name="1-4">
                         <Icon type="ios-keypad"></Icon>
                         <span v-if="!isCollapsed">我的专题库</span>
                     </MenuItem>
@@ -164,7 +164,7 @@
             },
             routerToMySubject(itemName) {
                 console.log(itemName);
-                this.$router.push('/mysubject');
+                this.$router.push('/mysubjects');
             }
         }
     }

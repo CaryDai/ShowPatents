@@ -14,6 +14,16 @@
 							<Refipc />
 						</Scroll>
 					</TabPane>
+					<TabPane label="中国工程科技网分类">
+						<Scroll height="590">
+							<Refckcest />
+						</Scroll>
+					</TabPane>
+					<TabPane label="Animer网分类">
+						<Scroll height="590">
+							<Refanimer />
+						</Scroll>
+					</TabPane>
 					<TabPane label="通学的专题">通学的专题</TabPane>
 					<TabPane label="李畅的专题">李畅的专题</TabPane>
 					<TabPane label="海江的专题">海江的专题</TabPane>
@@ -24,7 +34,20 @@
 			</Col>
 			<Col span="16" class="editPage">
 				<h1>构建你的专题库</h1>
-				<p style="color: #2d8cf0; font-size: large;">您可以从左侧分类中选择感兴趣的分类进行编辑</p>
+				<div>
+					<p style="font-size: large;">
+						您可以在下面输入框中输入您自己专题库的描述信息并点击“<span style="color: #2d8cf0;">分析</span>”按钮，<br/>
+						我们将为您推荐相关分类。
+					</p>
+					<Input v-model="analyzeText" maxlength="50" show-word-limit type="textarea" placeholder="输入专题库的描述信息(如：一个关于新能源领域的专题库)" style="width: 550px" />
+					<div style="margin-top: 10px; text-align: center;">
+						<Button type="primary">分析</Button>
+					</div>
+					<p style="color: #2d8cf0; font-size: large; margin: 10px 0;">或者</p>
+					<p style="font-size: large;">
+						您也可以直接从左侧分类中点击感兴趣的分类进行编辑。
+					</p>
+				</div>
 				<Step :currentStep="currentStep" />
 			</Col>
 		</Row>
@@ -48,6 +71,8 @@
 <script>
 	import Refipc from '../decorations/refipc.vue'
 	import Refcnki from '../decorations/refcnki.vue'
+	import Refckcest from '../decorations/refckcest.vue'
+	import Refanimer from '../decorations/refanimer.vue'
 	import Step from '../decorations/step.vue'
 	import EditClass from '../decorations/editClass.vue'
 	import EditPatent from '../decorations/editPatent.vue'
@@ -56,7 +81,8 @@
 		data() {
 			return {
 				selectedNodes: this.$store.state.selectedNodes,
-				editNodes: this.$store.state.editNodes
+				editNodes: this.$store.state.editNodes,
+				analyzeText: this.$store.state.analyzeText
 			}
 		},
 		computed: {
@@ -68,6 +94,8 @@
 		components: {
 			Refipc,
 			Refcnki,
+			Refckcest,
+			Refanimer,
 			Step,
 			EditClass,
 			EditPatent

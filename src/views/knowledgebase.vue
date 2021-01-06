@@ -5,10 +5,13 @@
             <Col span="6">
                 <Tree @getCheckedNode="getCheckedNode" @showPatents="showPatents" />
             </Col>
-            <Col span="18">
+            <Col span="18" v-if="patentArray.length > 0">
                 <div v-for="(patent, index) in patentArray">
                     <PatentCard :patent="patent" />
                 </div>
+            </Col>
+            <Col span="18" v-else>
+                <p style="font-size: large; margin-top: 4px;">暂无专利</p>
             </Col>
         </Row>
         <div style="margin-top: 45px;">
@@ -84,7 +87,7 @@
     }
 </script>
 
-<style>
+<style scoped>
     .page {
         position: absolute;
         left: 50%;

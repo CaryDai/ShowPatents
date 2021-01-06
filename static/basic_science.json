@@ -771,6 +771,28 @@
           {
             "classCode": "A005_3",
             "parentCode": "A005",
+            "children": [
+              {
+                "classCode": "A005_30",
+                "parentCode": "A005_3",
+                "title": "箱装置"
+              },
+              {
+                "classCode": "A005_31",
+                "parentCode": "A005_3",
+                "title": "工作台"
+              },
+              {
+                "classCode": "A005_32",
+                "parentCode": "A005_3",
+                "title": "柜装置"
+              },
+              {
+                "classCode": "A005_33",
+                "parentCode": "A005_3",
+                "title": "其它"
+              }
+            ],
             "title": "物理学实验方法与设备"
           },
           {
@@ -985,6 +1007,18 @@
               {
                 "classCode": "A005_C4",
                 "parentCode": "A005_C",
+                "children": [
+                  {
+                    "classCode": "A005_C40",
+                    "parentCode": "A005_C4",
+                    "title": "磁性薄膜"
+                  },
+                  {
+                    "classCode": "A005_C41",
+                    "parentCode": "A005_C4",
+                    "title": "其它"
+                  }
+                ],
                 "title": "薄膜物理学"
               },
               {
@@ -1165,6 +1199,28 @@
           {
             "classCode": "A006_4",
             "parentCode": "A006",
+            "children": [
+              {
+                "classCode": "A006_40",
+                "parentCode": "A006_4",
+                "title": "基因遗传学"
+              },
+              {
+                "classCode": "A006_41",
+                "parentCode": "A006_4",
+                "title": "蛋白质遗传学"
+              },
+              {
+                "classCode": "A006_42",
+                "parentCode": "A006_4",
+                "title": "其它"
+              },
+              {
+                "classCode": "A006_43",
+                "parentCode": "A006_4",
+                "title": "细菌遗传学"
+              }
+            ],
             "title": "遗传学"
           },
           {
@@ -1580,6 +1636,23 @@
               {
                 "classCode": "A008_26",
                 "parentCode": "A008_2",
+                "children": [
+                  {
+                    "classCode": "A008_260",
+                    "parentCode": "A008_26",
+                    "title": "隧道地图学与制图学"
+                  },
+                  {
+                    "classCode": "A008_261",
+                    "parentCode": "A008_26",
+                    "title": "巷道地图学与制图学"
+                  },
+                  {
+                    "classCode": "A008_262",
+                    "parentCode": "A008_26",
+                    "title": "其它"
+                  }
+                ],
                 "title": "地图学及制图学"
               },
               {
@@ -1615,6 +1688,18 @@
           {
             "classCode": "A009_3",
             "parentCode": "A009",
+            "children": [
+              {
+                "classCode": "A009_30",
+                "parentCode": "A009_3",
+                "title": "闪电探测"
+              },
+              {
+                "classCode": "A009_31",
+                "parentCode": "A009_3",
+                "title": "气象探测"
+              }
+            ],
             "title": "大气探测(气象观测)"
           },
           {
@@ -1722,6 +1807,28 @@
           {
             "classCode": "A010_C",
             "parentCode": "A010",
+            "children": [
+              {
+                "classCode": "A010_C0",
+                "parentCode": "A010_C",
+                "title": "海洋机器人"
+              },
+              {
+                "classCode": "A010_C1",
+                "parentCode": "A010_C",
+                "title": "潜水装置"
+              },
+              {
+                "classCode": "A010_C2",
+                "parentCode": "A010_C",
+                "title": "水下观测设备"
+              },
+              {
+                "classCode": "A010_C3",
+                "parentCode": "A010_C",
+                "title": "其它"
+              }
+            ],
             "title": "海洋工程"
           },
           {
@@ -1957,6 +2064,23 @@
               {
                 "classCode": "A011_E2",
                 "parentCode": "A011_E",
+                "children": [
+                  {
+                    "classCode": "A011_E20",
+                    "parentCode": "A011_E2",
+                    "title": "油井钻探"
+                  },
+                  {
+                    "classCode": "A011_E21",
+                    "parentCode": "A011_E2",
+                    "title": "煤炭钻探"
+                  },
+                  {
+                    "classCode": "A011_E22",
+                    "parentCode": "A011_E2",
+                    "title": "其它"
+                  }
+                ],
                 "title": "钻探工程"
               }
             ],

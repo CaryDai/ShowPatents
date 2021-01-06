@@ -1,0 +1,736 @@
+[
+    {
+        "classCode": "med",
+        "parentCode": "",
+        "children": [
+            {
+                "classCode": "med0",
+                "parentCode": "med",
+                "children": [
+                    {
+                        "classCode": "med01",
+                        "parentCode": "med0",
+                        "children": [
+                            {
+                                "classCode": "med01_0",
+                                "parentCode": "med01",
+                                "title": "三尖瓣闭锁"
+                            },
+                            {
+                                "classCode": "med01_1",
+                                "parentCode": "med01",
+                                "title": "心律失常"
+                            },
+                            {
+                                "classCode": "med01_2",
+                                "parentCode": "med01",
+                                "title": "心房颤动"
+                            },
+                            {
+                                "classCode": "med01_3",
+                                "parentCode": "med01",
+                                "title": "心房扑动"
+                            },
+                            {
+                                "classCode": "med01_4",
+                                "parentCode": "med01",
+                                "title": "房室传导阻滞"
+                            },
+                            {
+                                "classCode": "med01_5",
+                                "parentCode": "med01",
+                                "title": "预激综合征"
+                            },
+                            {
+                                "classCode": "med01_6",
+                                "parentCode": "med01",
+                                "title": "心室颤动"
+                            },
+                            {
+                                "classCode": "med01_7",
+                                "parentCode": "med01",
+                                "title": "心肌炎"
+                            },
+                            {
+                                "classCode": "med01_8",
+                                "parentCode": "med01",
+                                "title": "心力衰竭"
+                            },
+                            {
+                                "classCode": "med01_9",
+                                "parentCode": "med01",
+                                "title": "二尖瓣狭窄"
+                            },
+                            {
+                                "classCode": "med01_10",
+                                "parentCode": "med01",
+                                "title": "心绞痛"
+                            },
+                            {
+                                "classCode": "med01_11",
+                                "parentCode": "med01",
+                                "title": "心包炎"
+                            },
+                            {
+                                "classCode": "med01_12",
+                                "parentCode": "med01",
+                                "title": "肺心病"
+                            },
+                            {
+                                "classCode": "med01_13",
+                                "parentCode": "med01",
+                                "title": "动脉粥样硬化"
+                            },
+                            {
+                                "classCode": "med01_14",
+                                "parentCode": "med01",
+                                "title": "动脉导管未闭"
+                            },
+                            {
+                                "classCode": "med01_15",
+                                "parentCode": "med01",
+                                "title": "动脉瘤"
+                            },
+                            {
+                                "classCode": "med01_16",
+                                "parentCode": "med01",
+                                "title": "巨细胞动脉炎"
+                            },
+                            {
+                                "classCode": "med01_17",
+                                "parentCode": "med01",
+                                "title": "颅内动脉瘤"
+                            },
+                            {
+                                "classCode": "med01_18",
+                                "parentCode": "med01",
+                                "title": "脑疝"
+                            },
+                            {
+                                "classCode": "med01_19",
+                                "parentCode": "med01",
+                                "title": "脑卒中"
+                            },
+                            {
+                                "classCode": "med01_20",
+                                "parentCode": "med01",
+                                "title": "主动脉缩窄"
+                            },
+                            {
+                                "classCode": "med01_21",
+                                "parentCode": "med01",
+                                "title": "缩窄性心包炎"
+                            },
+                            {
+                                "classCode": "med01_22",
+                                "parentCode": "med01",
+                                "title": "心内膜炎"
+                            },
+                            {
+                                "classCode": "med01_23",
+                                "parentCode": "med01",
+                                "title": "雷诺病"
+                            },
+                            {
+                                "classCode": "med01_24",
+                                "parentCode": "med01",
+                                "title": "短暂性脑缺血发作"
+                            },
+                            {
+                                "classCode": "med01_25",
+                                "parentCode": "med01",
+                                "title": "房室结折返性心动过速"
+                            },
+                            {
+                                "classCode": "med01_26",
+                                "parentCode": "med01",
+                                "title": "心内膜垫缺损"
+                            },
+                            {
+                                "classCode": "med01_27",
+                                "parentCode": "med01",
+                                "title": "窦房阻滞"
+                            },
+                            {
+                                "classCode": "med01_28",
+                                "parentCode": "med01",
+                                "title": "窦性心动过速"
+                            },
+                            {
+                                "classCode": "med01_29",
+                                "parentCode": "med01",
+                                "title": "主动脉瓣狭窄"
+                            },
+                            {
+                                "classCode": "med01_30",
+                                "parentCode": "med01",
+                                "title": "室性早搏复合征"
+                            },
+                            {
+                                "classCode": "med01_31",
+                                "parentCode": "med01",
+                                "title": "侧窦血栓形成"
+                            },
+                            {
+                                "classCode": "med01_32",
+                                "parentCode": "med01",
+                                "title": "微血管性心绞痛"
+                            },
+                            {
+                                "classCode": "med01_33",
+                                "parentCode": "med01",
+                                "title": "高血压性颅内出血"
+                            },
+                            {
+                                "classCode": "med01_34",
+                                "parentCode": "med01",
+                                "title": "室间隔缺损"
+                            },
+                            {
+                                "classCode": "med01_35",
+                                "parentCode": "med01",
+                                "title": "垂体卒中"
+                            },
+                            {
+                                "classCode": "med01_36",
+                                "parentCode": "med01",
+                                "title": "胸主动脉瘤"
+                            },
+                            {
+                                "classCode": "med01_37",
+                                "parentCode": "med01",
+                                "title": "红斑性肢痛病"
+                            },
+                            {
+                                "classCode": "med01_38",
+                                "parentCode": "med01",
+                                "title": "三尖瓣狭窄"
+                            },
+                            {
+                                "classCode": "med01_39",
+                                "parentCode": "med01",
+                                "title": "动脉硬化"
+                            }
+                        ],
+                        "title": "心脑血管疾病"
+                    },
+                    {
+                        "classCode": "med02",
+                        "parentCode": "med0",
+                        "children": [
+                            {
+                                "classCode": "med02_0",
+                                "parentCode": "med02",
+                                "title": "哮喘"
+                            },
+                            {
+                                "classCode": "med02_1",
+                                "parentCode": "med02",
+                                "title": "支气管哮喘"
+                            },
+                            {
+                                "classCode": "med02_2",
+                                "parentCode": "med02",
+                                "title": "支气管扩张症"
+                            },
+                            {
+                                "classCode": "med02_3",
+                                "parentCode": "med02",
+                                "title": "慢性支气管炎"
+                            },
+                            {
+                                "classCode": "med02_4",
+                                "parentCode": "med02",
+                                "title": "支气管肺炎"
+                            },
+                            {
+                                "classCode": "med02_5",
+                                "parentCode": "med02",
+                                "title": "喉水肿"
+                            },
+                            {
+                                "classCode": "med02_6",
+                                "parentCode": "med02",
+                                "title": "喉痉挛"
+                            },
+                            {
+                                "classCode": "med02_7",
+                                "parentCode": "med02",
+                                "title": "喉炎"
+                            },
+                            {
+                                "classCode": "med02_8",
+                                "parentCode": "med02",
+                                "title": "喉狭窄"
+                            },
+                            {
+                                "classCode": "med02_9",
+                                "parentCode": "med02",
+                                "title": "肺不张"
+                            },
+                            {
+                                "classCode": "med02_10",
+                                "parentCode": "med02",
+                                "title": "鼻出血"
+                            },
+                            {
+                                "classCode": "med02_11",
+                                "parentCode": "med02",
+                                "title": "鼻息肉"
+                            },
+                            {
+                                "classCode": "med02_12",
+                                "parentCode": "med02",
+                                "title": "气管狭窄"
+                            },
+                            {
+                                "classCode": "med02_13",
+                                "parentCode": "med02",
+                                "title": "纵隔肿瘤"
+                            },
+                            {
+                                "classCode": "med02_14",
+                                "parentCode": "med02",
+                                "title": "咽后脓肿"
+                            },
+                            {
+                                "classCode": "med02_15",
+                                "parentCode": "med02",
+                                "title": "扁桃体炎"
+                            },
+                            {
+                                "classCode": "med02_16",
+                                "parentCode": "med02",
+                                "title": "气胸"
+                            },
+                            {
+                                "classCode": "med02_17",
+                                "parentCode": "med02",
+                                "title": "肺炎"
+                            },
+                            {
+                                "classCode": "med02_18",
+                                "parentCode": "med02",
+                                "title": "流感"
+                            },
+                            {
+                                "classCode": "med02_19",
+                                "parentCode": "med02",
+                                "title": "呼吸困难"
+                            },
+                            {
+                                "classCode": "med02_20",
+                                "parentCode": "med02",
+                                "title": "气管支气管肥大症"
+                            },
+                            {
+                                "classCode": "med02_21",
+                                "parentCode": "med02",
+                                "title": "肺嗜酸粒细胞增多"
+                            },
+                            {
+                                "classCode": "med02_22",
+                                "parentCode": "med02",
+                                "title": "变应性支气管肺曲霉菌病"
+                            },
+                            {
+                                "classCode": "med02_23",
+                                "parentCode": "med02",
+                                "title": "肺囊虫性肺炎"
+                            },
+                            {
+                                "classCode": "med02_24",
+                                "parentCode": "med02",
+                                "title": "肺炎球菌感染"
+                            },
+                            {
+                                "classCode": "med02_25",
+                                "parentCode": "med02",
+                                "title": "胸腔积脓"
+                            },
+                            {
+                                "classCode": "med02_26",
+                                "parentCode": "med02",
+                                "title": "病毒性肺炎"
+                            }
+                        ],
+                        "title": "呼吸系统疾病"
+                    },
+                    {
+                        "classCode": "med03",
+                        "parentCode": "med0",
+                        "children": [
+                            {
+                                "classCode": "med03_0",
+                                "parentCode": "med03",
+                                "title": "系统性红斑狼疮"
+                            },
+                            {
+                                "classCode": "med03_1",
+                                "parentCode": "med03",
+                                "title": "过敏性紫癜"
+                            },
+                            {
+                                "classCode": "med03_2",
+                                "parentCode": "med03",
+                                "title": "风湿热"
+                            },
+                            {
+                                "classCode": "med03_3",
+                                "parentCode": "med03",
+                                "title": "痛风"
+                            },
+                            {
+                                "classCode": "med03_4",
+                                "parentCode": "med03",
+                                "title": "结节性多动脉炎"
+                            },
+                            {
+                                "classCode": "med03_5",
+                                "parentCode": "med03",
+                                "title": "结节病"
+                            },
+                            {
+                                "classCode": "med03_6",
+                                "parentCode": "med03",
+                                "title": "多发性肌炎"
+                            },
+                            {
+                                "classCode": "med03_7",
+                                "parentCode": "med03",
+                                "title": "强直性脊柱炎"
+                            },
+                            {
+                                "classCode": "med03_8",
+                                "parentCode": "med03",
+                                "title": "痛风性关节炎"
+                            },
+                            {
+                                "classCode": "med03_9",
+                                "parentCode": "med03",
+                                "title": "骨关节炎"
+                            },
+                            {
+                                "classCode": "med03_10",
+                                "parentCode": "med03",
+                                "title": "复发性多软骨炎"
+                            },
+                            {
+                                "classCode": "med03_11",
+                                "parentCode": "med03",
+                                "title": "冷球蛋白血症"
+                            },
+                            {
+                                "classCode": "med03_12",
+                                "parentCode": "med03",
+                                "title": "变应性肉芽肿性血管炎"
+                            },
+                            {
+                                "classCode": "med03_13",
+                                "parentCode": "med03",
+                                "title": "风湿性多肌痛"
+                            },
+                            {
+                                "classCode": "med03_14",
+                                "parentCode": "med03",
+                                "title": "结节性非化脓性脂膜炎"
+                            },
+                            {
+                                "classCode": "med03_15",
+                                "parentCode": "med03",
+                                "title": "脂膜炎"
+                            },
+                            {
+                                "classCode": "med03_16",
+                                "parentCode": "med03",
+                                "title": "免疫缺陷综合征"
+                            },
+                            {
+                                "classCode": "med03_17",
+                                "parentCode": "med03",
+                                "title": "混合性结缔组织病"
+                            }
+                        ],
+                        "title": "免疫系统疾病"
+                    },
+                    {
+                        "classCode": "med04",
+                        "parentCode": "med0",
+                        "children": [
+                            {
+                                "classCode": "med04_0",
+                                "parentCode": "med04",
+                                "title": "便秘"
+                            },
+                            {
+                                "classCode": "med04_1",
+                                "parentCode": "med04",
+                                "title": "肠炎"
+                            },
+                            {
+                                "classCode": "med04_2",
+                                "parentCode": "med04",
+                                "title": "功能性消化不良"
+                            },
+                            {
+                                "classCode": "med04_3",
+                                "parentCode": "med04",
+                                "title": "胃炎"
+                            },
+                            {
+                                "classCode": "med04_4",
+                                "parentCode": "med04",
+                                "title": "胃肠出血"
+                            },
+                            {
+                                "classCode": "med04_5",
+                                "parentCode": "med04",
+                                "title": "肝功能衰竭"
+                            },
+                            {
+                                "classCode": "med04_6",
+                                "parentCode": "med04",
+                                "title": "结核性腹膜炎"
+                            },
+                            {
+                                "classCode": "med04_7",
+                                "parentCode": "med04",
+                                "title": "溃疡性结肠炎"
+                            },
+                            {
+                                "classCode": "med04_8",
+                                "parentCode": "med04",
+                                "title": "肝肾综合征"
+                            },
+                            {
+                                "classCode": "med04_9",
+                                "parentCode": "med04",
+                                "title": "胃食管反流"
+                            },
+                            {
+                                "classCode": "med04_10",
+                                "parentCode": "med04",
+                                "title": "肝性脑病"
+                            },
+                            {
+                                "classCode": "med04_11",
+                                "parentCode": "med04",
+                                "title": "肝脓肿"
+                            },
+                            {
+                                "classCode": "med04_12",
+                                "parentCode": "med04",
+                                "title": "食管炎"
+                            },
+                            {
+                                "classCode": "med04_13",
+                                "parentCode": "med04",
+                                "title": "肝硬化"
+                            },
+                            {
+                                "classCode": "med04_14",
+                                "parentCode": "med04",
+                                "title": "肝肺综合征"
+                            },
+                            {
+                                "classCode": "med04_15",
+                                "parentCode": "med04",
+                                "title": "吸收不良综合征"
+                            },
+                            {
+                                "classCode": "med04_16",
+                                "parentCode": "med04",
+                                "title": "胃溃疡"
+                            },
+                            {
+                                "classCode": "med04_17",
+                                "parentCode": "med04",
+                                "title": "肠易激综合征"
+                            },
+                            {
+                                "classCode": "med04_18",
+                                "parentCode": "med04",
+                                "title": "硬化性胆管炎"
+                            },
+                            {
+                                "classCode": "med04_19",
+                                "parentCode": "med04",
+                                "title": "肝豆状核变性"
+                            },
+                            {
+                                "classCode": "med04_20",
+                                "parentCode": "med04",
+                                "title": "胃憩室病"
+                            },
+                            {
+                                "classCode": "med04_21",
+                                "parentCode": "med04",
+                                "title": "酒精性肝疾病"
+                            },
+                            {
+                                "classCode": "med04_22",
+                                "parentCode": "med04",
+                                "title": "局限性结节状增生"
+                            },
+                            {
+                                "classCode": "med04_23",
+                                "parentCode": "med04",
+                                "title": "Zollinger-Ellison综合征"
+                            },
+                            {
+                                "classCode": "med04_24",
+                                "parentCode": "med04",
+                                "title": "上肠系膜动脉综合征"
+                            },
+                            {
+                                "classCode": "med04_25",
+                                "parentCode": "med04",
+                                "title": "热带性口炎性腹泻"
+                            },
+                            {
+                                "classCode": "med04_26",
+                                "parentCode": "med04",
+                                "title": "伪膜性小肠结肠炎"
+                            },
+                            {
+                                "classCode": "med04_27",
+                                "parentCode": "med04",
+                                "title": " Whipple病"
+                            },
+                            {
+                                "classCode": "med04_28",
+                                "parentCode": "med04",
+                                "title": " 胃肌轻瘫"
+                            },
+                            {
+                                "classCode": "med04_29",
+                                "parentCode": "med04",
+                                "title": " 遗传性粪卟啉病"
+                            }
+                        ],
+                        "title": "消化系统疾病"
+                    },
+                    {
+                        "classCode": "med05",
+                        "parentCode": "med0",
+                        "children": [
+                            {
+                                "classCode": "med05_0",
+                                "parentCode": "med05",
+                                "title": "多发性骨髓瘤"
+                            },
+                            {
+                                "classCode": "med05_1",
+                                "parentCode": "med05",
+                                "title": "畸胎瘤"
+                            },
+                            {
+                                "classCode": "med05_2",
+                                "parentCode": "med05",
+                                "title": "输卵管肿瘤"
+                            },
+                            {
+                                "classCode": "med05_3",
+                                "parentCode": "med05",
+                                "title": "霍奇金病"
+                            },
+                            {
+                                "classCode": "med05_4",
+                                "parentCode": "med05",
+                                "title": "神经母细胞瘤"
+                            },
+                            {
+                                "classCode": "med05_5",
+                                "parentCode": "med05",
+                                "title": "胆囊肿瘤"
+                            },
+                            {
+                                "classCode": "med05_6",
+                                "parentCode": "med05",
+                                "title": "肾肿瘤"
+                            },
+                            {
+                                "classCode": "med05_7",
+                                "parentCode": "med05",
+                                "title": "唇肿瘤"
+                            },
+                            {
+                                "classCode": "med05_8",
+                                "parentCode": "med05",
+                                "title": "黑色素瘤"
+                            },
+                            {
+                                "classCode": "med05_9",
+                                "parentCode": "med05",
+                                "title": "阴道肿瘤"
+                            },
+                            {
+                                "classCode": "med05_10",
+                                "parentCode": "med05",
+                                "title": "卵巢肿瘤"
+                            },
+                            {
+                                "classCode": "med05_11",
+                                "parentCode": "med05",
+                                "title": "头颈部肿瘤"
+                            },
+                            {
+                                "classCode": "med05_12",
+                                "parentCode": "med05",
+                                "title": "淋巴瘤"
+                            },
+                            {
+                                "classCode": "med05_13",
+                                "parentCode": "med05",
+                                "title": "嗜铬细胞瘤"
+                            },
+                            {
+                                "classCode": "med05_14",
+                                "parentCode": "med05",
+                                "title": "结肠肿瘤"
+                            },
+                            {
+                                "classCode": "med05_15",
+                                "parentCode": "med05",
+                                "title": "甲状腺肿瘤"
+                            },
+                            {
+                                "classCode": "med05_16",
+                                "parentCode": "med05",
+                                "title": "膀胱肿瘤"
+                            },
+                            {
+                                "classCode": "med05_17",
+                                "parentCode": "med05",
+                                "title": "胃肿瘤"
+                            },
+                            {
+                                "classCode": "med05_18",
+                                "parentCode": "med05",
+                                "title": "睾丸肿瘤"
+                            },
+                            {
+                                "classCode": "med05_19",
+                                "parentCode": "med05",
+                                "title": "脑干肿瘤"
+                            },
+                            {
+                                "classCode": "med05_20",
+                                "parentCode": "med05",
+                                "title": "外阴肿瘤"
+                            },
+                            {
+                                "classCode": "med05_21",
+                                "parentCode": "med05",
+                                "title": "阴茎肿瘤"
+                            }
+                        ],
+                        "title": "肿瘤"
+                    }
+                ],
+                "title": "疾病"
+            }
+        ],
+        "title": "医药卫生"
+    }
+]

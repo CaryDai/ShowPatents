@@ -390,6 +390,18 @@
               {
                 "classCode": "B015_26",
                 "parentCode": "B015_2",
+                "children": [
+                  {
+                    "classCode": "B015_260",
+                    "parentCode": "B015_26",
+                    "title": "液晶类产品"
+                  },
+                  {
+                    "classCode": "B015_261",
+                    "parentCode": "B015_26",
+                    "title": "其它"
+                  }
+                ],
                 "title": "化工生产过程、化工产品与副产品"
               },
               {
@@ -791,6 +803,28 @@
           {
             "classCode": "B017_1",
             "parentCode": "B017",
+            "children": [
+              {
+                "classCode": "B017_10",
+                "parentCode": "B017_1",
+                "title": "汽油技术领域"
+              },
+              {
+                "classCode": "B017_11",
+                "parentCode": "B017_1",
+                "title": "天然气技术领域"
+              },
+              {
+                "classCode": "B017_12",
+                "parentCode": "B017_1",
+                "title": "煤泥技术领域"
+              },
+              {
+                "classCode": "B017_13",
+                "parentCode": "B017_1",
+                "title": "其它"
+              }
+            ],
             "title": "燃料化学工业"
           },
           {
@@ -1195,6 +1229,23 @@
           {
             "classCode": "B020_5",
             "parentCode": "B020",
+            "children": [
+              {
+                "classCode": "B020_50",
+                "parentCode": "B020_5",
+                "title": "荧光材料"
+              },
+              {
+                "classCode": "B020_51",
+                "parentCode": "B020_5",
+                "title": "相变材料"
+              },
+              {
+                "classCode": "B020_52",
+                "parentCode": "B020_5",
+                "title": "其它"
+              }
+            ],
             "title": "功能材料"
           },
           {
@@ -1563,6 +1614,33 @@
               {
                 "classCode": "B022_6A",
                 "parentCode": "B022_6",
+                "children": [
+                  {
+                    "classCode": "B022_6A0",
+                    "parentCode": "B022_6A",
+                    "title": "铝合金铸造"
+                  },
+                  {
+                    "classCode": "B022_6A1",
+                    "parentCode": "B022_6A",
+                    "title": "镁合金铸造"
+                  },
+                  {
+                    "classCode": "B022_6A2",
+                    "parentCode": "B022_6A",
+                    "title": "钛合金铸造"
+                  },
+                  {
+                    "classCode": "B022_6A3",
+                    "parentCode": "B022_6A",
+                    "title": "铜铸造"
+                  },
+                  {
+                    "classCode": "B022_6A4",
+                    "parentCode": "B022_6A",
+                    "title": "其它"
+                  }
+                ],
                 "title": "有色金属铸造"
               }
             ],
@@ -1889,6 +1967,48 @@
               {
                 "classCode": "B023_41",
                 "parentCode": "B023_4",
+                "children": [
+                  {
+                    "classCode": "B023_410",
+                    "parentCode": "B023_41",
+                    "title": "银提炼技术"
+                  },
+                  {
+                    "classCode": "B023_411",
+                    "parentCode": "B023_41",
+                    "title": "铝提炼技术"
+                  },
+                  {
+                    "classCode": "B023_412",
+                    "parentCode": "B023_41",
+                    "title": "铜提炼技术"
+                  },
+                  {
+                    "classCode": "B023_413",
+                    "parentCode": "B023_41",
+                    "title": "铅提炼技术"
+                  },
+                  {
+                    "classCode": "B023_414",
+                    "parentCode": "B023_41",
+                    "title": "镓提炼技术"
+                  },
+                  {
+                    "classCode": "B023_415",
+                    "parentCode": "B023_41",
+                    "title": "铁提炼技术"
+                  },
+                  {
+                    "classCode": "B023_416",
+                    "parentCode": "B023_41",
+                    "title": "硅镍提炼技术"
+                  },
+                  {
+                    "classCode": "B023_417",
+                    "parentCode": "B023_41",
+                    "title": "其它"
+                  }
+                ],
                 "title": "提炼冶金"
               },
               {
@@ -2266,6 +2386,43 @@
           {
             "classCode": "B024_5",
             "parentCode": "B024",
+            "children": [
+              {
+                "classCode": "B024_50",
+                "parentCode": "B024_5",
+                "title": "电子烟工业"
+              },
+              {
+                "classCode": "B024_51",
+                "parentCode": "B024_5",
+                "title": "烟丝装置"
+              },
+              {
+                "classCode": "B024_52",
+                "parentCode": "B024_5",
+                "title": "烟用接装纸"
+              },
+              {
+                "classCode": "B024_53",
+                "parentCode": "B024_5",
+                "title": "烟叶"
+              },
+              {
+                "classCode": "B024_54",
+                "parentCode": "B024_5",
+                "title": "卷接机"
+              },
+              {
+                "classCode": "B024_55",
+                "parentCode": "B024_5",
+                "title": "雾化器"
+              },
+              {
+                "classCode": "B024_56",
+                "parentCode": "B024_5",
+                "title": "其它"
+              }
+            ],
             "title": "烟草工业"
           },
           {
@@ -2281,6 +2438,63 @@
           {
             "classCode": "B024_9",
             "parentCode": "B024",
+            "children": [
+              {
+                "classCode": "B024_90",
+                "parentCode": "B024_9",
+                "title": "打印机"
+              },
+              {
+                "classCode": "B024_91",
+                "parentCode": "B024_9",
+                "title": "烫印机"
+              },
+              {
+                "classCode": "B024_92",
+                "parentCode": "B024_9",
+                "title": "烫画机"
+              },
+              {
+                "classCode": "B024_93",
+                "parentCode": "B024_9",
+                "title": "复印机"
+              },
+              {
+                "classCode": "B024_94",
+                "parentCode": "B024_9",
+                "title": "胶装机"
+              },
+              {
+                "classCode": "B024_95",
+                "parentCode": "B024_9",
+                "title": "装订机"
+              },
+              {
+                "classCode": "B024_96",
+                "parentCode": "B024_9",
+                "title": "喷墨记录装置"
+              },
+              {
+                "classCode": "B024_97",
+                "parentCode": "B024_9",
+                "title": "打码机"
+              },
+              {
+                "classCode": "B024_98",
+                "parentCode": "B024_9",
+                "title": "印花机"
+              },
+              {
+                "classCode": "B024_99",
+                "parentCode": "B024_9",
+                "title": "烫印机"
+              },
+              {
+                "classCode": "B024_910",
+                "parentCode": "B024_9",
+                "title": "其它"
+              }
+            ],
             "title": "印刷工业"
           },
           {

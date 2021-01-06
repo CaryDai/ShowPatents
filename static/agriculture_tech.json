@@ -1,1 +1,2287 @@
-[{"classCode":"D","parentCode":"","children":[{"classCode":"D043","parentCode":"D","children":[{"classCode":"D043_1","parentCode":"D043","title":"农业基本问题"},{"classCode":"D043_2","parentCode":"D043","children":[{"classCode":"D043_21","parentCode":"D043_2","title":"农业发展与建设方针"},{"classCode":"D043_22","parentCode":"D043_2","title":"农业现代化道路、模式"},{"classCode":"D043_23","parentCode":"D043_2","title":"农业可持续发展"},{"classCode":"D043_24","parentCode":"D043_2","title":"农村经济改革"}],"title":"农业方针政策及其阐述"},{"classCode":"D043_3","parentCode":"D043","title":"农业数学"},{"classCode":"D043_4","parentCode":"D043","title":"农业物理学"},{"classCode":"D043_5","parentCode":"D043","children":[{"classCode":"D043_50","parentCode":"D043_5","title":"肥料基础科学"},{"classCode":"D043_51","parentCode":"D043_5","title":"化学肥料"},{"classCode":"D043_52","parentCode":"D043_5","title":"农家肥、绿肥、细菌肥料及其他"},{"classCode":"D043_53","parentCode":"D043_5","title":"化学肥料制造"},{"classCode":"D043_54","parentCode":"D043_5","title":"施肥"},{"classCode":"D043_55","parentCode":"D043_5","title":"施肥机械与设备"}],"title":"肥料学"},{"classCode":"D043_6","parentCode":"D043","children":[{"classCode":"D043_61","parentCode":"D043_6","title":"土壤形成及演化"},{"classCode":"D043_62","parentCode":"D043_6","title":"土壤物理学、土壤化学"},{"classCode":"D043_63","parentCode":"D043_6","title":"土壤生物学"},{"classCode":"D043_64","parentCode":"D043_6","title":"土壤类型、土壤分类学"},{"classCode":"D043_65","parentCode":"D043_6","title":"土壤改良"},{"classCode":"D043_66","parentCode":"D043_6","title":"水土保持"},{"classCode":"D043_67","parentCode":"D043_6","title":"土壤肥力"},{"classCode":"D043_68","parentCode":"D043_6","title":"土壤地理、土壤调查"},{"classCode":"D043_69","parentCode":"D043_6","title":"森林土壤学"}],"title":"土壤学"},{"classCode":"D043_7","parentCode":"D043","title":"农业气象学"},{"classCode":"D043_8","parentCode":"D043","children":[{"classCode":"D043_81","parentCode":"D043_8","title":"农业生态学"},{"classCode":"D043_82","parentCode":"D043_8","title":"农业微生物学、农业植物学"},{"classCode":"D043_83","parentCode":"D043_8","title":"农业动物学"},{"classCode":"D043_84","parentCode":"D043_8","title":"农业昆虫学、蜱螨学"},{"classCode":"D043_85","parentCode":"D043_8","title":"农业生物工程"}],"title":"农业生物学"},{"classCode":"D043_9","parentCode":"D043","title":"农业资源及环境保护"}],"title":"农业基础科学"},{"classCode":"D044","parentCode":"D","children":[{"classCode":"D044_1","parentCode":"D044","title":"农业工程总论"},{"classCode":"D044_2","parentCode":"D044","children":[{"classCode":"D044_21","parentCode":"D044_2","title":"农业能源及其利用"},{"classCode":"D044_22","parentCode":"D044_2","title":"拖拉机"}],"title":"农业动力、农村能源"},{"classCode":"D044_3","parentCode":"D044","children":[{"classCode":"D044_31","parentCode":"D044_3","title":"一般性问题"},{"classCode":"D044_32","parentCode":"D044_3","title":"手工农具、改良农具"},{"classCode":"D044_33","parentCode":"D044_3","title":"耕耘机具"},{"classCode":"D044_34","parentCode":"D044_3","title":"种植机械"},{"classCode":"D044_35","parentCode":"D044_3","title":"田间管理机械"},{"classCode":"D044_36","parentCode":"D044_3","title":"收获机具"},{"classCode":"D044_37","parentCode":"D044_3","title":"农产品初步加工机具"},{"classCode":"D044_38","parentCode":"D044_3","title":"农业运输、装卸机具、贮藏设备"}],"title":"农业机械及农具"},{"classCode":"D044_4","parentCode":"D044","children":[{"classCode":"D044_41","parentCode":"D044_4","title":"农业机械化区划与系统"},{"classCode":"D044_42","parentCode":"D044_4","title":"农业机械与拖拉机运用学"},{"classCode":"D044_43","parentCode":"D044_4","title":"农业生产作业机械化工艺组织"},{"classCode":"D044_44","parentCode":"D044_4","title":"农用仪器、仪表及设备"},{"classCode":"D044_45","parentCode":"D044_4","title":"林业机械化"}],"title":"农业机械化"},{"classCode":"D044_5","parentCode":"D044","title":"农业电气化与自动化、农业航空"},{"classCode":"D044_6","parentCode":"D044","title":"农业建筑"},{"classCode":"D044_7","parentCode":"D044","children":[{"classCode":"D044_71","parentCode":"D044_7","title":"农田水文学"},{"classCode":"D044_72","parentCode":"D044_7","title":"水源"},{"classCode":"D044_73","parentCode":"D044_7","title":"灌溉制度与管理"},{"classCode":"D044_74","parentCode":"D044_7","title":"灌溉技术"},{"classCode":"D044_75","parentCode":"D044_7","title":"排水"},{"classCode":"D044_76","parentCode":"D044_7","title":"排灌工程"},{"classCode":"D044_77","parentCode":"D044_7","title":"水利改良土壤措施"},{"classCode":"D044_78","parentCode":"D044_7","title":"各国农田水利"},{"classCode":"D044_79","parentCode":"D044_7","title":"水体污染及其防治"}],"title":"农田水利及水污染防治"},{"classCode":"D044_8","parentCode":"D044","title":"农田基本建设、农垦"},{"classCode":"D044_9","parentCode":"D044","title":"农业工程勘测、土地测量、土地管理、规划及利用"}],"title":"农业工程"},{"classCode":"D045","parentCode":"D","children":[{"classCode":"D045_1","parentCode":"D045","title":"作物生物学原理和栽培技术与方法"},{"classCode":"D045_2","parentCode":"D045","title":"作物品种与种质资源"},{"classCode":"D045_3","parentCode":"D045","title":"作物遗传育种与良种繁育"},{"classCode":"D045_4","parentCode":"D045","title":"耕作学与有机农业"},{"classCode":"D045_5","parentCode":"D045","title":"播种、栽植与田间管理"},{"classCode":"D045_6","parentCode":"D045","children":[{"classCode":"D045_60","parentCode":"D045_6","title":"农业化学"},{"classCode":"D045_61","parentCode":"D045_6","title":"农家肥料"},{"classCode":"D045_62","parentCode":"D045_6","title":"绿肥"},{"classCode":"D045_64","parentCode":"D045_6","title":"细菌肥料"},{"classCode":"D045_65","parentCode":"D045_6","title":"肥料剂型"},{"classCode":"D045_66","parentCode":"D045_6","title":"肥料的选择与管理"},{"classCode":"D045_67","parentCode":"D045_6","title":"积肥、调制与施肥"}],"title":"农业化学与肥料学"},{"classCode":"D045_8","parentCode":"D045","title":"农产品收获、加工、贮藏及综合利用"}],"title":"农艺学"},{"classCode":"D046","parentCode":"D","children":[{"classCode":"D046_1","parentCode":"D046","title":"植物保护总论"},{"classCode":"D046_2","parentCode":"D046","title":"动植物检疫"},{"classCode":"D046_3","parentCode":"D046","title":"植物检疫"},{"classCode":"D046_4","parentCode":"D046","children":[{"classCode":"D046_41","parentCode":"D046_4","title":"气象灾害及其预防"},{"classCode":"D046_42","parentCode":"D046_4","title":"森林火灾及其预防"}],"title":"气象灾害、森林火灾及其预防"},{"classCode":"D046_5","parentCode":"D046","children":[{"classCode":"D046_51","parentCode":"D046_5","title":"植物病虫害及其预测、预报"},{"classCode":"D046_52","parentCode":"D046_5","title":"禾谷类作物病虫害及其防治"},{"classCode":"D046_53","parentCode":"D046_5","title":"豆类、薯类作物病虫害及其防治"},{"classCode":"D046_54","parentCode":"D046_5","title":"饲料作物、牧草及绿肥作物病虫害及其防治"},{"classCode":"D046_55","parentCode":"D046_5","title":"经济作物病虫害及其防治"}],"title":"作物病虫害及其防治"},{"classCode":"D046_6","parentCode":"D046","children":[{"classCode":"D046_61","parentCode":"D046_6","title":"蔬菜、瓜果病虫害及其防治"},{"classCode":"D046_62","parentCode":"D046_6","title":"果树病虫害及其防治"},{"classCode":"D046_63","parentCode":"D046_6","title":"观赏园艺病虫害及其防治"}],"title":"园艺作物病虫害及其防治"},{"classCode":"D046_7","parentCode":"D046","title":"森林病虫害及其防治"},{"classCode":"D046_8","parentCode":"D046","title":"鸟兽害及其它灾害防治"},{"classCode":"D046_9","parentCode":"D046","title":"有害植物及其清除"},{"classCode":"D046_A","parentCode":"D046","title":"各种防治方法"},{"classCode":"D046_B","parentCode":"D046","children":[{"classCode":"D046_B1","parentCode":"D046_B","title":"植物化学保护理论"},{"classCode":"D046_B2","parentCode":"D046_B","title":"杀菌剂"},{"classCode":"D046_B3","parentCode":"D046_B","title":"杀虫剂"},{"classCode":"D046_B4","parentCode":"D046_B","title":"除草剂"},{"classCode":"D046_B5","parentCode":"D046_B","title":"其他化学农药"},{"classCode":"D046_B6","parentCode":"D046_B","title":"农药工业"}],"title":"农药防治(化学防治)"},{"classCode":"D046_C","parentCode":"D046","title":"植物保护机械"}],"title":"植物保护"},{"classCode":"D047","parentCode":"D","children":[{"classCode":"D047_1","parentCode":"D047","children":[{"classCode":"D047_11","parentCode":"D047_1","title":"作物生物学原理、栽培技术与方法"},{"classCode":"D047_15","parentCode":"D047_1","title":"播种、栽植及田间管理"}],"title":"作物学基础"},{"classCode":"D047_2","parentCode":"D047","children":[{"classCode":"D047_21","parentCode":"D047_2","children":[{"classCode":"D047_211","parentCode":"D047_21","title":"水稻"},{"classCode":"D047_212","parentCode":"D047_21","title":"籼稻、粳稻、糯稻"},{"classCode":"D047_213","parentCode":"D047_21","title":"早稻、中稻、晚稻"},{"classCode":"D047_214","parentCode":"D047_21","title":"单季稻、双季稻、三季稻"},{"classCode":"D047_215","parentCode":"D047_21","title":"深水稻"},{"classCode":"D047_216","parentCode":"D047_21","title":"陆稻"},{"classCode":"D047_217","parentCode":"D047_21","title":"野生稻"}],"title":"稻"},{"classCode":"D047_22","parentCode":"D047_2","children":[{"classCode":"D047_221","parentCode":"D047_22","title":"小麦"},{"classCode":"D047_222","parentCode":"D047_22","title":"大麦及其它"}],"title":"麦"},{"classCode":"D047_23","parentCode":"D047_2","title":"玉米"},{"classCode":"D047_24","parentCode":"D047_2","title":"高梁"},{"classCode":"D047_25","parentCode":"D047_2","title":"其它禾谷类"}],"title":"禾谷类作物"},{"classCode":"D047_3","parentCode":"D047","title":"豆类作物"},{"classCode":"D047_4","parentCode":"D047","children":[{"classCode":"D047_41","parentCode":"D047_4","title":"甘薯"},{"classCode":"D047_42","parentCode":"D047_4","title":"马铃薯"},{"classCode":"D047_43","parentCode":"D047_4","title":"木薯及其它"}],"title":"薯类作物"},{"classCode":"D047_5","parentCode":"D047","title":"饲料作物、牧草"},{"classCode":"D047_6","parentCode":"D047","title":"绿肥作物"},{"classCode":"D047_7","parentCode":"D047","children":[{"classCode":"D047_71","parentCode":"D047_7","children":[{"classCode":"D047_711","parentCode":"D047_71","title":"棉"},{"classCode":"D047_712","parentCode":"D047_71","title":"麻类作物"},{"classCode":"D047_713","parentCode":"D047_71","title":"编织用纤维作物"}],"title":"纤维作物"},{"classCode":"D047_72","parentCode":"D047_7","children":[{"classCode":"D047_721","parentCode":"D047_72","title":"大豆"},{"classCode":"D047_722","parentCode":"D047_72","title":"花生"},{"classCode":"D047_723","parentCode":"D047_72","title":"油菜子"},{"classCode":"D047_724","parentCode":"D047_72","title":"其他油料作物"}],"title":"油料作物"},{"classCode":"D047_73","parentCode":"D047_7","children":[{"classCode":"D047_731","parentCode":"D047_73","title":"甘蔗"},{"classCode":"D047_732","parentCode":"D047_73","title":"甜菜"},{"classCode":"D047_733","parentCode":"D047_73","title":"其他糖料作物"}],"title":"糖料作物"},{"classCode":"D047_74","parentCode":"D047_7","children":[{"classCode":"D047_741","parentCode":"D047_74","title":"木本"},{"classCode":"D047_742","parentCode":"D047_74","title":"草本"},{"classCode":"D047_743","parentCode":"D047_74","title":"菌类"},{"classCode":"D047_744","parentCode":"D047_74","title":"其它药用作物"}],"title":"药用作物"},{"classCode":"D047_75","parentCode":"D047_7","children":[{"classCode":"D047_751","parentCode":"D047_75","title":"茶"},{"classCode":"D047_752","parentCode":"D047_75","title":"咖啡及其它饮料作物"}],"title":"饮料作物"},{"classCode":"D047_76","parentCode":"D047_7","title":"烟草"},{"classCode":"D047_77","parentCode":"D047_7","title":"香料作物"}],"title":"经济作物"},{"classCode":"D047_8","parentCode":"D047","title":"野生植物、热带、亚热带作物及其它"}],"title":"农作物"},{"classCode":"D048","parentCode":"D","children":[{"classCode":"D048_2","parentCode":"D048","children":[{"classCode":"D048_21","parentCode":"D048_2","title":"温室构造及其管理、作业、栽培"},{"classCode":"D048_22","parentCode":"D048_2","title":"无土栽培"},{"classCode":"D048_23","parentCode":"D048_2","title":"蔬菜设施园艺"},{"classCode":"D048_24","parentCode":"D048_2","title":"瓜果设施园艺"},{"classCode":"D048_25","parentCode":"D048_2","title":"果树设施园艺"},{"classCode":"D048_26","parentCode":"D048_2","title":"花卉设施园艺"}],"title":"设施园艺"},{"classCode":"D048_3","parentCode":"D048","children":[{"classCode":"D048_31","parentCode":"D048_3","title":"直根类"},{"classCode":"D048_32","parentCode":"D048_3","title":"块茎类"},{"classCode":"D048_33","parentCode":"D048_3","title":"葱蒜类"},{"classCode":"D048_34","parentCode":"D048_3","title":"白菜类、芥菜类"},{"classCode":"D048_35","parentCode":"D048_3","title":"甘蓝类"},{"classCode":"D048_36","parentCode":"D048_3","title":"绿叶菜类"},{"classCode":"D048_37","parentCode":"D048_3","title":"茄果类"},{"classCode":"D048_38","parentCode":"D048_3","title":"瓜类"},{"classCode":"D048_39","parentCode":"D048_3","title":"豆荚类"},{"classCode":"D048_3A","parentCode":"D048_3","title":"多年生菜类"},{"classCode":"D048_3B","parentCode":"D048_3","title":"水生菜类"},{"classCode":"D048_3C","parentCode":"D048_3","title":"菌类(食用菌)"},{"classCode":"D048_3D","parentCode":"D048_3","title":"野生菜及其它"}],"title":"蔬菜园艺"},{"classCode":"D048_4","parentCode":"D048","children":[{"classCode":"D048_41","parentCode":"D048_4","title":"西瓜"},{"classCode":"D048_42","parentCode":"D048_4","title":"甜瓜"}],"title":"瓜果园艺"},{"classCode":"D048_5","parentCode":"D048","children":[{"classCode":"D048_51","parentCode":"D048_5","title":"仁果类"},{"classCode":"D048_52","parentCode":"D048_5","title":"核果类"},{"classCode":"D048_53","parentCode":"D048_5","title":"浆果类"},{"classCode":"D048_54","parentCode":"D048_5","title":"坚果类"},{"classCode":"D048_55","parentCode":"D048_5","title":"杂果类"},{"classCode":"D048_56","parentCode":"D048_5","title":"柑桔类"},{"classCode":"D048_57","parentCode":"D048_5","title":"热带及亚热带果类"},{"classCode":"D048_58","parentCode":"D048_5","title":"多年生草本果类"}],"title":"果树园艺"},{"classCode":"D048_6","parentCode":"D048","children":[{"classCode":"D048_61","parentCode":"D048_6","title":"一、二年生花卉类"},{"classCode":"D048_62","parentCode":"D048_6","title":"多年生花卉类"},{"classCode":"D048_63","parentCode":"D048_6","title":"观花树木类"},{"classCode":"D048_64","parentCode":"D048_6","title":"观叶、观果树木类"},{"classCode":"D048_65","parentCode":"D048_6","title":"园林植物栽培及应用技术"}],"title":"观赏园艺(花卉和观赏树木)"},{"classCode":"D048_7","parentCode":"D048","children":[{"classCode":"D048_71","parentCode":"D048_7","title":"蔬菜病虫害及其防治"},{"classCode":"D048_72","parentCode":"D048_7","title":"瓜果病虫害及其防治"},{"classCode":"D048_74","parentCode":"D048_7","title":"观赏园艺类病虫害及其防治"}],"title":"病虫害及其防治"}],"title":"园艺"},{"classCode":"D049","parentCode":"D","children":[{"classCode":"D049_1","parentCode":"D049","children":[{"classCode":"D049_11","parentCode":"D049_1","title":"林业经济及概述"},{"classCode":"D049_12","parentCode":"D049_1","title":"森林数学"},{"classCode":"D049_13","parentCode":"D049_1","title":"森林物理学"},{"classCode":"D049_14","parentCode":"D049_1","title":"森林化学"},{"classCode":"D049_16","parentCode":"D049_1","title":"森林水文学"},{"classCode":"D049_17","parentCode":"D049_1","title":"森林气象学"},{"classCode":"D049_18","parentCode":"D049_1","title":"森林地理学、森林分布"},{"classCode":"D049_19","parentCode":"D049_1","title":"森林生物学"},{"classCode":"D049_1A","parentCode":"D049_1","title":"森林与环境保护"}],"title":"林业基础科学"},{"classCode":"D049_2","parentCode":"D049","children":[{"classCode":"D049_21","parentCode":"D049_2","title":"造林计划与实施"},{"classCode":"D049_22","parentCode":"D049_2","title":"树木育种及良种繁育"},{"classCode":"D049_23","parentCode":"D049_2","title":"苗圃学"},{"classCode":"D049_24","parentCode":"D049_2","title":"宜林地"},{"classCode":"D049_25","parentCode":"D049_2","title":"造林技术"},{"classCode":"D049_26","parentCode":"D049_2","title":"各林种造林"},{"classCode":"D049_27","parentCode":"D049_2","title":"特殊地区造林"}],"title":"造林学、林木育种及造林技术"},{"classCode":"D049_3","parentCode":"D049","children":[{"classCode":"D049_31","parentCode":"D049_3","title":"大地园林"},{"classCode":"D049_32","parentCode":"D049_3","title":"中国绿化建设"},{"classCode":"D049_33","parentCode":"D049_3","title":"各国绿化建设"},{"classCode":"D049_34","parentCode":"D049_3","title":"绿化建设规划"}],"title":"绿化建设"},{"classCode":"D049_4","parentCode":"D049","children":[{"classCode":"D049_41","parentCode":"D049_4","title":"森林作业法"},{"classCode":"D049_42","parentCode":"D049_4","title":"森林主伐"},{"classCode":"D049_43","parentCode":"D049_4","title":"森林间伐及抚育"},{"classCode":"D049_44","parentCode":"D049_4","title":"森林更新"},{"classCode":"D049_45","parentCode":"D049_4","title":"封山育林"},{"classCode":"D049_46","parentCode":"D049_4","title":"林分改造"},{"classCode":"D049_47","parentCode":"D049_4","title":"森林经理学"},{"classCode":"D049_48","parentCode":"D049_4","title":"森林计测学"},{"classCode":"D049_49","parentCode":"D049_4","title":"各林种及林副产品经营"}],"title":"森林经营学、森林计测学、森林经理学"},{"classCode":"D049_5","parentCode":"D049","children":[{"classCode":"D049_51","parentCode":"D049_5","title":"气象灾害及其防治"},{"classCode":"D049_52","parentCode":"D049_5","title":"林火"},{"classCode":"D049_54","parentCode":"D049_5","title":"动物为害及其防治"},{"classCode":"D049_55","parentCode":"D049_5","title":"有害草木及其清除"},{"classCode":"D049_56","parentCode":"D049_5","title":"人为损害及其防治"},{"classCode":"D049_57","parentCode":"D049_5","title":"防治药品及其使用"},{"classCode":"D049_58","parentCode":"D049_5","title":"其他防治方法"}],"title":"森林保护学"},{"classCode":"D049_6","parentCode":"D049","children":[{"classCode":"D049_61","parentCode":"D049_6","title":"森林测量、林业测绘"},{"classCode":"D049_62","parentCode":"D049_6","title":"森林建筑工程"},{"classCode":"D049_63","parentCode":"D049_6","title":"森林运输工程"},{"classCode":"D049_64","parentCode":"D049_6","title":"森林水土保持工程"},{"classCode":"D049_65","parentCode":"D049_6","title":"防沙工程"},{"classCode":"D049_66","parentCode":"D049_6","title":"林业机械"},{"classCode":"D049_67","parentCode":"D049_6","title":"林业航空、林业电器通讯设备"}],"title":"森林工程、林业机械"},{"classCode":"D049_7","parentCode":"D049","children":[{"classCode":"D049_71","parentCode":"D049_7","title":"木材学"},{"classCode":"D049_72","parentCode":"D049_7","title":"木材采运学"},{"classCode":"D049_73","parentCode":"D049_7","title":"森林副产品采集"},{"classCode":"D049_74","parentCode":"D049_7","title":"森林环境资源的利用"},{"classCode":"D049_75","parentCode":"D049_7","title":"森林副产品的综合利用"}],"title":"森林采运与利用"},{"classCode":"D049_8","parentCode":"D049","children":[{"classCode":"D049_81","parentCode":"D049_8","title":"针叶树类"},{"classCode":"D049_82","parentCode":"D049_8","title":"阔叶乔木"},{"classCode":"D049_83","parentCode":"D049_8","title":"阔叶灌木"},{"classCode":"D049_84","parentCode":"D049_8","title":"特用阔叶树类"},{"classCode":"D049_85","parentCode":"D049_8","title":"竹"},{"classCode":"D049_86","parentCode":"D049_8","title":"热带树种"}],"title":"森林树种"}],"title":"林业"},{"classCode":"D050","parentCode":"D","children":[{"classCode":"D050_1","parentCode":"D050","children":[{"classCode":"D050_11","parentCode":"D050_1","title":"畜牧经济学"},{"classCode":"D050_12","parentCode":"D050_1","title":"畜牧基础科学"},{"classCode":"D050_13","parentCode":"D050_1","title":"草原学"},{"classCode":"D050_14","parentCode":"D050_1","title":"遗传、选种、育种"},{"classCode":"D050_15","parentCode":"D050_1","title":"繁殖"},{"classCode":"D050_16","parentCode":"D050_1","title":"饲养管理"},{"classCode":"D050_17","parentCode":"D050_1","title":"饲料"},{"classCode":"D050_18","parentCode":"D050_1","title":"畜牧机械"},{"classCode":"D050_19","parentCode":"D050_1","title":"畜牧电气化和自动化"}],"title":"普通畜牧学"},{"classCode":"D050_2","parentCode":"D050","children":[{"classCode":"D050_21","parentCode":"D050_2","title":"马"},{"classCode":"D050_22","parentCode":"D050_2","title":"驴、骡"},{"classCode":"D050_23","parentCode":"D050_2","title":"牛"},{"classCode":"D050_24","parentCode":"D050_2","title":"骆驼"},{"classCode":"D050_25","parentCode":"D050_2","title":"鹿"},{"classCode":"D050_26","parentCode":"D050_2","title":"羊"},{"classCode":"D050_27","parentCode":"D050_2","title":"山羊"},{"classCode":"D050_28","parentCode":"D050_2","title":"猪"},{"classCode":"D050_29","parentCode":"D050_2","title":"兔"},{"classCode":"D050_2A","parentCode":"D050_2","title":"其它家畜"}],"title":"家畜"},{"classCode":"D050_3","parentCode":"D050","children":[{"classCode":"D050_31","parentCode":"D050_3","title":"鸡"},{"classCode":"D050_32","parentCode":"D050_3","title":"鸭"},{"classCode":"D050_33","parentCode":"D050_3","title":"鹅"},{"classCode":"D050_34","parentCode":"D050_3","title":"鸽"},{"classCode":"D050_35","parentCode":"D050_3","title":"其它"}],"title":"家禽"},{"classCode":"D050_4","parentCode":"D050","children":[{"classCode":"D050_41","parentCode":"D050_4","title":"兽医预防科学"},{"classCode":"D050_42","parentCode":"D050_4","title":"兽医基础科学"},{"classCode":"D050_43","parentCode":"D050_4","title":"兽医临床医学"},{"classCode":"D050_44","parentCode":"D050_4","title":"兽医传染病学"},{"classCode":"D050_45","parentCode":"D050_4","title":"兽医各科"},{"classCode":"D050_46","parentCode":"D050_4","title":"中国兽医学"},{"classCode":"D050_47","parentCode":"D050_4","title":"兽医药物学"},{"classCode":"D050_48","parentCode":"D050_4","title":"猪病"},{"classCode":"D050_49","parentCode":"D050_4","title":"鸡病"},{"classCode":"D050_4A","parentCode":"D050_4","children":[{"classCode":"D050_4A1","parentCode":"D050_4A","title":"马病"},{"classCode":"D050_4A2","parentCode":"D050_4A","title":"驴、骡病"},{"classCode":"D050_4A3","parentCode":"D050_4A","title":"牛病"},{"classCode":"D050_4A4","parentCode":"D050_4A","title":"骆驼病"},{"classCode":"D050_4A5","parentCode":"D050_4A","title":"鹿病"},{"classCode":"D050_4A6","parentCode":"D050_4A","title":"羊病"},{"classCode":"D050_4A7","parentCode":"D050_4A","title":"其它家畜病"},{"classCode":"D050_4A8","parentCode":"D050_4A","title":"鸭病"},{"classCode":"D050_4A9","parentCode":"D050_4A","title":"其它家禽病及野生动物疾病"}],"title":"其它各种畜、禽病"}],"title":"兽医学"}],"title":"畜牧与动物医学"},{"classCode":"D051","parentCode":"D","children":[{"classCode":"D051_1","parentCode":"D051","title":"狩猎、野生动物驯养"},{"classCode":"D051_2","parentCode":"D051","title":"畜禽产品的综合利用"},{"classCode":"D051_3","parentCode":"D051","children":[{"classCode":"D051_31","parentCode":"D051_3","children":[{"classCode":"D051_312","parentCode":"D051_31","title":"蚕基础科学"},{"classCode":"D051_313","parentCode":"D051_31","title":"蚕的育种与良种繁育"},{"classCode":"D051_314","parentCode":"D051_31","title":"蚕的饲育法"},{"classCode":"D051_315","parentCode":"D051_31","title":"蚕的病虫害及其防治"},{"classCode":"D051_316","parentCode":"D051_31","title":"其他蚕类"},{"classCode":"D051_317","parentCode":"D051_31","title":"蚕茧"},{"classCode":"D051_318","parentCode":"D051_31","title":"养蚕建筑、养蚕机具"},{"classCode":"D051_319","parentCode":"D051_31","title":"桑"},{"classCode":"D051_31A","parentCode":"D051_31","title":"蚕的其他饲料"}],"title":"蚕桑"},{"classCode":"D051_32","parentCode":"D051_3","children":[{"classCode":"D051_321","parentCode":"D051_32","title":"蜂群生物学"},{"classCode":"D051_322","parentCode":"D051_32","title":"繁育"},{"classCode":"D051_323","parentCode":"D051_32","title":"品种"},{"classCode":"D051_325","parentCode":"D051_32","title":"病虫害防治"},{"classCode":"D051_326","parentCode":"D051_32","title":"蜂产品加工及利用"},{"classCode":"D051_327","parentCode":"D051_32","title":"蜜源植物"},{"classCode":"D051_328","parentCode":"D051_32","title":"蜂场的经营及管理"},{"classCode":"D051_329","parentCode":"D051_32","title":"益虫饲养"}],"title":"养蜂、益虫饲养"}],"title":"蚕桑、养蜂、益虫饲养"}],"title":"蚕蜂与野生动物保护"},{"classCode":"D052","parentCode":"D","children":[{"classCode":"D052_1","parentCode":"D052","title":"水产经济"},{"classCode":"D052_2","parentCode":"D052","title":"水产基础科学"},{"classCode":"D052_3","parentCode":"D052","children":[{"classCode":"D052_31","parentCode":"D052_3","title":"水产资源学、地区分布"},{"classCode":"D052_32","parentCode":"D052_3","title":"水产资源调查"}],"title":"水产地区分布、水产志与资源"},{"classCode":"D052_4","parentCode":"D052","children":[{"classCode":"D052_41","parentCode":"D052_4","title":"鱼病学"},{"classCode":"D052_42","parentCode":"D052_4","title":"鱼病防治方法"},{"classCode":"D052_43","parentCode":"D052_4","title":"各种鱼病防治"},{"classCode":"D052_44","parentCode":"D052_4","title":"贝类病害、敌害及其防治"},{"classCode":"D052_45","parentCode":"D052_4","title":"甲壳类病虫害及其防治"},{"classCode":"D052_46","parentCode":"D052_4","title":"其它水产病虫害及其防治"},{"classCode":"D052_47","parentCode":"D052_4","title":"水产药物学、药理学"},{"classCode":"D052_48","parentCode":"D052_4","title":"水产的水质污染及其防治"}],"title":"水产保护学"},{"classCode":"D052_5","parentCode":"D052","title":"水产工程"},{"classCode":"D052_6","parentCode":"D052","children":[{"classCode":"D052_61","parentCode":"D052_6","title":"鱼类繁殖和越冬技术"},{"classCode":"D052_62","parentCode":"D052_6","title":"鱼苗、鱼种"},{"classCode":"D052_63","parentCode":"D052_6","title":"水产动物饵料及其营养"},{"classCode":"D052_64","parentCode":"D052_6","title":"淡水、海水养殖方式"},{"classCode":"D052_65","parentCode":"D052_6","title":"各种鱼类养殖"},{"classCode":"D052_66","parentCode":"D052_6","title":"其他淡水养殖"},{"classCode":"D052_67","parentCode":"D052_6","title":"各种海产动植物养殖"},{"classCode":"D052_68","parentCode":"D052_6","title":"水产养殖设备"}],"title":"水产养殖技术"},{"classCode":"D052_7","parentCode":"D052","title":"渔捞"},{"classCode":"D052_8","parentCode":"D052","title":"水产物运输、保鲜贮藏、加工、包装"}],"title":"水产和渔业"}],"title":"农业科技"},{"classCode":"D045_72","parentCode":"D045_7","title":"土壤物理学"},{"classCode":"D045_73","parentCode":"D045_7","title":"土壤化学、土壤物理化学"},{"classCode":"D047_141","parentCode":"D047_14","title":"耕作学"},{"classCode":"D047_142","parentCode":"D047_14","title":"有机农业"}]
+[
+    {
+        "classCode": "D",
+        "parentCode": "",
+        "children": [
+            {
+                "classCode": "D043",
+                "parentCode": "D",
+                "children": [
+                    {
+                        "classCode": "D043_1",
+                        "parentCode": "D043",
+                        "title": "农业基本问题"
+                    },
+                    {
+                        "classCode": "D043_2",
+                        "parentCode": "D043",
+                        "children": [
+                            {
+                                "classCode": "D043_21",
+                                "parentCode": "D043_2",
+                                "title": "农业发展与建设方针"
+                            },
+                            {
+                                "classCode": "D043_22",
+                                "parentCode": "D043_2",
+                                "title": "农业现代化道路、模式"
+                            },
+                            {
+                                "classCode": "D043_23",
+                                "parentCode": "D043_2",
+                                "title": "农业可持续发展"
+                            },
+                            {
+                                "classCode": "D043_24",
+                                "parentCode": "D043_2",
+                                "title": "农村经济改革"
+                            }
+                        ],
+                        "title": "农业方针政策及其阐述"
+                    },
+                    {
+                        "classCode": "D043_3",
+                        "parentCode": "D043",
+                        "title": "农业数学"
+                    },
+                    {
+                        "classCode": "D043_4",
+                        "parentCode": "D043",
+                        "title": "农业物理学"
+                    },
+                    {
+                        "classCode": "D043_5",
+                        "parentCode": "D043",
+                        "children": [
+                            {
+                                "classCode": "D043_50",
+                                "parentCode": "D043_5",
+                                "title": "肥料基础科学"
+                            },
+                            {
+                                "classCode": "D043_51",
+                                "parentCode": "D043_5",
+                                "title": "化学肥料"
+                            },
+                            {
+                                "classCode": "D043_52",
+                                "parentCode": "D043_5",
+                                "title": "农家肥、绿肥、细菌肥料及其他"
+                            },
+                            {
+                                "classCode": "D043_53",
+                                "parentCode": "D043_5",
+                                "title": "化学肥料制造"
+                            },
+                            {
+                                "classCode": "D043_54",
+                                "parentCode": "D043_5",
+                                "title": "施肥"
+                            },
+                            {
+                                "classCode": "D043_55",
+                                "parentCode": "D043_5",
+                                "title": "施肥机械与设备"
+                            }
+                        ],
+                        "title": "肥料学"
+                    },
+                    {
+                        "classCode": "D043_6",
+                        "parentCode": "D043",
+                        "children": [
+                            {
+                                "classCode": "D043_61",
+                                "parentCode": "D043_6",
+                                "title": "土壤形成及演化"
+                            },
+                            {
+                                "classCode": "D043_62",
+                                "parentCode": "D043_6",
+                                "title": "土壤物理学、土壤化学"
+                            },
+                            {
+                                "classCode": "D043_63",
+                                "parentCode": "D043_6",
+                                "title": "土壤生物学"
+                            },
+                            {
+                                "classCode": "D043_64",
+                                "parentCode": "D043_6",
+                                "title": "土壤类型、土壤分类学"
+                            },
+                            {
+                                "classCode": "D043_65",
+                                "parentCode": "D043_6",
+                                "title": "土壤改良"
+                            },
+                            {
+                                "classCode": "D043_66",
+                                "parentCode": "D043_6",
+                                "title": "水土保持"
+                            },
+                            {
+                                "classCode": "D043_67",
+                                "parentCode": "D043_6",
+                                "title": "土壤肥力"
+                            },
+                            {
+                                "classCode": "D043_68",
+                                "parentCode": "D043_6",
+                                "title": "土壤地理、土壤调查"
+                            },
+                            {
+                                "classCode": "D043_69",
+                                "parentCode": "D043_6",
+                                "title": "森林土壤学"
+                            }
+                        ],
+                        "title": "土壤学"
+                    },
+                    {
+                        "classCode": "D043_7",
+                        "parentCode": "D043",
+                        "title": "农业气象学"
+                    },
+                    {
+                        "classCode": "D043_8",
+                        "parentCode": "D043",
+                        "children": [
+                            {
+                                "classCode": "D043_81",
+                                "parentCode": "D043_8",
+                                "title": "农业生态学"
+                            },
+                            {
+                                "classCode": "D043_82",
+                                "parentCode": "D043_8",
+                                "title": "农业微生物学、农业植物学"
+                            },
+                            {
+                                "classCode": "D043_83",
+                                "parentCode": "D043_8",
+                                "title": "农业动物学"
+                            },
+                            {
+                                "classCode": "D043_84",
+                                "parentCode": "D043_8",
+                                "title": "农业昆虫学、蜱螨学"
+                            },
+                            {
+                                "classCode": "D043_85",
+                                "parentCode": "D043_8",
+                                "title": "农业生物工程"
+                            }
+                        ],
+                        "title": "农业生物学"
+                    },
+                    {
+                        "classCode": "D043_9",
+                        "parentCode": "D043",
+                        "title": "农业资源及环境保护"
+                    }
+                ],
+                "title": "农业基础科学"
+            },
+            {
+                "classCode": "D044",
+                "parentCode": "D",
+                "children": [
+                    {
+                        "classCode": "D044_1",
+                        "parentCode": "D044",
+                        "title": "农业工程总论"
+                    },
+                    {
+                        "classCode": "D044_2",
+                        "parentCode": "D044",
+                        "children": [
+                            {
+                                "classCode": "D044_21",
+                                "parentCode": "D044_2",
+                                "title": "农业能源及其利用"
+                            },
+                            {
+                                "classCode": "D044_22",
+                                "parentCode": "D044_2",
+                                "title": "拖拉机"
+                            }
+                        ],
+                        "title": "农业动力、农村能源"
+                    },
+                    {
+                        "classCode": "D044_3",
+                        "parentCode": "D044",
+                        "children": [
+                            {
+                                "classCode": "D044_31",
+                                "parentCode": "D044_3",
+                                "title": "一般性问题"
+                            },
+                            {
+                                "classCode": "D044_32",
+                                "parentCode": "D044_3",
+                                "title": "手工农具、改良农具"
+                            },
+                            {
+                                "classCode": "D044_33",
+                                "parentCode": "D044_3",
+                                "children": [
+                                    {
+                                        "classCode": "D044_330",
+                                        "parentCode": "D044_33",
+                                        "title": "起垄机"
+                                    },
+                                    {
+                                        "classCode": "D044_331",
+                                        "parentCode": "D044_33",
+                                        "title": "旋耕机"
+                                    },
+                                    {
+                                        "classCode": "D044_332",
+                                        "parentCode": "D044_33",
+                                        "title": "除草机"
+                                    },
+                                    {
+                                        "classCode": "D044_333",
+                                        "parentCode": "D044_33",
+                                        "title": "犁地机"
+                                    },
+                                    {
+                                        "classCode": "D044_334",
+                                        "parentCode": "D044_33",
+                                        "title": "锄草机"
+                                    },
+                                    {
+                                        "classCode": "D044_335",
+                                        "parentCode": "D044_33",
+                                        "title": "起垄装置"
+                                    },
+                                    {
+                                        "classCode": "D044_336",
+                                        "parentCode": "D044_33",
+                                        "title": "其它"
+                                    }
+                                ],
+                                "title": "耕耘机具"
+                            },
+                            {
+                                "classCode": "D044_34",
+                                "parentCode": "D044_3",
+                                "children": [
+                                    {
+                                        "classCode": "D044_340",
+                                        "parentCode": "D044_34",
+                                        "title": "播种设备"
+                                    },
+                                    {
+                                        "classCode": "D044_341",
+                                        "parentCode": "D044_34",
+                                        "title": "插秧设备"
+                                    },
+                                    {
+                                        "classCode": "D044_342",
+                                        "parentCode": "D044_34",
+                                        "title": "移栽装置"
+                                    },
+                                    {
+                                        "classCode": "D044_343",
+                                        "parentCode": "D044_34",
+                                        "title": "开槽装置"
+                                    },
+                                    {
+                                        "classCode": "D044_344",
+                                        "parentCode": "D044_34",
+                                        "title": "刨坑机"
+                                    },
+                                    {
+                                        "classCode": "D044_345",
+                                        "parentCode": "D044_34",
+                                        "title": "开沟设备"
+                                    },
+                                    {
+                                        "classCode": "D044_346",
+                                        "parentCode": "D044_34",
+                                        "title": "其它"
+                                    }
+                                ],
+                                "title": "种植机械"
+                            },
+                            {
+                                "classCode": "D044_35",
+                                "parentCode": "D044_3",
+                                "children": [
+                                    {
+                                        "classCode": "D044_350",
+                                        "parentCode": "D044_35",
+                                        "title": "施肥装置"
+                                    },
+                                    {
+                                        "classCode": "D044_351",
+                                        "parentCode": "D044_35",
+                                        "title": "灌溉装置"
+                                    },
+                                    {
+                                        "classCode": "D044_352",
+                                        "parentCode": "D044_35",
+                                        "title": "修剪机"
+                                    },
+                                    {
+                                        "classCode": "D044_353",
+                                        "parentCode": "D044_35",
+                                        "title": "粉碎装置"
+                                    },
+                                    {
+                                        "classCode": "D044_354",
+                                        "parentCode": "D044_35",
+                                        "title": "撒粪装置"
+                                    },
+                                    {
+                                        "classCode": "D044_355",
+                                        "parentCode": "D044_35",
+                                        "title": "碎草装置"
+                                    },
+                                    {
+                                        "classCode": "D044_356",
+                                        "parentCode": "D044_35",
+                                        "title": "其它"
+                                    }
+                                ],
+                                "title": "田间管理机械"
+                            },
+                            {
+                                "classCode": "D044_36",
+                                "parentCode": "D044_3",
+                                "title": "收获机具"
+                            },
+                            {
+                                "classCode": "D044_37",
+                                "parentCode": "D044_3",
+                                "title": "农产品初步加工机具"
+                            },
+                            {
+                                "classCode": "D044_38",
+                                "parentCode": "D044_3",
+                                "title": "农业运输、装卸机具、贮藏设备"
+                            }
+                        ],
+                        "title": "农业机械及农具"
+                    },
+                    {
+                        "classCode": "D044_4",
+                        "parentCode": "D044",
+                        "children": [
+                            {
+                                "classCode": "D044_41",
+                                "parentCode": "D044_4",
+                                "title": "农业机械化区划与系统"
+                            },
+                            {
+                                "classCode": "D044_42",
+                                "parentCode": "D044_4",
+                                "title": "农业机械与拖拉机运用学"
+                            },
+                            {
+                                "classCode": "D044_43",
+                                "parentCode": "D044_4",
+                                "title": "农业生产作业机械化工艺组织"
+                            },
+                            {
+                                "classCode": "D044_44",
+                                "parentCode": "D044_4",
+                                "title": "农用仪器、仪表及设备"
+                            },
+                            {
+                                "classCode": "D044_45",
+                                "parentCode": "D044_4",
+                                "title": "林业机械化"
+                            }
+                        ],
+                        "title": "农业机械化"
+                    },
+                    {
+                        "classCode": "D044_5",
+                        "parentCode": "D044",
+                        "title": "农业电气化与自动化、农业航空"
+                    },
+                    {
+                        "classCode": "D044_6",
+                        "parentCode": "D044",
+                        "children": [
+                            {
+                                "classCode": "D044_60",
+                                "parentCode": "D044_6",
+                                "title": "饲养箱"
+                            },
+                            {
+                                "classCode": "D044_61",
+                                "parentCode": "D044_6",
+                                "title": "宠物窝"
+                            },
+                            {
+                                "classCode": "D044_62",
+                                "parentCode": "D044_6",
+                                "title": "养殖房"
+                            },
+                            {
+                                "classCode": "D044_63",
+                                "parentCode": "D044_6",
+                                "title": "猪舍"
+                            },
+                            {
+                                "classCode": "D044_64",
+                                "parentCode": "D044_6",
+                                "title": "鸡舍"
+                            },
+                            {
+                                "classCode": "D044_65",
+                                "parentCode": "D044_6",
+                                "title": "鼠笼"
+                            },
+                            {
+                                "classCode": "D044_66",
+                                "parentCode": "D044_6",
+                                "title": "兔笼"
+                            },
+                            {
+                                "classCode": "D044_67",
+                                "parentCode": "D044_6",
+                                "title": "牛舍"
+                            },
+                            {
+                                "classCode": "D044_68",
+                                "parentCode": "D044_6",
+                                "title": "其它"
+                            }
+                        ],
+                        "title": "农业建筑"
+                    },
+                    {
+                        "classCode": "D044_7",
+                        "parentCode": "D044",
+                        "children": [
+                            {
+                                "classCode": "D044_71",
+                                "parentCode": "D044_7",
+                                "title": "农田水文学"
+                            },
+                            {
+                                "classCode": "D044_72",
+                                "parentCode": "D044_7",
+                                "title": "水源"
+                            },
+                            {
+                                "classCode": "D044_73",
+                                "parentCode": "D044_7",
+                                "title": "灌溉制度与管理"
+                            },
+                            {
+                                "classCode": "D044_74",
+                                "parentCode": "D044_7",
+                                "title": "灌溉技术"
+                            },
+                            {
+                                "classCode": "D044_75",
+                                "parentCode": "D044_7",
+                                "title": "排水"
+                            },
+                            {
+                                "classCode": "D044_76",
+                                "parentCode": "D044_7",
+                                "title": "排灌工程"
+                            },
+                            {
+                                "classCode": "D044_77",
+                                "parentCode": "D044_7",
+                                "title": "水利改良土壤措施"
+                            },
+                            {
+                                "classCode": "D044_78",
+                                "parentCode": "D044_7",
+                                "title": "各国农田水利"
+                            },
+                            {
+                                "classCode": "D044_79",
+                                "parentCode": "D044_7",
+                                "title": "水体污染及其防治"
+                            }
+                        ],
+                        "title": "农田水利及水污染防治"
+                    },
+                    {
+                        "classCode": "D044_8",
+                        "parentCode": "D044",
+                        "title": "农田基本建设、农垦"
+                    },
+                    {
+                        "classCode": "D044_9",
+                        "parentCode": "D044",
+                        "title": "农业工程勘测、土地测量、土地管理、规划及利用"
+                    }
+                ],
+                "title": "农业工程"
+            },
+            {
+                "classCode": "D045",
+                "parentCode": "D",
+                "children": [
+                    {
+                        "classCode": "D045_1",
+                        "parentCode": "D045",
+                        "children": [
+                            {
+                                "classCode": "D045_10",
+                                "parentCode": "D045_1",
+                                "title": "水培技术"
+                            },
+                            {
+                                "classCode": "D045_11",
+                                "parentCode": "D045_1",
+                                "title": "无土栽培技术"
+                            },
+                            {
+                                "classCode": "D045_12",
+                                "parentCode": "D045_1",
+                                "title": "其它"
+                            }
+                        ],
+                        "title": "作物生物学原理和栽培技术与方法"
+                    },
+                    {
+                        "classCode": "D045_2",
+                        "parentCode": "D045",
+                        "title": "作物品种与种质资源"
+                    },
+                    {
+                        "classCode": "D045_3",
+                        "parentCode": "D045",
+                        "title": "作物遗传育种与良种繁育"
+                    },
+                    {
+                        "classCode": "D045_4",
+                        "parentCode": "D045",
+                        "title": "耕作学与有机农业"
+                    },
+                    {
+                        "classCode": "D045_5",
+                        "parentCode": "D045",
+                        "children": [
+                            {
+                                "classCode": "D045_50",
+                                "parentCode": "D045_5",
+                                "title": "补光装置"
+                            },
+                            {
+                                "classCode": "D045_51",
+                                "parentCode": "D045_5",
+                                "title": "浸泡装置"
+                            },
+                            {
+                                "classCode": "D045_52",
+                                "parentCode": "D045_5",
+                                "title": "催芽装置"
+                            },
+                            {
+                                "classCode": "D045_53",
+                                "parentCode": "D045_5",
+                                "title": "其它"
+                            }
+                        ],
+                        "title": "播种、栽植与田间管理"
+                    },
+                    {
+                        "classCode": "D045_6",
+                        "parentCode": "D045",
+                        "children": [
+                            {
+                                "classCode": "D045_60",
+                                "parentCode": "D045_6",
+                                "title": "农业化学"
+                            },
+                            {
+                                "classCode": "D045_61",
+                                "parentCode": "D045_6",
+                                "title": "农家肥料"
+                            },
+                            {
+                                "classCode": "D045_62",
+                                "parentCode": "D045_6",
+                                "title": "绿肥"
+                            },
+                            {
+                                "classCode": "D045_64",
+                                "parentCode": "D045_6",
+                                "title": "细菌肥料"
+                            },
+                            {
+                                "classCode": "D045_65",
+                                "parentCode": "D045_6",
+                                "title": "肥料剂型"
+                            },
+                            {
+                                "classCode": "D045_66",
+                                "parentCode": "D045_6",
+                                "title": "肥料的选择与管理"
+                            },
+                            {
+                                "classCode": "D045_67",
+                                "parentCode": "D045_6",
+                                "title": "积肥、调制与施肥"
+                            }
+                        ],
+                        "title": "农业化学与肥料学"
+                    },
+                    {
+                        "classCode": "D045_8",
+                        "parentCode": "D045",
+                        "title": "农产品收获、加工、贮藏及综合利用"
+                    }
+                ],
+                "title": "农艺学"
+            },
+            {
+                "classCode": "D046",
+                "parentCode": "D",
+                "children": [
+                    {
+                        "classCode": "D046_1",
+                        "parentCode": "D046",
+                        "title": "植物保护总论"
+                    },
+                    {
+                        "classCode": "D046_2",
+                        "parentCode": "D046",
+                        "title": "动植物检疫"
+                    },
+                    {
+                        "classCode": "D046_3",
+                        "parentCode": "D046",
+                        "title": "植物检疫"
+                    },
+                    {
+                        "classCode": "D046_4",
+                        "parentCode": "D046",
+                        "children": [
+                            {
+                                "classCode": "D046_41",
+                                "parentCode": "D046_4",
+                                "title": "气象灾害及其预防"
+                            },
+                            {
+                                "classCode": "D046_42",
+                                "parentCode": "D046_4",
+                                "title": "森林火灾及其预防"
+                            }
+                        ],
+                        "title": "气象灾害、森林火灾及其预防"
+                    },
+                    {
+                        "classCode": "D046_5",
+                        "parentCode": "D046",
+                        "children": [
+                            {
+                                "classCode": "D046_51",
+                                "parentCode": "D046_5",
+                                "title": "植物病虫害及其预测、预报"
+                            },
+                            {
+                                "classCode": "D046_52",
+                                "parentCode": "D046_5",
+                                "title": "禾谷类作物病虫害及其防治"
+                            },
+                            {
+                                "classCode": "D046_53",
+                                "parentCode": "D046_5",
+                                "title": "豆类、薯类作物病虫害及其防治"
+                            },
+                            {
+                                "classCode": "D046_54",
+                                "parentCode": "D046_5",
+                                "title": "饲料作物、牧草及绿肥作物病虫害及其防治"
+                            },
+                            {
+                                "classCode": "D046_55",
+                                "parentCode": "D046_5",
+                                "title": "经济作物病虫害及其防治"
+                            }
+                        ],
+                        "title": "作物病虫害及其防治"
+                    },
+                    {
+                        "classCode": "D046_6",
+                        "parentCode": "D046",
+                        "children": [
+                            {
+                                "classCode": "D046_61",
+                                "parentCode": "D046_6",
+                                "title": "蔬菜、瓜果病虫害及其防治"
+                            },
+                            {
+                                "classCode": "D046_62",
+                                "parentCode": "D046_6",
+                                "title": "果树病虫害及其防治"
+                            },
+                            {
+                                "classCode": "D046_63",
+                                "parentCode": "D046_6",
+                                "title": "观赏园艺病虫害及其防治"
+                            }
+                        ],
+                        "title": "园艺作物病虫害及其防治"
+                    },
+                    {
+                        "classCode": "D046_7",
+                        "parentCode": "D046",
+                        "title": "森林病虫害及其防治"
+                    },
+                    {
+                        "classCode": "D046_8",
+                        "parentCode": "D046",
+                        "title": "鸟兽害及其它灾害防治"
+                    },
+                    {
+                        "classCode": "D046_9",
+                        "parentCode": "D046",
+                        "title": "有害植物及其清除"
+                    },
+                    {
+                        "classCode": "D046_A",
+                        "parentCode": "D046",
+                        "title": "各种防治方法"
+                    },
+                    {
+                        "classCode": "D046_B",
+                        "parentCode": "D046",
+                        "children": [
+                            {
+                                "classCode": "D046_B1",
+                                "parentCode": "D046_B",
+                                "title": "植物化学保护理论"
+                            },
+                            {
+                                "classCode": "D046_B2",
+                                "parentCode": "D046_B",
+                                "title": "杀菌剂"
+                            },
+                            {
+                                "classCode": "D046_B3",
+                                "parentCode": "D046_B",
+                                "title": "杀虫剂"
+                            },
+                            {
+                                "classCode": "D046_B4",
+                                "parentCode": "D046_B",
+                                "title": "除草剂"
+                            },
+                            {
+                                "classCode": "D046_B5",
+                                "parentCode": "D046_B",
+                                "title": "其他化学农药"
+                            },
+                            {
+                                "classCode": "D046_B6",
+                                "parentCode": "D046_B",
+                                "title": "农药工业"
+                            }
+                        ],
+                        "title": "农药防治(化学防治)"
+                    },
+                    {
+                        "classCode": "D046_C",
+                        "parentCode": "D046",
+                        "title": "植物保护机械"
+                    }
+                ],
+                "title": "植物保护"
+            },
+            {
+                "classCode": "D047",
+                "parentCode": "D",
+                "children": [
+                    {
+                        "classCode": "D047_1",
+                        "parentCode": "D047",
+                        "children": [
+                            {
+                                "classCode": "D047_11",
+                                "parentCode": "D047_1",
+                                "title": "作物生物学原理、栽培技术与方法"
+                            },
+                            {
+                                "classCode": "D047_15",
+                                "parentCode": "D047_1",
+                                "title": "播种、栽植及田间管理"
+                            }
+                        ],
+                        "title": "作物学基础"
+                    },
+                    {
+                        "classCode": "D047_2",
+                        "parentCode": "D047",
+                        "children": [
+                            {
+                                "classCode": "D047_21",
+                                "parentCode": "D047_2",
+                                "children": [
+                                    {
+                                        "classCode": "D047_211",
+                                        "parentCode": "D047_21",
+                                        "title": "水稻"
+                                    },
+                                    {
+                                        "classCode": "D047_212",
+                                        "parentCode": "D047_21",
+                                        "title": "籼稻、粳稻、糯稻"
+                                    },
+                                    {
+                                        "classCode": "D047_213",
+                                        "parentCode": "D047_21",
+                                        "title": "早稻、中稻、晚稻"
+                                    },
+                                    {
+                                        "classCode": "D047_214",
+                                        "parentCode": "D047_21",
+                                        "title": "单季稻、双季稻、三季稻"
+                                    },
+                                    {
+                                        "classCode": "D047_215",
+                                        "parentCode": "D047_21",
+                                        "title": "深水稻"
+                                    },
+                                    {
+                                        "classCode": "D047_216",
+                                        "parentCode": "D047_21",
+                                        "title": "陆稻"
+                                    },
+                                    {
+                                        "classCode": "D047_217",
+                                        "parentCode": "D047_21",
+                                        "title": "野生稻"
+                                    }
+                                ],
+                                "title": "稻"
+                            },
+                            {
+                                "classCode": "D047_22",
+                                "parentCode": "D047_2",
+                                "children": [
+                                    {
+                                        "classCode": "D047_221",
+                                        "parentCode": "D047_22",
+                                        "title": "小麦"
+                                    },
+                                    {
+                                        "classCode": "D047_222",
+                                        "parentCode": "D047_22",
+                                        "title": "大麦及其它"
+                                    }
+                                ],
+                                "title": "麦"
+                            },
+                            {
+                                "classCode": "D047_23",
+                                "parentCode": "D047_2",
+                                "title": "玉米"
+                            },
+                            {
+                                "classCode": "D047_24",
+                                "parentCode": "D047_2",
+                                "title": "高梁"
+                            },
+                            {
+                                "classCode": "D047_25",
+                                "parentCode": "D047_2",
+                                "title": "其它禾谷类"
+                            }
+                        ],
+                        "title": "禾谷类作物"
+                    },
+                    {
+                        "classCode": "D047_3",
+                        "parentCode": "D047",
+                        "title": "豆类作物"
+                    },
+                    {
+                        "classCode": "D047_4",
+                        "parentCode": "D047",
+                        "children": [
+                            {
+                                "classCode": "D047_41",
+                                "parentCode": "D047_4",
+                                "title": "甘薯"
+                            },
+                            {
+                                "classCode": "D047_42",
+                                "parentCode": "D047_4",
+                                "title": "马铃薯"
+                            },
+                            {
+                                "classCode": "D047_43",
+                                "parentCode": "D047_4",
+                                "title": "木薯及其它"
+                            }
+                        ],
+                        "title": "薯类作物"
+                    },
+                    {
+                        "classCode": "D047_5",
+                        "parentCode": "D047",
+                        "title": "饲料作物、牧草"
+                    },
+                    {
+                        "classCode": "D047_6",
+                        "parentCode": "D047",
+                        "title": "绿肥作物"
+                    },
+                    {
+                        "classCode": "D047_7",
+                        "parentCode": "D047",
+                        "children": [
+                            {
+                                "classCode": "D047_71",
+                                "parentCode": "D047_7",
+                                "children": [
+                                    {
+                                        "classCode": "D047_711",
+                                        "parentCode": "D047_71",
+                                        "title": "棉"
+                                    },
+                                    {
+                                        "classCode": "D047_712",
+                                        "parentCode": "D047_71",
+                                        "title": "麻类作物"
+                                    },
+                                    {
+                                        "classCode": "D047_713",
+                                        "parentCode": "D047_71",
+                                        "title": "编织用纤维作物"
+                                    }
+                                ],
+                                "title": "纤维作物"
+                            },
+                            {
+                                "classCode": "D047_72",
+                                "parentCode": "D047_7",
+                                "children": [
+                                    {
+                                        "classCode": "D047_721",
+                                        "parentCode": "D047_72",
+                                        "title": "大豆"
+                                    },
+                                    {
+                                        "classCode": "D047_722",
+                                        "parentCode": "D047_72",
+                                        "title": "花生"
+                                    },
+                                    {
+                                        "classCode": "D047_723",
+                                        "parentCode": "D047_72",
+                                        "title": "油菜子"
+                                    },
+                                    {
+                                        "classCode": "D047_724",
+                                        "parentCode": "D047_72",
+                                        "title": "其他油料作物"
+                                    }
+                                ],
+                                "title": "油料作物"
+                            },
+                            {
+                                "classCode": "D047_73",
+                                "parentCode": "D047_7",
+                                "children": [
+                                    {
+                                        "classCode": "D047_731",
+                                        "parentCode": "D047_73",
+                                        "title": "甘蔗"
+                                    },
+                                    {
+                                        "classCode": "D047_732",
+                                        "parentCode": "D047_73",
+                                        "title": "甜菜"
+                                    },
+                                    {
+                                        "classCode": "D047_733",
+                                        "parentCode": "D047_73",
+                                        "title": "其他糖料作物"
+                                    }
+                                ],
+                                "title": "糖料作物"
+                            },
+                            {
+                                "classCode": "D047_74",
+                                "parentCode": "D047_7",
+                                "children": [
+                                    {
+                                        "classCode": "D047_741",
+                                        "parentCode": "D047_74",
+                                        "title": "木本"
+                                    },
+                                    {
+                                        "classCode": "D047_742",
+                                        "parentCode": "D047_74",
+                                        "title": "草本"
+                                    },
+                                    {
+                                        "classCode": "D047_743",
+                                        "parentCode": "D047_74",
+                                        "title": "菌类"
+                                    },
+                                    {
+                                        "classCode": "D047_744",
+                                        "parentCode": "D047_74",
+                                        "title": "其它药用作物"
+                                    }
+                                ],
+                                "title": "药用作物"
+                            },
+                            {
+                                "classCode": "D047_75",
+                                "parentCode": "D047_7",
+                                "children": [
+                                    {
+                                        "classCode": "D047_751",
+                                        "parentCode": "D047_75",
+                                        "title": "茶"
+                                    },
+                                    {
+                                        "classCode": "D047_752",
+                                        "parentCode": "D047_75",
+                                        "title": "咖啡及其它饮料作物"
+                                    }
+                                ],
+                                "title": "饮料作物"
+                            },
+                            {
+                                "classCode": "D047_76",
+                                "parentCode": "D047_7",
+                                "title": "烟草"
+                            },
+                            {
+                                "classCode": "D047_77",
+                                "parentCode": "D047_7",
+                                "title": "香料作物"
+                            }
+                        ],
+                        "title": "经济作物"
+                    },
+                    {
+                        "classCode": "D047_8",
+                        "parentCode": "D047",
+                        "title": "野生植物、热带、亚热带作物及其它"
+                    }
+                ],
+                "title": "农作物"
+            },
+            {
+                "classCode": "D048",
+                "parentCode": "D",
+                "children": [
+                    {
+                        "classCode": "D048_2",
+                        "parentCode": "D048",
+                        "children": [
+                            {
+                                "classCode": "D048_21",
+                                "parentCode": "D048_2",
+                                "children": [
+                                    {
+                                        "classCode": "D048_210",
+                                        "parentCode": "D048_21",
+                                        "title": "大棚"
+                                    },
+                                    {
+                                        "classCode": "D048_211",
+                                        "parentCode": "D048_21",
+                                        "title": "灌溉装置"
+                                    },
+                                    {
+                                        "classCode": "D048_212",
+                                        "parentCode": "D048_21",
+                                        "title": "培育装置"
+                                    },
+                                    {
+                                        "classCode": "D048_213",
+                                        "parentCode": "D048_21",
+                                        "title": "恒温装置"
+                                    },
+                                    {
+                                        "classCode": "D048_214",
+                                        "parentCode": "D048_21",
+                                        "title": "其它"
+                                    }
+                                ],
+                                "title": "温室构造及其管理、作业、栽培"
+                            },
+                            {
+                                "classCode": "D048_22",
+                                "parentCode": "D048_2",
+                                "title": "无土栽培"
+                            },
+                            {
+                                "classCode": "D048_23",
+                                "parentCode": "D048_2",
+                                "title": "蔬菜设施园艺"
+                            },
+                            {
+                                "classCode": "D048_24",
+                                "parentCode": "D048_2",
+                                "title": "瓜果设施园艺"
+                            },
+                            {
+                                "classCode": "D048_25",
+                                "parentCode": "D048_2",
+                                "title": "果树设施园艺"
+                            },
+                            {
+                                "classCode": "D048_26",
+                                "parentCode": "D048_2",
+                                "title": "花卉设施园艺"
+                            }
+                        ],
+                        "title": "设施园艺"
+                    },
+                    {
+                        "classCode": "D048_3",
+                        "parentCode": "D048",
+                        "children": [
+                            {
+                                "classCode": "D048_31",
+                                "parentCode": "D048_3",
+                                "title": "直根类"
+                            },
+                            {
+                                "classCode": "D048_32",
+                                "parentCode": "D048_3",
+                                "title": "块茎类"
+                            },
+                            {
+                                "classCode": "D048_33",
+                                "parentCode": "D048_3",
+                                "title": "葱蒜类"
+                            },
+                            {
+                                "classCode": "D048_34",
+                                "parentCode": "D048_3",
+                                "title": "白菜类、芥菜类"
+                            },
+                            {
+                                "classCode": "D048_35",
+                                "parentCode": "D048_3",
+                                "title": "甘蓝类"
+                            },
+                            {
+                                "classCode": "D048_36",
+                                "parentCode": "D048_3",
+                                "title": "绿叶菜类"
+                            },
+                            {
+                                "classCode": "D048_37",
+                                "parentCode": "D048_3",
+                                "title": "茄果类"
+                            },
+                            {
+                                "classCode": "D048_38",
+                                "parentCode": "D048_3",
+                                "title": "瓜类"
+                            },
+                            {
+                                "classCode": "D048_39",
+                                "parentCode": "D048_3",
+                                "title": "豆荚类"
+                            },
+                            {
+                                "classCode": "D048_3A",
+                                "parentCode": "D048_3",
+                                "title": "多年生菜类"
+                            },
+                            {
+                                "classCode": "D048_3B",
+                                "parentCode": "D048_3",
+                                "title": "水生菜类"
+                            },
+                            {
+                                "classCode": "D048_3C",
+                                "parentCode": "D048_3",
+                                "title": "菌类(食用菌)"
+                            },
+                            {
+                                "classCode": "D048_3D",
+                                "parentCode": "D048_3",
+                                "title": "野生菜及其它"
+                            }
+                        ],
+                        "title": "蔬菜园艺"
+                    },
+                    {
+                        "classCode": "D048_4",
+                        "parentCode": "D048",
+                        "children": [
+                            {
+                                "classCode": "D048_41",
+                                "parentCode": "D048_4",
+                                "title": "西瓜"
+                            },
+                            {
+                                "classCode": "D048_42",
+                                "parentCode": "D048_4",
+                                "title": "甜瓜"
+                            }
+                        ],
+                        "title": "瓜果园艺"
+                    },
+                    {
+                        "classCode": "D048_5",
+                        "parentCode": "D048",
+                        "children": [
+                            {
+                                "classCode": "D048_51",
+                                "parentCode": "D048_5",
+                                "title": "仁果类"
+                            },
+                            {
+                                "classCode": "D048_52",
+                                "parentCode": "D048_5",
+                                "title": "核果类"
+                            },
+                            {
+                                "classCode": "D048_53",
+                                "parentCode": "D048_5",
+                                "title": "浆果类"
+                            },
+                            {
+                                "classCode": "D048_54",
+                                "parentCode": "D048_5",
+                                "title": "坚果类"
+                            },
+                            {
+                                "classCode": "D048_55",
+                                "parentCode": "D048_5",
+                                "title": "杂果类"
+                            },
+                            {
+                                "classCode": "D048_56",
+                                "parentCode": "D048_5",
+                                "title": "柑桔类"
+                            },
+                            {
+                                "classCode": "D048_57",
+                                "parentCode": "D048_5",
+                                "title": "热带及亚热带果类"
+                            },
+                            {
+                                "classCode": "D048_58",
+                                "parentCode": "D048_5",
+                                "title": "多年生草本果类"
+                            }
+                        ],
+                        "title": "果树园艺"
+                    },
+                    {
+                        "classCode": "D048_6",
+                        "parentCode": "D048",
+                        "children": [
+                            {
+                                "classCode": "D048_61",
+                                "parentCode": "D048_6",
+                                "title": "一、二年生花卉类"
+                            },
+                            {
+                                "classCode": "D048_62",
+                                "parentCode": "D048_6",
+                                "title": "多年生花卉类"
+                            },
+                            {
+                                "classCode": "D048_63",
+                                "parentCode": "D048_6",
+                                "title": "观花树木类"
+                            },
+                            {
+                                "classCode": "D048_64",
+                                "parentCode": "D048_6",
+                                "title": "观叶、观果树木类"
+                            },
+                            {
+                                "classCode": "D048_65",
+                                "parentCode": "D048_6",
+                                "title": "园林植物栽培及应用技术"
+                            }
+                        ],
+                        "title": "观赏园艺(花卉和观赏树木)"
+                    },
+                    {
+                        "classCode": "D048_7",
+                        "parentCode": "D048",
+                        "children": [
+                            {
+                                "classCode": "D048_71",
+                                "parentCode": "D048_7",
+                                "title": "蔬菜病虫害及其防治"
+                            },
+                            {
+                                "classCode": "D048_72",
+                                "parentCode": "D048_7",
+                                "title": "瓜果病虫害及其防治"
+                            },
+                            {
+                                "classCode": "D048_74",
+                                "parentCode": "D048_7",
+                                "title": "观赏园艺类病虫害及其防治"
+                            }
+                        ],
+                        "title": "病虫害及其防治"
+                    }
+                ],
+                "title": "园艺"
+            },
+            {
+                "classCode": "D049",
+                "parentCode": "D",
+                "children": [
+                    {
+                        "classCode": "D049_1",
+                        "parentCode": "D049",
+                        "children": [
+                            {
+                                "classCode": "D049_11",
+                                "parentCode": "D049_1",
+                                "title": "林业经济及概述"
+                            },
+                            {
+                                "classCode": "D049_12",
+                                "parentCode": "D049_1",
+                                "title": "森林数学"
+                            },
+                            {
+                                "classCode": "D049_13",
+                                "parentCode": "D049_1",
+                                "title": "森林物理学"
+                            },
+                            {
+                                "classCode": "D049_14",
+                                "parentCode": "D049_1",
+                                "title": "森林化学"
+                            },
+                            {
+                                "classCode": "D049_16",
+                                "parentCode": "D049_1",
+                                "title": "森林水文学"
+                            },
+                            {
+                                "classCode": "D049_17",
+                                "parentCode": "D049_1",
+                                "title": "森林气象学"
+                            },
+                            {
+                                "classCode": "D049_18",
+                                "parentCode": "D049_1",
+                                "title": "森林地理学、森林分布"
+                            },
+                            {
+                                "classCode": "D049_19",
+                                "parentCode": "D049_1",
+                                "title": "森林生物学"
+                            },
+                            {
+                                "classCode": "D049_1A",
+                                "parentCode": "D049_1",
+                                "title": "森林与环境保护"
+                            }
+                        ],
+                        "title": "林业基础科学"
+                    },
+                    {
+                        "classCode": "D049_2",
+                        "parentCode": "D049",
+                        "children": [
+                            {
+                                "classCode": "D049_21",
+                                "parentCode": "D049_2",
+                                "title": "造林计划与实施"
+                            },
+                            {
+                                "classCode": "D049_22",
+                                "parentCode": "D049_2",
+                                "title": "树木育种及良种繁育"
+                            },
+                            {
+                                "classCode": "D049_23",
+                                "parentCode": "D049_2",
+                                "title": "苗圃学"
+                            },
+                            {
+                                "classCode": "D049_24",
+                                "parentCode": "D049_2",
+                                "title": "宜林地"
+                            },
+                            {
+                                "classCode": "D049_25",
+                                "parentCode": "D049_2",
+                                "title": "造林技术"
+                            },
+                            {
+                                "classCode": "D049_26",
+                                "parentCode": "D049_2",
+                                "title": "各林种造林"
+                            },
+                            {
+                                "classCode": "D049_27",
+                                "parentCode": "D049_2",
+                                "title": "特殊地区造林"
+                            }
+                        ],
+                        "title": "造林学、林木育种及造林技术"
+                    },
+                    {
+                        "classCode": "D049_3",
+                        "parentCode": "D049",
+                        "children": [
+                            {
+                                "classCode": "D049_31",
+                                "parentCode": "D049_3",
+                                "title": "大地园林"
+                            },
+                            {
+                                "classCode": "D049_32",
+                                "parentCode": "D049_3",
+                                "title": "中国绿化建设"
+                            },
+                            {
+                                "classCode": "D049_33",
+                                "parentCode": "D049_3",
+                                "title": "各国绿化建设"
+                            },
+                            {
+                                "classCode": "D049_34",
+                                "parentCode": "D049_3",
+                                "title": "绿化建设规划"
+                            }
+                        ],
+                        "title": "绿化建设"
+                    },
+                    {
+                        "classCode": "D049_4",
+                        "parentCode": "D049",
+                        "children": [
+                            {
+                                "classCode": "D049_41",
+                                "parentCode": "D049_4",
+                                "title": "森林作业法"
+                            },
+                            {
+                                "classCode": "D049_42",
+                                "parentCode": "D049_4",
+                                "title": "森林主伐"
+                            },
+                            {
+                                "classCode": "D049_43",
+                                "parentCode": "D049_4",
+                                "title": "森林间伐及抚育"
+                            },
+                            {
+                                "classCode": "D049_44",
+                                "parentCode": "D049_4",
+                                "title": "森林更新"
+                            },
+                            {
+                                "classCode": "D049_45",
+                                "parentCode": "D049_4",
+                                "title": "封山育林"
+                            },
+                            {
+                                "classCode": "D049_46",
+                                "parentCode": "D049_4",
+                                "title": "林分改造"
+                            },
+                            {
+                                "classCode": "D049_47",
+                                "parentCode": "D049_4",
+                                "title": "森林经理学"
+                            },
+                            {
+                                "classCode": "D049_48",
+                                "parentCode": "D049_4",
+                                "title": "森林计测学"
+                            },
+                            {
+                                "classCode": "D049_49",
+                                "parentCode": "D049_4",
+                                "title": "各林种及林副产品经营"
+                            }
+                        ],
+                        "title": "森林经营学、森林计测学、森林经理学"
+                    },
+                    {
+                        "classCode": "D049_5",
+                        "parentCode": "D049",
+                        "children": [
+                            {
+                                "classCode": "D049_51",
+                                "parentCode": "D049_5",
+                                "title": "气象灾害及其防治"
+                            },
+                            {
+                                "classCode": "D049_52",
+                                "parentCode": "D049_5",
+                                "title": "林火"
+                            },
+                            {
+                                "classCode": "D049_54",
+                                "parentCode": "D049_5",
+                                "title": "动物为害及其防治"
+                            },
+                            {
+                                "classCode": "D049_55",
+                                "parentCode": "D049_5",
+                                "title": "有害草木及其清除"
+                            },
+                            {
+                                "classCode": "D049_56",
+                                "parentCode": "D049_5",
+                                "title": "人为损害及其防治"
+                            },
+                            {
+                                "classCode": "D049_57",
+                                "parentCode": "D049_5",
+                                "title": "防治药品及其使用"
+                            },
+                            {
+                                "classCode": "D049_58",
+                                "parentCode": "D049_5",
+                                "title": "其他防治方法"
+                            }
+                        ],
+                        "title": "森林保护学"
+                    },
+                    {
+                        "classCode": "D049_6",
+                        "parentCode": "D049",
+                        "children": [
+                            {
+                                "classCode": "D049_61",
+                                "parentCode": "D049_6",
+                                "title": "森林测量、林业测绘"
+                            },
+                            {
+                                "classCode": "D049_62",
+                                "parentCode": "D049_6",
+                                "title": "森林建筑工程"
+                            },
+                            {
+                                "classCode": "D049_63",
+                                "parentCode": "D049_6",
+                                "title": "森林运输工程"
+                            },
+                            {
+                                "classCode": "D049_64",
+                                "parentCode": "D049_6",
+                                "title": "森林水土保持工程"
+                            },
+                            {
+                                "classCode": "D049_65",
+                                "parentCode": "D049_6",
+                                "title": "防沙工程"
+                            },
+                            {
+                                "classCode": "D049_66",
+                                "parentCode": "D049_6",
+                                "title": "林业机械"
+                            },
+                            {
+                                "classCode": "D049_67",
+                                "parentCode": "D049_6",
+                                "title": "林业航空、林业电器通讯设备"
+                            }
+                        ],
+                        "title": "森林工程、林业机械"
+                    },
+                    {
+                        "classCode": "D049_7",
+                        "parentCode": "D049",
+                        "children": [
+                            {
+                                "classCode": "D049_71",
+                                "parentCode": "D049_7",
+                                "title": "木材学"
+                            },
+                            {
+                                "classCode": "D049_72",
+                                "parentCode": "D049_7",
+                                "title": "木材采运学"
+                            },
+                            {
+                                "classCode": "D049_73",
+                                "parentCode": "D049_7",
+                                "title": "森林副产品采集"
+                            },
+                            {
+                                "classCode": "D049_74",
+                                "parentCode": "D049_7",
+                                "title": "森林环境资源的利用"
+                            },
+                            {
+                                "classCode": "D049_75",
+                                "parentCode": "D049_7",
+                                "title": "森林副产品的综合利用"
+                            }
+                        ],
+                        "title": "森林采运与利用"
+                    },
+                    {
+                        "classCode": "D049_8",
+                        "parentCode": "D049",
+                        "children": [
+                            {
+                                "classCode": "D049_81",
+                                "parentCode": "D049_8",
+                                "title": "针叶树类"
+                            },
+                            {
+                                "classCode": "D049_82",
+                                "parentCode": "D049_8",
+                                "title": "阔叶乔木"
+                            },
+                            {
+                                "classCode": "D049_83",
+                                "parentCode": "D049_8",
+                                "title": "阔叶灌木"
+                            },
+                            {
+                                "classCode": "D049_84",
+                                "parentCode": "D049_8",
+                                "title": "特用阔叶树类"
+                            },
+                            {
+                                "classCode": "D049_85",
+                                "parentCode": "D049_8",
+                                "title": "竹"
+                            },
+                            {
+                                "classCode": "D049_86",
+                                "parentCode": "D049_8",
+                                "title": "热带树种"
+                            }
+                        ],
+                        "title": "森林树种"
+                    }
+                ],
+                "title": "林业"
+            },
+            {
+                "classCode": "D050",
+                "parentCode": "D",
+                "children": [
+                    {
+                        "classCode": "D050_1",
+                        "parentCode": "D050",
+                        "children": [
+                            {
+                                "classCode": "D050_11",
+                                "parentCode": "D050_1",
+                                "title": "畜牧经济学"
+                            },
+                            {
+                                "classCode": "D050_12",
+                                "parentCode": "D050_1",
+                                "title": "畜牧基础科学"
+                            },
+                            {
+                                "classCode": "D050_13",
+                                "parentCode": "D050_1",
+                                "title": "草原学"
+                            },
+                            {
+                                "classCode": "D050_14",
+                                "parentCode": "D050_1",
+                                "title": "遗传、选种、育种"
+                            },
+                            {
+                                "classCode": "D050_15",
+                                "parentCode": "D050_1",
+                                "title": "繁殖"
+                            },
+                            {
+                                "classCode": "D050_16",
+                                "parentCode": "D050_1",
+                                "title": "饲养管理"
+                            },
+                            {
+                                "classCode": "D050_17",
+                                "parentCode": "D050_1",
+                                "title": "饲料"
+                            },
+                            {
+                                "classCode": "D050_18",
+                                "parentCode": "D050_1",
+                                "title": "畜牧机械"
+                            },
+                            {
+                                "classCode": "D050_19",
+                                "parentCode": "D050_1",
+                                "title": "畜牧电气化和自动化"
+                            }
+                        ],
+                        "title": "普通畜牧学"
+                    },
+                    {
+                        "classCode": "D050_2",
+                        "parentCode": "D050",
+                        "children": [
+                            {
+                                "classCode": "D050_21",
+                                "parentCode": "D050_2",
+                                "title": "马"
+                            },
+                            {
+                                "classCode": "D050_22",
+                                "parentCode": "D050_2",
+                                "title": "驴、骡"
+                            },
+                            {
+                                "classCode": "D050_23",
+                                "parentCode": "D050_2",
+                                "title": "牛"
+                            },
+                            {
+                                "classCode": "D050_24",
+                                "parentCode": "D050_2",
+                                "title": "骆驼"
+                            },
+                            {
+                                "classCode": "D050_25",
+                                "parentCode": "D050_2",
+                                "title": "鹿"
+                            },
+                            {
+                                "classCode": "D050_26",
+                                "parentCode": "D050_2",
+                                "title": "羊"
+                            },
+                            {
+                                "classCode": "D050_27",
+                                "parentCode": "D050_2",
+                                "title": "山羊"
+                            },
+                            {
+                                "classCode": "D050_28",
+                                "parentCode": "D050_2",
+                                "title": "猪"
+                            },
+                            {
+                                "classCode": "D050_29",
+                                "parentCode": "D050_2",
+                                "title": "兔"
+                            },
+                            {
+                                "classCode": "D050_2A",
+                                "parentCode": "D050_2",
+                                "title": "其它家畜"
+                            }
+                        ],
+                        "title": "家畜"
+                    },
+                    {
+                        "classCode": "D050_3",
+                        "parentCode": "D050",
+                        "children": [
+                            {
+                                "classCode": "D050_31",
+                                "parentCode": "D050_3",
+                                "title": "鸡"
+                            },
+                            {
+                                "classCode": "D050_32",
+                                "parentCode": "D050_3",
+                                "title": "鸭"
+                            },
+                            {
+                                "classCode": "D050_33",
+                                "parentCode": "D050_3",
+                                "title": "鹅"
+                            },
+                            {
+                                "classCode": "D050_34",
+                                "parentCode": "D050_3",
+                                "title": "鸽"
+                            },
+                            {
+                                "classCode": "D050_35",
+                                "parentCode": "D050_3",
+                                "title": "其它"
+                            }
+                        ],
+                        "title": "家禽"
+                    },
+                    {
+                        "classCode": "D050_4",
+                        "parentCode": "D050",
+                        "children": [
+                            {
+                                "classCode": "D050_41",
+                                "parentCode": "D050_4",
+                                "title": "兽医预防科学"
+                            },
+                            {
+                                "classCode": "D050_42",
+                                "parentCode": "D050_4",
+                                "title": "兽医基础科学"
+                            },
+                            {
+                                "classCode": "D050_43",
+                                "parentCode": "D050_4",
+                                "title": "兽医临床医学"
+                            },
+                            {
+                                "classCode": "D050_44",
+                                "parentCode": "D050_4",
+                                "title": "兽医传染病学"
+                            },
+                            {
+                                "classCode": "D050_45",
+                                "parentCode": "D050_4",
+                                "title": "兽医各科"
+                            },
+                            {
+                                "classCode": "D050_46",
+                                "parentCode": "D050_4",
+                                "title": "中国兽医学"
+                            },
+                            {
+                                "classCode": "D050_47",
+                                "parentCode": "D050_4",
+                                "title": "兽医药物学"
+                            },
+                            {
+                                "classCode": "D050_48",
+                                "parentCode": "D050_4",
+                                "title": "猪病"
+                            },
+                            {
+                                "classCode": "D050_49",
+                                "parentCode": "D050_4",
+                                "title": "鸡病"
+                            },
+                            {
+                                "classCode": "D050_4A",
+                                "parentCode": "D050_4",
+                                "children": [
+                                    {
+                                        "classCode": "D050_4A1",
+                                        "parentCode": "D050_4A",
+                                        "title": "马病"
+                                    },
+                                    {
+                                        "classCode": "D050_4A2",
+                                        "parentCode": "D050_4A",
+                                        "title": "驴、骡病"
+                                    },
+                                    {
+                                        "classCode": "D050_4A3",
+                                        "parentCode": "D050_4A",
+                                        "title": "牛病"
+                                    },
+                                    {
+                                        "classCode": "D050_4A4",
+                                        "parentCode": "D050_4A",
+                                        "title": "骆驼病"
+                                    },
+                                    {
+                                        "classCode": "D050_4A5",
+                                        "parentCode": "D050_4A",
+                                        "title": "鹿病"
+                                    },
+                                    {
+                                        "classCode": "D050_4A6",
+                                        "parentCode": "D050_4A",
+                                        "title": "羊病"
+                                    },
+                                    {
+                                        "classCode": "D050_4A7",
+                                        "parentCode": "D050_4A",
+                                        "title": "其它家畜病"
+                                    },
+                                    {
+                                        "classCode": "D050_4A8",
+                                        "parentCode": "D050_4A",
+                                        "title": "鸭病"
+                                    },
+                                    {
+                                        "classCode": "D050_4A9",
+                                        "parentCode": "D050_4A",
+                                        "title": "其它家禽病及野生动物疾病"
+                                    }
+                                ],
+                                "title": "其它各种畜、禽病"
+                            }
+                        ],
+                        "title": "兽医学"
+                    }
+                ],
+                "title": "畜牧与动物医学"
+            },
+            {
+                "classCode": "D051",
+                "parentCode": "D",
+                "children": [
+                    {
+                        "classCode": "D051_1",
+                        "parentCode": "D051",
+                        "title": "狩猎、野生动物驯养"
+                    },
+                    {
+                        "classCode": "D051_2",
+                        "parentCode": "D051",
+                        "title": "畜禽产品的综合利用"
+                    },
+                    {
+                        "classCode": "D051_3",
+                        "parentCode": "D051",
+                        "children": [
+                            {
+                                "classCode": "D051_31",
+                                "parentCode": "D051_3",
+                                "children": [
+                                    {
+                                        "classCode": "D051_312",
+                                        "parentCode": "D051_31",
+                                        "title": "蚕基础科学"
+                                    },
+                                    {
+                                        "classCode": "D051_313",
+                                        "parentCode": "D051_31",
+                                        "title": "蚕的育种与良种繁育"
+                                    },
+                                    {
+                                        "classCode": "D051_314",
+                                        "parentCode": "D051_31",
+                                        "title": "蚕的饲育法"
+                                    },
+                                    {
+                                        "classCode": "D051_315",
+                                        "parentCode": "D051_31",
+                                        "title": "蚕的病虫害及其防治"
+                                    },
+                                    {
+                                        "classCode": "D051_316",
+                                        "parentCode": "D051_31",
+                                        "title": "其他蚕类"
+                                    },
+                                    {
+                                        "classCode": "D051_317",
+                                        "parentCode": "D051_31",
+                                        "title": "蚕茧"
+                                    },
+                                    {
+                                        "classCode": "D051_318",
+                                        "parentCode": "D051_31",
+                                        "title": "养蚕建筑、养蚕机具"
+                                    },
+                                    {
+                                        "classCode": "D051_319",
+                                        "parentCode": "D051_31",
+                                        "title": "桑"
+                                    },
+                                    {
+                                        "classCode": "D051_31A",
+                                        "parentCode": "D051_31",
+                                        "title": "蚕的其他饲料"
+                                    }
+                                ],
+                                "title": "蚕桑"
+                            },
+                            {
+                                "classCode": "D051_32",
+                                "parentCode": "D051_3",
+                                "children": [
+                                    {
+                                        "classCode": "D051_321",
+                                        "parentCode": "D051_32",
+                                        "title": "蜂群生物学"
+                                    },
+                                    {
+                                        "classCode": "D051_322",
+                                        "parentCode": "D051_32",
+                                        "title": "繁育"
+                                    },
+                                    {
+                                        "classCode": "D051_323",
+                                        "parentCode": "D051_32",
+                                        "title": "品种"
+                                    },
+                                    {
+                                        "classCode": "D051_325",
+                                        "parentCode": "D051_32",
+                                        "title": "病虫害防治"
+                                    },
+                                    {
+                                        "classCode": "D051_326",
+                                        "parentCode": "D051_32",
+                                        "title": "蜂产品加工及利用"
+                                    },
+                                    {
+                                        "classCode": "D051_327",
+                                        "parentCode": "D051_32",
+                                        "title": "蜜源植物"
+                                    },
+                                    {
+                                        "classCode": "D051_328",
+                                        "parentCode": "D051_32",
+                                        "title": "蜂场的经营及管理"
+                                    },
+                                    {
+                                        "classCode": "D051_329",
+                                        "parentCode": "D051_32",
+                                        "title": "益虫饲养"
+                                    }
+                                ],
+                                "title": "养蜂、益虫饲养"
+                            }
+                        ],
+                        "title": "蚕桑、养蜂、益虫饲养"
+                    }
+                ],
+                "title": "蚕蜂与野生动物保护"
+            },
+            {
+                "classCode": "D052",
+                "parentCode": "D",
+                "children": [
+                    {
+                        "classCode": "D052_1",
+                        "parentCode": "D052",
+                        "title": "水产经济"
+                    },
+                    {
+                        "classCode": "D052_2",
+                        "parentCode": "D052",
+                        "children": [
+                            {
+                                "classCode": "D052_20",
+                                "parentCode": "D052_2",
+                                "title": "养殖方法"
+                            },
+                            {
+                                "classCode": "D052_21",
+                                "parentCode": "D052_2",
+                                "title": "其它"
+                            }
+                        ],
+                        "title": "水产基础科学"
+                    },
+                    {
+                        "classCode": "D052_3",
+                        "parentCode": "D052",
+                        "children": [
+                            {
+                                "classCode": "D052_31",
+                                "parentCode": "D052_3",
+                                "title": "水产资源学、地区分布"
+                            },
+                            {
+                                "classCode": "D052_32",
+                                "parentCode": "D052_3",
+                                "title": "水产资源调查"
+                            }
+                        ],
+                        "title": "水产地区分布、水产志与资源"
+                    },
+                    {
+                        "classCode": "D052_4",
+                        "parentCode": "D052",
+                        "children": [
+                            {
+                                "classCode": "D052_41",
+                                "parentCode": "D052_4",
+                                "title": "鱼病学"
+                            },
+                            {
+                                "classCode": "D052_42",
+                                "parentCode": "D052_4",
+                                "title": "鱼病防治方法"
+                            },
+                            {
+                                "classCode": "D052_43",
+                                "parentCode": "D052_4",
+                                "title": "各种鱼病防治"
+                            },
+                            {
+                                "classCode": "D052_44",
+                                "parentCode": "D052_4",
+                                "title": "贝类病害、敌害及其防治"
+                            },
+                            {
+                                "classCode": "D052_45",
+                                "parentCode": "D052_4",
+                                "title": "甲壳类病虫害及其防治"
+                            },
+                            {
+                                "classCode": "D052_46",
+                                "parentCode": "D052_4",
+                                "title": "其它水产病虫害及其防治"
+                            },
+                            {
+                                "classCode": "D052_47",
+                                "parentCode": "D052_4",
+                                "title": "水产药物学、药理学"
+                            },
+                            {
+                                "classCode": "D052_48",
+                                "parentCode": "D052_4",
+                                "title": "水产的水质污染及其防治"
+                            }
+                        ],
+                        "title": "水产保护学"
+                    },
+                    {
+                        "classCode": "D052_5",
+                        "parentCode": "D052",
+                        "title": "水产工程"
+                    },
+                    {
+                        "classCode": "D052_6",
+                        "parentCode": "D052",
+                        "children": [
+                            {
+                                "classCode": "D052_61",
+                                "parentCode": "D052_6",
+                                "title": "鱼类繁殖和越冬技术"
+                            },
+                            {
+                                "classCode": "D052_62",
+                                "parentCode": "D052_6",
+                                "title": "鱼苗、鱼种"
+                            },
+                            {
+                                "classCode": "D052_63",
+                                "parentCode": "D052_6",
+                                "title": "水产动物饵料及其营养"
+                            },
+                            {
+                                "classCode": "D052_64",
+                                "parentCode": "D052_6",
+                                "title": "淡水、海水养殖方式"
+                            },
+                            {
+                                "classCode": "D052_65",
+                                "parentCode": "D052_6",
+                                "title": "各种鱼类养殖"
+                            },
+                            {
+                                "classCode": "D052_66",
+                                "parentCode": "D052_6",
+                                "title": "其他淡水养殖"
+                            },
+                            {
+                                "classCode": "D052_67",
+                                "parentCode": "D052_6",
+                                "title": "各种海产动植物养殖"
+                            },
+                            {
+                                "classCode": "D052_68",
+                                "parentCode": "D052_6",
+                                "children": [
+                                    {
+                                        "classCode": "D052_680",
+                                        "parentCode": "D052_68",
+                                        "title": "增氧设备"
+                                    },
+                                    {
+                                        "classCode": "D052_681",
+                                        "parentCode": "D052_68",
+                                        "title": "净化系统"
+                                    },
+                                    {
+                                        "classCode": "D052_682",
+                                        "parentCode": "D052_68",
+                                        "title": "鱼缸"
+                                    },
+                                    {
+                                        "classCode": "D052_683",
+                                        "parentCode": "D052_68",
+                                        "title": "养殖装置"
+                                    },
+                                    {
+                                        "classCode": "D052_684",
+                                        "parentCode": "D052_68",
+                                        "title": "排污装置"
+                                    },
+                                    {
+                                        "classCode": "D052_685",
+                                        "parentCode": "D052_68",
+                                        "title": "繁殖装置"
+                                    },
+                                    {
+                                        "classCode": "D052_686",
+                                        "parentCode": "D052_68",
+                                        "title": "其它"
+                                    }
+                                ],
+                                "title": "水产养殖设备"
+                            }
+                        ],
+                        "title": "水产养殖技术"
+                    },
+                    {
+                        "classCode": "D052_7",
+                        "parentCode": "D052",
+                        "children": [
+                            {
+                                "classCode": "D052_70",
+                                "parentCode": "D052_7",
+                                "title": "鱼钩"
+                            },
+                            {
+                                "classCode": "D052_71",
+                                "parentCode": "D052_7",
+                                "title": "钓鱼装置"
+                            },
+                            {
+                                "classCode": "D052_72",
+                                "parentCode": "D052_7",
+                                "title": "捕捞装置"
+                            },
+                            {
+                                "classCode": "D052_73",
+                                "parentCode": "D052_7",
+                                "title": "鱼饵"
+                            },
+                            {
+                                "classCode": "D052_74",
+                                "parentCode": "D052_7",
+                                "title": "其它"
+                            }
+                        ],
+                        "title": "渔捞"
+                    },
+                    {
+                        "classCode": "D052_8",
+                        "parentCode": "D052",
+                        "title": "水产物运输、保鲜贮藏、加工、包装"
+                    }
+                ],
+                "title": "水产和渔业"
+            }
+        ],
+        "title": "农业科技"
+    },
+    {
+        "classCode": "D045_72",
+        "parentCode": "D045_7",
+        "title": "土壤物理学"
+    },
+    {
+        "classCode": "D045_73",
+        "parentCode": "D045_7",
+        "title": "土壤化学、土壤物理化学"
+    },
+    {
+        "classCode": "D047_141",
+        "parentCode": "D047_14",
+        "title": "耕作学"
+    },
+    {
+        "classCode": "D047_142",
+        "parentCode": "D047_14",
+        "title": "有机农业"
+    }
+]

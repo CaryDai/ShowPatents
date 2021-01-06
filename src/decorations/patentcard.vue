@@ -1,6 +1,9 @@
+<!-- 原始的专利展示卡片 -->
 <template>
     <div class="card">
-        <h3 style="color: #3b87d2f7;">{{patent.name}}</h3>
+        <a href="javascript:void(0);" @click="gotoPatentDetail(patent)" style="font-size: large;">
+            {{patent.name}}
+        </a>
         <p>
             <b>发明人</b>：{{patent.inventors}}
         </p>
@@ -22,7 +25,12 @@
             patent: {
                 type: Object
             }
-        }
+        },
+        methods: {
+            gotoPatentDetail(patent) {
+                this.$store.commit('gotoPatentDetail', patent);
+            }
+        },
     }
 </script>
 

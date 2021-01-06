@@ -1,0 +1,920 @@
+[
+    {
+        "classCode": "it",
+        "parentCode": "",
+        "children": [
+            {
+                "classCode": "it0",
+                "parentCode": "it",
+                "children": [
+                    {
+                        "classCode": "it0_0",
+                        "parentCode": "it0",
+                        "title": "云模型"
+                    },
+                    {
+                        "classCode": "it0_1",
+                        "parentCode": "it0",
+                        "title": "云服务"
+                    },
+                    {
+                        "classCode": "it0_2",
+                        "parentCode": "it0",
+                        "title": "动态部署"
+                    },
+                    {
+                        "classCode": "it0_3",
+                        "parentCode": "it0",
+                        "title": "云安全"
+                    },
+                    {
+                        "classCode": "it0_4",
+                        "parentCode": "it0",
+                        "title": "服务等级协议"
+                    },
+                    {
+                        "classCode": "it0_5",
+                        "parentCode": "it0",
+                        "title": "云理论"
+                    },
+                    {
+                        "classCode": "it0_6",
+                        "parentCode": "it0",
+                        "title": "网络计算"
+                    },
+                    {
+                        "classCode": "it0_7",
+                        "parentCode": "it0",
+                        "title": "云网络"
+                    },
+                    {
+                        "classCode": "it0_8",
+                        "parentCode": "it0",
+                        "title": "云计算平台"
+                    },
+                    {
+                        "classCode": "it0_9",
+                        "parentCode": "it0",
+                        "title": "分布式处理"
+                    },
+                    {
+                        "classCode": "it0_10",
+                        "parentCode": "it0",
+                        "title": "私有云"
+                    },
+                    {
+                        "classCode": "it0_11",
+                        "parentCode": "it0",
+                        "title": "共有云"
+                    },
+                    {
+                        "classCode": "it0_12",
+                        "parentCode": "it0",
+                        "title": "混合云"
+                    },
+                    {
+                        "classCode": "it0_13",
+                        "parentCode": "it0",
+                        "title": "云存储"
+                    },
+                    {
+                        "classCode": "it0_14",
+                        "parentCode": "it0",
+                        "title": "智慧城市"
+                    },
+                    {
+                        "classCode": "it0_15",
+                        "parentCode": "it0",
+                        "title": "云导航"
+                    },
+                    {
+                        "classCode": "it0_16",
+                        "parentCode": "it0",
+                        "title": "云制造"
+                    },
+                    {
+                        "classCode": "it0_17",
+                        "parentCode": "it0",
+                        "title": "人工智能技术"
+                    },
+                    {
+                        "classCode": "it0_18",
+                        "parentCode": "it0",
+                        "title": "云计算数据中心"
+                    },
+                    {
+                        "classCode": "it0_19",
+                        "parentCode": "it0",
+                        "title": "软件定义数据中心"
+                    }
+                ],
+                "title": "云计算"
+            },
+            {
+                "classCode": "it1",
+                "parentCode": "it",
+                "children": [
+                    {
+                        "classCode": "it1_0",
+                        "parentCode": "it1",
+                        "title": "数据库安全"
+                    },
+                    {
+                        "classCode": "it1_1",
+                        "parentCode": "it1",
+                        "title": "物理安全"
+                    },
+                    {
+                        "classCode": "it1_2",
+                        "parentCode": "it1",
+                        "title": "信息安全策略"
+                    },
+                    {
+                        "classCode": "it1_3",
+                        "parentCode": "it1",
+                        "title": "信息安全模型"
+                    },
+                    {
+                        "classCode": "it1_4",
+                        "parentCode": "it1",
+                        "title": "内容安全"
+                    },
+                    {
+                        "classCode": "it1_5",
+                        "parentCode": "it1",
+                        "title": "数据安全"
+                    },
+                    {
+                        "classCode": "it1_6",
+                        "parentCode": "it1",
+                        "title": "存储安全"
+                    },
+                    {
+                        "classCode": "it1_7",
+                        "parentCode": "it1",
+                        "title": "信息传输安全"
+                    },
+                    {
+                        "classCode": "it1_8",
+                        "parentCode": "it1",
+                        "title": "信息安全理论"
+                    },
+                    {
+                        "classCode": "it1_9",
+                        "parentCode": "it1",
+                        "title": "国家信息安全"
+                    },
+                    {
+                        "classCode": "it1_10",
+                        "parentCode": "it1",
+                        "title": "信息系统安全"
+                    },
+                    {
+                        "classCode": "it1_11",
+                        "parentCode": "it1",
+                        "title": "信息安全服务"
+                    },
+                    {
+                        "classCode": "it1_12",
+                        "parentCode": "it1",
+                        "title": "信息安全体系"
+                    },
+                    {
+                        "classCode": "it1_13",
+                        "parentCode": "it1",
+                        "title": "网络安全"
+                    },
+                    {
+                        "classCode": "it1_14",
+                        "parentCode": "it1",
+                        "title": "密钥"
+                    },
+                    {
+                        "classCode": "it1_15",
+                        "parentCode": "it1",
+                        "title": "信息安全工程"
+                    },
+                    {
+                        "classCode": "it1_16",
+                        "parentCode": "it1",
+                        "title": "数字证书"
+                    },
+                    {
+                        "classCode": "it1_17",
+                        "parentCode": "it1",
+                        "title": "信息安全产品"
+                    },
+                    {
+                        "classCode": "it1_18",
+                        "parentCode": "it1",
+                        "title": "信息备份"
+                    },
+                    {
+                        "classCode": "it1_19",
+                        "parentCode": "it1",
+                        "title": "计算机安全"
+                    },
+                    {
+                        "classCode": "it1_20",
+                        "parentCode": "it1",
+                        "title": "涉密网络"
+                    },
+                    {
+                        "classCode": "it1_21",
+                        "parentCode": "it1",
+                        "title": "信息对抗"
+                    },
+                    {
+                        "classCode": "it1_22",
+                        "parentCode": "it1",
+                        "title": "个人信息安全"
+                    }
+                ],
+                "title": "信息安全"
+            },
+            {
+                "classCode": "it2",
+                "parentCode": "it",
+                "children": [
+                    {
+                        "classCode": "it2_0",
+                        "parentCode": "it2",
+                        "title": "量子计算"
+                    },
+                    {
+                        "classCode": "it2_1",
+                        "parentCode": "it2",
+                        "title": "网络计算"
+                    },
+                    {
+                        "classCode": "it2_2",
+                        "parentCode": "it2",
+                        "title": "高性能计算"
+                    },
+                    {
+                        "classCode": "it2_3",
+                        "parentCode": "it2",
+                        "title": "超导计算"
+                    },
+                    {
+                        "classCode": "it2_4",
+                        "parentCode": "it2",
+                        "title": "生物计算"
+                    },
+                    {
+                        "classCode": "it2_5",
+                        "parentCode": "it2",
+                        "title": "光计算"
+                    },
+                    {
+                        "classCode": "it2_6",
+                        "parentCode": "it2",
+                        "title": "认知计算"
+                    },
+                    {
+                        "classCode": "it2_7",
+                        "parentCode": "it2",
+                        "title": "类脑计算"
+                    },
+                    {
+                        "classCode": "it2_8",
+                        "parentCode": "it2",
+                        "title": "神经计算"
+                    },
+                    {
+                        "classCode": "it2_9",
+                        "parentCode": "it2",
+                        "title": "人工智能"
+                    },
+                    {
+                        "classCode": "it2_10",
+                        "parentCode": "it2",
+                        "title": "大数据"
+                    },
+                    {
+                        "classCode": "it2_11",
+                        "parentCode": "it2",
+                        "title": "机器学习"
+                    },
+                    {
+                        "classCode": "it2_12",
+                        "parentCode": "it2",
+                        "title": "第五代计算机"
+                    },
+                    {
+                        "classCode": "it2_13",
+                        "parentCode": "it2",
+                        "title": "第六代计算机"
+                    },
+                    {
+                        "classCode": "it2_14",
+                        "parentCode": "it2",
+                        "title": "脑机接口"
+                    },
+                    {
+                        "classCode": "it2_15",
+                        "parentCode": "it2",
+                        "title": "移动边缘计算"
+                    }
+                ],
+                "title": "未来计算"
+            },
+            {
+                "classCode": "it3",
+                "parentCode": "it",
+                "children": [
+                    {
+                        "classCode": "it3_0",
+                        "parentCode": "it3",
+                        "title": "逻辑集成电路"
+                    },
+                    {
+                        "classCode": "it3_1",
+                        "parentCode": "it3",
+                        "title": "基本电路"
+                    },
+                    {
+                        "classCode": "it3_2",
+                        "parentCode": "it3",
+                        "title": "场输出集成电路"
+                    },
+                    {
+                        "classCode": "it3_3",
+                        "parentCode": "it3",
+                        "title": "存储器集成电路"
+                    },
+                    {
+                        "classCode": "it3_4",
+                        "parentCode": "it3",
+                        "title": "霍尔集成电路"
+                    },
+                    {
+                        "classCode": "it3_5",
+                        "parentCode": "it3",
+                        "title": "视频集成电路"
+                    },
+                    {
+                        "classCode": "it3_6",
+                        "parentCode": "it3",
+                        "title": "电路保护"
+                    },
+                    {
+                        "classCode": "it3_7",
+                        "parentCode": "it3",
+                        "title": "集成电路接收机"
+                    },
+                    {
+                        "classCode": "it3_8",
+                        "parentCode": "it3",
+                        "title": "集成电路设计"
+                    },
+                    {
+                        "classCode": "it3_9",
+                        "parentCode": "it3",
+                        "title": "分子集成电路"
+                    },
+                    {
+                        "classCode": "it3_10",
+                        "parentCode": "it3",
+                        "title": "RF集成电路"
+                    },
+                    {
+                        "classCode": "it3_11",
+                        "parentCode": "it3",
+                        "title": "专用集成电路"
+                    },
+                    {
+                        "classCode": "it3_12",
+                        "parentCode": "it3",
+                        "title": "电源集成电路"
+                    },
+                    {
+                        "classCode": "it3_13",
+                        "parentCode": "it3",
+                        "title": "读出集成电路"
+                    },
+                    {
+                        "classCode": "it3_14",
+                        "parentCode": "it3",
+                        "title": "集成触发器"
+                    },
+                    {
+                        "classCode": "it3_15",
+                        "parentCode": "it3",
+                        "title": "集成电路混频器"
+                    },
+                    {
+                        "classCode": "it3_16",
+                        "parentCode": "it3",
+                        "title": "功率集成电路"
+                    },
+                    {
+                        "classCode": "it3_17",
+                        "parentCode": "it3",
+                        "title": "异步集成电路"
+                    },
+                    {
+                        "classCode": "it3_18",
+                        "parentCode": "it3",
+                        "title": "膜集成电路"
+                    },
+                    {
+                        "classCode": "it3_19",
+                        "parentCode": "it3",
+                        "title": "驱动集成电路"
+                    },
+                    {
+                        "classCode": "it3_20",
+                        "parentCode": "it3",
+                        "title": "三维集成电路"
+                    },
+                    {
+                        "classCode": "it3_21",
+                        "parentCode": "it3",
+                        "title": "微电子"
+                    },
+                    {
+                        "classCode": "it3_22",
+                        "parentCode": "it3",
+                        "title": "数字集成电路"
+                    },
+                    {
+                        "classCode": "it3_23",
+                        "parentCode": "it3",
+                        "title": "集成电路芯片"
+                    },
+                    {
+                        "classCode": "it3_24",
+                        "parentCode": "it3",
+                        "title": "塑封集成电路"
+                    },
+                    {
+                        "classCode": "it3_25",
+                        "parentCode": "it3",
+                        "title": "微处理器集成电路"
+                    },
+                    {
+                        "classCode": "it3_26",
+                        "parentCode": "it3",
+                        "title": "集成电路图"
+                    },
+                    {
+                        "classCode": "it3_27",
+                        "parentCode": "it3",
+                        "title": "场扫描集成电路"
+                    },
+                    {
+                        "classCode": "it3_28",
+                        "parentCode": "it3",
+                        "title": "印刷电路"
+                    },
+                    {
+                        "classCode": "it3_29",
+                        "parentCode": "it3",
+                        "title": "光学集成电路"
+                    },
+                    {
+                        "classCode": "it3_30",
+                        "parentCode": "it3",
+                        "title": "信号处理集成电路"
+                    },
+                    {
+                        "classCode": "it3_31",
+                        "parentCode": "it3",
+                        "title": "稳压电源"
+                    },
+                    {
+                        "classCode": "it3_32",
+                        "parentCode": "it3",
+                        "title": "计算机电路"
+                    },
+                    {
+                        "classCode": "it3_33",
+                        "parentCode": "it3",
+                        "title": "多片集成电路"
+                    },
+                    {
+                        "classCode": "it3_34",
+                        "parentCode": "it3",
+                        "title": "高压集成电路"
+                    }
+                ],
+                "title": "集成电路"
+            },
+            {
+                "classCode": "it4",
+                "parentCode": "it",
+                "children": [
+                    {
+                        "classCode": "it4_0",
+                        "parentCode": "it4",
+                        "title": "智能感知"
+                    },
+                    {
+                        "classCode": "it4_1",
+                        "parentCode": "it4",
+                        "title": "传感器网络"
+                    },
+                    {
+                        "classCode": "it4_2",
+                        "parentCode": "it4",
+                        "title": "IoT"
+                    },
+                    {
+                        "classCode": "it4_3",
+                        "parentCode": "it4",
+                        "title": "网络融合"
+                    },
+                    {
+                        "classCode": "it4_4",
+                        "parentCode": "it4",
+                        "title": "远程管理"
+                    },
+                    {
+                        "classCode": "it4_5",
+                        "parentCode": "it4",
+                        "title": "远程控制"
+                    },
+                    {
+                        "classCode": "it4_6",
+                        "parentCode": "it4",
+                        "title": "射频识别"
+                    },
+                    {
+                        "classCode": "it4_7",
+                        "parentCode": "it4",
+                        "title": "智慧城市"
+                    },
+                    {
+                        "classCode": "it4_8",
+                        "parentCode": "it4",
+                        "title": "感知技术"
+                    },
+                    {
+                        "classCode": "it4_9",
+                        "parentCode": "it4",
+                        "title": "互联网+"
+                    },
+                    {
+                        "classCode": "it4_10",
+                        "parentCode": "it4",
+                        "title": "智能医疗"
+                    },
+                    {
+                        "classCode": "it4_11",
+                        "parentCode": "it4",
+                        "title": "云制造"
+                    },
+                    {
+                        "classCode": "it4_12",
+                        "parentCode": "it4",
+                        "title": "智慧地球"
+                    },
+                    {
+                        "classCode": "it4_13",
+                        "parentCode": "it4",
+                        "title": "人工智能应用"
+                    },
+                    {
+                        "classCode": "it4_14",
+                        "parentCode": "it4",
+                        "title": "智能制造"
+                    },
+                    {
+                        "classCode": "it4_15",
+                        "parentCode": "it4",
+                        "title": "数字基建"
+                    },
+                    {
+                        "classCode": "it4_16",
+                        "parentCode": "it4",
+                        "title": "人工智能+物联网"
+                    },
+                    {
+                        "classCode": "it4_17",
+                        "parentCode": "it4",
+                        "title": "工业物联网"
+                    },
+                    {
+                        "classCode": "it4_18",
+                        "parentCode": "it4",
+                        "title": "农业物联网"
+                    },
+                    {
+                        "classCode": "it4_19",
+                        "parentCode": "it4",
+                        "title": "窄带物联网"
+                    },
+                    {
+                        "classCode": "it4_20",
+                        "parentCode": "it4",
+                        "title": "标码系统"
+                    }
+                ],
+                "title": "物联网"
+            },
+            {
+                "classCode": "it5",
+                "parentCode": "it",
+                "children": [
+                    {
+                        "classCode": "it5_0",
+                        "parentCode": "it5",
+                        "title": "并行处理"
+                    },
+                    {
+                        "classCode": "it5_1",
+                        "parentCode": "it5",
+                        "title": "数据挖掘"
+                    },
+                    {
+                        "classCode": "it5_2",
+                        "parentCode": "it5",
+                        "title": "数据存储"
+                    },
+                    {
+                        "classCode": "it5_3",
+                        "parentCode": "it5",
+                        "title": "感知技术"
+                    },
+                    {
+                        "classCode": "it5_4",
+                        "parentCode": "it5",
+                        "title": "关联规则挖掘"
+                    },
+                    {
+                        "classCode": "it5_5",
+                        "parentCode": "it5",
+                        "title": "模式识别"
+                    },
+                    {
+                        "classCode": "it5_6",
+                        "parentCode": "it5",
+                        "title": "云计算平台"
+                    },
+                    {
+                        "classCode": "it5_7",
+                        "parentCode": "it5",
+                        "title": "未来计算"
+                    },
+                    {
+                        "classCode": "it5_8",
+                        "parentCode": "it5",
+                        "title": "并行数据库"
+                    },
+                    {
+                        "classCode": "it5_9",
+                        "parentCode": "it5",
+                        "title": "分布式数据库"
+                    },
+                    {
+                        "classCode": "it5_10",
+                        "parentCode": "it5",
+                        "title": "可扩展存储系统"
+                    },
+                    {
+                        "classCode": "it5_11",
+                        "parentCode": "it5",
+                        "title": "非结构化数据"
+                    },
+                    {
+                        "classCode": "it5_12",
+                        "parentCode": "it5",
+                        "title": "海量数据"
+                    },
+                    {
+                        "classCode": "it5_13",
+                        "parentCode": "it5",
+                        "title": "数据脱敏"
+                    },
+                    {
+                        "classCode": "it5_14",
+                        "parentCode": "it5",
+                        "title": "数据资产"
+                    },
+                    {
+                        "classCode": "it5_15",
+                        "parentCode": "it5",
+                        "title": "大数据中心"
+                    },
+                    {
+                        "classCode": "it5_16",
+                        "parentCode": "it5",
+                        "title": "工业大数据"
+                    }
+                ],
+                "title": "大数据"
+            },
+            {
+                "classCode": "it6",
+                "parentCode": "it",
+                "children": [
+                    {
+                        "classCode": "it6_0",
+                        "parentCode": "it6",
+                        "title": "虚拟现实"
+                    },
+                    {
+                        "classCode": "it6_1",
+                        "parentCode": "it6",
+                        "title": "虚拟制造技术"
+                    },
+                    {
+                        "classCode": "it6_2",
+                        "parentCode": "it6",
+                        "title": "智能加工"
+                    },
+                    {
+                        "classCode": "it6_3",
+                        "parentCode": "it6",
+                        "title": "敏捷制造"
+                    },
+                    {
+                        "classCode": "it6_4",
+                        "parentCode": "it6",
+                        "title": "云制造"
+                    },
+                    {
+                        "classCode": "it6_5",
+                        "parentCode": "it6",
+                        "title": "虚拟制造"
+                    },
+                    {
+                        "classCode": "it6_6",
+                        "parentCode": "it6",
+                        "title": "智能化生产"
+                    },
+                    {
+                        "classCode": "it6_7",
+                        "parentCode": "it6",
+                        "title": "3D打印"
+                    },
+                    {
+                        "classCode": "it6_8",
+                        "parentCode": "it6",
+                        "title": "工业互联网"
+                    },
+                    {
+                        "classCode": "it6_9",
+                        "parentCode": "it6",
+                        "title": "智能制造系统"
+                    },
+                    {
+                        "classCode": "it6_10",
+                        "parentCode": "it6",
+                        "title": "智能机器人"
+                    },
+                    {
+                        "classCode": "it6_11",
+                        "parentCode": "it6",
+                        "title": "物联网"
+                    },
+                    {
+                        "classCode": "it6_12",
+                        "parentCode": "it6",
+                        "title": "数字化企业"
+                    },
+                    {
+                        "classCode": "it6_13",
+                        "parentCode": "it6",
+                        "title": "柔性制造"
+                    },
+                    {
+                        "classCode": "it6_14",
+                        "parentCode": "it6",
+                        "title": "人工智能技术"
+                    },
+                    {
+                        "classCode": "it6_15",
+                        "parentCode": "it6",
+                        "title": "人工智能应用"
+                    },
+                    {
+                        "classCode": "it6_16",
+                        "parentCode": "it6",
+                        "title": "信息物理系统"
+                    },
+                    {
+                        "classCode": "it6_17",
+                        "parentCode": "it6",
+                        "title": "自动化"
+                    },
+                    {
+                        "classCode": "it6_18",
+                        "parentCode": "it6",
+                        "title": "智能制造"
+                    }
+                ],
+                "title": "智能制造"
+            },
+            {
+                "classCode": "it7",
+                "parentCode": "it",
+                "children": [
+                    {
+                        "classCode": "it7_0",
+                        "parentCode": "it7",
+                        "title": "人工智能技术"
+                    },
+                    {
+                        "classCode": "it7_1",
+                        "parentCode": "it7",
+                        "title": "人工智能应用"
+                    },
+                    {
+                        "classCode": "it7_2",
+                        "parentCode": "it7",
+                        "title": "人工智能理论"
+                    },
+                    {
+                        "classCode": "it7_3",
+                        "parentCode": "it7",
+                        "title": "强人工智能"
+                    },
+                    {
+                        "classCode": "it7_4",
+                        "parentCode": "it7",
+                        "title": "弱人工智能"
+                    },
+                    {
+                        "classCode": "it7_5",
+                        "parentCode": "it7",
+                        "title": "超人工智能"
+                    },
+                    {
+                        "classCode": "it7_6",
+                        "parentCode": "it7",
+                        "title": "第五代计算机"
+                    },
+                    {
+                        "classCode": "it7_7",
+                        "parentCode": "it7",
+                        "title": "第六代计算机"
+                    },
+                    {
+                        "classCode": "it7_8",
+                        "parentCode": "it7",
+                        "title": "机器学习"
+                    },
+                    {
+                        "classCode": "it7_9",
+                        "parentCode": "it7",
+                        "title": "遗传算法"
+                    },
+                    {
+                        "classCode": "it7_10",
+                        "parentCode": "it7",
+                        "title": "模式识别"
+                    },
+                    {
+                        "classCode": "it7_11",
+                        "parentCode": "it7",
+                        "title": "知识获取"
+                    },
+                    {
+                        "classCode": "it7_12",
+                        "parentCode": "it7",
+                        "title": "未来计算"
+                    },
+                    {
+                        "classCode": "it7_13",
+                        "parentCode": "it7",
+                        "title": "数字基建"
+                    },
+                    {
+                        "classCode": "it7_14",
+                        "parentCode": "it7",
+                        "title": "通用人工智能"
+                    },
+                    {
+                        "classCode": "it7_15",
+                        "parentCode": "it7",
+                        "title": "人工智能+5G"
+                    },
+                    {
+                        "classCode": "it7_16",
+                        "parentCode": "it7",
+                        "title": "人工智能+物联网"
+                    },
+                    {
+                        "classCode": "it7_17",
+                        "parentCode": "it7",
+                        "title": "智能数据中心"
+                    },
+                    {
+                        "classCode": "it7_18",
+                        "parentCode": "it7",
+                        "title": "人工神经网络"
+                    },
+                    {
+                        "classCode": "it7_19",
+                        "parentCode": "it7",
+                        "title": "人工智能算法"
+                    }
+                ],
+                "title": "人工智能"
+            }
+        ],
+        "title": "信息技术"
+    }
+]

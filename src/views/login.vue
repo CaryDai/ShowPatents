@@ -42,25 +42,7 @@
                     "telephone": this.formInline.telephone,
                     "password": this.formInline.password
                 };
-                const options = {
-                    method: 'post',
-                    headers: { 'content-type': 'application/x-www-form-urlencoded' },
-                    data: this.$qs.stringify(data),
-                    url: 'http://localhost:8081/user/login'
-                };
-                this.axios(options)
-                    .then((res) => {
-                        console.log(res);
-                        if (res.data == "True") {
-                            this.$Message.success('登陆成功!');
-                            this.$router.push('/graph');
-                        } else {
-                            this.$Message.success('验证失败!');
-                        }
-                    })
-                    .catch((e) => {
-                        console.log(e)
-                    });
+                this.$store.commit('login', data);
             }
         }
     }

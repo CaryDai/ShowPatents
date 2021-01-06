@@ -80,7 +80,8 @@
                         }
                     })
                     .then((response) => {
-                        console.log(response.data)
+                        console.log(response.data);
+                        this.$emit('showPatents', response.data);
                     })
                     .catch((error) => {
                         console.log(error)

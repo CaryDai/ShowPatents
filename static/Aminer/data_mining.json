@@ -1,0 +1,1453 @@
+[
+    {
+        "classCode": "dm",
+        "parentCode": "",
+        "children": [
+            {
+                "classCode": "dm0",
+                "parentCode": "dm",
+                "children": [
+                    {
+                        "classCode": "dm0_0",
+                        "parentCode": "dm0",
+                        "title": "数据流"
+                    },
+                    {
+                        "classCode": "dm0_1",
+                        "parentCode": "dm0",
+                        "title": "时间序列数据"
+                    },
+                    {
+                        "classCode": "dm0_2",
+                        "parentCode": "dm0",
+                        "title": "实时"
+                    },
+                    {
+                        "classCode": "dm0_3",
+                        "parentCode": "dm0",
+                        "title": "时间序列"
+                    },
+                    {
+                        "classCode": "dm0_4",
+                        "parentCode": "dm0",
+                        "title": "复杂动态网络"
+                    },
+                    {
+                        "classCode": "dm0_5",
+                        "parentCode": "dm0",
+                        "title": "动态系统"
+                    },
+                    {
+                        "classCode": "dm0_6",
+                        "parentCode": "dm0",
+                        "title": "非线性动力学"
+                    },
+                    {
+                        "classCode": "dm0_7",
+                        "parentCode": "dm0",
+                        "title": "系统动力学"
+                    },
+                    {
+                        "classCode": "dm0_8",
+                        "parentCode": "dm0",
+                        "title": "时频分析"
+                    }
+                ],
+                "title": "时间序列分析"
+            },
+            {
+                "classCode": "dm1",
+                "parentCode": "dm",
+                "children": [
+                    {
+                        "classCode": "dm1_0",
+                        "parentCode": "dm1",
+                        "title": "规则归纳"
+                    },
+                    {
+                        "classCode": "dm1_1",
+                        "parentCode": "dm1",
+                        "title": "规则学习"
+                    },
+                    {
+                        "classCode": "dm1_2",
+                        "parentCode": "dm1",
+                        "title": "序列模式"
+                    },
+                    {
+                        "classCode": "dm1_3",
+                        "parentCode": "dm1",
+                        "title": "频繁项目集"
+                    },
+                    {
+                        "classCode": "dm1_4",
+                        "parentCode": "dm1",
+                        "title": "模式挖掘"
+                    },
+                    {
+                        "classCode": "dm1_5",
+                        "parentCode": "dm1",
+                        "title": "模式匹配"
+                    },
+                    {
+                        "classCode": "dm1_6",
+                        "parentCode": "dm1",
+                        "title": "模式分类"
+                    },
+                    {
+                        "classCode": "dm1_7",
+                        "parentCode": "dm1",
+                        "title": "频繁模式"
+                    }
+                ],
+                "title": "关联规则"
+            },
+            {
+                "classCode": "dm2",
+                "parentCode": "dm",
+                "children": [
+                    {
+                        "classCode": "dm2_0",
+                        "parentCode": "dm2",
+                        "title": "算法设计与分析"
+                    },
+                    {
+                        "classCode": "dm2_1",
+                        "parentCode": "dm2",
+                        "title": "上界"
+                    },
+                    {
+                        "classCode": "dm2_2",
+                        "parentCode": "dm2",
+                        "title": "预测算法"
+                    },
+                    {
+                        "classCode": "dm2_3",
+                        "parentCode": "dm2",
+                        "title": "有效算法"
+                    },
+                    {
+                        "classCode": "dm2_4",
+                        "parentCode": "dm2",
+                        "title": "计算模型"
+                    },
+                    {
+                        "classCode": "dm2_5",
+                        "parentCode": "dm2",
+                        "title": "预测模型"
+                    },
+                    {
+                        "classCode": "dm2_6",
+                        "parentCode": "dm2",
+                        "title": "强化学习"
+                    },
+                    {
+                        "classCode": "dm2_7",
+                        "parentCode": "dm2",
+                        "title": "神经网络"
+                    },
+                    {
+                        "classCode": "dm2_8",
+                        "parentCode": "dm2",
+                        "title": "计算复杂性"
+                    },
+                    {
+                        "classCode": "dm2_9",
+                        "parentCode": "dm2",
+                        "title": "概率逻辑"
+                    },
+                    {
+                        "classCode": "dm2_10",
+                        "parentCode": "dm2",
+                        "title": "结构风险最小化"
+                    },
+                    {
+                        "classCode": "dm2_11",
+                        "parentCode": "dm2",
+                        "title": "约束最小二乘"
+                    },
+                    {
+                        "classCode": "dm2_12",
+                        "parentCode": "dm2",
+                        "title": "增量学习"
+                    },
+                    {
+                        "classCode": "dm2_13",
+                        "parentCode": "dm2",
+                        "title": "修剪技术"
+                    },
+                    {
+                        "classCode": "dm2_14",
+                        "parentCode": "dm2",
+                        "title": "矩阵分解"
+                    },
+                    {
+                        "classCode": "dm2_15",
+                        "parentCode": "dm2",
+                        "title": "生成模型"
+                    },
+                    {
+                        "classCode": "dm2_16",
+                        "parentCode": "dm2",
+                        "title": "隐马尔可夫模型"
+                    }
+                ],
+                "title": "算法"
+            },
+            {
+                "classCode": "dm3",
+                "parentCode": "dm",
+                "children": [
+                    {
+                        "classCode": "dm3_0",
+                        "parentCode": "dm3",
+                        "title": "动态数据库"
+                    },
+                    {
+                        "classCode": "dm3_1",
+                        "parentCode": "dm3",
+                        "title": "异构数据"
+                    },
+                    {
+                        "classCode": "dm3_2",
+                        "parentCode": "dm3",
+                        "title": "文本数据"
+                    },
+                    {
+                        "classCode": "dm3_3",
+                        "parentCode": "dm3",
+                        "title": "数据模型"
+                    },
+                    {
+                        "classCode": "dm3_4",
+                        "parentCode": "dm3",
+                        "title": "传感器数据"
+                    },
+                    {
+                        "classCode": "dm3_5",
+                        "parentCode": "dm3",
+                        "title": "数据仓库"
+                    },
+                    {
+                        "classCode": "dm3_6",
+                        "parentCode": "dm3",
+                        "title": "查询处理"
+                    },
+                    {
+                        "classCode": "dm3_7",
+                        "parentCode": "dm3",
+                        "title": "数据结构"
+                    },
+                    {
+                        "classCode": "dm3_8",
+                        "parentCode": "dm3",
+                        "title": "数据分析"
+                    },
+                    {
+                        "classCode": "dm3_9",
+                        "parentCode": "dm3",
+                        "title": "数据隐私"
+                    },
+                    {
+                        "classCode": "dm3_10",
+                        "parentCode": "dm3",
+                        "title": "个人数据"
+                    },
+                    {
+                        "classCode": "dm3_11",
+                        "parentCode": "dm3",
+                        "title": "云计算"
+                    },
+                    {
+                        "classCode": "dm3_12",
+                        "parentCode": "dm3",
+                        "title": "用户行为"
+                    },
+                    {
+                        "classCode": "dm3_13",
+                        "parentCode": "dm3",
+                        "title": "并行处理"
+                    },
+                    {
+                        "classCode": "dm3_14",
+                        "parentCode": "dm3",
+                        "title": "图形数据"
+                    },
+                    {
+                        "classCode": "dm3_15",
+                        "parentCode": "dm3",
+                        "title": "数据密集型计算"
+                    },
+                    {
+                        "classCode": "dm3_16",
+                        "parentCode": "dm3",
+                        "title": "数据流"
+                    },
+                    {
+                        "classCode": "dm3_17",
+                        "parentCode": "dm3",
+                        "title": "分布式数据库"
+                    },
+                    {
+                        "classCode": "dm3_18",
+                        "parentCode": "dm3",
+                        "title": "数据处理"
+                    },
+                    {
+                        "classCode": "dm3_19",
+                        "parentCode": "dm3",
+                        "title": "数据中心"
+                    },
+                    {
+                        "classCode": "dm3_20",
+                        "parentCode": "dm3",
+                        "title": "数据管理"
+                    },
+                    {
+                        "classCode": "dm3_21",
+                        "parentCode": "dm3",
+                        "title": "数据仓库"
+                    },
+                    {
+                        "classCode": "dm3_22",
+                        "parentCode": "dm3",
+                        "title": "数据安全"
+                    },
+                    {
+                        "classCode": "dm3_23",
+                        "parentCode": "dm3",
+                        "title": "数据库管理系统"
+                    },
+                    {
+                        "classCode": "dm3_22",
+                        "parentCode": "dm3",
+                        "title": "数据生成"
+                    }
+                ],
+                "title": "大数据"
+            },
+            {
+                "classCode": "dm4",
+                "parentCode": "dm",
+                "children": [
+                    {
+                        "classCode": "dm4_0",
+                        "parentCode": "dm4",
+                        "title": "网络检索"
+                    },
+                    {
+                        "classCode": "dm4_1",
+                        "parentCode": "dm4",
+                        "title": "信息检索"
+                    },
+                    {
+                        "classCode": "dm4_2",
+                        "parentCode": "dm4",
+                        "title": "链接分析"
+                    },
+                    {
+                        "classCode": "dm4_3",
+                        "parentCode": "dm4",
+                        "title": "图像检索"
+                    },
+                    {
+                        "classCode": "dm4_4",
+                        "parentCode": "dm4",
+                        "title": "效用挖掘"
+                    },
+                    {
+                        "classCode": "dm4_5",
+                        "parentCode": "dm4",
+                        "title": "相关反馈"
+                    },
+                    {
+                        "classCode": "dm4_6",
+                        "parentCode": "dm4",
+                        "title": "推荐系统"
+                    },
+                    {
+                        "classCode": "dm4_7",
+                        "parentCode": "dm4",
+                        "title": "移动计算"
+                    },
+                    {
+                        "classCode": "dm4_8",
+                        "parentCode": "dm4",
+                        "title": "基于位置的服务"
+                    },
+                    {
+                        "classCode": "dm4_9",
+                        "parentCode": "dm4",
+                        "title": "web页面"
+                    },
+                    {
+                        "classCode": "dm4_10",
+                        "parentCode": "dm4",
+                        "title": "协同过滤"
+                    },
+                    {
+                        "classCode": "dm4_11",
+                        "parentCode": "dm4",
+                        "title": "社交网络"
+                    },
+                    {
+                        "classCode": "dm4_12",
+                        "parentCode": "dm4",
+                        "title": "社交互动"
+                    },
+                    {
+                        "classCode": "dm4_13",
+                        "parentCode": "dm4",
+                        "title": "社交媒体"
+                    },
+                    {
+                        "classCode": "dm4_14",
+                        "parentCode": "dm4",
+                        "title": "信息过滤"
+                    },
+                    {
+                        "classCode": "dm4_15",
+                        "parentCode": "dm4",
+                        "title": "社交网络分析"
+                    },
+                    {
+                        "classCode": "dm4_16",
+                        "parentCode": "dm4",
+                        "title": "图论"
+                    },
+                    {
+                        "classCode": "dm4_17",
+                        "parentCode": "dm4",
+                        "title": "情感分析"
+                    },
+                    {
+                        "classCode": "dm4_18",
+                        "parentCode": "dm4",
+                        "title": "意见挖掘"
+                    },
+                    {
+                        "classCode": "dm4_19",
+                        "parentCode": "dm4",
+                        "title": "语义网"
+                    },
+                    {
+                        "classCode": "dm4_20",
+                        "parentCode": "dm4",
+                        "title": "社交网页"
+                    },
+                    {
+                        "classCode": "dm4_21",
+                        "parentCode": "dm4",
+                        "title": "在线社交网络"
+                    },
+                    {
+                        "classCode": "dm4_22",
+                        "parentCode": "dm4",
+                        "title": "万维网"
+                    },
+                    {
+                        "classCode": "dm4_23",
+                        "parentCode": "dm4",
+                        "title": "web2.0"
+                    },
+                    {
+                        "classCode": "dm4_24",
+                        "parentCode": "dm4",
+                        "title": "关联数据"
+                    },
+                    {
+                        "classCode": "dm4_25",
+                        "parentCode": "dm4",
+                        "title": "社交标签系统"
+                    },
+                    {
+                        "classCode": "dm4_26",
+                        "parentCode": "dm4",
+                        "title": "用户生成内容"
+                    },
+                    {
+                        "classCode": "dm4_27",
+                        "parentCode": "dm4",
+                        "title": "社交标签"
+                    },
+                    {
+                        "classCode": "dm4_28",
+                        "parentCode": "dm4",
+                        "title": "社交推荐"
+                    },
+                    {
+                        "classCode": "dm4_29",
+                        "parentCode": "dm4",
+                        "title": "链接预测"
+                    },
+                    {
+                        "classCode": "dm4_30",
+                        "parentCode": "dm4",
+                        "title": "web使用挖掘"
+                    },
+                    {
+                        "classCode": "dm4_31",
+                        "parentCode": "dm4",
+                        "title": "网络社区"
+                    },
+                    {
+                        "classCode": "dm4_32",
+                        "parentCode": "dm4",
+                        "title": "交互网络"
+                    },
+                    {
+                        "classCode": "dm4_33",
+                        "parentCode": "dm4",
+                        "title": "web论坛"
+                    }
+                ],
+                "title": "网络挖掘"
+            },
+            {
+                "classCode": "dm5",
+                "parentCode": "dm",
+                "title": "知识发现"
+            },
+            {
+                "classCode": "dm6",
+                "parentCode": "dm",
+                "children": [
+                    {
+                        "classCode": "dm6_0",
+                        "parentCode": "dm6",
+                        "title": "项目管理"
+                    },
+                    {
+                        "classCode": "dm6_1",
+                        "parentCode": "dm6",
+                        "title": "信息技术"
+                    },
+                    {
+                        "classCode": "dm6_2",
+                        "parentCode": "dm6",
+                        "title": "信息系统"
+                    },
+                    {
+                        "classCode": "dm6_3",
+                        "parentCode": "dm6",
+                        "title": "数据库管理"
+                    },
+                    {
+                        "classCode": "dm6_4",
+                        "parentCode": "dm6",
+                        "title": "客户关系管理"
+                    },
+                    {
+                        "classCode": "dm6_5",
+                        "parentCode": "dm6",
+                        "title": "管理系统"
+                    }
+                ],
+                "title": "知识管理"
+            },
+            {
+                "classCode": "dm7",
+                "parentCode": "dm",
+                "children": [
+                    {
+                        "classCode": "dm7_0",
+                        "parentCode": "dm7",
+                        "title": "数据整合"
+                    },
+                    {
+                        "classCode": "dm7_1",
+                        "parentCode": "dm7",
+                        "title": "数据压缩"
+                    },
+                    {
+                        "classCode": "dm7_2",
+                        "parentCode": "dm7",
+                        "title": "数据点"
+                    },
+                    {
+                        "classCode": "dm7_3",
+                        "parentCode": "dm7",
+                        "title": "空间数据库"
+                    },
+                    {
+                        "classCode": "dm7_4",
+                        "parentCode": "dm7",
+                        "title": "时间序列数据"
+                    },
+                    {
+                        "classCode": "dm7_5",
+                        "parentCode": "dm7",
+                        "title": "范围查询"
+                    }
+                ],
+                "title": "数据管理"
+            },
+            {
+                "classCode": "dm8",
+                "parentCode": "dm",
+                "children": [],
+                "title": "文本挖掘"
+            },
+            {
+                "classCode": "dm9",
+                "parentCode": "dm",
+                "children": [
+                    {
+                        "classCode": "dm9_0",
+                        "parentCode": "dm9",
+                        "title": "文本分析"
+                    },
+                    {
+                        "classCode": "dm9_1",
+                        "parentCode": "dm9",
+                        "title": "文本分类"
+                    },
+                    {
+                        "classCode": "dm9_2",
+                        "parentCode": "dm9",
+                        "title": "信息检索"
+                    },
+                    {
+                        "classCode": "dm9_3",
+                        "parentCode": "dm9",
+                        "title": "自然语言处理"
+                    },
+                    {
+                        "classCode": "dm9_4",
+                        "parentCode": "dm9",
+                        "title": "语言模型"
+                    },
+                    {
+                        "classCode": "dm9_5",
+                        "parentCode": "dm9",
+                        "title": "检索模型"
+                    },
+                    {
+                        "classCode": "dm9_6",
+                        "parentCode": "dm9",
+                        "title": "特征选择"
+                    },
+                    {
+                        "classCode": "dm9_7",
+                        "parentCode": "dm9",
+                        "title": "文本挖掘技术"
+                    },
+                    {
+                        "classCode": "dm9_8",
+                        "parentCode": "dm9",
+                        "title": "信息检索模型"
+                    },
+                    {
+                        "classCode": "dm9_9",
+                        "parentCode": "dm9",
+                        "title": "文本数据"
+                    },
+                    {
+                        "classCode": "dm9_10",
+                        "parentCode": "dm9",
+                        "title": "主题模型"
+                    },
+                    {
+                        "classCode": "dm9_11",
+                        "parentCode": "dm9",
+                        "title": "推荐系统"
+                    },
+                    {
+                        "classCode": "dm9_12",
+                        "parentCode": "dm9",
+                        "title": "意见挖掘"
+                    },
+                    {
+                        "classCode": "dm9_13",
+                        "parentCode": "dm9",
+                        "title": "信息过滤"
+                    },
+                    {
+                        "classCode": "dm9_14",
+                        "parentCode": "dm9",
+                        "title": "舆情分析"
+                    },
+                    {
+                        "classCode": "dm9_15",
+                        "parentCode": "dm9",
+                        "title": "情感分析"
+                    },
+                    {
+                        "classCode": "dm9_16",
+                        "parentCode": "dm9",
+                        "title": "社交媒体"
+                    },
+                    {
+                        "classCode": "dm9_17",
+                        "parentCode": "dm9",
+                        "title": "灾难性事件"
+                    },
+                    {
+                        "classCode": "dm9_18",
+                        "parentCode": "dm9",
+                        "title": "文本摘要"
+                    },
+                    {
+                        "classCode": "dm9_19",
+                        "parentCode": "dm9",
+                        "title": "查询语言"
+                    },
+                    {
+                        "classCode": "dm9_20",
+                        "parentCode": "dm9",
+                        "title": "查询扩展"
+                    },
+                    {
+                        "classCode": "dm9_21",
+                        "parentCode": "dm9",
+                        "title": "机器翻译"
+                    },
+                    {
+                        "classCode": "dm9_22",
+                        "parentCode": "dm9",
+                        "title": "生物医学文本"
+                    }
+                ],
+                "title": "文本挖掘"
+            },
+            {
+                "classCode": "dm10",
+                "parentCode": "dm",
+                "children": [
+                    {
+                        "classCode": "dm10_0",
+                        "parentCode": "dm10",
+                        "title": "图像重建"
+                    },
+                    {
+                        "classCode": "dm10_1",
+                        "parentCode": "dm10",
+                        "title": "图像分割"
+                    },
+                    {
+                        "classCode": "dm10_2",
+                        "parentCode": "dm10",
+                        "title": "图像分类"
+                    },
+                    {
+                        "classCode": "dm10_3",
+                        "parentCode": "dm10",
+                        "title": "目标识别"
+                    }
+                ],
+                "title": "图像挖掘"
+            },
+            {
+                "classCode": "dm11",
+                "parentCode": "dm",
+                "children": [
+                    {
+                        "classCode": "dm12",
+                        "parentCode": "dm",
+                        "title": "信息网络挖掘"
+                    },
+                    {
+                        "classCode": "dm13",
+                        "parentCode": "dm",
+                        "title": "异构信息网络"
+                    },
+                    {
+                        "classCode": "dm14",
+                        "parentCode": "dm",
+                        "title": "图论"
+                    },
+                    {
+                        "classCode": "dm15",
+                        "parentCode": "dm",
+                        "title": "在线社交网络"
+                    },
+                    {
+                        "classCode": "dm16",
+                        "parentCode": "dm",
+                        "title": "图挖掘"
+                    },
+                    {
+                        "classCode": "dm17",
+                        "parentCode": "dm",
+                        "title": "基于位置的服务"
+                    },
+                    {
+                        "classCode": "dm18",
+                        "parentCode": "dm",
+                        "title": "网络拓扑"
+                    },
+                    {
+                        "classCode": "dm19",
+                        "parentCode": "dm",
+                        "title": "同构网络"
+                    },
+                    {
+                        "classCode": "dm20",
+                        "parentCode": "dm",
+                        "title": "图聚类"
+                    },
+                    {
+                        "classCode": "dm21",
+                        "parentCode": "dm",
+                        "title": "随机游走"
+                    },
+                    {
+                        "classCode": "dm22",
+                        "parentCode": "dm",
+                        "title": "生物网络"
+                    },
+                    {
+                        "classCode": "dm23",
+                        "parentCode": "dm",
+                        "title": "计算机网络"
+                    },
+                    {
+                        "classCode": "dm24",
+                        "parentCode": "dm",
+                        "title": "图数据库"
+                    },
+                    {
+                        "classCode": "dm25",
+                        "parentCode": "dm",
+                        "title": "实体识别"
+                    }
+                ],
+                "title": "信息网络"
+            },
+            {
+                "classCode": "dm12",
+                "parentCode": "dm",
+                "children": [
+                    {
+                        "classCode": "dm12_0",
+                        "parentCode": "dm12",
+                        "title": "大图"
+                    },
+                    {
+                        "classCode": "dm12_1",
+                        "parentCode": "dm12",
+                        "title": "图分类"
+                    },
+                    {
+                        "classCode": "dm12_2",
+                        "parentCode": "dm12",
+                        "title": "随机图"
+                    },
+                    {
+                        "classCode": "dm12_3",
+                        "parentCode": "dm12",
+                        "title": "有向图"
+                    },
+                    {
+                        "classCode": "dm12_4",
+                        "parentCode": "dm12",
+                        "title": "无向图"
+                    }
+                ],
+                "title": "图挖掘"
+            },
+            {
+                "classCode": "dm13",
+                "parentCode": "dm",
+                "children": [
+                    {
+                        "classCode": "dm13_0",
+                        "parentCode": "dm13",
+                        "title": "电子健康档案"
+                    },
+                    {
+                        "classCode": "dm13_1",
+                        "parentCode": "dm13",
+                        "title": "基因表达"
+                    },
+                    {
+                        "classCode": "dm13_2",
+                        "parentCode": "dm13",
+                        "title": "生物医学研究"
+                    },
+                    {
+                        "classCode": "dm13_3",
+                        "parentCode": "dm13",
+                        "title": "药物不良反应"
+                    },
+                    {
+                        "classCode": "dm13_4",
+                        "parentCode": "dm13",
+                        "title": "全基因组关联分析"
+                    },
+                    {
+                        "classCode": "dm13_5",
+                        "parentCode": "dm13",
+                        "title": "病人医疗护理"
+                    },
+                    {
+                        "classCode": "dm13_6",
+                        "parentCode": "dm13",
+                        "title": "计算生物学"
+                    },
+                    {
+                        "classCode": "dm13_7",
+                        "parentCode": "dm13",
+                        "title": "生物科学"
+                    },
+                    {
+                        "classCode": "dm13_8",
+                        "parentCode": "dm13",
+                        "title": "医学研究"
+                    }
+                ],
+                "title": "卫生保健"
+            },
+            {
+                "classCode": "dm14",
+                "parentCode": "dm",
+                "children": [
+                    {
+                        "classCode": "dm14_0",
+                        "parentCode": "dm14",
+                        "title": "数据可视化"
+                    },
+                    {
+                        "classCode": "dm14_1",
+                        "parentCode": "dm14",
+                        "title": "可视化分析"
+                    },
+                    {
+                        "classCode": "dm14_2",
+                        "parentCode": "dm14",
+                        "title": "数据分析"
+                    },
+                    {
+                        "classCode": "dm14_3",
+                        "parentCode": "dm14",
+                        "title": "网络可视化"
+                    },
+                    {
+                        "classCode": "dm14_4",
+                        "parentCode": "dm14",
+                        "title": "可视化技术"
+                    },
+                    {
+                        "classCode": "dm14_5",
+                        "parentCode": "dm14",
+                        "title": "视觉内容"
+                    },
+                    {
+                        "classCode": "dm14_6",
+                        "parentCode": "dm14",
+                        "title": "可视化工具"
+                    },
+                    {
+                        "classCode": "dm14_7",
+                        "parentCode": "dm14",
+                        "title": "交互式可视化"
+                    },
+                    {
+                        "classCode": "dm14_8",
+                        "parentCode": "dm14",
+                        "title": "图形可视化"
+                    },
+                    {
+                        "classCode": "dm14_9",
+                        "parentCode": "dm14",
+                        "title": "计算机动画"
+                    }
+                ],
+                "title": "可视化"
+            },
+            {
+                "classCode": "dm15",
+                "parentCode": "dm",
+                "children": [],
+                "title": "信息系统"
+            },
+            {
+                "classCode": "dm16",
+                "parentCode": "dm",
+                "children": [
+                    {
+                        "classCode": "dm16_0",
+                        "parentCode": "dm16",
+                        "title": "模糊集合论"
+                    },
+                    {
+                        "classCode": "dm16_1",
+                        "parentCode": "dm16",
+                        "title": "模糊集"
+                    },
+                    {
+                        "classCode": "dm16_2",
+                        "parentCode": "dm16",
+                        "title": "模糊聚类"
+                    }
+                ],
+                "title": "模糊数据挖掘"
+            },
+            {
+                "classCode": "dm16",
+                "parentCode": "dm",
+                "children": [
+                    {
+                        "classCode": "dm16_0",
+                        "parentCode": "dm16",
+                        "title": "知识管理"
+                    },
+                    {
+                        "classCode": "dm16_1",
+                        "parentCode": "dm16",
+                        "title": "知识表达"
+                    },
+                    {
+                        "classCode": "dm16_2",
+                        "parentCode": "dm16",
+                        "title": "知识发现"
+                    }
+                ],
+                "title": "专家系统"
+            },
+            {
+                "classCode": "dm17",
+                "parentCode": "dm",
+                "children": [
+                    {
+                        "classCode": "dm17_0",
+                        "parentCode": "dm17",
+                        "title": "核算子"
+                    },
+                    {
+                        "classCode": "dm17_1",
+                        "parentCode": "dm17",
+                        "title": "相似关系"
+                    },
+                    {
+                        "classCode": "dm17_2",
+                        "parentCode": "dm17",
+                        "title": "近邻"
+                    },
+                    {
+                        "classCode": "dm17_3",
+                        "parentCode": "dm17",
+                        "title": "相异性"
+                    },
+                    {
+                        "classCode": "dm17_4",
+                        "parentCode": "dm17",
+                        "title": "引文匹配"
+                    },
+                    {
+                        "classCode": "dm17_5",
+                        "parentCode": "dm17",
+                        "title": "相似搜索"
+                    },
+                    {
+                        "classCode": "dm17_6",
+                        "parentCode": "dm17",
+                        "title": "相似核函数"
+                    },
+                    {
+                        "classCode": "dm17_7",
+                        "parentCode": "dm17",
+                        "title": "EMD距离"
+                    },
+                    {
+                        "classCode": "dm17_8",
+                        "parentCode": "dm17",
+                        "title": "核函数"
+                    },
+                    {
+                        "classCode": "dm17_9",
+                        "parentCode": "dm17",
+                        "title": "搜索问题"
+                    },
+                    {
+                        "classCode": "dm17_10",
+                        "parentCode": "dm17",
+                        "title": "串匹配"
+                    },
+                    {
+                        "classCode": "dm17_11",
+                        "parentCode": "dm17",
+                        "title": "相似性度量"
+                    },
+                    {
+                        "classCode": "dm17_12",
+                        "parentCode": "dm17",
+                        "title": "关键字检索"
+                    },
+                    {
+                        "classCode": "dm17_13",
+                        "parentCode": "dm17",
+                        "title": "语义相似度"
+                    }
+                ],
+                "title": "相似性"
+            },
+            {
+                "classCode": "dm18",
+                "parentCode": "dm",
+                "children": [
+                    {
+                        "classCode": "dm18_0",
+                        "parentCode": "dm18",
+                        "title": "数据层次"
+                    },
+                    {
+                        "classCode": "dm18_1",
+                        "parentCode": "dm18",
+                        "title": "复杂数据"
+                    }
+                ],
+                "title": "数据结构"
+            },
+            {
+                "classCode": "dm19",
+                "parentCode": "dm",
+                "children": [
+                    {
+                        "classCode": "dm19_0",
+                        "parentCode": "dm19",
+                        "title": "聚类"
+                    },
+                    {
+                        "classCode": "dm19_1",
+                        "parentCode": "dm19",
+                        "title": "文档聚类"
+                    },
+                    {
+                        "classCode": "dm19_2",
+                        "parentCode": "dm19",
+                        "title": "层次聚类"
+                    },
+                    {
+                        "classCode": "dm19_3",
+                        "parentCode": "dm19",
+                        "title": "图像聚类"
+                    },
+                    {
+                        "classCode": "dm19_4",
+                        "parentCode": "dm19",
+                        "title": "数据聚类"
+                    },
+                    {
+                        "classCode": "dm19_5",
+                        "parentCode": "dm19",
+                        "title": "模糊聚类"
+                    },
+                    {
+                        "classCode": "dm19_6",
+                        "parentCode": "dm19",
+                        "title": "协同过滤"
+                    },
+                    {
+                        "classCode": "dm19_7",
+                        "parentCode": "dm19",
+                        "title": "非负矩阵分解"
+                    },
+                    {
+                        "classCode": "dm19_8",
+                        "parentCode": "dm19",
+                        "title": "检索聚类"
+                    },
+                    {
+                        "classCode": "dm19_9",
+                        "parentCode": "dm19",
+                        "title": "聚类算法"
+                    },
+                    {
+                        "classCode": "dm19_10",
+                        "parentCode": "dm19",
+                        "title": "孤立点检测"
+                    },
+                    {
+                        "classCode": "dm19_11",
+                        "parentCode": "dm19",
+                        "title": "主题模型"
+                    },
+                    {
+                        "classCode": "dm19_12",
+                        "parentCode": "dm19",
+                        "title": "子空间聚类"
+                    },
+                    {
+                        "classCode": "dm19_13",
+                        "parentCode": "dm19",
+                        "title": "模式识别"
+                    },
+                    {
+                        "classCode": "dm19_14",
+                        "parentCode": "dm19",
+                        "title": "混合高斯模型"
+                    },
+                    {
+                        "classCode": "dm19_15",
+                        "parentCode": "dm19",
+                        "title": "高斯过程"
+                    },
+                    {
+                        "classCode": "dm19_16",
+                        "parentCode": "dm19",
+                        "title": "密度估计"
+                    },
+                    {
+                        "classCode": "dm19_17",
+                        "parentCode": "dm19",
+                        "title": "降维"
+                    },
+                    {
+                        "classCode": "dm19_18",
+                        "parentCode": "dm19",
+                        "title": "最大似然估计"
+                    },
+                    {
+                        "classCode": "dm19_19",
+                        "parentCode": "dm19",
+                        "title": "矩阵分解"
+                    },
+                    {
+                        "classCode": "dm19_20",
+                        "parentCode": "dm19",
+                        "title": "非负矩阵分解"
+                    },
+                    {
+                        "classCode": "dm19_21",
+                        "parentCode": "dm19",
+                        "title": "稀疏矩阵"
+                    }
+                ],
+                "title": "无监督学习"
+            },
+            {
+                "classCode": "dm20",
+                "parentCode": "dm",
+                "children": [
+                    {
+                        "classCode": "dm20_0",
+                        "parentCode": "dm20",
+                        "title": "分类"
+                    },
+                    {
+                        "classCode": "dm20_1",
+                        "parentCode": "dm20",
+                        "title": "特征选择"
+                    },
+                    {
+                        "classCode": "dm20_2",
+                        "parentCode": "dm20",
+                        "title": "神经网络"
+                    },
+                    {
+                        "classCode": "dm20_3",
+                        "parentCode": "dm20",
+                        "title": "归纳学习"
+                    },
+                    {
+                        "classCode": "dm20_4",
+                        "parentCode": "dm20",
+                        "title": "马尔可夫过程"
+                    },
+                    {
+                        "classCode": "dm20_5",
+                        "parentCode": "dm20",
+                        "title": "置信传播"
+                    },
+                    {
+                        "classCode": "dm20_6",
+                        "parentCode": "dm20",
+                        "title": "决策树"
+                    },
+                    {
+                        "classCode": "dm20_7",
+                        "parentCode": "dm20",
+                        "title": "支持向量机"
+                    },
+                    {
+                        "classCode": "dm20_8",
+                        "parentCode": "dm20",
+                        "title": "半监督学习"
+                    },
+                    {
+                        "classCode": "dm20_9",
+                        "parentCode": "dm20",
+                        "title": "行为识别"
+                    },
+                    {
+                        "classCode": "dm20_10",
+                        "parentCode": "dm20",
+                        "title": "统计分析"
+                    },
+                    {
+                        "classCode": "dm20_11",
+                        "parentCode": "dm20",
+                        "title": "稀疏编码"
+                    },
+                    {
+                        "classCode": "dm20_12",
+                        "parentCode": "dm20",
+                        "title": "概率逻辑"
+                    },
+                    {
+                        "classCode": "dm20_13",
+                        "parentCode": "dm20",
+                        "title": "回归"
+                    },
+                    {
+                        "classCode": "dm20_14",
+                        "parentCode": "dm20",
+                        "title": "流形学习"
+                    },
+                    {
+                        "classCode": "dm20_15",
+                        "parentCode": "dm20",
+                        "title": "线性规划"
+                    },
+                    {
+                        "classCode": "dm20_16",
+                        "parentCode": "dm20",
+                        "title": "凸规划"
+                    },
+                    {
+                        "classCode": "dm20_17",
+                        "parentCode": "dm20",
+                        "title": "主动学习"
+                    },
+                    {
+                        "classCode": "dm20_18",
+                        "parentCode": "dm20",
+                        "title": "随机森林"
+                    },
+                    {
+                        "classCode": "dm20_19",
+                        "parentCode": "dm20",
+                        "title": "推理机制"
+                    },
+                    {
+                        "classCode": "dm20_20",
+                        "parentCode": "dm20",
+                        "title": "贝叶斯方法"
+                    },
+                    {
+                        "classCode": "dm20_21",
+                        "parentCode": "dm20",
+                        "title": "受限玻尔兹曼机"
+                    }
+                ],
+                "title": "有监督学习"
+            },
+            {
+                "classCode": "dm21",
+                "parentCode": "dm",
+                "children": [
+                    {
+                        "classCode": "dm21_0",
+                        "parentCode": "dm21",
+                        "title": "社交网络"
+                    },
+                    {
+                        "classCode": "dm21_1",
+                        "parentCode": "dm21",
+                        "title": "社交媒体"
+                    },
+                    {
+                        "classCode": "dm21_2",
+                        "parentCode": "dm21",
+                        "title": "图论"
+                    },
+                    {
+                        "classCode": "dm21_3",
+                        "parentCode": "dm21",
+                        "title": "传感器网络"
+                    },
+                    {
+                        "classCode": "dm21_4",
+                        "parentCode": "dm21",
+                        "title": "网络分析"
+                    },
+                    {
+                        "classCode": "dm21_5",
+                        "parentCode": "dm21",
+                        "title": "信息扩散"
+                    },
+                    {
+                        "classCode": "dm21_6",
+                        "parentCode": "dm21",
+                        "title": "社区发现"
+                    },
+                    {
+                        "classCode": "dm21_7",
+                        "parentCode": "dm21",
+                        "title": "动态网络"
+                    },
+                    {
+                        "classCode": "dm21_8",
+                        "parentCode": "dm21",
+                        "title": "社会学习"
+                    },
+                    {
+                        "classCode": "dm21_9",
+                        "parentCode": "dm21",
+                        "title": "社会科学"
+                    },
+                    {
+                        "classCode": "dm21_10",
+                        "parentCode": "dm21",
+                        "title": "信息追随"
+                    },
+                    {
+                        "classCode": "dm21_11",
+                        "parentCode": "dm21",
+                        "title": "通讯网络"
+                    },
+                    {
+                        "classCode": "dm21_12",
+                        "parentCode": "dm21",
+                        "title": "社会影响"
+                    },
+                    {
+                        "classCode": "dm21_13",
+                        "parentCode": "dm21",
+                        "title": "复杂网络"
+                    },
+                    {
+                        "classCode": "dm21_14",
+                        "parentCode": "dm21",
+                        "title": "社交互动"
+                    },
+                    {
+                        "classCode": "dm21_15",
+                        "parentCode": "dm21",
+                        "title": "最短路径"
+                    },
+                    {
+                        "classCode": "dm21_16",
+                        "parentCode": "dm21",
+                        "title": "社交生活网络"
+                    }
+                ],
+                "title": "网络分析"
+            },
+            {
+                "classCode": "dm22",
+                "parentCode": "dm",
+                "children": [
+                    {
+                        "classCode": "dm22_0",
+                        "parentCode": "dm22",
+                        "title": "决策支持系统"
+                    },
+                    {
+                        "classCode": "dm22_1",
+                        "parentCode": "dm22",
+                        "title": "数据包络支持"
+                    },
+                    {
+                        "classCode": "dm22_2",
+                        "parentCode": "dm22",
+                        "title": "信息资源管理"
+                    }
+                ],
+                "title": "决策分析"
+            }
+        ],
+        "title": "数据挖掘"
+    }
+]

@@ -6,7 +6,7 @@
 </template>
 <script>
     export default {
-        data () {
+        data() {
             return {
                 academicList: [
                     {
@@ -38,6 +38,7 @@
             }
         },
         methods: {
+            // @on-change: 选中的Option变化时触发，默认返回value
             sendTableName(value) {
                 console.log(value)
                 this.axios.get('http://localhost:8081/classcodes/getClassCodes', {
@@ -56,4 +57,3 @@
         }
     }
 </script>
-

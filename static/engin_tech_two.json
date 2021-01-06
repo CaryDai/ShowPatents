@@ -118,6 +118,23 @@
                             {
                                 "classCode": "C028_3A",
                                 "parentCode": "C028_3",
+                                "children": [
+                                    {
+                                        "classCode": "C028_3A0",
+                                        "parentCode": "C028_3A",
+                                        "title": "密封装置"
+                                    },
+                                    {
+                                        "classCode": "C028_3A1",
+                                        "parentCode": "C028_3A",
+                                        "title": "检测方法"
+                                    },
+                                    {
+                                        "classCode": "C028_3A2",
+                                        "parentCode": "C028_3A",
+                                        "title": "其它"
+                                    }
+                                ],
                                 "title": "密封技术"
                             },
                             {
@@ -167,6 +184,33 @@
                             {
                                 "classCode": "C028_52",
                                 "parentCode": "C028_5",
+                                "children": [
+                                    {
+                                        "classCode": "C028_520",
+                                        "parentCode": "C028_52",
+                                        "title": "冰箱"
+                                    },
+                                    {
+                                        "classCode": "C028_521",
+                                        "parentCode": "C028_52",
+                                        "title": "冷藏柜"
+                                    },
+                                    {
+                                        "classCode": "C028_522",
+                                        "parentCode": "C028_52",
+                                        "title": "空调"
+                                    },
+                                    {
+                                        "classCode": "C028_523",
+                                        "parentCode": "C028_52",
+                                        "title": "制冷机"
+                                    },
+                                    {
+                                        "classCode": "C028_524",
+                                        "parentCode": "C028_52",
+                                        "title": "其它"
+                                    }
+                                ],
                                 "title": "制冷材料、制冷机械和设备及应用"
                             }
                         ],
@@ -189,6 +233,23 @@
                             {
                                 "classCode": "C028_73",
                                 "parentCode": "C028_7",
+                                "children": [
+                                    {
+                                        "classCode": "C028_730",
+                                        "parentCode": "C028_73",
+                                        "title": "透镜装置"
+                                    },
+                                    {
+                                        "classCode": "C028_731",
+                                        "parentCode": "C028_73",
+                                        "title": "防抖装置"
+                                    },
+                                    {
+                                        "classCode": "C028_732",
+                                        "parentCode": "C028_73",
+                                        "title": "其它"
+                                    }
+                                ],
                                 "title": "光学镜头与滤光器"
                             }
                         ],
@@ -307,6 +368,28 @@
                             {
                                 "classCode": "C029_52",
                                 "parentCode": "C029_5",
+                                "children": [
+                                    {
+                                        "classCode": "C029_520",
+                                        "parentCode": "C029_52",
+                                        "title": "链条"
+                                    },
+                                    {
+                                        "classCode": "C029_521",
+                                        "parentCode": "C029_52",
+                                        "title": "齿轮"
+                                    },
+                                    {
+                                        "classCode": "C029_522",
+                                        "parentCode": "C029_52",
+                                        "title": "变速器"
+                                    },
+                                    {
+                                        "classCode": "C029_523",
+                                        "parentCode": "C029_52",
+                                        "title": "其它"
+                                    }
+                                ],
                                 "title": "机械传动机构"
                             },
                             {
@@ -317,6 +400,28 @@
                             {
                                 "classCode": "C029_54",
                                 "parentCode": "C029_5",
+                                "children": [
+                                    {
+                                        "classCode": "C029_540",
+                                        "parentCode": "C029_54",
+                                        "title": "阀"
+                                    },
+                                    {
+                                        "classCode": "C029_541",
+                                        "parentCode": "C029_54",
+                                        "title": "龙头"
+                                    },
+                                    {
+                                        "classCode": "C029_542",
+                                        "parentCode": "C029_54",
+                                        "title": "控制系统"
+                                    },
+                                    {
+                                        "classCode": "C029_543",
+                                        "parentCode": "C029_54",
+                                        "title": "其它"
+                                    }
+                                ],
                                 "title": "控制机件"
                             },
                             {
@@ -423,6 +528,43 @@
                             {
                                 "classCode": "C029_A1",
                                 "parentCode": "C029_A",
+                                "children": [
+                                    {
+                                        "classCode": "C029_A10",
+                                        "parentCode": "C029_A1",
+                                        "title": "电梯"
+                                    },
+                                    {
+                                        "classCode": "C029_A11",
+                                        "parentCode": "C029_A1",
+                                        "title": "叉车"
+                                    },
+                                    {
+                                        "classCode": "C029_A12",
+                                        "parentCode": "C029_A1",
+                                        "title": "起重机"
+                                    },
+                                    {
+                                        "classCode": "C029_A13",
+                                        "parentCode": "C029_A1",
+                                        "title": "升降装置"
+                                    },
+                                    {
+                                        "classCode": "C029_A14",
+                                        "parentCode": "C029_A1",
+                                        "title": "吊具"
+                                    },
+                                    {
+                                        "classCode": "C029_A15",
+                                        "parentCode": "C029_A1",
+                                        "title": "绞盘"
+                                    },
+                                    {
+                                        "classCode": "C029_A16",
+                                        "parentCode": "C029_A1",
+                                        "title": "其它"
+                                    }
+                                ],
                                 "title": "起重机械"
                             },
                             {
@@ -441,6 +583,28 @@
                     {
                         "classCode": "C029_B",
                         "parentCode": "C029",
+                        "children": [
+                            {
+                                "classCode": "C029_B0",
+                                "parentCode": "C029_B",
+                                "title": "水泵"
+                            },
+                            {
+                                "classCode": "C029_B1",
+                                "parentCode": "C029_B",
+                                "title": "真空泵"
+                            },
+                            {
+                                "classCode": "C029_B2",
+                                "parentCode": "C029_B",
+                                "title": "压缩机"
+                            },
+                            {
+                                "classCode": "C029_B3",
+                                "parentCode": "C029_B",
+                                "title": "其它"
+                            }
+                        ],
                         "title": "泵"
                     },
                     {
@@ -500,6 +664,23 @@
                     {
                         "classCode": "C030_1",
                         "parentCode": "C030",
+                        "children": [
+                            {
+                                "classCode": "C030_10",
+                                "parentCode": "C030_1",
+                                "title": "探头"
+                            },
+                            {
+                                "classCode": "C030_11",
+                                "parentCode": "C030_1",
+                                "title": "传感器"
+                            },
+                            {
+                                "classCode": "C030_12",
+                                "parentCode": "C030_1",
+                                "title": "其它"
+                            }
+                        ],
                         "title": "仪器、仪表概论"
                     },
                     {
@@ -520,6 +701,28 @@
                     {
                         "classCode": "C030_6",
                         "parentCode": "C030",
+                        "children": [
+                            {
+                                "classCode": "C030_60",
+                                "parentCode": "C030_6",
+                                "title": "相机"
+                            },
+                            {
+                                "classCode": "C030_61",
+                                "parentCode": "C030_6",
+                                "title": "激光器"
+                            },
+                            {
+                                "classCode": "C030_62",
+                                "parentCode": "C030_6",
+                                "title": "镜头"
+                            },
+                            {
+                                "classCode": "C030_63",
+                                "parentCode": "C030_6",
+                                "title": "其它"
+                            }
+                        ],
                         "title": "光学仪器"
                     },
                     {
@@ -545,6 +748,28 @@
                     {
                         "classCode": "C030_B",
                         "parentCode": "C030",
+                        "children": [
+                            {
+                                "classCode": "C030_B0",
+                                "parentCode": "C030_B",
+                                "title": "流量计"
+                            },
+                            {
+                                "classCode": "C030_B1",
+                                "parentCode": "C030_B",
+                                "title": "测温器"
+                            },
+                            {
+                                "classCode": "C030_B2",
+                                "parentCode": "C030_B",
+                                "title": "温度监测系统"
+                            },
+                            {
+                                "classCode": "C030_B3",
+                                "parentCode": "C030_B",
+                                "title": "其它"
+                            }
+                        ],
                         "title": "热工量的测量仪表"
                     },
                     {
@@ -555,6 +780,38 @@
                     {
                         "classCode": "C030_D",
                         "parentCode": "C030",
+                        "children": [
+                            {
+                                "classCode": "C030_D0",
+                                "parentCode": "C030_D",
+                                "title": "蛋白分析仪器"
+                            },
+                            {
+                                "classCode": "C030_D1",
+                                "parentCode": "C030_D",
+                                "title": "试剂盒"
+                            },
+                            {
+                                "classCode": "C030_D2",
+                                "parentCode": "C030_D",
+                                "title": "光检测"
+                            },
+                            {
+                                "classCode": "C030_D3",
+                                "parentCode": "C030_D",
+                                "title": "气体检测"
+                            },
+                            {
+                                "classCode": "C030_D4",
+                                "parentCode": "C030_D",
+                                "title": "水质检测"
+                            },
+                            {
+                                "classCode": "C030_D5",
+                                "parentCode": "C030_D",
+                                "title": "其它"
+                            }
+                        ],
                         "title": "成分分析仪器"
                     },
                     {
@@ -1126,6 +1383,28 @@
                     {
                         "classCode": "C035_5",
                         "parentCode": "C035",
+                        "children": [
+                            {
+                                "classCode": "C035_50",
+                                "parentCode": "C035_5",
+                                "title": "混合动力发动机"
+                            },
+                            {
+                                "classCode": "C035_51",
+                                "parentCode": "C035_5",
+                                "title": "燃油发动机"
+                            },
+                            {
+                                "classCode": "C035_52",
+                                "parentCode": "C035_5",
+                                "title": "新能源发动机"
+                            },
+                            {
+                                "classCode": "C035_53",
+                                "parentCode": "C035_5",
+                                "title": "其它"
+                            }
+                        ],
                         "title": "汽车发动机"
                     },
                     {
@@ -1151,6 +1430,33 @@
                     {
                         "classCode": "C035_A",
                         "parentCode": "C035",
+                        "children": [
+                            {
+                                "classCode": "C035_A0",
+                                "parentCode": "C035_A",
+                                "title": "卡车"
+                            },
+                            {
+                                "classCode": "C035_A1",
+                                "parentCode": "C035_A",
+                                "title": "电动车"
+                            },
+                            {
+                                "classCode": "C035_A2",
+                                "parentCode": "C035_A",
+                                "title": "房车"
+                            },
+                            {
+                                "classCode": "C035_A3",
+                                "parentCode": "C035_A",
+                                "title": "扫地车"
+                            },
+                            {
+                                "classCode": "C035_A4",
+                                "parentCode": "C035_A",
+                                "title": "其它"
+                            }
+                        ],
                         "title": "各种汽车"
                     },
                     {
@@ -1819,6 +2125,38 @@
                             {
                                 "classCode": "C039_34",
                                 "parentCode": "C039_3",
+                                "children": [
+                                    {
+                                        "classCode": "C039_340",
+                                        "parentCode": "C039_34",
+                                        "title": "燃烧器"
+                                    },
+                                    {
+                                        "classCode": "C039_341",
+                                        "parentCode": "C039_34",
+                                        "title": "燃烧室"
+                                    },
+                                    {
+                                        "classCode": "C039_342",
+                                        "parentCode": "C039_34",
+                                        "title": "燃气涡轮"
+                                    },
+                                    {
+                                        "classCode": "C039_343",
+                                        "parentCode": "C039_34",
+                                        "title": "火焰筒"
+                                    },
+                                    {
+                                        "classCode": "C039_344",
+                                        "parentCode": "C039_34",
+                                        "title": "燃烧机"
+                                    },
+                                    {
+                                        "classCode": "C039_345",
+                                        "parentCode": "C039_34",
+                                        "title": "其它"
+                                    }
+                                ],
                                 "title": "燃料与燃烧"
                             },
                             {
@@ -1965,6 +2303,23 @@
                     {
                         "classCode": "C039_7",
                         "parentCode": "C039",
+                        "children": [
+                            {
+                                "classCode": "C039_70",
+                                "parentCode": "C039_7",
+                                "title": "水轮机"
+                            },
+                            {
+                                "classCode": "C039_71",
+                                "parentCode": "C039_7",
+                                "title": "水上发电"
+                            },
+                            {
+                                "classCode": "C039_72",
+                                "parentCode": "C039_7",
+                                "title": "其它"
+                            }
+                        ],
                         "title": "水能、水力机械"
                     }
                 ],
@@ -1977,6 +2332,13 @@
                     {
                         "classCode": "C040_1",
                         "parentCode": "C040",
+                        "children": [
+                            {
+                                "classCode": "C040_10",
+                                "parentCode": "C040_1",
+                                "title": "零点电源"
+                            }
+                        ],
                         "title": "原子能技术经济"
                     },
                     {
@@ -1987,11 +2349,55 @@
                     {
                         "classCode": "C040_3",
                         "parentCode": "C040",
+                        "children": [
+                            {
+                                "classCode": "C040_30",
+                                "parentCode": "C040_3",
+                                "title": "采铀方法"
+                            },
+                            {
+                                "classCode": "C040_31",
+                                "parentCode": "C040_3",
+                                "title": "回收铀"
+                            },
+                            {
+                                "classCode": "C040_32",
+                                "parentCode": "C040_3",
+                                "title": "其它"
+                            }
+                        ],
                         "title": "核燃料及其生产"
                     },
                     {
                         "classCode": "C040_4",
                         "parentCode": "C040",
+                        "children": [
+                            {
+                                "classCode": "C040_40",
+                                "parentCode": "C040_4",
+                                "title": "核反应堆"
+                            },
+                            {
+                                "classCode": "C040_41",
+                                "parentCode": "C040_4",
+                                "title": "冷却系统"
+                            },
+                            {
+                                "classCode": "C040_42",
+                                "parentCode": "C040_4",
+                                "title": "控制棒"
+                            },
+                            {
+                                "classCode": "C040_43",
+                                "parentCode": "C040_4",
+                                "title": "堆芯"
+                            },
+                            {
+                                "classCode": "C040_44",
+                                "parentCode": "C040_4",
+                                "title": "其它"
+                            }
+                        ],
                         "title": "核反应堆工程、核电厂"
                     },
                     {

@@ -1,0 +1,499 @@
+[
+    {
+        "classCode": "de",
+        "parentCode": "",
+        "children": [
+            {
+                "classCode": "de0",
+                "parentCode": "de",
+                "children": [
+                    {
+                        "classCode": "de0_0",
+                        "parentCode": "de0",
+                        "title": "数据模型"
+                    },
+                    {
+                        "classCode": "de0_1",
+                        "parentCode": "de0",
+                        "title": "概念模型"
+                    },
+                    {
+                        "classCode": "de0_2",
+                        "parentCode": "de0",
+                        "title": "语义模型"
+                    },
+                    {
+                        "classCode": "de0_3",
+                        "parentCode": "de0",
+                        "title": "知识模型"
+                    },
+                    {
+                        "classCode": "de0_4",
+                        "parentCode": "de0",
+                        "title": "结构化数据"
+                    },
+                    {
+                        "classCode": "de0_5",
+                        "parentCode": "de0",
+                        "title": "形式描述"
+                    },
+                    {
+                        "classCode": "de0_6",
+                        "parentCode": "de0",
+                        "title": "形式意义表示"
+                    },
+                    {
+                        "classCode": "de0_7",
+                        "parentCode": "de0",
+                        "title": "形式语义"
+                    },
+                    {
+                        "classCode": "de0_8",
+                        "parentCode": "de0",
+                        "title": "常识"
+                    },
+                    {
+                        "classCode": "de0_9",
+                        "parentCode": "de0",
+                        "title": "世界知识"
+                    },
+                    {
+                        "classCode": "de0_10",
+                        "parentCode": "de0",
+                        "title": "数据网"
+                    },
+                    {
+                        "classCode": "de0_11",
+                        "parentCode": "de0",
+                        "title": "背景知识"
+                    },
+                    {
+                        "classCode": "de0_12",
+                        "parentCode": "de0",
+                        "title": "领域知识"
+                    },
+                    {
+                        "classCode": "de0_13",
+                        "parentCode": "de0",
+                        "title": "语义网络"
+                    },
+                    {
+                        "classCode": "de0_14",
+                        "parentCode": "de0",
+                        "title": "本体论"
+                    },
+                    {
+                        "classCode": "de0_15",
+                        "parentCode": "de0",
+                        "title": "粗糙集"
+                    },
+                    {
+                        "classCode": "de0_16",
+                        "parentCode": "de0",
+                        "title": "概念图"
+                    },
+                    {
+                        "classCode": "de0_17",
+                        "parentCode": "de0",
+                        "title": "模糊集合"
+                    },
+                    {
+                        "classCode": "de0_18",
+                        "parentCode": "de0",
+                        "title": "基于规则系统"
+                    },
+                    {
+                        "classCode": "de0_19",
+                        "parentCode": "de0",
+                        "title": "语义工作流"
+                    },
+                    {
+                        "classCode": "de0_20",
+                        "parentCode": "de0",
+                        "title": "逻辑编程"
+                    },
+                    {
+                        "classCode": "de0_22",
+                        "parentCode": "de0",
+                        "title": "形式逻辑"
+                    },
+                    {
+                        "classCode": "de0_23",
+                        "parentCode": "de0",
+                        "title": "本体语言"
+                    },
+                    {
+                        "classCode": "de0_24",
+                        "parentCode": "de0",
+                        "title": "网络本体语言"
+                    },
+                    {
+                        "classCode": "de0_25",
+                        "parentCode": "de0",
+                        "title": "语义网规则语言"
+                    },
+                    {
+                        "classCode": "de0_26",
+                        "parentCode": "de0",
+                        "title": "联合本体工程"
+                    },
+                    {
+                        "classCode": "de0_27",
+                        "parentCode": "de0",
+                        "title": "本体开发"
+                    },
+                    {
+                        "classCode": "de0_28",
+                        "parentCode": "de0",
+                        "title": "联合本体开发"
+                    },
+                    {
+                        "classCode": "de0_29",
+                        "parentCode": "de0",
+                        "title": "本体抽取"
+                    },
+                    {
+                        "classCode": "de0_30",
+                        "parentCode": "de0",
+                        "title": "本体演化"
+                    },
+                    {
+                        "classCode": "de0_31",
+                        "parentCode": "de0",
+                        "title": "本体版本"
+                    }
+                ],
+                "title": "知识表示"
+            },
+            {
+                "classCode": "de1",
+                "parentCode": "de",
+                "children": [
+                    {
+                        "classCode": "de1_0",
+                        "parentCode": "de1",
+                        "title": "知识提取"
+                    },
+                    {
+                        "classCode": "de1_1",
+                        "parentCode": "de1",
+                        "title": "知识建构"
+                    },
+                    {
+                        "classCode": "de1_2",
+                        "parentCode": "de1",
+                        "title": "信息提取"
+                    },
+                    {
+                        "classCode": "de1_3",
+                        "parentCode": "de1",
+                        "title": "实体解析"
+                    },
+                    {
+                        "classCode": "de1_4",
+                        "parentCode": "de1",
+                        "title": "实体识别"
+                    },
+                    {
+                        "classCode": "de1_5",
+                        "parentCode": "de1",
+                        "title": "实体消歧"
+                    },
+                    {
+                        "classCode": "de1_6",
+                        "parentCode": "de1",
+                        "title": "语义标注"
+                    },
+                    {
+                        "classCode": "de1_7",
+                        "parentCode": "de1",
+                        "title": "感应规范"
+                    },
+                    {
+                        "classCode": "de1_8",
+                        "parentCode": "de1",
+                        "title": "概念聚类"
+                    },
+                    {
+                        "classCode": "de1_9",
+                        "parentCode": "de1",
+                        "title": "概念学习"
+                    },
+                    {
+                        "classCode": "de1_10",
+                        "parentCode": "de1",
+                        "title": "属性分类规范"
+                    },
+                    {
+                        "classCode": "de1_11",
+                        "parentCode": "de1",
+                        "title": "事件检测"
+                    },
+                    {
+                        "classCode": "de1_12",
+                        "parentCode": "de1",
+                        "title": "事件识别"
+                    },
+                    {
+                        "classCode": "de1_13",
+                        "parentCode": "de1",
+                        "title": "事件抽取"
+                    },
+                    {
+                        "classCode": "de1_14",
+                        "parentCode": "de1",
+                        "title": "关系抽取"
+                    },
+                    {
+                        "classCode": "de1_15",
+                        "parentCode": "de1",
+                        "title": "语义关系学习"
+                    },
+                    {
+                        "classCode": "de1_16",
+                        "parentCode": "de1",
+                        "title": "推理规则"
+                    },
+                    {
+                        "classCode": "de1_17",
+                        "parentCode": "de1",
+                        "title": "规则学习"
+                    }
+                ],
+                "title": "知识获取"
+            },
+            {
+                "classCode": "de2",
+                "parentCode": "de",
+                "children": [
+                    {
+                        "classCode": "de2_0",
+                        "parentCode": "de2",
+                        "title": "实例推理"
+                    },
+                    {
+                        "classCode": "de2_1",
+                        "parentCode": "de2",
+                        "title": "逻辑蕴涵"
+                    },
+                    {
+                        "classCode": "de2_2",
+                        "parentCode": "de2",
+                        "title": "推理机制"
+                    },
+                    {
+                        "classCode": "de2_3",
+                        "parentCode": "de2",
+                        "title": "知识验证"
+                    },
+                    {
+                        "classCode": "de2_4",
+                        "parentCode": "de2",
+                        "title": "语义解释"
+                    },
+                    {
+                        "classCode": "de2_5",
+                        "parentCode": "de2",
+                        "title": "不精确推理"
+                    },
+                    {
+                        "classCode": "de2_6",
+                        "parentCode": "de2",
+                        "title": "因果模型"
+                    },
+                    {
+                        "classCode": "de2_7",
+                        "parentCode": "de2",
+                        "title": "非单调推理"
+                    },
+                    {
+                        "classCode": "de2_8",
+                        "parentCode": "de2",
+                        "title": "空间推理"
+                    },
+                    {
+                        "classCode": "de2_9",
+                        "parentCode": "de2",
+                        "title": "时序推理"
+                    },
+                    {
+                        "classCode": "de2_10",
+                        "parentCode": "de2",
+                        "title": "溯因推理"
+                    },
+                    {
+                        "classCode": "de2_11",
+                        "parentCode": "de2",
+                        "title": "默认推理"
+                    }
+                ],
+                "title": "知识推理"
+            },
+            {
+                "classCode": "de3",
+                "parentCode": "de",
+                "children": [
+                    {
+                        "classCode": "de3_0",
+                        "parentCode": "de3",
+                        "title": "知识融合"
+                    },
+                    {
+                        "classCode": "de3_1",
+                        "parentCode": "de3",
+                        "title": "语义集成"
+                    },
+                    {
+                        "classCode": "de3_2",
+                        "parentCode": "de3",
+                        "title": "数据融合"
+                    },
+                    {
+                        "classCode": "de3_3",
+                        "parentCode": "de3",
+                        "title": "本体不一致"
+                    },
+                    {
+                        "classCode": "de3_4",
+                        "parentCode": "de3",
+                        "title": "异构本体"
+                    },
+                    {
+                        "classCode": "de3_5",
+                        "parentCode": "de3",
+                        "title": "互用性本体"
+                    },
+                    {
+                        "classCode": "de3_6",
+                        "parentCode": "de3",
+                        "title": "本体映射"
+                    },
+                    {
+                        "classCode": "de3_7",
+                        "parentCode": "de3",
+                        "title": "本体匹配"
+                    },
+                    {
+                        "classCode": "de3_8",
+                        "parentCode": "de3",
+                        "title": "模式映射"
+                    },
+                    {
+                        "classCode": "de3_9",
+                        "parentCode": "de3",
+                        "title": "模式匹配"
+                    },
+                    {
+                        "classCode": "de3_10",
+                        "parentCode": "de3",
+                        "title": "匹配函数"
+                    },
+                    {
+                        "classCode": "de3_11",
+                        "parentCode": "de3",
+                        "title": "实例匹配"
+                    },
+                    {
+                        "classCode": "de3_12",
+                        "parentCode": "de3",
+                        "title": "日期链接"
+                    },
+                    {
+                        "classCode": "de3_13",
+                        "parentCode": "de3",
+                        "title": "日期互联"
+                    },
+                    {
+                        "classCode": "de3_14",
+                        "parentCode": "de3",
+                        "title": "记录链接"
+                    },
+                    {
+                        "classCode": "de3_15",
+                        "parentCode": "de3",
+                        "title": "同义对齐"
+                    }
+                ],
+                "title": "知识集成"
+            },
+            {
+                "classCode": "de4",
+                "parentCode": "de",
+                "children": [
+                    {
+                        "classCode": "de4_0",
+                        "parentCode": "de4",
+                        "title": "三元组存储"
+                    },
+                    {
+                        "classCode": "de4_1",
+                        "parentCode": "de4",
+                        "title": "资源描述框架数据库"
+                    },
+                    {
+                        "classCode": "de4_2",
+                        "parentCode": "de4",
+                        "title": "资源描述框架存储"
+                    },
+                    {
+                        "classCode": "de4_3",
+                        "parentCode": "de4",
+                        "title": "图数据库"
+                    },
+                    {
+                        "classCode": "de4_4",
+                        "parentCode": "de4",
+                        "title": "完整索引"
+                    },
+                    {
+                        "classCode": "de4_5",
+                        "parentCode": "de4",
+                        "title": "查询语言"
+                    },
+                    {
+                        "classCode": "de4_6",
+                        "parentCode": "de4",
+                        "title": "合取查询"
+                    },
+                    {
+                        "classCode": "de4_7",
+                        "parentCode": "de4",
+                        "title": "资源描述框架查询"
+                    },
+                    {
+                        "classCode": "de4_8",
+                        "parentCode": "de4",
+                        "title": "图查询"
+                    },
+                    {
+                        "classCode": "de4_9",
+                        "parentCode": "de4",
+                        "title": "查询重写"
+                    },
+                    {
+                        "classCode": "de4_10",
+                        "parentCode": "de4",
+                        "title": "分布式查询"
+                    },
+                    {
+                        "classCode": "de4_11",
+                        "parentCode": "de4",
+                        "title": "子图匹配"
+                    },
+                    {
+                        "classCode": "de4_12",
+                        "parentCode": "de4",
+                        "title": "图划分"
+                    },
+                    {
+                        "classCode": "de4_13",
+                        "parentCode": "de4",
+                        "title": "数据划分"
+                    }
+                ],
+                "title": "知识存储"
+            }
+        ],
+        "title": "知识工程"
+    }
+]

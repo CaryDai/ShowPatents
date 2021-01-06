@@ -127,5 +127,6 @@
         position: absolute;
         bottom: -40px;
         left: 40%;
+        /* width: 40%; */
     }
 </style>

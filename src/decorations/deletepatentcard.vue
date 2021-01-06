@@ -1,3 +1,4 @@
+<!-- 编辑专利的卡片 -->
 <template>
     <div class="card">
         <div v-if="!deleted" class="titleAndBtn">
@@ -57,7 +58,6 @@
              * 删除不感兴趣的专利
              */ 
             deleteNotInterestPatent() {
-                console.log(this.patent);
                 this.deleted = true;
             },
             recover() {

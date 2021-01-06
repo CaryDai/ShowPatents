@@ -1,0 +1,359 @@
+[
+    {
+        "classCode": "mat",
+        "parentCode": "",
+        "children": [
+            {
+                "classCode": "mat01",
+                "parentCode": "mat",
+                "children": [
+                    {
+                        "classCode": "mat01_0",
+                        "parentCode": "mat01",
+                        "children": [
+                            {
+                                "classCode": "mat01_00",
+                                "parentCode": "mat01_0",
+                                "title": "先进钢铁材料"
+                            },
+                            {
+                                "classCode": "mat01_01",
+                                "parentCode": "mat01_0",
+                                "title": "先进有色金属材料"
+                            },
+                            {
+                                "classCode": "mat01_02",
+                                "parentCode": "mat01_0",
+                                "title": "先进化工材料"
+                            },
+                            {
+                                "classCode": "mat01_03",
+                                "parentCode": "mat01_0",
+                                "title": "先进建筑材料"
+                            },
+                            {
+                                "classCode": "mat01_04",
+                                "parentCode": "mat01_0",
+                                "title": "先进轻纺材料"
+                            }
+                        ],
+                        "title": "先进基础材料"
+                    },
+                    {
+                        "classCode": "mat01_1",
+                        "parentCode": "mat01",
+                        "children": [
+                            {
+                                "classCode": "mat01_10",
+                                "parentCode": "mat01_1",
+                                "title": "高端装备用特种合金"
+                            },
+                            {
+                                "classCode": "mat01_11",
+                                "parentCode": "mat01_1",
+                                "title": "高性能分离膜"
+                            },
+                            {
+                                "classCode": "mat01_12",
+                                "parentCode": "mat01_1",
+                                "title": "高性能纤维及复合材料"
+                            },
+                            {
+                                "classCode": "mat01_13",
+                                "parentCode": "mat01_1",
+                                "title": "新型能源材料"
+                            },
+                            {
+                                "classCode": "mat01_14",
+                                "parentCode": "mat01_1",
+                                "title": "稀土功能材料"
+                            },
+                            {
+                                "classCode": "mat01_15",
+                                "parentCode": "mat01_1",
+                                "title": "先进半导体材料"
+                            },
+                            {
+                                "classCode": "mat01_16",
+                                "parentCode": "mat01_1",
+                                "title": "新型显示材料"
+                            },
+                            {
+                                "classCode": "mat01_17",
+                                "parentCode": "mat01_1",
+                                "title": "生物医用材料"
+                            },
+                            {
+                                "classCode": "mat01_18",
+                                "parentCode": "mat01_1",
+                                "title": "新型功能材料"
+                            }
+                        ],
+                        "title": "关键战略材料"
+                    },
+                    {
+                        "classCode": "mat01_2",
+                        "parentCode": "mat01",
+                        "children": [
+                            {
+                                "classCode": "mat01_20",
+                                "parentCode": "mat01_2",
+                                "title": "3D打印材料"
+                            },
+                            {
+                                "classCode": "mat01_21",
+                                "parentCode": "mat01_2",
+                                "title": "新型超导材料"
+                            },
+                            {
+                                "classCode": "mat01_22",
+                                "parentCode": "mat01_2",
+                                "title": "液态金属"
+                            },
+                            {
+                                "classCode": "mat01_23",
+                                "parentCode": "mat01_2",
+                                "title": "智能复合材料"
+                            },
+                            {
+                                "classCode": "mat01_24",
+                                "parentCode": "mat01_2",
+                                "title": "超材料"
+                            },
+                            {
+                                "classCode": "mat01_25",
+                                "parentCode": "mat01_2",
+                                "title": "仿生材料"
+                            },
+                            {
+                                "classCode": "mat01_26",
+                                "parentCode": "mat01_2",
+                                "title": "纳米材料"
+                            },
+                            {
+                                "classCode": "mat01_27",
+                                "parentCode": "mat01_2",
+                                "title": "极端环境材料"
+                            }
+                        ],
+                        "title": "前沿新材料"
+                    }
+                ],
+                "title": "新材料体系分类"
+            },
+            {
+                "classCode": "mat02",
+                "parentCode": "mat",
+                "children": [
+                    {
+                        "classCode": "mat02_0",
+                        "parentCode": "mat02",
+                        "children": [
+                            {
+                                "classCode": "mat02_01",
+                                "parentCode": "mat02_0",
+                                "title": "钢铁"
+                            },
+                            {
+                                "classCode": "mat02_02",
+                                "parentCode": "mat02_0",
+                                "title": "有色金属材料"
+                            },
+                            {
+                                "classCode": "mat02_03",
+                                "parentCode": "mat02_0",
+                                "title": "金属功能材料"
+                            },
+                            {
+                                "classCode": "mat02_04",
+                                "parentCode": "mat02_0",
+                                "title": "特殊用途金属材料"
+                            },
+                            {
+                                "classCode": "mat02_05",
+                                "parentCode": "mat02_0",
+                                "title": "粉末冶金材料"
+                            }
+                        ],
+                        "title": "金属材料"
+                    },
+                    {
+                        "classCode": "mat02_1",
+                        "parentCode": "mat02",
+                        "children": [
+                            {
+                                "classCode": "mat02_10",
+                                "parentCode": "mat02_1",
+                                "title": "晶体材料"
+                            },
+                            {
+                                "classCode": "mat02_11",
+                                "parentCode": "mat02_1",
+                                "title": "传统陶瓷"
+                            },
+                            {
+                                "classCode": "mat02_12",
+                                "parentCode": "mat02_1",
+                                "title": "先进陶瓷"
+                            },
+                            {
+                                "classCode": "mat02_13",
+                                "parentCode": "mat02_1",
+                                "title": "玻璃"
+                            },
+                            {
+                                "classCode": "mat02_14",
+                                "parentCode": "mat02_1",
+                                "title": "无机涂层及薄膜"
+                            },
+                            {
+                                "classCode": "mat02_15",
+                                "parentCode": "mat02_1",
+                                "title": "耐火材料"
+                            },
+                            {
+                                "classCode": "mat02_16",
+                                "parentCode": "mat02_1",
+                                "title": "胶凝材料及混凝土"
+                            },
+                            {
+                                "classCode": "mat02_17",
+                                "parentCode": "mat02_1",
+                                "title": "碳材料"
+                            }
+                        ],
+                        "title": "无机非金属材料"
+                    },
+                    {
+                        "classCode": "mat02_2",
+                        "parentCode": "mat02",
+                        "children": [
+                            {
+                                "classCode": "mat02_20",
+                                "parentCode": "mat02_2",
+                                "title": "塑料"
+                            },
+                            {
+                                "classCode": "mat02_21",
+                                "parentCode": "mat02_2",
+                                "title": "橡胶"
+                            },
+                            {
+                                "classCode": "mat02_22",
+                                "parentCode": "mat02_2",
+                                "title": "纤维"
+                            },
+                            {
+                                "classCode": "mat02_23",
+                                "parentCode": "mat02_2",
+                                "title": "有机硅材料"
+                            },
+                            {
+                                "classCode": "mat02_24",
+                                "parentCode": "mat02_2",
+                                "title": "有机氟材料"
+                            },
+                            {
+                                "classCode": "mat02_25",
+                                "parentCode": "mat02_2",
+                                "title": "功能高分子材料"
+                            },
+                            {
+                                "classCode": "mat02_26",
+                                "parentCode": "mat02_2",
+                                "title": "胶凝剂与涂料"
+                            }
+                        ],
+                        "title": "有机高分子材料"
+                    },
+                    {
+                        "classCode": "mat02_3",
+                        "parentCode": "mat02",
+                        "children": [
+                            {
+                                "classCode": "mat02_30",
+                                "parentCode": "mat02_3",
+                                "title": "聚合物基复合材料"
+                            },
+                            {
+                                "classCode": "mat02_31",
+                                "parentCode": "mat02_3",
+                                "title": "金属基复合材料"
+                            },
+                            {
+                                "classCode": "mat02_32",
+                                "parentCode": "mat02_3",
+                                "title": "陶瓷基复合材料"
+                            },
+                            {
+                                "classCode": "mat02_33",
+                                "parentCode": "mat02_3",
+                                "title": "功能复合材料"
+                            }
+                        ],
+                        "title": "复合材料"
+                    }
+                ],
+                "title": "材料专业分类"
+            },
+            {
+                "classCode": "mat03",
+                "parentCode": "mat",
+                "children": [
+                    {
+                        "classCode": "mat03_0",
+                        "parentCode": "mat03",
+                        "title": "电力装备材料"
+                    },
+                    {
+                        "classCode": "mat03_1",
+                        "parentCode": "mat03",
+                        "title": "生物医药及高性能医疗器械材料"
+                    },
+                    {
+                        "classCode": "mat03_2",
+                        "parentCode": "mat03",
+                        "title": "节能环保材料"
+                    },
+                    {
+                        "classCode": "mat03_3",
+                        "parentCode": "mat03",
+                        "title": "工程机械及农机装备材料"
+                    },
+                    {
+                        "classCode": "mat03_4",
+                        "parentCode": "mat03",
+                        "title": "新一代信息技术产业用材料"
+                    },
+                    {
+                        "classCode": "mat03_5",
+                        "parentCode": "mat03",
+                        "title": "高档数控机床和机器人材料"
+                    },
+                    {
+                        "classCode": "mat03_6",
+                        "parentCode": "mat03",
+                        "title": "航空航天装备材料"
+                    },
+                    {
+                        "classCode": "mat03_7",
+                        "parentCode": "mat03",
+                        "title": "海洋工程装备及高技术船舶用材料"
+                    },
+                    {
+                        "classCode": "mat03_8",
+                        "parentCode": "mat03",
+                        "title": "先进轨道交通装备材料"
+                    },
+                    {
+                        "classCode": "mat03_9",
+                        "parentCode": "mat03",
+                        "title": "节能与新能源汽车材料"
+                    }
+                ],
+                "title": "材料应用分类"
+            }
+        ],
+        "title": "材料"
+    }
+]

@@ -3,7 +3,8 @@
     <div>
         <Row>
             <Col span="24">
-            <Select v-on:showClassCodes="getClassCodes($event)" />
+                <!-- 选择器，showClassCodes事件触发，调用getClassCodes方法 -->
+                <Select v-on:showClassCodes="getClassCodes($event)" />
             </Col>
         </Row>
         <Row>
@@ -17,16 +18,15 @@
         </Row>
         <Modal
             v-model="showModal"
-            title="该分类下专利信息"
             @on-ok="ok"
             @on-cancel="cancel">
+            <p slot="header" style="text-align:center">
+                <span>{{nodeName}}下专利信息（10条）</span>
+            </p>
             <p v-if="patentArray.length == 0">暂无专利数据</p>
             <div v-for="(patent, index) in patentArray">
-                <p>{{index+1}}. {{patent.name}}</p>
+                <a href="javascript:void(0);" @click="gotoPatentDetail(patent)">{{index+1}}. {{patent.name}}</a>
             </div>
-            <!-- <p v-if="patentArray.length >= 1">1.{{ patentArray[0].name }}</p>
-            <p v-if="patentArray.length >= 2">2.{{ patentArray[1].name }}</p>
-            <p v-if="patentArray.length >= 3">3.{{ patentArray[2].name }}</p> -->
         </Modal>
     </div>
 </template>
@@ -62,6 +62,8 @@
                 allNodes: [],
                 // 存储所有边
                 allLinks: [],
+                // 右击的节点名
+                nodeName: "",
                 // 右击事件后得到的专利数组
                 patentArray: [],
                 // 是否显示对话框
@@ -77,6 +79,10 @@
                 // 基于准备好的dom，初始化echarts实例。每个 echarts 实例独占一个 DOM 节点。
                 this.myChart = echarts.init(document.getElementById("myChart"));
             },
+            // 查看专利详情
+            gotoPatentDetail(patent) {
+                this.$store.commit('gotoPatentDetail', patent);
+            },
             getClassCodes(classCodes) {
                 this.codesList = classCodes
                 // console.log(this.codesList)
@@ -91,7 +97,7 @@
             handleData(codesList) {
                 for (var i = 0; i < codesList.length; i++) {
                     var node = new Object();
-                    // echarts画图需要的属性
+                    // 添加echarts画图需要的属性
                     node.name = codesList[i].className;
                     node.value = codesList[i].className;
                     node.draggable = true;
@@ -134,9 +140,7 @@
                     // 提示框组件
                     tooltip: {
                         show: true,
-                        // formatter: function(data) {
-                        //     // console.log(data)
-                        // }
+                        formatter: '{b}<br />- 左键展开或收起节点<br />- 右键查看专利信息'
                     },
                     // 系列（series）是指：一组数值以及他们映射成的图。
                     // echarts 里系列类型（series.type）就是图表类型。系列类型（series.type）至少有：line（折线图）、bar（柱状图）、pie（饼图）、scatter（散点图）、graph（关系图）、tree（树图）
@@ -181,36 +185,7 @@
                         "yAxisIndex": 0,
                         "z": 2,     // 组件的所有图形的z值。控制图形的前后顺序。z值小的图形会被z值大的图形覆盖。
                         // 关系图的节点数据列表
-                        "data": this.allNodes,
-                        // "data": [
-                        //     {
-                        //         "name": "基础科学",
-                        //         "symbolSize": 60,
-                        //         "value": "基础科学",
-                        //         "category": 0,
-                        //         "draggable": true,      // 节点是否可拖拽，只在使用力引导布局的时候有用。
-                        //         "legendName": "一级主题",
-                        //         "nodeType": 1
-                        //     },
-                        //     {
-                        //         "name": "自然科学理论与方法",
-                        //         "symbolSize": 40,
-                        //         "value": "自然科学理论与方法",
-                        //         "category": -1,
-                        //         "draggable": true,
-                        //         "legendName": "二级主题",
-                        //         "nodeType": 1
-                        //     },
-                        //     {
-                        //         "name": "自然科学研究的方针政策",
-                        //         "symbolSize": 20,
-                        //         "value": "自然科学研究的方针政策",
-                        //         "category": -2,
-                        //         "draggable": true,
-                        //         "legendName": "三级主题",
-                        //         "nodeType": 1
-                        //     }
-                        // ]
+                        "data": this.allNodes
                     }],
                     "legend": {
                         "data": [
@@ -243,17 +218,18 @@
                 // 鼠标右击事件，显示专利信息
                 chart.on('contextmenu', function (params) {
                     console.log(params);
+                    that.nodeName = params.name;
                     that.showModal = true;
                     let classCode = params.data.classCode;
                     that.axios.get('http://localhost:8081/classcodes/getPatentsByClassIdPrefix', {
                         params: {
                             classId: classCode,
                             pageNo: 1,
-                            queryNum: 6
+                            queryNum: 10
                         }
                     })
                     .then((response) => {
-                        that.patentArray = response.data
+                        that.patentArray = response.data;
                         console.log(that.patentArray);
                     })
                     .catch((error) => {
@@ -329,6 +305,8 @@
     }
 </script>
 
-<style>
-
+<style scoped>
+    a:hover {
+        color:#000000;
+    }
 </style>
