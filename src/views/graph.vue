@@ -13,7 +13,7 @@
             </Col> -->
             <Col span="24">
                 <!-- 阻止鼠标右击事件 -->
-                <div id="myChart" :style="{height: '100vh', margin: '0 auto'}" @contextmenu.prevent></div>
+                <div id="myChart" :style="{height: '110vh', margin: '0 auto'}" @contextmenu.prevent></div>
             </Col>
         </Row>
         <Modal
@@ -134,7 +134,6 @@
             },
             draw() {
                 let myChart = this.myChart;
-                let that = this;
                 // 指定图表的配置项和数据。（option中存储各个组件）
                 let option = {
                     // 提示框组件
@@ -219,8 +218,9 @@
                 chart.on('contextmenu', function (params) {
                     console.log(params);
                     that.nodeName = params.name;
-                    that.showModal = true;
                     let classCode = params.data.classCode;
+                    that.$store.commit('getRightClickClassCode',classCode);
+                    that.showModal = true;
                     that.axios.get('http://localhost:8081/classcodes/getPatentsByClassIdPrefix', {
                         params: {
                             classId: classCode,

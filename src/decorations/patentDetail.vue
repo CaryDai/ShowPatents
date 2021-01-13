@@ -2,7 +2,7 @@
 <template>
     <div style="margin-left: 10px;">
         <Row>
-            <Col span="16">
+            <Col span="16" style="overflow: hidden;">
                 <Row>
                     <Col>
                         <div style="margin-bottom: 10px;">
@@ -38,7 +38,12 @@
             </Col>
             <Col span="8" class="patent-right">
                 <h4 class="h4">相似专利</h4>
-                暂无相关专利
+                <div v-if="similarPatents.length > 0" v-for="(patent,index) in similarPatents" class="astyle">
+                    <a href="javascript:void(0);" @click="getPatentDetailAndSimilarPatents(patent.publicationNo,currentClassCode)" style="font-size: large;">
+                        {{index+1}}. {{patent.name}}
+                    </a>
+                </div>
+                <div v-else>暂无相关专利</div>
             </Col>
         </Row>
     </div>
@@ -49,21 +54,35 @@
         name: "patentDetail",
         data() {
             return {
-                routerParams: "",
-                patent: ""
+                routerParams: {},
+                patent: "",
+                similarPatents: [],
+                currentClassCode: '',
+                isRouterAlive: true
             }
         },
         created() {
             this.getParams();
         },
         methods: {
-            // 接收上一个页面传过来的参数
+            /**
+             * 接收上一个页面传过来的参数
+             */
             getParams() {
-                this.routerParams = this.$route.query.publicationNO
-                console.log(this.routerParams)
-                this.getPatentDetail(this.routerParams)
+                this.routerParams.publicationNO = this.$route.query.publicationNO;
+                this.routerParams.classCode = this.$route.query.classCode;
+                this.currentClassCode = this.$route.query.classCode;
+                console.log(this.routerParams);
+                this.getPatentDetailAndSimilarPatents(this.routerParams.publicationNO,this.routerParams.classCode);
             },
-            // 根据公开号查询专利详细信息
+            getPatentDetailAndSimilarPatents(publicationNO,classCode) {
+                this.getPatentDetail(publicationNO);
+                this.getSimilarPatents(publicationNO,classCode);
+                this.reload();
+            },
+            /**
+             * 根据公开号查询专利详细信息
+             */
             getPatentDetail(publicationNO) {
                 this.axios.get('http://localhost:8081/classcodes/getPatentDetail', {
                     params: {
@@ -76,6 +95,34 @@
                 })
                 .catch((error) => {
                     console.log(error)
+                })
+            },
+            /**
+             * 查询相似专利
+             */
+            getSimilarPatents(publicationNO,classCode) {
+                console.log(classCode);
+                this.axios.get('http://localhost:8081/classcodes/getSimilarPatents', {
+                    params: {
+                        publicationNO: publicationNO,
+                        classCode: classCode
+                    }
+                })
+                .then((response) => {
+                    console.log(response.data);
+                    this.similarPatents = response.data;
+                })
+                .catch((error) => {
+                    console.log(error)
+                })
+            },
+            /**
+             * 刷新页面
+             */ 
+            reload() {
+                this.isRouterAlive = false;
+                this.$nextTick(function(){
+                    this.isRouterAlive = true;
                 })
             }
         },

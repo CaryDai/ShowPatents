@@ -11,7 +11,7 @@
                 <div v-if="!searching">
                     <div v-if="patentArray.length > 0">
                         <div v-for="(patent, index) in patentArray">
-                            <DeletePatentCard :patent="patent" />
+                            <DeletePatentCard :patent="patent" :patentCheckNodesMap="patentCheckNodesMap" />
                         </div>
                         <div style="margin-top: 75px;">
                             <Page :total="100" show-total class="page" @on-change="handlePageChange" />
@@ -79,10 +79,7 @@
                 // 专题库名称
                 subjectName: '',
                 // 用户关于专题库的描述信息
-                analyzeText: this.$store.state.analyzeText,
-                // 专题库名称
-                // subjectName: '专题库1',
-                // // 用户关于专题库的描述信息
+                analyzeText: this.$store.state.analyzeText
                 // analyzeText: '第一个专题库'
             }
         },
@@ -126,6 +123,9 @@
             }
         },
         methods: {
+            /**
+             * 页码变化时的搜索
+             */ 
             handlePageChange(data) {
                 if (!this.searching) {
                     let classCode = this.editNodes[0].classCode;
@@ -182,11 +182,13 @@
                     })
                 }
             },
-            // 根据关键词搜索专利
+            /**
+             * 根据关键词搜索专利
+             */ 
             searchByKeyWords(data) {
+                this.searching = true;
                 console.log(data);
                 this.keyword = data;
-                this.searching = true;
                 this.axios.get('https://api.itech4u.cn/api/search/doc/patent', {
                     params: {
                         current: 1,
@@ -204,7 +206,11 @@
                     console.log(error)
                 })
             },
+            /**
+             * 根据点击的节点搜索专利
+             */ 
             searchPatents(TreeNode) {
+                this.searching = false;
                 console.log(TreeNode[0].classCode);
                 let classCode = TreeNode[0].classCode;
                 if (TreeNode[0].children) {

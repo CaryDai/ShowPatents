@@ -37,13 +37,13 @@
 				<div>
 					<p style="font-size: large;">
 						您可以在下面输入框中输入您自己专题库的描述信息并点击“<span style="color: #2d8cf0;">分析</span>”按钮，<br/>
-						我们将为您推荐相关分类。
+						我们将为您定位到相关分类。
 					</p>
-					<Input v-model="analyzeText" maxlength="50" show-word-limit type="textarea" placeholder="输入专题库的描述信息(如：一个关于新能源领域的专题库)" style="width: 550px" />
+					<Input v-model="analyzeText" maxlength="50" show-word-limit type="textarea" placeholder="输入专题库的描述信息(如：一个关于新能源领域的专题库)" style="width: 550px; margin-top: 30px;" />
 					<div style="margin-top: 10px; text-align: center;">
-						<Button type="primary">分析</Button>
+						<Button type="primary" @click="analyze">分析</Button>
 					</div>
-					<p style="color: #2d8cf0; font-size: large; margin: 10px 0;">或者</p>
+					<p style="color: #2d8cf0; font-size: large; margin: 20px 0;">或者</p>
 					<p style="font-size: large;">
 						您也可以直接从左侧分类中点击感兴趣的分类进行编辑。
 					</p>
@@ -82,7 +82,162 @@
 			return {
 				selectedNodes: this.$store.state.selectedNodes,
 				editNodes: this.$store.state.editNodes,
-				analyzeText: this.$store.state.analyzeText
+				analyzeText: this.$store.state.analyzeText,
+				state: this.$store.state.currentStep,
+				newEnergy01: {
+					"classCode": "C041",
+					"parentCode": "C",
+					"children": [
+						{
+							"classCode": "C041_1",
+							"parentCode": "C041",
+							"title": "太阳能"
+						},
+						{
+							"classCode": "C041_2",
+							"parentCode": "C041",
+							"title": "风能"
+						},
+						{
+							"classCode": "C041_3",
+							"parentCode": "C041",
+							"title": "生物质能"
+						},
+						{
+							"classCode": "C041_4",
+							"parentCode": "C041",
+							"title": "地热能"
+						},
+						{
+							"classCode": "C041_5",
+							"parentCode": "C041",
+							"title": "海洋能"
+						},
+						{
+							"classCode": "C041_6",
+							"parentCode": "C041",
+							"title": "化学能"
+						},
+						{
+							"classCode": "C041_7",
+							"parentCode": "C041",
+							"title": "天然气水合物"
+						},
+						{
+							"classCode": "C041_8",
+							"parentCode": "C041",
+							"title": "原子能"
+						}
+					],
+					"title": "新能源"
+				},
+				ai: {
+                "classCode": "it7",
+                "parentCode": "it",
+                "children": [
+                    {
+                        "classCode": "it7_0",
+                        "parentCode": "it7",
+                        "title": "人工智能技术"
+                    },
+                    {
+                        "classCode": "it7_1",
+                        "parentCode": "it7",
+                        "title": "人工智能应用"
+                    },
+                    {
+                        "classCode": "it7_2",
+                        "parentCode": "it7",
+                        "title": "人工智能理论"
+                    },
+                    {
+                        "classCode": "it7_3",
+                        "parentCode": "it7",
+                        "title": "强人工智能"
+                    },
+                    {
+                        "classCode": "it7_4",
+                        "parentCode": "it7",
+                        "title": "弱人工智能"
+                    },
+                    {
+                        "classCode": "it7_5",
+                        "parentCode": "it7",
+                        "title": "超人工智能"
+                    },
+                    {
+                        "classCode": "it7_6",
+                        "parentCode": "it7",
+                        "title": "第五代计算机"
+                    },
+                    {
+                        "classCode": "it7_7",
+                        "parentCode": "it7",
+                        "title": "第六代计算机"
+                    },
+                    {
+                        "classCode": "it7_8",
+                        "parentCode": "it7",
+                        "title": "机器学习"
+                    },
+                    {
+                        "classCode": "it7_9",
+                        "parentCode": "it7",
+                        "title": "遗传算法"
+                    },
+                    {
+                        "classCode": "it7_10",
+                        "parentCode": "it7",
+                        "title": "模式识别"
+                    },
+                    {
+                        "classCode": "it7_11",
+                        "parentCode": "it7",
+                        "title": "知识获取"
+                    },
+                    {
+                        "classCode": "it7_12",
+                        "parentCode": "it7",
+                        "title": "未来计算"
+                    },
+                    {
+                        "classCode": "it7_13",
+                        "parentCode": "it7",
+                        "title": "数字基建"
+                    },
+                    {
+                        "classCode": "it7_14",
+                        "parentCode": "it7",
+                        "title": "通用人工智能"
+                    },
+                    {
+                        "classCode": "it7_15",
+                        "parentCode": "it7",
+                        "title": "人工智能+5G"
+                    },
+                    {
+                        "classCode": "it7_16",
+                        "parentCode": "it7",
+                        "title": "人工智能+物联网"
+                    },
+                    {
+                        "classCode": "it7_17",
+                        "parentCode": "it7",
+                        "title": "智能数据中心"
+                    },
+                    {
+                        "classCode": "it7_18",
+                        "parentCode": "it7",
+                        "title": "人工神经网络"
+                    },
+                    {
+                        "classCode": "it7_19",
+                        "parentCode": "it7",
+                        "title": "人工智能算法"
+                    }
+                ],
+                "title": "人工智能"
+            }
 			}
 		},
 		computed: {
@@ -101,11 +256,15 @@
 			EditPatent
 		},
 		methods: {
-			// selectedClass(obj) {
-			// 	this.selectedNodes.push(obj);
-			// 	console.log(this.selectedNodes);
-			// 	this.currentStep = 1;
-			// }
+			/**
+			 * 对专题库的描述信息进行分析，定位到相关分类
+			 */ 
+			analyze() {
+				let obj = {};
+				obj.recommendClassCode = this.newEnergy01;
+				obj.text = this.analyzeText;
+				this.$store.commit('goAnalyzing',obj)
+			}
 		},
 	}
 </script>

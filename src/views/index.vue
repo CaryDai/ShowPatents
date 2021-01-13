@@ -117,7 +117,7 @@
                             </a>
                             <DropdownMenu slot="list">
                                 <DropdownItem name="mysubject">我的专题库</DropdownItem>
-                                <DropdownItem>退出</DropdownItem>
+                                <DropdownItem name="logout">退出</DropdownItem>
                             </DropdownMenu>
                         </Dropdown>
                     </div>
@@ -132,7 +132,7 @@
                         </div>
                     </Card>
                 </Content>
-                <Footer class="layout-footer-center ivu-layout-footer">2017-2020 &copy; 佐创智推</Footer>
+                <Footer class="layout-footer-center ivu-layout-footer">2017-2021 &copy; 佐创智推</Footer>
             </Layout>
         </Layout>
     </div>
@@ -164,7 +164,12 @@
             },
             routerToMySubject(itemName) {
                 console.log(itemName);
-                this.$router.push('/mysubjects');
+                if (itemName === 'mysubject') {
+                    this.$router.push('/mysubjects');
+                } else {
+                    console.log("111");
+                    this.$router.push('/login');
+                }
             }
         }
     }

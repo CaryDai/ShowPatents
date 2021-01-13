@@ -42,6 +42,8 @@ router.afterEach((to, from, next) => {
 const store = new Vuex.Store({
     // state保存组件的公共状态
     state: {
+        // graph中右击节点的节点classCode，这个参数用户查找相似专利
+        nodeClassCode: "",
         // 用户关于专题库的描述信息
         analyzeText: '',
         // 记录当前的步骤
@@ -85,21 +87,35 @@ const store = new Vuex.Store({
                     ViewUI.Message.error('验证失败!');
                 });
         },
-        // 本方法在用户点击要选择的分类时被触发
+        /**
+         * 本方法在用户点击要选择的分类时被触发
+         * @param {*} state 
+         * @param {*} obj 
+         */
         selectClass(state, obj) {
             state.selectedNodes.push(obj);
             state.editNodes = state.selectedNodes;
             state.currentStep = 1;
         },
-        // 本方法在用户点击编辑完成按钮时被触发
+        goAnalyzing(state, obj) {
+            state.analyzeText = obj.text
+            console.log(obj.text);
+            state.editNodes.push(obj.recommendClassCode)
+            state.currentStep = 1;
+        },
+        /**
+         * 本方法在第二步用户点击编辑完成按钮时被触发
+         * @param {*} state 
+         * @param {*} nodes 
+         */
         submitCustomClass(state, nodes) {
             state.editNodes = nodes;
             console.log(state.editNodes);
+            state.currentStep = 2;
             console.log(typeof(state.editNodes[0]));
-            // 用户专题号 = 手机号后四位 + 顶层节点分类号
+            // 用户专题号 = 第几个专题（后端加） + 手机号后四位 + 顶层节点分类号
             const user_subject = state.userState.telephone.slice(-4) + nodes[0].classCode;
             const updateData = {
-                "telephone": state.userState.telephone,
                 "userSubject": user_subject
             };
             const options = {
@@ -123,45 +139,61 @@ const store = new Vuex.Store({
                     ViewUI.Message.error('添加失败');
                 });
             
-            const requestEditNode = {};
-            requestEditNode.classCode = state.editNodes[0].classCode;
-            requestEditNode.parentCode = state.editNodes[0].parentCode;
-            requestEditNode.title = state.editNodes[0].title;
-            requestEditNode.children = state.editNodes[0].children;
-            const requestData = JSON.stringify(requestEditNode);
-            const secoptions = {
-                method: 'post',
-                headers: { 'content-type': 'application/json' },
-                data: requestData,
-                url: 'http://localhost:8081/user/updateUserSubjects'
-            };
-            // 更新user_subjects表
-            axios(secoptions)
-                .then((res) => {
-                    console.log(res);
-                    if (res.data == "True") {
-                        ViewUI.Message.success('添加成功');
-                    } else {
+            setTimeout(function () {
+                const requestEditNode = {};
+                requestEditNode.classCode = state.editNodes[0].classCode;
+                requestEditNode.parentCode = state.editNodes[0].parentCode;
+                requestEditNode.title = state.editNodes[0].title;
+                requestEditNode.children = state.editNodes[0].children;
+                const requestData = JSON.stringify(requestEditNode);
+                const secoptions = {
+                    method: 'post',
+                    headers: { 'content-type': 'application/json' },
+                    data: requestData,
+                    url: 'http://localhost:8081/user/updateUserSubjects'
+                };
+                // 更新user_subjects表
+                axios(secoptions)
+                    .then((res) => {
+                        console.log(res);
+                        if (res.data == "True") {
+                            ViewUI.Message.success('添加成功');
+                        } else {
+                            ViewUI.Message.error('添加失败');
+                        }
+                    })
+                    .catch((e) => {
+                        console.log(e);
                         ViewUI.Message.error('添加失败');
-                    }
-                })
-                .catch((e) => {
-                    console.log(e);
-                    ViewUI.Message.error('添加失败');
-                });
-            
-            state.currentStep = 2;
+                    });
+                
+                state.currentStep = 2;
+            }, 1000);
         },
-        // 查看专利详细信息，必须传state参数
+        /**
+         * 得到右击节点的classCode
+         * @param {*} state 
+         * @param {从graph传递过来的右击节点号} nodeClassCode 
+         */
+        getRightClickClassCode(state, nodeClassCode) {
+            state.nodeClassCode = nodeClassCode;
+            console.log(state.nodeClassCode)
+        },
+        /**
+         * 查看专利详细信息，必须传state参数
+         * @param {*} state 
+         * @param {从graph传递过来的专利} patent 
+         */
         gotoPatentDetail(state, patent) {
-            console.log(patent)
+            console.log(patent);
             router.push({
                 path: '/patentDetail',
                 query: {
-                    publicationNO: patent.publicationNO
+                    publicationNO: patent.publicationNO,
+                    classCode: state.nodeClassCode
                 }
             });
-        }
+        },
     }
 });
 
