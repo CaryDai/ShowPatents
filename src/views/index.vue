@@ -84,14 +84,18 @@
     <div class="layout">
         <Layout>
             <Sider ref="side1" hide-trigger breakpoint="md" collapsible :collapsed-width="78" v-model="isCollapsed">
-                <Menu active-name="1-1" theme="dark" width="auto" :class="menuitemClasses">
+                <Menu active-name="1-0" theme="dark" width="auto" :class="menuitemClasses">
+                    <MenuItem router-link to="/domainsubjects" name="1-0">
+                        <Icon type="ios-flask"></Icon>
+                        <span v-if="!isCollapsed">专题知识库</span>
+                    </MenuItem>
                     <MenuItem router-link to="/graph" name="1-1">
                         <Icon type="ios-navigate"></Icon>
-                        <span v-if="!isCollapsed">知识地图</span>
+                        <span v-if="!isCollapsed">关系图导航</span>
                     </MenuItem>
                     <MenuItem router-link to="/knowledgebase" name="1-2">
                         <Icon type="ios-paper"></Icon>
-                        <span v-if="!isCollapsed">知识库</span>
+                        <span v-if="!isCollapsed">树状图导航</span>
                     </MenuItem>
                     <MenuItem router-link to="/custom" name="1-3">
                         <Icon type="ios-analytics"></Icon>
@@ -109,7 +113,7 @@
             </Sider>
             <Layout>
                 <Header class="layout-header-bar">
-                    <div class="layout-title">知识导航平台</div>
+                    <div class="layout-title">开放式专题知识库智能构建平台</div>
                     <div style="float: right;">
                         <Dropdown @on-click="routerToMySubject">
                             <a href="javascript:void(0)">

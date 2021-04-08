@@ -85,7 +85,7 @@
             },
             getClassCodes(classCodes) {
                 this.codesList = classCodes
-                // console.log(this.codesList)
+                console.log(this.codesList)
                 // 赋值前先清空
                 this.allNodes.splice(0, this.allNodes.length);
                 this.allLinks.splice(0, this.allLinks.length);
@@ -172,8 +172,8 @@
                         "focusNodeAdjacency": false,    // 是否在鼠标移到节点上的时候突出显示节点以及节点的边和邻接节点。
                         // 力引导布局相关的配置项
                         "force": {
-                            "repulsion": 300,
-                            "edgeLength": 60
+                            "repulsion": 260,
+                            "edgeLength": 50
                         },
                         // 节点间的关系数据
                         "links": this.allLinks,

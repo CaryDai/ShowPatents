@@ -36,10 +36,10 @@
 				<h1>构建你的专题库</h1>
 				<div>
 					<p style="font-size: large;">
-						您可以在下面输入框中输入您自己专题库的描述信息并点击“<span style="color: #2d8cf0;">分析</span>”按钮，<br/>
-						我们将为您定位到相关分类。
+						您可以在下面输入框中输入您自己专题库的关键词并点击“<span style="color: #2d8cf0;">分析</span>”按钮，<br/>
+						我们将为您定位到相关分类并推荐相关文献。
 					</p>
-					<Input v-model="analyzeText" maxlength="50" show-word-limit type="textarea" placeholder="输入专题库的描述信息(如：一个关于新能源领域的专题库)" style="width: 550px; margin-top: 30px;" />
+					<Input v-model="analyzeText" maxlength="50" show-word-limit type="textarea" placeholder="输入专题库的关键词(如：新能源)" style="width: 550px; margin-top: 30px;" />
 					<div style="margin-top: 10px; text-align: center;">
 						<Button type="primary" @click="analyze">分析</Button>
 					</div>
@@ -130,6 +130,115 @@
 						}
 					],
 					"title": "新能源"
+				},
+				newEnergy02: {
+					"classCode": "ene0",
+					"parentCode": "ene",
+					"children": [
+						{
+							"classCode": "ene0_0",
+							"parentCode": "ene0",
+							"title": "综合能源"
+						},
+						{
+							"classCode": "ene0_1",
+							"parentCode": "ene0",
+							"title": "煤炭"
+						},
+						{
+							"classCode": "ene0_2",
+							"parentCode": "ene0",
+							"title": "石油"
+						},
+						{
+							"classCode": "ene0_3",
+							"parentCode": "ene0",
+							"title": "天然气"
+						},
+						{
+							"classCode": "ene0_4",
+							"parentCode": "ene0",
+							"title": "水能"
+						},
+						{
+							"classCode": "ene0_5",
+							"parentCode": "ene0",
+							"title": "风能"
+						},
+						{
+							"classCode": "ene0_6",
+							"parentCode": "ene0",
+							"title": "太阳能"
+						},
+						{
+							"classCode": "ene0_7",
+							"parentCode": "ene0",
+							"title": "地热能"
+						},
+						{
+							"classCode": "ene0_8",
+							"parentCode": "ene0",
+							"title": "海洋能"
+						},
+						{
+							"classCode": "ene0_9",
+							"parentCode": "ene0",
+							"title": "生物质能"
+						},
+						{
+							"classCode": "ene0_10",
+							"parentCode": "ene0",
+							"title": "核能"
+						}
+					],
+					"title": "一次能源"
+				},
+				newEnergy03: {
+					"classCode": "ene1",
+					"parentCode": "ene",
+					"children": [
+						{
+							"classCode": "ene1_0",
+							"parentCode": "ene1",
+							"title": "固体燃料"
+						},
+						{
+							"classCode": "ene1_1",
+							"parentCode": "ene1",
+							"title": "液体燃料"
+						},
+						{
+							"classCode": "ene1_2",
+							"parentCode": "ene1",
+							"title": "气体燃料"
+						},
+						{
+							"classCode": "ene1_3",
+							"parentCode": "ene1",
+							"title": "电能热能"
+						},
+						{
+							"classCode": "ene1_4",
+							"parentCode": "ene1",
+							"title": "化工产品"
+						},
+						{
+							"classCode": "ene1_5",
+							"parentCode": "ene1",
+							"title": "冶金产品"
+						},
+						{
+							"classCode": "ene1_6",
+							"parentCode": "ene1",
+							"title": "建筑材料"
+						},
+						{
+							"classCode": "ene1_7",
+							"parentCode": "ene1",
+							"title": "能源材料"
+						}
+					],
+					"title": "二次能源"
 				},
 				ai: {
                 "classCode": "it7",
@@ -258,10 +367,12 @@
 		methods: {
 			/**
 			 * 对专题库的描述信息进行分析，定位到相关分类
-			 */ 
+			 */
 			analyze() {
 				let obj = {};
-				obj.recommendClassCode = this.newEnergy01;
+				obj.recommendClassCode1 = this.newEnergy01;
+				obj.recommendClassCode2 = this.newEnergy02;
+				obj.recommendClassCode3 = this.newEnergy03;
 				obj.text = this.analyzeText;
 				this.$store.commit('goAnalyzing',obj)
 			}

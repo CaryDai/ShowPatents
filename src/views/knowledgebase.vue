@@ -6,11 +6,15 @@
                 <Tree @getCheckedNode="getCheckedNode" @showPatents="showPatents" />
             </Col>
             <Col span="18" v-if="patentArray.length > 0">
+                <Input search enter-button placeholder="搜索专利" v-model="value" @on-search="searchByKeyWords"
+                    style="width: 300px;" />
                 <div v-for="(patent, index) in patentArray">
                     <PatentCard :patent="patent" />
                 </div>
             </Col>
             <Col span="18" v-else>
+                <Input search enter-button placeholder="搜索文献" v-model="value" @on-search="searchByKeyWords"
+                    style="width: 300px;" />
                 <p style="font-size: large; margin-top: 4px;">暂无专利</p>
             </Col>
         </Row>
@@ -34,7 +38,11 @@
             return {
                 // 获取选中的节点信息
                 checkedNodes: "",
-                patentArray: []
+                patentArray: [],
+                // 输入框的值
+                value: '',
+                // 关键词
+                keyword: ''
             }
         },
         methods: {
@@ -82,7 +90,29 @@
                         console.log(error)
                     })
                 }
-            }
+            },
+            /**
+             * 根据关键词搜索专利
+             */ 
+             searchByKeyWords(data) {
+                console.log(data);
+                this.keyword = data;
+                this.axios.get('https://api.itech4u.cn/api/search/doc/patent', {
+                    params: {
+                        current: 1,
+                        size: 6,
+                        keyword: this.keyword
+                    }
+                })
+                .then((response) => {
+                    // console.log(response)
+                    this.patentArray = response.data.dataBean.data;
+                    console.log(this.patentArray)
+                })
+                .catch((error) => {
+                    console.log(error)
+                })
+            },
         },
     }
 </script>

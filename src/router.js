@@ -2,11 +2,19 @@
 const routers = [
     {
         path: '/',
-        redirect: 'login',
+        redirect: 'home',
         meta: {
             title: ''
         },
         children: [
+            {
+                path: '/domainsubjects',
+                component: (resolve) => require(['./views/domainsubjects.vue'], resolve)
+            },
+            {
+                path: '/subjectone',
+                component: (resolve) => require(['./subjects/subjectone.vue'], resolve)
+            },
             {
                 path: '/graph',
                 component: (resolve) => require(['./views/graph.vue'], resolve)
@@ -29,6 +37,10 @@ const routers = [
             }
         ],
         component: (resolve) => require(['./views/index.vue'], resolve)
+    },
+    {
+        path: '/home',
+        component: (resolve) => require(['./views/home.vue'], resolve)
     },
     {
         path: '/register',

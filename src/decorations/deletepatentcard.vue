@@ -5,10 +5,10 @@
             <h3 style="color: #3b87d2f7; cursor:pointer;" @click="modal = true">
                 {{patent.name}}
             </h3>
-            <Button v-if="!patentCheckNodesMap.has(patentBriefDO) || patentCheckNodesMap.get(patentBriefDO).length == 0" type="default" shape="circle" @click="addToSubject">
+            <Button v-if="!patentCheckNodesMap.has(patentBriefDO) || patentCheckNodesMap.get(patentBriefDO).length == 0" type="default" shape="circle" style="width: 100px;" @click="addToSubject">
                 添加到
             </Button>
-            <Button v-if="patentCheckNodesMap.has(patentBriefDO) && patentCheckNodesMap.get(patentBriefDO).length > 0" type="primary" shape="circle" @click="recover">
+            <Button v-if="patentCheckNodesMap.has(patentBriefDO) && patentCheckNodesMap.get(patentBriefDO).length > 0" type="primary" shape="circle" style="width: 100px;" @click="recover">
                 已添加
             </Button>
         </div>

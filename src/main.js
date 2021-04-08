@@ -77,7 +77,7 @@ const store = new Vuex.Store({
                         state.userState.telephone = loginData.telephone;
                         state.userState.isLogin = true;
                         ViewUI.Message.success('登陆成功!');
-                        router.push('/graph');
+                        router.push('/domainsubjects');
                     } else {
                         ViewUI.Message.error('验证失败!');
                     }
@@ -88,7 +88,7 @@ const store = new Vuex.Store({
                 });
         },
         /**
-         * 本方法在用户点击要选择的分类时被触发
+         * 本方法在用户点击要选择的分类时被触发，手工选取分类
          * @param {*} state 
          * @param {*} obj 
          */
@@ -97,10 +97,15 @@ const store = new Vuex.Store({
             state.editNodes = state.selectedNodes;
             state.currentStep = 1;
         },
+        /**
+         * 本方法在用户点击分析按钮时被触发，智能推荐分类
+         * @param {*} state 
+         * @param {*} obj 
+         */
         goAnalyzing(state, obj) {
             state.analyzeText = obj.text
             console.log(obj.text);
-            state.editNodes.push(obj.recommendClassCode)
+            state.editNodes.push(obj.recommendClassCode1)
             state.currentStep = 1;
         },
         /**

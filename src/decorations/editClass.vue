@@ -1,27 +1,162 @@
 <!-- 第2步，编辑自己的分类 -->
 <template>
-    <div style="position: relative;">
-        <Tree :data="editNodes" :render="renderContent" class="demo-tree-render"></Tree>
-        <Button v-if="editNodes.length > 0" type="primary" class="button" @click="submitCustomClass">
-            编辑完成
-        </Button>
-    </div>
+    <Row>
+        <Col span="24">
+            <Tree :data="editNodes" :render="renderContent" class="demo-tree-render"></Tree>
+            <Button v-if="editNodes.length > 0" type="primary" class="button" @click="submitCustomClass">
+                编辑完成
+            </Button>
+        </Col>
+        <!-- <Col span="8">
+            <Tree :data="editNodes" :render="renderContent" class="demo-tree-render"></Tree>
+            <Button v-if="editNodes.length > 0" type="primary" class="button" @click="submitCustomClass">
+                编辑完成
+            </Button>
+        </Col>
+        <Col span="8">
+            <Tree :data="editNodes2" :render="renderContent" class="demo-tree-render"></Tree>
+            <Button v-if="editNodes2.length > 0" type="primary" class="button" @click="submitCustomClass">
+                编辑完成
+            </Button>
+        </Col>
+        <Col span="8">
+            <Tree :data="editNodes3" :render="renderContent" class="demo-tree-render"></Tree>
+            <Button v-if="editNodes3.length > 0" type="primary" class="button" @click="submitCustomClass">
+                编辑完成
+            </Button>
+        </Col> -->
+    </Row>
+    <!-- <div style="position: relative;">
+        
+        
+        
+    </div> -->
 </template>
 <script>
     export default {
-        // props: {
-        //     selectedNodes: {
-        //         type: Array
-        //     }
-        // },
         data () {
             return {
                 editNodes: this.$store.state.editNodes,
+                editNodes2: [],
+                editNodes3: [],
                 buttonProps: {
                     type: 'default',
                     size: 'small',
-                }
+                },
+                newEnergy02: {
+					"classCode": "ene0",
+					"parentCode": "ene",
+					"children": [
+						{
+							"classCode": "ene0_0",
+							"parentCode": "ene0",
+							"title": "综合能源"
+						},
+						{
+							"classCode": "ene0_1",
+							"parentCode": "ene0",
+							"title": "煤炭"
+						},
+						{
+							"classCode": "ene0_2",
+							"parentCode": "ene0",
+							"title": "石油"
+						},
+						{
+							"classCode": "ene0_3",
+							"parentCode": "ene0",
+							"title": "天然气"
+						},
+						{
+							"classCode": "ene0_4",
+							"parentCode": "ene0",
+							"title": "水能"
+						},
+						{
+							"classCode": "ene0_5",
+							"parentCode": "ene0",
+							"title": "风能"
+						},
+						{
+							"classCode": "ene0_6",
+							"parentCode": "ene0",
+							"title": "太阳能"
+						},
+						{
+							"classCode": "ene0_7",
+							"parentCode": "ene0",
+							"title": "地热能"
+						},
+						{
+							"classCode": "ene0_8",
+							"parentCode": "ene0",
+							"title": "海洋能"
+						},
+						{
+							"classCode": "ene0_9",
+							"parentCode": "ene0",
+							"title": "生物质能"
+						},
+						{
+							"classCode": "ene0_10",
+							"parentCode": "ene0",
+							"title": "核能"
+						}
+					],
+					"title": "一次能源"
+				},
+				newEnergy03: {
+					"classCode": "ene1",
+					"parentCode": "ene",
+					"children": [
+						{
+							"classCode": "ene1_0",
+							"parentCode": "ene1",
+							"title": "固体燃料"
+						},
+						{
+							"classCode": "ene1_1",
+							"parentCode": "ene1",
+							"title": "液体燃料"
+						},
+						{
+							"classCode": "ene1_2",
+							"parentCode": "ene1",
+							"title": "气体燃料"
+						},
+						{
+							"classCode": "ene1_3",
+							"parentCode": "ene1",
+							"title": "电能热能"
+						},
+						{
+							"classCode": "ene1_4",
+							"parentCode": "ene1",
+							"title": "化工产品"
+						},
+						{
+							"classCode": "ene1_5",
+							"parentCode": "ene1",
+							"title": "冶金产品"
+						},
+						{
+							"classCode": "ene1_6",
+							"parentCode": "ene1",
+							"title": "建筑材料"
+						},
+						{
+							"classCode": "ene1_7",
+							"parentCode": "ene1",
+							"title": "能源材料"
+						}
+					],
+					"title": "二次能源"
+				}
             }
+        },
+        mounted() {
+            this.editNodes2.push(this.newEnergy02)
+            this.editNodes3.push(this.newEnergy03)
         },
         methods: {
             renderContent (h, { root, node, data }) {

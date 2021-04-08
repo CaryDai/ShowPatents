@@ -6,8 +6,17 @@
                 <Tree :data="editNodes" @on-select-change="searchPatents" />
             </Col>
             <Col span="18">
-                <Input search enter-button placeholder="搜索文献进行添加" v-model="value" @on-search="searchByKeyWords"
-                    style="width: 300px;" />
+                <Row>
+                    <Col span="12">
+                        <Input search enter-button placeholder="搜索文献进行添加" v-model="value" @on-search="searchByKeyWords"
+                            style="width: 300px;" />
+                    </Col>
+                    <Col span="12">
+                        <Button type="default"  shape="circle" style="width: 100px; float: right;" @click="gotoConstruct">
+                            一键添加
+                        </Button>
+                    </Col>
+                </Row>
                 <div v-if="!searching">
                     <div v-if="patentArray.length > 0">
                         <div v-for="(patent, index) in patentArray">
