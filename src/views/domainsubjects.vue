@@ -4,7 +4,7 @@
             <Col span="24">
                 <Row>
                     <Col span="24">
-                        <h2 style="color: rgb(100, 143, 237);">默认专题库</h2>
+                        <h2 style="color: rgb(100, 143, 237);">平台构建的专题库</h2>
                         <Row type="flex" justify="space-between" style="margin-top: 30px;">
                             <Col span="4.8">
                                 <div style="width: 150px; margin: 0 auto;">
@@ -135,7 +135,7 @@
                 <hr style="margin: 20px 0; border:0; background-color:rgb(207, 205, 48); height:3px;" />
                 <Row>
                     <Col span="24">
-                        <h2 style="color: rgb(100, 143, 237);">用户专题库</h2>
+                        <h2 style="color: rgb(100, 143, 237);">其他用户构建的专题库</h2>
                         <Row type="flex" justify="start" style="margin-top: 30px;" :gutter="86">
                             <Col span="4.8">
                                 <div style="width: 150px; margin: 0 auto;">

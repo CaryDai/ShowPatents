@@ -201,8 +201,8 @@
 
 				// 3.推荐专利
 				let keyword = ''
-				console.log(this.subjectTwoDescription);
-				debugger
+				// console.log(this.subjectTwoDescription);
+				// debugger
 				switch (num) {
 					case '01':
 						keyword = this.subjectOneDescription
@@ -228,6 +228,7 @@
                     headers: { 'content-type': 'application/json; charset=UTF-8' },
                     data: JSON.stringify({
 						keyword: keyword,
+						// keyword: "新能源",
 						literatureType: -1,
 						type: "patent",
 						unitType: -1
